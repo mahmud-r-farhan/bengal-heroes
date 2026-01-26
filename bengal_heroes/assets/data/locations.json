@@ -1,0 +1,82 @@
+[
+    {
+        "id": "loc_narkelberiya",
+        "name": {
+            "en": "Narkelberiya",
+            "bn": "নারকেলবেড়িয়া"
+        },
+        "region": "North 24 Parganas, West Bengal",
+        "latitude": 22.7567,
+        "longitude": 88.4321
+    },
+    {
+        "id": "loc_rangpur",
+        "name": {
+            "en": "Rangpur",
+            "bn": "রংপুর"
+        },
+        "region": "Rangpur Division, Bangladesh",
+        "latitude": 25.7439,
+        "longitude": 89.2752
+    },
+    {
+        "id": "loc_tungipara",
+        "name": {
+            "en": "Tungipara",
+            "bn": "টুঙ্গিপাড়া"
+        },
+        "region": "Gopalganj, Bangladesh",
+        "latitude": 22.8953,
+        "longitude": 89.8564
+    },
+    {
+        "id": "loc_churulia",
+        "name": {
+            "en": "Churulia",
+            "bn": "চুরুলিয়া"
+        },
+        "region": "Burdwan, West Bengal",
+        "latitude": 23.6545,
+        "longitude": 87.0671
+    },
+    {
+        "id": "loc_jorasanko",
+        "name": {
+            "en": "Jorasanko",
+            "bn": "জোড়াসাঁকো"
+        },
+        "region": "Kolkata, West Bengal",
+        "latitude": 22.5878,
+        "longitude": 88.3642
+    },
+    {
+        "id": "loc_sonargaon",
+        "name": {
+            "en": "Sonargaon",
+            "bn": "সোনারগাঁও"
+        },
+        "region": "Narayanganj, Bangladesh",
+        "latitude": 23.6534,
+        "longitude": 90.5988
+    },
+    {
+        "id": "loc_chittagong",
+        "name": {
+            "en": "Chittagong",
+            "bn": "চট্টগ্রাম"
+        },
+        "region": "Chittagong Division, Bangladesh",
+        "latitude": 22.3569,
+        "longitude": 91.7832
+    },
+    {
+        "id": "loc_noakhali",
+        "name": {
+            "en": "Noakhali",
+            "bn": "নোয়াখালী"
+        },
+        "region": "Chittagong Division, Bangladesh",
+        "latitude": 22.8696,
+        "longitude": 91.0995
+    }
+]

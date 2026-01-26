@@ -1,0 +1,251 @@
+[
+  {
+    "id": "hero_001",
+    "slug": "titumir",
+    "dates": {
+      "birth": "1782-01-27",
+      "death": "1831-11-19"
+    },
+    "era": "british_resistance",
+    "category": ["martyr", "revolutionary"],
+    "images": ["assets/images/heroes/titumir.png"],
+    "location_id": "loc_narkelberiya",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Titumir",
+        "short_bio": "Titumir was a legendary peasant leader who built the famous Bamboo Fort (Basher Kella) and led a resistance against British colonial rule and local landlords. His defiance became a symbol of Bengali resistance.",
+        "full_biography": "Syed Mir Nisar Ali, popularly known as Titumir, was born in 1782 in Chandpur village, near Barasat in present-day North 24 Parganas district. He was a peasant leader and a devout Muslim who sought to reform society and resist British oppression.\n\nAfter returning from Mecca where he met Syed Ahmed Barelvi, Titumir began organizing peasants against the oppressive indigo planters and zamindars. His movement quickly gained momentum among the rural poor.\n\nIn 1831, he constructed the legendary Bamboo Fort at Narkelberiya village, which became the center of his resistance movement. The fort, made entirely of bamboo, became a symbol of indigenous resistance against colonial might.\n\nOn November 19, 1831, British forces attacked the fort with artillery. Despite fierce resistance, the bamboo walls could not withstand cannon fire. Titumir died fighting, along with many of his followers. His sacrifice inspired future generations of freedom fighters.",
+        "quote": "We shall not submit to tyranny. Our bamboo fort may fall, but the spirit of resistance shall live forever.",
+        "birth_place": "Chandpur, Barasat, Bengal",
+        "achievements": "Built the legendary Bamboo Fort • Led peasant uprising against British • United Hindu-Muslim peasants against oppression • Became a symbol of anti-colonial resistance"
+      },
+      "bn": {
+        "name": "তিতুমীর",
+        "short_bio": "তিতুমীর ছিলেন এক কিংবদন্তি কৃষক নেতা যিনি বিখ্যাত বাঁশের কেল্লা নির্মাণ করেন এবং ব্রিটিশ ঔপনিবেশিক শাসন ও স্থানীয় জমিদারদের বিরুদ্ধে প্রতিরোধ গড়ে তোলেন।",
+        "full_biography": "সৈয়দ মীর নিসার আলী, যিনি তিতুমীর নামে পরিচিত, ১৭৮২ সালে বর্তমান উত্তর ২৪ পরগনা জেলার বারাসাতের কাছে চাঁদপুর গ্রামে জন্মগ্রহণ করেন। তিনি ছিলেন একজন কৃষক নেতা এবং ধর্মপ্রাণ মুসলিম যিনি সমাজ সংস্কার এবং ব্রিটিশ অত্যাচারের বিরুদ্ধে প্রতিরোধ গড়ে তুলতে চেয়েছিলেন।\n\nমক্কা থেকে ফিরে এসে তিতুমীর কৃষকদের সংগঠিত করতে শুরু করেন নীলকর এবং জমিদারদের বিরুদ্ধে। তাঁর আন্দোলন দ্রুত গ্রামীণ দরিদ্রদের মধ্যে জনপ্রিয়তা লাভ করে।\n\n১৮৩১ সালে তিনি নারকেলবেড়িয়া গ্রামে কিংবদন্তি বাঁশের কেল্লা নির্মাণ করেন। সম্পূর্ণ বাঁশ দিয়ে তৈরি এই কেল্লা ঔপনিবেশিক শক্তির বিরুদ্ধে দেশীয় প্রতিরোধের প্রতীক হয়ে ওঠে।\n\n১৯ নভেম্বর, ১৮৩১ সালে ব্রিটিশ বাহিনী কামান দিয়ে কেল্লা আক্রমণ করে। তিতুমীর তাঁর অনেক অনুসারীর সাথে লড়াই করতে করতে শহীদ হন।",
+        "quote": "আমরা অত্যাচারের কাছে মাথা নত করব না। আমাদের বাঁশের কেল্লা ভেঙে যেতে পারে, কিন্তু প্রতিরোধের চেতনা চিরকাল বেঁচে থাকবে।",
+        "birth_place": "চাঁদপুর, বারাসাত, বেঙ্গল",
+        "achievements": "কিংবদন্তি বাঁশের কেল্লা নির্মাণ • ব্রিটিশ বিরোধী কৃষক বিদ্রোহের নেতৃত্ব • হিন্দু-মুসলিম কৃষকদের ঐক্যবদ্ধ করেন • ঔপনিবেশিক বিরোধী প্রতিরোধের প্রতীক"
+      }
+    }
+  },
+  {
+    "id": "hero_002",
+    "slug": "begum-rokeya",
+    "dates": {
+      "birth": "1880-12-09",
+      "death": "1932-12-09"
+    },
+    "era": "british_raj",
+    "category": ["intellectual", "revolutionary"],
+    "images": ["assets/images/heroes/begum_rokeya.png"],
+    "location_id": "loc_rangpur",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Begum Rokeya",
+        "short_bio": "Begum Rokeya Sakhawat Hossain was a pioneering feminist writer and activist who championed women's education and rights in Bengal during the early 20th century.",
+        "full_biography": "Begum Rokeya Sakhawat Hossain, born on December 9, 1880, in Pairaband, Rangpur, was a Bengali feminist thinker, writer, educator, and political activist. She is widely regarded as the pioneer of the women's liberation movement in South Asia.\n\nDespite being born into a conservative aristocratic family where women's education was discouraged, Rokeya secretly learned Bengali and English with the help of her brothers. This early struggle for education profoundly influenced her life's work.\n\nHer most famous work, 'Sultana's Dream' (1905), is considered one of the earliest works of feminist science fiction. The story imagines a world where gender roles are reversed, with women running society while men are secluded.\n\nIn 1909, she established the Sakhawat Memorial Girls' School in Calcutta, which provided education to Muslim girls from underprivileged backgrounds. She also founded the Anjuman-e-Khawatin-e-Islam in 1916 for the welfare of women.\n\nRokeya's writings, including 'Padmarag', 'Abarodhbasini', and numerous essays, challenged patriarchal norms and advocated for women's education, freedom, and equal rights. She passed away on December 9, 1932, on her birthday, leaving behind a legacy that continues to inspire feminists worldwide.",
+        "quote": "আমরা পুরুষদের সমান করে তুলিতে চাহি না, আমরা নারীদের মানুষ করিতে চাহি। (We do not want to make women equal to men, we want to make them human beings.)",
+        "birth_place": "Pairaband, Mithapukur, Rangpur",
+        "achievements": "Pioneer of women's education in Bengal • Author of 'Sultana's Dream' - early feminist science fiction • Founded Sakhawat Memorial Girls' School • Established Anjuman-e-Khawatin-e-Islam for women's welfare"
+      },
+      "bn": {
+        "name": "বেগম রোকেয়া",
+        "short_bio": "বেগম রোকেয়া সাখাওয়াত হোসেন ছিলেন একজন অগ্রগামী নারীবাদী লেখক এবং সমাজকর্মী যিনি বিংশ শতাব্দীর প্রথম দিকে বাংলায় নারী শিক্ষা এবং অধিকারের পক্ষে কাজ করেছিলেন।",
+        "full_biography": "বেগম রোকেয়া সাখাওয়াত হোসেন ১৮৮০ সালের ৯ ডিসেম্বর রংপুরের পায়রাবন্দে জন্মগ্রহণ করেন। তিনি ছিলেন একজন বাঙালি নারীবাদী চিন্তাবিদ, লেখক, শিক্ষাবিদ এবং সমাজ সংস্কারক। তাঁকে দক্ষিণ এশিয়ায় নারী মুক্তি আন্দোলনের পথিকৃৎ হিসেবে গণ্য করা হয়।\n\nএকটি রক্ষণশীল পরিবারে জন্মগ্রহণ করা সত্ত্বেও, রোকেয়া তাঁর ভাইদের সাহায্যে গোপনে বাংলা ও ইংরেজি শিখেছিলেন। শিক্ষার জন্য এই প্রাথমিক সংগ্রাম তাঁর জীবনের কাজকে গভীরভাবে প্রভাবিত করেছিল।\n\nতাঁর সবচেয়ে বিখ্যাত রচনা 'সুলতানার স্বপ্ন' (১৯০৫) নারীবাদী বিজ্ঞান কল্পকাহিনীর অন্যতম প্রাথমিক রচনা হিসেবে বিবেচিত হয়।\n\n১৯০৯ সালে তিনি কলকাতায় সাখাওয়াত মেমোরিয়াল বালিকা বিদ্যালয় প্রতিষ্ঠা করেন। তিনি ১৯১৬ সালে নারী কল্যাণের জন্য আঞ্জুমান-ই-খাওয়াতিন-ই-ইসলাম প্রতিষ্ঠা করেন।\n\nতাঁর রচনা পিতৃতান্ত্রিক রীতিনীতিকে চ্যালেঞ্জ করেছে এবং নারী শিক্ষা, স্বাধীনতা ও সমান অধিকারের পক্ষে কথা বলেছে।",
+        "quote": "আমরা পুরুষদের সমান করে তুলিতে চাহি না, আমরা নারীদের মানুষ করিতে চাহি।",
+        "birth_place": "পায়রাবন্দ, মিঠাপুকুর, রংপুর",
+        "achievements": "বাংলায় নারী শিক্ষার পথিকৃৎ • 'সুলতানার স্বপ্ন' এর লেখক • সাখাওয়াত মেমোরিয়াল বালিকা বিদ্যালয় প্রতিষ্ঠা • আঞ্জুমান-ই-খাওয়াতিন-ই-ইসলাম প্রতিষ্ঠা"
+      }
+    }
+  },
+  {
+    "id": "hero_003",
+    "slug": "sheikh-mujibur-rahman",
+    "dates": {
+      "birth": "1920-03-17",
+      "death": "1975-08-15"
+    },
+    "era": "liberation_1971",
+    "category": ["revolutionary", "ruler"],
+    "images": ["assets/images/heroes/bangabandhu.png"],
+    "location_id": "loc_tungipara",
+    "importance": 5,
+    "related_hero_ids": ["hero_004", "hero_005"],
+    "content": {
+      "en": {
+        "name": "Sheikh Mujibur Rahman",
+        "short_bio": "Sheikh Mujibur Rahman, known as Bangabandhu (Friend of Bengal), was the founding leader of Bangladesh and the principal architect of the nation's independence movement.",
+        "full_biography": "Sheikh Mujibur Rahman was born on March 17, 1920, in Tungipara, Gopalganj. He emerged as the undisputed leader of the Bengali nationalist movement and is revered as the Father of the Nation of Bangladesh.\n\nFrom his student days, Sheikh Mujib was deeply involved in politics. He was a prominent member of the All India Muslim Students Federation and later became a founding member of the Awami League in 1949.\n\nHis historic Six-Point Movement in 1966 laid the foundation for Bengali autonomy and eventually, independence. The movement called for greater autonomy for East Pakistan, which was being systematically exploited by West Pakistan.\n\nThe 1970 general election saw the Awami League win an overwhelming majority. When the Pakistani military junta refused to transfer power, Sheikh Mujib called for non-cooperation and, on March 7, 1971, delivered his historic speech at Ramna Race Course, effectively calling for independence.\n\nFollowing his arrest, the Liberation War began. After nine months of struggle and the sacrifice of millions, Bangladesh emerged as an independent nation on December 16, 1971.\n\nAs the first President (and later Prime Minister) of Bangladesh, he worked to rebuild the war-ravaged nation. He was assassinated along with most of his family members on August 15, 1975.",
+        "quote": "এবারের সংগ্রাম আমাদের মুক্তির সংগ্রাম, এবারের সংগ্রাম স্বাধীনতার সংগ্রাম। (This time the struggle is for our emancipation, this time the struggle is for independence.)",
+        "birth_place": "Tungipara, Gopalganj, Bengal",
+        "achievements": "Father of the Nation of Bangladesh • Led the Six-Point Movement • Delivered historic 7th March Speech • First President & Prime Minister of Bangladesh"
+      },
+      "bn": {
+        "name": "শেখ মুজিবুর রহমান",
+        "short_bio": "শেখ মুজিবুর রহমান, যিনি বঙ্গবন্ধু নামে পরিচিত, ছিলেন বাংলাদেশের প্রতিষ্ঠাতা নেতা এবং জাতির স্বাধীনতা আন্দোলনের প্রধান স্থপতি।",
+        "full_biography": "শেখ মুজিবুর রহমান ১৯২০ সালের ১৭ মার্চ গোপালগঞ্জের টুঙ্গিপাড়ায় জন্মগ্রহণ করেন। তিনি বাঙালি জাতীয়তাবাদী আন্দোলনের অবিসংবাদিত নেতা হিসেবে আবির্ভূত হন এবং বাংলাদেশের জাতির পিতা হিসেবে শ্রদ্ধা পান।\n\nছাত্রজীবন থেকেই শেখ মুজিব রাজনীতিতে গভীরভাবে জড়িত ছিলেন। ১৯৪৯ সালে আওয়ামী লীগের প্রতিষ্ঠাতা সদস্য হন।\n\n১৯৬৬ সালে তাঁর ঐতিহাসিক ছয় দফা আন্দোলন বাঙালি স্বায়ত্তশাসন এবং শেষ পর্যন্ত স্বাধীনতার ভিত্তি স্থাপন করে।\n\n১৯৭০ সালের নির্বাচনে আওয়ামী লীগ বিপুল সংখ্যাগরিষ্ঠতা অর্জন করে। পাকিস্তানি সামরিক জান্তা ক্ষমতা হস্তান্তর করতে অস্বীকার করলে, শেখ মুজিব অসহযোগ আন্দোলনের ডাক দেন এবং ৭ মার্চ, ১৯৭১ সালে রমনা রেসকোর্সে তাঁর ঐতিহাসিক ভাষণ দেন।\n\nতাঁর গ্রেপ্তারের পর মুক্তিযুদ্ধ শুরু হয়। নয় মাসের সংগ্রাম এবং লাখো শহীদের আত্মত্যাগের পর বাংলাদেশ ১৯৭১ সালের ১৬ ডিসেম্বর স্বাধীন জাতি হিসেবে আত্মপ্রকাশ করে।\n\nবাংলাদেশের প্রথম রাষ্ট্রপতি হিসেবে তিনি যুদ্ধবিধ্বস্ত জাতি পুনর্গঠনে কাজ করেন। ১৯৭৫ সালের ১৫ আগস্ট তাঁকে তাঁর পরিবারের বেশিরভাগ সদস্যসহ হত্যা করা হয়।",
+        "quote": "এবারের সংগ্রাম আমাদের মুক্তির সংগ্রাম, এবারের সংগ্রাম স্বাধীনতার সংগ্রাম।",
+        "birth_place": "টুঙ্গিপাড়া, গোপালগঞ্জ, বেঙ্গল",
+        "achievements": "বাংলাদেশের জাতির পিতা • ছয় দফা আন্দোলনের নেতৃত্ব • ঐতিহাসিক ৭ই মার্চের ভাষণ • বাংলাদেশের প্রথম রাষ্ট্রপতি ও প্রধানমন্ত্রী"
+      }
+    }
+  },
+  {
+    "id": "hero_004",
+    "slug": "kazi-nazrul-islam",
+    "dates": {
+      "birth": "1899-05-24",
+      "death": "1976-08-29"
+    },
+    "era": "british_raj",
+    "category": ["poet", "revolutionary", "intellectual"],
+    "images": ["assets/images/heroes/nazrul.png"],
+    "location_id": "loc_churulia",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Kazi Nazrul Islam",
+        "short_bio": "Kazi Nazrul Islam, known as the Rebel Poet (Bidrohi Kobi), was a revolutionary Bengali poet, musician, and freedom fighter whose works inspired the independence movements of both India and Bangladesh.",
+        "full_biography": "Kazi Nazrul Islam was born on May 24, 1899, in Churulia, Burdwan district of West Bengal. He is the national poet of Bangladesh and one of the most influential figures in Bengali literature.\n\nNazrul's childhood was marked by poverty and struggle. He worked as a muezzin and joined the British Indian Army during World War I. His military experience deeply influenced his revolutionary outlook.\n\nHis most famous poem 'Bidrohi' (The Rebel), published in 1922, became an anthem of resistance against British colonialism. The poem's powerful imagery and defiant tone captured the spirit of the independence movement.\n\nNazrul was equally prolific as a musician, composing over 4,000 songs known as 'Nazrul Geeti'. His songs covered themes of love, spirituality, and revolution.\n\nHe championed Hindu-Muslim unity and wrote devotional songs for both religions. His works challenged religious orthodoxy and promoted secularism.\n\nIn 1942, Nazrul was struck by a mysterious illness that left him unable to speak or write for the rest of his life. He was brought to Bangladesh in 1972 and was bestowed the title of National Poet. He passed away on August 29, 1976, in Dhaka.",
+        "quote": "বল বীর, চির উন্নত মম শির! (Say, O Hero, forever high is my head!)",
+        "birth_place": "Churulia, Burdwan, West Bengal",
+        "achievements": "National Poet of Bangladesh • Wrote 'Bidrohi' – anthem of resistance • Composed over 4,000 songs • Championed Hindu-Muslim unity • Pioneer of Bengali revolutionary literature"
+      },
+      "bn": {
+        "name": "কাজী নজরুল ইসলাম",
+        "short_bio": "কাজী নজরুল ইসলাম, যিনি বিদ্রোহী কবি নামে পরিচিত, ছিলেন একজন বিপ্লবী বাঙালি কবি, সংগীতজ্ঞ এবং মুক্তিযোদ্ধা যাঁর রচনা ভারত ও বাংলাদেশ উভয়ের স্বাধীনতা আন্দোলনকে অনুপ্রাণিত করেছিল।",
+        "full_biography": "কাজী নজরুল ইসলাম ১৮৯৯ সালের ২৪ মে পশ্চিমবঙ্গের বর্ধমান জেলার চুরুলিয়ায় জন্মগ্রহণ করেন। তিনি বাংলাদেশের জাতীয় কবি এবং বাংলা সাহিত্যের অন্যতম প্রভাবশালী ব্যক্তিত্ব।\n\nনজরুলের শৈশব দারিদ্র্য ও সংগ্রামে ভরা ছিল। তিনি মুয়াজ্জিন হিসেবে কাজ করেছেন এবং প্রথম বিশ্বযুদ্ধে ব্রিটিশ ভারতীয় সেনাবাহিনীতে যোগ দেন। তাঁর সামরিক অভিজ্ঞতা তাঁর বিপ্লবী দৃষ্টিভঙ্গিকে গভীরভাবে প্রভাবিত করেছিল।\n\n১৯২২ সালে প্রকাশিত তাঁর সবচেয়ে বিখ্যাত কবিতা 'বিদ্রোহী' ব্রিটিশ ঔপনিবেশিকতার বিরুদ্ধে প্রতিরোধের স্তুতিগান হয়ে ওঠে।\n\nনজরুল সংগীতজ্ঞ হিসেবেও সমান প্রতিভাবান ছিলেন, 'নজরুল গীতি' নামে পরিচিত ৪,০০০-এরও বেশি গান রচনা করেছেন।\n\nতিনি হিন্দু-মুসলিম ঐক্যের পক্ষে ছিলেন এবং উভয় ধর্মের জন্য ভক্তিমূলক গান লিখেছেন।\n\n১৯৪২ সালে নজরুল এক রহস্যজনক অসুস্থতায় আক্রান্ত হন। ১৯৭২ সালে তাঁকে বাংলাদেশে আনা হয় এবং জাতীয় কবির উপাধি দেওয়া হয়। ১৯৭৬ সালের ২৯ আগস্ট তিনি ঢাকায় মৃত্যুবরণ করেন।",
+        "quote": "বল বীর, চির উন্নত মম শির!",
+        "birth_place": "চুরুলিয়া, বর্ধমান, পশ্চিমবঙ্গ",
+        "achievements": "বাংলাদেশের জাতীয় কবি • 'বিদ্রোহী' কবিতা রচনা • ৪,০০০+ গান রচনা • হিন্দু-মুসলিম ঐক্যের পক্ষে • বাংলা বিপ্লবী সাহিত্যের পথিকৃৎ"
+      }
+    }
+  },
+  {
+    "id": "hero_005",
+    "slug": "rabindranath-tagore",
+    "dates": {
+      "birth": "1861-05-07",
+      "death": "1941-08-07"
+    },
+    "era": "british_raj",
+    "category": ["poet", "intellectual", "philosopher"],
+    "images": ["assets/images/heroes/tagore.png"],
+    "location_id": "loc_jorasanko",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Rabindranath Tagore",
+        "short_bio": "Rabindranath Tagore was a Bengali polymath, poet, playwright, composer, philosopher, and painter who reshaped Bengali literature and music. He became the first non-European to win the Nobel Prize in Literature in 1913.",
+        "full_biography": "Rabindranath Tagore was born on May 7, 1861, at Jorasanko mansion in Calcutta, into a prominent Brahmo family. He is often referred to as Gurudev, Kobiguru, and Biswakabi.\n\nTagore began writing poetry at the age of eight. His vast body of work includes novels, short stories, plays, essays, and over 2,000 songs, many of which became known as Rabindra Sangeet.\n\nHis collection of poems 'Gitanjali' (Song Offerings), translated into English by Tagore himself, brought him worldwide recognition and the Nobel Prize in Literature in 1913. He was the first Asian and non-European to receive this honor.\n\nTagore was a fierce critic of nationalism and British colonialism. After the Jallianwala Bagh massacre in 1919, he renounced his British knighthood in protest.\n\nHe founded Visva-Bharati University at Santiniketan in 1921, envisioning an educational institution that would bring together the best of Eastern and Western traditions.\n\nTagore's compositions 'Jana Gana Mana' and 'Amar Shonar Bangla' became the national anthems of India and Bangladesh respectively. His influence on Bengali culture, literature, and music remains unparalleled.",
+        "quote": "Where the mind is without fear and the head is held high, Into that heaven of freedom, my Father, let my country awake.",
+        "birth_place": "Jorasanko, Calcutta, Bengal",
+        "achievements": "First non-European Nobel Laureate in Literature • Composed national anthems of India & Bangladesh • Founded Visva-Bharati University • Revolutionary poet, philosopher & painter"
+      },
+      "bn": {
+        "name": "রবীন্দ্রনাথ ঠাকুর",
+        "short_bio": "রবীন্দ্রনাথ ঠাকুর ছিলেন একজন বাঙালি বহুমুখী প্রতিভা, কবি, নাট্যকার, সুরকার, দার্শনিক এবং চিত্রশিল্পী যিনি বাংলা সাহিত্য ও সংগীতকে নতুন রূপ দিয়েছেন। ১৯১৩ সালে তিনি সাহিত্যে নোবেল পুরস্কার লাভকারী প্রথম অ-ইউরোপীয় হন।",
+        "full_biography": "রবীন্দ্রনাথ ঠাকুর ১৮৬১ সালের ৭ মে কলকাতার জোড়াসাঁকো ঠাকুরবাড়িতে জন্মগ্রহণ করেন। তাঁকে প্রায়ই গুরুদেব, কবিগুরু এবং বিশ্বকবি বলা হয়।\n\nঠাকুর আট বছর বয়সে কবিতা লেখা শুরু করেন। তাঁর বিশাল রচনাসম্ভারে রয়েছে উপন্যাস, ছোটগল্প, নাটক, প্রবন্ধ এবং ২,০০০-এরও বেশি গান, যেগুলো রবীন্দ্রসংগীত নামে পরিচিত।\n\n'গীতাঞ্জলি' কাব্যগ্রন্থ তাঁকে বিশ্বব্যাপী স্বীকৃতি এবং ১৯১৩ সালে সাহিত্যে নোবেল পুরস্কার এনে দেয়। তিনি ছিলেন এই সম্মান প্রাপ্ত প্রথম এশীয় এবং অ-ইউরোপীয়।\n\nঠাকুর জাতীয়তাবাদ এবং ব্রিটিশ ঔপনিবেশিকতার কঠোর সমালোচক ছিলেন। ১৯১৯ সালে জালিয়ানওয়ালাবাগ হত্যাকাণ্ডের পর, তিনি প্রতিবাদে তাঁর ব্রিটিশ নাইটহুড ত্যাগ করেন।\n\n১৯২১ সালে তিনি শান্তিনিকেতনে বিশ্বভারতী বিশ্ববিদ্যালয় প্রতিষ্ঠা করেন।\n\nঠাকুরের 'জন গণ মন' এবং 'আমার সোনার বাংলা' রচনা যথাক্রমে ভারত ও বাংলাদেশের জাতীয় সংগীত হয়েছে।",
+        "quote": "চিত্ত যেথা ভয়শূন্য, উচ্চ যেথা শির, সেই স্বর্গে জাগ্রত হোক আমার দেশ।",
+        "birth_place": "জোড়াসাঁকো, কলকাতা, বেঙ্গল",
+        "achievements": "সাহিত্যে প্রথম অ-ইউরোপীয় নোবেল বিজয়ী • ভারত ও বাংলাদেশের জাতীয় সংগীত রচয়িতা • বিশ্বভারতী বিশ্ববিদ্যালয়ের প্রতিষ্ঠাতা • বিপ্লবী কবি, দার্শনিক ও চিত্রশিল্পী"
+      }
+    }
+  },
+  {
+    "id": "hero_006",
+    "slug": "isa-khan",
+    "dates": {
+      "birth": "1529-01-01",
+      "death": "1599-09-17"
+    },
+    "era": "mughal",
+    "category": ["ruler", "soldier"],
+    "images": ["assets/images/heroes/isa_khan.png"],
+    "location_id": "loc_sonargaon",
+    "importance": 4,
+    "content": {
+      "en": {
+        "name": "Isa Khan",
+        "short_bio": "Isa Khan was a powerful Baro-Bhuiyan (twelve chieftains) leader who successfully resisted Mughal expansion into Bengal for decades from his stronghold at Sonargaon.",
+        "full_biography": "Isa Khan Masnad-i-Ala was born in 1529 in Sarail, Brahmanbaria. He was the son of Sulaiman Khan, a powerful zamindar, and became one of the most formidable opponents of Mughal expansion in Bengal.\n\nIsa Khan was the leader of the Baro-Bhuiyans, a confederation of twelve landlords who united to resist Mughal dominance in Bengal. His capital was at Sonargaon, from where he controlled vast territories in eastern Bengal.\n\nFor nearly two decades, Isa Khan successfully defended his territory against the mighty Mughal Empire. He engaged in numerous battles with Mughal generals, including the famous confrontation with Man Singh, a renowned Mughal commander.\n\nHis fleet of war boats controlled the rivers of Bengal, making it extremely difficult for the Mughals to advance. He was an expert in guerrilla warfare, using the riverine terrain to his advantage.\n\nIsa Khan never submitted to Mughal authority during his lifetime. He died in 1599 at Sonargaon. His son Musa Khan continued the resistance until finally submitting to the Mughals under Emperor Jahangir.\n\nIsa Khan is remembered as a symbol of Bengali resistance and is celebrated in folk songs and literature as a patriotic hero.",
+        "quote": "As long as I live, Bengal shall remain free from foreign domination.",
+        "birth_place": "Sarail, Brahmanbaria, Bengal",
+        "achievements": "Leader of the Baro-Bhuiyans • Successfully resisted Mughal Empire • Master of naval warfare • Symbol of Bengali independence"
+      },
+      "bn": {
+        "name": "ঈসা খান",
+        "short_bio": "ঈসা খান ছিলেন একজন শক্তিশালী বারো ভূঁইয়া নেতা যিনি সোনারগাঁওয়ের দুর্গ থেকে কয়েক দশক ধরে বাংলায় মুঘল সম্প্রসারণকে সফলভাবে প্রতিরোধ করেছিলেন।",
+        "full_biography": "ঈসা খান মসনদ-ই-আলা ১৫২৯ সালে ব্রাহ্মণবাড়িয়ার সরাইলে জন্মগ্রহণ করেন। তিনি ছিলেন একজন শক্তিশালী জমিদার সুলাইমান খানের পুত্র এবং বাংলায় মুঘল সম্প্রসারণের অন্যতম ভয়ঙ্কর প্রতিপক্ষ হয়ে ওঠেন।\n\nঈসা খান ছিলেন বারো ভূঁইয়াদের নেতা, যারা বাংলায় মুঘল আধিপত্য প্রতিরোধ করতে ঐক্যবদ্ধ হয়েছিলেন। তাঁর রাজধানী ছিল সোনারগাঁওয়ে, যেখান থেকে তিনি পূর্ব বাংলার বিশাল অঞ্চল নিয়ন্ত্রণ করতেন।\n\nপ্রায় দুই দশক ধরে ঈসা খান সফলভাবে শক্তিশালী মুঘল সাম্রাজ্যের বিরুদ্ধে তাঁর অঞ্চল রক্ষা করেছিলেন। তিনি মুঘল সেনাপতিদের সাথে অসংখ্য যুদ্ধে লিপ্ত হয়েছিলেন, যার মধ্যে বিখ্যাত মুঘল সেনাপতি মানসিংহের সাথে সংঘর্ষ উল্লেখযোগ্য।\n\nতাঁর যুদ্ধ নৌকাবহর বাংলার নদীগুলো নিয়ন্ত্রণ করত, যা মুঘলদের অগ্রসর হওয়া অত্যন্ত কঠিন করে তুলেছিল।\n\nঈসা খান তাঁর জীবদ্দশায় কখনও মুঘল কর্তৃত্বের কাছে মাথা নত করেননি। ১৫৯৯ সালে সোনারগাঁওয়ে তাঁর মৃত্যু হয়।",
+        "quote": "যতদিন আমি বেঁচে আছি, বাংলা বিদেশি আধিপত্য থেকে মুক্ত থাকবে।",
+        "birth_place": "সরাইল, ব্রাহ্মণবাড়িয়া, বেঙ্গল",
+        "achievements": "বারো ভূঁইয়াদের নেতা • সফলভাবে মুঘল সাম্রাজ্যকে প্রতিরোধ • নৌযুদ্ধের দক্ষ • বাঙালি স্বাধীনতার প্রতীক"
+      }
+    }
+  },
+  {
+    "id": "hero_007",
+    "slug": "surya-sen",
+    "dates": {
+      "birth": "1894-03-22",
+      "death": "1934-01-12"
+    },
+    "era": "british_resistance",
+    "category": ["martyr", "revolutionary"],
+    "images": ["assets/images/heroes/surya_sen.png"],
+    "location_id": "loc_chittagong",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Surya Sen",
+        "short_bio": "Surya Sen, known as Master Da, was a revolutionary who led the famous Chittagong Armoury Raid in 1930, one of the most daring acts of resistance against British colonial rule.",
+        "full_biography": "Surya Sen was born on March 22, 1894, in Noapara, Chittagong. A school teacher by profession, he was affectionately called 'Master Da' by his followers. He became one of the most influential revolutionary leaders of the Indian independence movement.\n\nSurya Sen was inspired by the revolutionary ideals of the Anushilan Samiti and became the head of the Chittagong chapter of the Indian Republican Army. He believed that armed resistance was necessary to overthrow British rule.\n\nOn April 18, 1930, Surya Sen led a group of young revolutionaries in the legendary Chittagong Armoury Raid. The group seized the armoury and police lines, capturing weapons and cutting off communication lines. They hoisted the Indian flag and declared a provisional revolutionary government.\n\nAfter the raid, Surya Sen and his group evaded capture for over three years, continuing their resistance activities. He was finally captured on February 16, 1933, after being betrayed by an informer.\n\nSurya Sen was hanged on January 12, 1934, at Chittagong Central Jail. Before his execution, his limbs were broken by the British authorities, but he faced death with courage and composure. His sacrifice inspired countless freedom fighters.",
+        "quote": "আমার মৃত্যু সমগ্র ভারতে অগ্নিস্ফুলিঙ্গ জ্বালাবে যা হয়তো নেভানো যাবে না। (My death will ignite a spark throughout India that may never be extinguished.)",
+        "birth_place": "Noapara, Chittagong, Bengal",
+        "achievements": "Led the Chittagong Armoury Raid • Founded Chittagong IRA chapter • Evaded British capture for 3 years • Became a symbol of armed resistance"
+      },
+      "bn": {
+        "name": "সূর্য সেন",
+        "short_bio": "সূর্য সেন, যিনি মাস্টারদা নামে পরিচিত, ছিলেন একজন বিপ্লবী যিনি ১৯৩০ সালে বিখ্যাত চট্টগ্রাম অস্ত্রাগার লুণ্ঠনের নেতৃত্ব দিয়েছিলেন, যা ছিল ব্রিটিশ ঔপনিবেশিক শাসনের বিরুদ্ধে সবচেয়ে সাহসী প্রতিরোধ কর্মগুলির একটি।",
+        "full_biography": "সূর্য সেন ১৮৯৪ সালের ২২ মার্চ চট্টগ্রামের নোয়াপাড়ায় জন্মগ্রহণ করেন। পেশায় স্কুল শিক্ষক হওয়ায় তাঁর অনুসারীরা তাঁকে স্নেহের সাথে 'মাস্টার দা' বলে ডাকতেন। তিনি ভারতীয় স্বাধীনতা আন্দোলনের অন্যতম প্রভাবশালী বিপ্লবী নেতা হয়ে ওঠেন।\n\nসূর্য সেন অনুশীলন সমিতির বিপ্লবী আদর্শ দ্বারা অনুপ্রাণিত হয়েছিলেন এবং ইন্ডিয়ান রিপাবলিকান আর্মির চট্টগ্রাম শাখার প্রধান হন।\n\n১৮ এপ্রিল, ১৯৩০ সালে সূর্য সেন কিংবদন্তি চট্টগ্রাম অস্ত্রাগার লুণ্ঠনে তরুণ বিপ্লবীদের একটি দলের নেতৃত্ব দেন। দলটি অস্ত্রাগার এবং পুলিশ লাইন দখল করে, অস্ত্র দখল করে এবং যোগাযোগ লাইন কেটে দেয়। তারা ভারতীয় পতাকা উত্তোলন করে এবং একটি অস্থায়ী বিপ্লবী সরকার ঘোষণা করে।\n\nঅভিযানের পর সূর্য সেন এবং তাঁর দল তিন বছরেরও বেশি সময় ধরে গ্রেপ্তার এড়িয়ে প্রতিরোধ কার্যক্রম চালিয়ে যান। ১৯৩৩ সালের ১৬ ফেব্রুয়ারি একজন মুখবিরের বিশ্বাসঘাতকতায় তাঁকে গ্রেপ্তার করা হয়।\n\n১৯৩৪ সালের ১২ জানুয়ারি চট্টগ্রাম কেন্দ্রীয় কারাগারে সূর্য সেনকে ফাঁসি দেওয়া হয়। মৃত্যুদণ্ড কার্যকর করার আগে ব্রিটিশ কর্তৃপক্ষ তাঁর অঙ্গ-প্রত্যঙ্গ ভেঙে দিয়েছিল, তবুও তিনি সাহস ও স্থিরতার সাথে মৃত্যুকে বরণ করেন।",
+        "quote": "আমার মৃত্যু সমগ্র ভারতে অগ্নিস্ফুলিঙ্গ জ্বালাবে যা হয়তো নেভানো যাবে না।",
+        "birth_place": "নোয়াপাড়া, চট্টগ্রাম, বেঙ্গল",
+        "achievements": "চট্টগ্রাম অস্ত্রাগার লুণ্ঠনের নেতৃত্ব • চট্টগ্রাম IRA শাখার প্রতিষ্ঠাতা • ৩ বছর ব্রিটিশ গ্রেপ্তার এড়িয়ে যান • সশস্ত্র প্রতিরোধের প্রতীক"
+      }
+    }
+  },
+  {
+    "id": "hero_008",
+    "slug": "bir-shreshtha-ruhul-amin",
+    "dates": {
+      "birth": "1935-06-01",
+      "death": "1971-12-10"
+    },
+    "era": "liberation_1971",
+    "category": ["martyr", "soldier"],
+    "images": ["assets/images/heroes/ruhul_amin.png"],
+    "location_id": "loc_noakhali",
+    "importance": 4,
+    "content": {
+      "en": {
+        "name": "Bir Shreshtha Ruhul Amin",
+        "short_bio": "Bir Shreshtha Ruhul Amin was a naval commando who heroically died fighting Pakistani forces during the Liberation War of 1971, earning the highest gallantry award of Bangladesh.",
+        "full_biography": "Muhammad Ruhul Amin was born on June 1, 1935, in Bagpara village, Begumganj, Noakhali. He joined the Pakistan Navy in 1953 as an ordinary seaman and rose through the ranks through his dedication and skill.\n\nWhen the Liberation War began in March 1971, Ruhul Amin was serving on the PNS Sylhet. Along with other Bengali sailors, he defected to join the Mukti Bahini (Liberation Forces). He became the captain of the gunboat 'Palash' in the Bangladesh Navy.\n\nOn December 10, 1971, Ruhul Amin led an attack on Pakistani naval vessels in the Mongla port area. During the battle, his boat 'Palash' was hit by Pakistani fire. Despite sustaining injuries, he continued to fight.\n\nWhen his boat was sinking, he swam to shore but was captured by the Razakars (collaborators). Even while facing death, he refused to reveal information about the Mukti Bahini. He was brutally tortured and killed.\n\nAfter independence, Muhammad Ruhul Amin was posthumously awarded 'Bir Shreshtha' (Most Valiant Hero), the highest gallantry award of Bangladesh, for his exceptional bravery and sacrifice.",
+        "quote": "দেশের জন্য প্রাণ দিতে আমি প্রস্তুত। (I am ready to give my life for my country. )",
+        "birth_place": "Bagpara, Begumganj, Noakhali",
+        "achievements": "Bir Shreshtha - highest gallantry award • Naval commando • Led attack on Pakistani vessels • Made ultimate sacrifice for Bangladesh"
+      },
+      "bn": {
+        "name": "বীরশ্রেষ্ঠ রুহুল আমিন",
+        "short_bio": "বীরশ্রেষ্ঠ রুহুল আমিন ছিলেন একজন নৌ কমান্ডো যিনি ১৯৭১ সালে মুক্তিযুদ্ধে পাকিস্তানি বাহিনীর বিরুদ্ধে লড়াই করে বীরত্বের সাথে শহীদ হন এবং বাংলাদেশের সর্বোচ্চ বীরত্ব পদক অর্জন করেন।",
+        "full_biography": "মোহাম্মদ রুহুল আমিন ১৯৩৫ সালের ১ জুন নোয়াখালীর বেগমগঞ্জের বাগপাড়া গ্রামে জন্মগ্রহণ করেন। তিনি ১৯৫৩ সালে পাকিস্তান নৌবাহিনীতে সাধারণ নাবিক হিসেবে যোগ দেন এবং তাঁর নিষ্ঠা ও দক্ষতার মাধ্যমে পদোন্নতি লাভ করেন।\n\n১৯৭১ সালের মার্চে যখন মুক্তিযুদ্ধ শুরু হয়, রুহুল আমিন পিএনএস সিলেটে কর্মরত ছিলেন। অন্যান্য বাঙালি নাবিকদের সাথে তিনি মুক্তিবাহিনীতে যোগ দেন। তিনি বাংলাদেশ নৌবাহিনীর গানবোট 'পলাশ'-এর ক্যাপ্টেন হন।\n\n১০ ডিসেম্বর, ১৯৭১ সালে রুহুল আমিন মংলা বন্দর এলাকায় পাকিস্তানি নৌযানগুলোর উপর আক্রমণের নেতৃত্ব দেন। যুদ্ধের সময় তাঁর নৌকা 'পলাশ' পাকিস্তানি গুলিতে আক্রান্ত হয়। আহত হওয়া সত্ত্বেও তিনি লড়াই চালিয়ে যান।\n\nতাঁর নৌকা ডুবে যাওয়ার সময় তিনি সাঁতরে তীরে এলে রাজাকাররা তাঁকে ধরে ফেলে। মৃত্যুর মুখোমুখি হয়েও তিনি মুক্তিবাহিনী সম্পর্কে তথ্য দিতে অস্বীকার করেন। তাঁকে নির্মমভাবে অত্যাচার করে হত্যা করা হয়।\n\nস্বাধীনতার পর মোহাম্মদ রুহুল আমিনকে তাঁর অসাধারণ বীরত্ব এবং আত্মত্যাগের জন্য মরণোত্তর 'বীরশ্রেষ্ঠ' খেতাব দেওয়া হয়।",
+        "quote": "দেশের জন্য প্রাণ দিতে আমি প্রস্তুত।",
+        "birth_place": "বাগপাড়া, বেগমগঞ্জ, নোয়াখালী",
+        "achievements": "বীরশ্রেষ্ঠ - সর্বোচ্চ বীরত্ব পদক • নৌ কমান্ডো • পাকিস্তানি জাহাজে আক্রমণের নেতৃত্ব • বাংলাদেশের জন্য চূড়ান্ত আত্মত্যাগ"
+      }
+    }
+  }
+]

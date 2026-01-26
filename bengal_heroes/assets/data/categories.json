@@ -1,0 +1,93 @@
+[
+    {
+        "id": "martyr",
+        "name": {
+            "en": "Martyr",
+            "bn": "শহীদ"
+        },
+        "description": {
+            "en": "Heroes who sacrificed their lives for the cause of freedom and independence.",
+            "bn": "যারা স্বাধীনতা ও মুক্তির জন্য জীবন উৎসর্গ করেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_martyr.svg",
+        "color_hex": "#D32F2F"
+    },
+    {
+        "id": "revolutionary",
+        "name": {
+            "en": "Revolutionary",
+            "bn": "বিপ্লবী"
+        },
+        "description": {
+            "en": "Leaders who led armed resistance and revolutionary movements.",
+            "bn": "যারা সশস্ত্র প্রতিরোধ এবং বিপ্লবী আন্দোলনের নেতৃত্ব দিয়েছেন।"
+        },
+        "icon_asset": "assets/icons/cat_revolutionary.svg",
+        "color_hex": "#E64A19"
+    },
+    {
+        "id": "intellectual",
+        "name": {
+            "en": "Intellectual",
+            "bn": "বুদ্ধিজীবী"
+        },
+        "description": {
+            "en": "Scholars, writers, and thinkers who shaped Bengali thought and culture.",
+            "bn": "পণ্ডিত, লেখক এবং চিন্তাবিদ যারা বাঙালি চিন্তা ও সংস্কৃতি গঠন করেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_intellectual.svg",
+        "color_hex": "#0288D1"
+    },
+    {
+        "id": "ruler",
+        "name": {
+            "en": "Ruler",
+            "bn": "শাসক"
+        },
+        "description": {
+            "en": "Kings, sultans, and political leaders who governed Bengal.",
+            "bn": "রাজা, সুলতান এবং রাজনৈতিক নেতা যারা বাংলা শাসন করেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_ruler.svg",
+        "color_hex": "#7C4DFF"
+    },
+    {
+        "id": "poet",
+        "name": {
+            "en": "Poet",
+            "bn": "কবি"
+        },
+        "description": {
+            "en": "Poets whose verses inspired generations and shaped Bengali literature.",
+            "bn": "কবি যাদের কবিতা প্রজন্মকে অনুপ্রাণিত করেছে এবং বাংলা সাহিত্যকে রূপ দিয়েছে।"
+        },
+        "icon_asset": "assets/icons/cat_poet.svg",
+        "color_hex": "#E91E63"
+    },
+    {
+        "id": "philosopher",
+        "name": {
+            "en": "Philosopher",
+            "bn": "দার্শনিক"
+        },
+        "description": {
+            "en": "Thinkers who contributed to philosophy, spirituality, and social reform.",
+            "bn": "চিন্তাবিদ যারা দর্শন, আধ্যাত্মিকতা এবং সমাজ সংস্কারে অবদান রেখেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_philosopher.svg",
+        "color_hex": "#00897B"
+    },
+    {
+        "id": "soldier",
+        "name": {
+            "en": "Soldier",
+            "bn": "সৈনিক"
+        },
+        "description": {
+            "en": "Military personnel who fought bravely for their motherland.",
+            "bn": "সামরিক ব্যক্তি যারা মাতৃভূমির জন্য সাহসিকতার সাথে যুদ্ধ করেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_soldier.svg",
+        "color_hex": "#5D4037"
+    }
+]

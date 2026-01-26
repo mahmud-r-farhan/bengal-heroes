@@ -1,0 +1,121 @@
+{
+    "app_name": "বেঙ্গল হিরোজ",
+    "app_tagline": "বাংলার কিংবদন্তিদের খুঁজে বের করুন",
+    "nav": {
+        "home": "হোম",
+        "heroes": "বীরগণ",
+        "search": "অনুসন্ধান",
+        "settings": "সেটিংস"
+    },
+    "home": {
+        "on_this_day": "আজকের দিনে",
+        "featured_heroes": "বিশিষ্ট বীরগণ",
+        "explore_by_era": "যুগ অনুসারে অন্বেষণ",
+        "collection_overview": "সংকলন সারাংশ",
+        "no_events_today": "আজ কোনো ঘটনা নেই",
+        "explore_collection": "বাংলার বীরদের আবিষ্কার করতে আমাদের সংকলন অন্বেষণ করুন"
+    },
+    "heroes": {
+        "title": "বীরগণ",
+        "filter": "ফিল্টার",
+        "no_heroes_found": "কোনো বীর পাওয়া যায়নি",
+        "try_adjusting": "আপনার ফিল্টার সামঞ্জস্য করার চেষ্টা করুন",
+        "clear_filters": "ফিল্টার মুছুন",
+        "heroes_count": "{} জন বীর"
+    },
+    "hero_detail": {
+        "overview": "সংক্ষিপ্ত বিবরণ",
+        "biography": "জীবনী",
+        "birth_place": "জন্মস্থান",
+        "achievements": "অর্জন",
+        "related_heroes": "সম্পর্কিত বীরগণ",
+        "share": "শেয়ার",
+        "hero_not_found": "বীর পাওয়া যায়নি"
+    },
+    "search": {
+        "search_heroes": "বীরদের খুঁজুন...",
+        "recent_searches": "সাম্প্রতিক অনুসন্ধান",
+        "popular_searches": "জনপ্রিয় অনুসন্ধান",
+        "search_tips": "অনুসন্ধান টিপস",
+        "tips_description": "আপনি নাম, যুগ, বা বাংলায়ও খুঁজতে পারেন!",
+        "no_results": "কোনো ফলাফল পাওয়া যায়নি",
+        "try_different": "বিভিন্ন কীওয়ার্ড চেষ্টা করুন বা বানান পরীক্ষা করুন",
+        "matched_in": "{} এ মিল পাওয়া গেছে"
+    },
+    "filter": {
+        "filter_heroes": "বীরদের ফিল্টার করুন",
+        "clear_all": "সব মুছুন",
+        "era": "যুগ",
+        "category": "বিভাগ",
+        "apply_filters": "ফিল্টার প্রয়োগ করুন",
+        "show_all": "সব বীর দেখান"
+    },
+    "settings": {
+        "title": "সেটিংস",
+        "appearance": "চেহারা",
+        "language": "ভাষা",
+        "about": "সম্পর্কে",
+        "theme_light": "হালকা",
+        "theme_dark": "গাঢ়",
+        "theme_system": "সিস্টেম",
+        "about_app": "বেঙ্গল হিরোজ সম্পর্কে",
+        "privacy_policy": "গোপনীয়তা নীতি",
+        "terms_of_service": "সেবা শর্তাবলী",
+        "made_with_love": "বাংলার জন্য ❤️ দিয়ে তৈরি"
+    },
+    "intro": {
+        "skip": "এড়িয়ে যান",
+        "continue": "চালিয়ে যান",
+        "get_started": "বেঙ্গল হিরোজ অন্বেষণ করুন",
+        "welcome_title": "বেঙ্গল হিরোজ",
+        "welcome_subtitle": "বাংলার কিংবদন্তি, মুক্তিযোদ্ধা\nএবং বুদ্ধিজীবীদের আবিষ্কার করুন",
+        "features_title": "বৈশিষ্ট্য",
+        "features_subtitle": "বাংলার ইতিহাস অন্বেষণ করতে যা প্রয়োজন",
+        "preferences_title": "আপনার অভিজ্ঞতা কাস্টমাইজ করুন",
+        "preferences_subtitle": "আপনি যেকোনো সময় এই সেটিংস পরিবর্তন করতে পারেন",
+        "feature_biographies": "সমৃদ্ধ জীবনী",
+        "feature_biographies_desc": "ঐতিহাসিক ব্যক্তিত্বদের বিস্তারিত বিবরণ",
+        "feature_on_this_day": "আজকের দিনে",
+        "feature_on_this_day_desc": "আজ ইতিহাসে কী ঘটেছিল তা আবিষ্কার করুন",
+        "feature_search": "স্মার্ট অনুসন্ধান",
+        "feature_search_desc": "নাম, যুগ বা কীওয়ার্ড দিয়ে বীরদের খুঁজুন",
+        "feature_filters": "উন্নত ফিল্টার",
+        "feature_filters_desc": "যুগ, বিভাগ বা অবস্থান দিয়ে ফিল্টার করুন"
+    },
+    "eras": {
+        "sultanate": "সালতানাত যুগ",
+        "mughal": "মুঘল যুগ",
+        "british_raj": "ব্রিটিশ ঔপনিবেশিক যুগ",
+        "british_resistance": "ঔপনিবেশিক বিরোধী প্রতিরোধ",
+        "language_movement": "ভাষা আন্দোলন",
+        "liberation_1971": "মুক্তিযুদ্ধ ১৯৭১"
+    },
+    "categories": {
+        "martyr": "শহীদ",
+        "revolutionary": "বিপ্লবী",
+        "intellectual": "বুদ্ধিজীবী",
+        "ruler": "শাসক",
+        "poet": "কবি",
+        "philosopher": "দার্শনিক",
+        "soldier": "সৈনিক"
+    },
+    "on_this_day_events": {
+        "born": "জন্ম",
+        "remembered": "স্মরণ",
+        "event": "ঘটনা"
+    },
+    "common": {
+        "view_all": "সব দেখুন",
+        "see_all": "সব দেখুন",
+        "loading": "লোড হচ্ছে...",
+        "error": "কিছু ভুল হয়েছে",
+        "retry": "পুনরায় চেষ্টা করুন",
+        "close": "বন্ধ",
+        "cancel": "বাতিল",
+        "save": "সংরক্ষণ",
+        "add": "যোগ করুন",
+        "remove": "সরান",
+        "favorite": "পছন্দ",
+        "unfavorite": "পছন্দ থেকে সরান"
+    }
+}

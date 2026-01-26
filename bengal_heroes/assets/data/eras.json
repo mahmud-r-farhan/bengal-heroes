@@ -1,0 +1,98 @@
+[
+    {
+        "id": "sultanate",
+        "name": {
+            "en": "Sultanate Era",
+            "bn": "সালতানাত যুগ"
+        },
+        "description": {
+            "en": "The period of Muslim Sultanate rule in Bengal, marked by the establishment of independent Bengal Sultanate.",
+            "bn": "বাংলায় মুসলিম সালতানাত শাসনের সময়কাল, যা স্বাধীন বাংলা সালতানাত প্রতিষ্ঠার দ্বারা চিহ্নিত।"
+        },
+        "start_year": "1352",
+        "end_year": "1576",
+        "icon_asset": "assets/icons/era_sultanate.svg",
+        "color_hex": "#2E7D32",
+        "sort_order": 1
+    },
+    {
+        "id": "mughal",
+        "name": {
+            "en": "Mughal Era",
+            "bn": "মুঘল যুগ"
+        },
+        "description": {
+            "en": "The era of Mughal Empire expansion into Bengal, featuring resistance from local chieftains.",
+            "bn": "বাংলায় মুঘল সাম্রাজ্যের সম্প্রসারণের যুগ, স্থানীয় জমিদারদের প্রতিরোধ সহ।"
+        },
+        "start_year": "1576",
+        "end_year": "1757",
+        "icon_asset": "assets/icons/era_mughal.svg",
+        "color_hex": "#7B1FA2",
+        "sort_order": 2
+    },
+    {
+        "id": "british_raj",
+        "name": {
+            "en": "British Colonial Era",
+            "bn": "ব্রিটিশ ঔপনিবেশিক যুগ"
+        },
+        "description": {
+            "en": "The period of British colonial rule in Bengal, marked by exploitation and the Bengal Renaissance.",
+            "bn": "বাংলায় ব্রিটিশ ঔপনিবেশিক শাসনের সময়কাল, শোষণ এবং বাংলার নবজাগরণ দ্বারা চিহ্নিত।"
+        },
+        "start_year": "1757",
+        "end_year": "1947",
+        "icon_asset": "assets/icons/era_british.svg",
+        "color_hex": "#1565C0",
+        "sort_order": 3
+    },
+    {
+        "id": "british_resistance",
+        "name": {
+            "en": "Anti-Colonial Resistance",
+            "bn": "ঔপনিবেশিক বিরোধী প্রতিরোধ"
+        },
+        "description": {
+            "en": "Revolutionary movements and armed resistance against British colonial rule.",
+            "bn": "ব্রিটিশ ঔপনিবেশিক শাসনের বিরুদ্ধে বিপ্লবী আন্দোলন এবং সশস্ত্র প্রতিরোধ।"
+        },
+        "start_year": "1757",
+        "end_year": "1947",
+        "icon_asset": "assets/icons/era_resistance.svg",
+        "color_hex": "#C62828",
+        "sort_order": 4
+    },
+    {
+        "id": "language_movement",
+        "name": {
+            "en": "Language Movement",
+            "bn": "ভাষা আন্দোলন"
+        },
+        "description": {
+            "en": "The movement for recognition of Bengali as a state language, culminating in the 1952 martyrdoms.",
+            "bn": "বাংলাকে রাষ্ট্রভাষা হিসেবে স্বীকৃতির আন্দোলন, ১৯৫২ সালের শহীদদের রক্তে সফল।"
+        },
+        "start_year": "1948",
+        "end_year": "1956",
+        "icon_asset": "assets/icons/era_language.svg",
+        "color_hex": "#FB8C00",
+        "sort_order": 5
+    },
+    {
+        "id": "liberation_1971",
+        "name": {
+            "en": "Liberation War 1971",
+            "bn": "মুক্তিযুদ্ধ ১৯৭১"
+        },
+        "description": {
+            "en": "The nine-month war of independence that led to the birth of Bangladesh.",
+            "bn": "নয় মাসের স্বাধীনতা যুদ্ধ যা বাংলাদেশের জন্ম দিয়েছিল।"
+        },
+        "start_year": "1971",
+        "end_year": "1971",
+        "icon_asset": "assets/icons/era_liberation.svg",
+        "color_hex": "#00695C",
+        "sort_order": 6
+    }
+]

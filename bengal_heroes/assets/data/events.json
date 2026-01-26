@@ -1,0 +1,95 @@
+[
+    {
+        "id": "event_001",
+        "date": "1952-02-21",
+        "title": {
+            "en": "Language Martyrs Day",
+            "bn": "ভাষা শহীদ দিবস"
+        },
+        "description": {
+            "en": "Students were killed by police during protests demanding Bengali as a state language of Pakistan. This day is now observed as International Mother Language Day.",
+            "bn": "বাংলাকে পাকিস্তানের রাষ্ট্রভাষা করার দাবিতে বিক্ষোভের সময় পুলিশের গুলিতে ছাত্ররা শহীদ হন। এই দিনটি এখন আন্তর্জাতিক মাতৃভাষা দিবস হিসেবে পালিত হয়।"
+        },
+        "era_id": "language_movement",
+        "image_asset": "assets/images/events/language_day.png"
+    },
+    {
+        "id": "event_002",
+        "date": "1971-03-07",
+        "title": {
+            "en": "Historic 7th March Speech",
+            "bn": "ঐতিহাসিক ৭ই মার্চের ভাষণ"
+        },
+        "description": {
+            "en": "Sheikh Mujibur Rahman delivered his historic speech at Ramna Race Course, effectively calling for independence with the words 'This time the struggle is for independence.'",
+            "bn": "শেখ মুজিবুর রহমান রমনা রেসকোর্সে তাঁর ঐতিহাসিক ভাষণ দেন, 'এবারের সংগ্রাম স্বাধীনতার সংগ্রাম' বলে কার্যত স্বাধীনতার ডাক দেন।"
+        },
+        "era_id": "liberation_1971",
+        "related_hero_ids": [
+            "hero_003"
+        ],
+        "image_asset": "assets/images/events/march_7.png"
+    },
+    {
+        "id": "event_003",
+        "date": "1971-03-26",
+        "title": {
+            "en": "Independence Day",
+            "bn": "স্বাধীনতা দিবস"
+        },
+        "description": {
+            "en": "Bangladesh declared independence following the Pakistani military crackdown. The Liberation War officially began.",
+            "bn": "পাকিস্তানি সামরিক অভিযানের পর বাংলাদেশের স্বাধীনতা ঘোষণা করা হয়। মুক্তিযুদ্ধ আনুষ্ঠানিকভাবে শুরু হয়।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/independence.png"
+    },
+    {
+        "id": "event_004",
+        "date": "1971-12-16",
+        "title": {
+            "en": "Victory Day",
+            "bn": "বিজয় দিবস"
+        },
+        "description": {
+            "en": "Pakistani forces surrendered to the joint command of Bangladesh and India, marking the end of the Liberation War and the birth of Bangladesh.",
+            "bn": "পাকিস্তানি বাহিনী বাংলাদেশ ও ভারতের যৌথ কমান্ডের কাছে আত্মসমর্পণ করে, মুক্তিযুদ্ধের সমাপ্তি এবং বাংলাদেশের জন্ম চিহ্নিত করে।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/victory.png"
+    },
+    {
+        "id": "event_005",
+        "date": "1930-04-18",
+        "title": {
+            "en": "Chittagong Armoury Raid",
+            "bn": "চট্টগ্রাম অস্ত্রাগার লুণ্ঠন"
+        },
+        "description": {
+            "en": "Surya Sen led a group of revolutionaries to raid the armoury at Chittagong, one of the most daring acts against British rule.",
+            "bn": "সূর্য সেন একদল বিপ্লবীকে নিয়ে চট্টগ্রামে অস্ত্রাগার লুণ্ঠন করেন, ব্রিটিশ শাসনের বিরুদ্ধে সবচেয়ে সাহসী কর্মগুলির একটি।"
+        },
+        "era_id": "british_resistance",
+        "related_hero_ids": [
+            "hero_007"
+        ],
+        "image_asset": "assets/images/events/armoury_raid.png"
+    },
+    {
+        "id": "event_006",
+        "date": "1831-11-19",
+        "title": {
+            "en": "Fall of the Bamboo Fort",
+            "bn": "বাঁশের কেল্লার পতন"
+        },
+        "description": {
+            "en": "British forces attacked Titumir's famous Bamboo Fort at Narkelberiya. Titumir died fighting, becoming a martyr of peasant resistance.",
+            "bn": "ব্রিটিশ বাহিনী নারকেলবেড়িয়ায় তিতুমীরের বিখ্যাত বাঁশের কেল্লা আক্রমণ করে। তিতুমীর লড়াই করতে করতে শহীদ হন, কৃষক প্রতিরোধের শহীদ হয়ে যান।"
+        },
+        "era_id": "british_resistance",
+        "related_hero_ids": [
+            "hero_001"
+        ],
+        "image_asset": "assets/images/events/bamboo_fort.png"
+    }
+]

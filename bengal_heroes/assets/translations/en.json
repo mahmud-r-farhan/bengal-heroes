@@ -1,0 +1,121 @@
+{
+    "app_name": "Bengal Heroes",
+    "app_tagline": "Discover the legends of Bengal",
+    "nav": {
+        "home": "Home",
+        "heroes": "Heroes",
+        "search": "Search",
+        "settings": "Settings"
+    },
+    "home": {
+        "on_this_day": "On This Day",
+        "featured_heroes": "Featured Heroes",
+        "explore_by_era": "Explore by Era",
+        "collection_overview": "Collection Overview",
+        "no_events_today": "No events today",
+        "explore_collection": "Explore our collection to discover Bengal's heroes"
+    },
+    "heroes": {
+        "title": "Heroes",
+        "filter": "Filter",
+        "no_heroes_found": "No heroes found",
+        "try_adjusting": "Try adjusting your filters",
+        "clear_filters": "Clear Filters",
+        "heroes_count": "{} heroes"
+    },
+    "hero_detail": {
+        "overview": "Overview",
+        "biography": "Biography",
+        "birth_place": "Birth Place",
+        "achievements": "Achievements",
+        "related_heroes": "Related Heroes",
+        "share": "Share",
+        "hero_not_found": "Hero not found"
+    },
+    "search": {
+        "search_heroes": "Search heroes...",
+        "recent_searches": "Recent Searches",
+        "popular_searches": "Popular Searches",
+        "search_tips": "Search Tips",
+        "tips_description": "You can search by name, era, or even in Bengali!",
+        "no_results": "No results found",
+        "try_different": "Try different keywords or check spelling",
+        "matched_in": "Matched in {}"
+    },
+    "filter": {
+        "filter_heroes": "Filter Heroes",
+        "clear_all": "Clear All",
+        "era": "Era",
+        "category": "Category",
+        "apply_filters": "Apply Filters",
+        "show_all": "Show All Heroes"
+    },
+    "settings": {
+        "title": "Settings",
+        "appearance": "Appearance",
+        "language": "Language",
+        "about": "About",
+        "theme_light": "Light",
+        "theme_dark": "Dark",
+        "theme_system": "System",
+        "about_app": "About Bengal Heroes",
+        "privacy_policy": "Privacy Policy",
+        "terms_of_service": "Terms of Service",
+        "made_with_love": "Made with ❤️ for Bengal"
+    },
+    "intro": {
+        "skip": "Skip",
+        "continue": "Continue",
+        "get_started": "Explore Bengal Heroes",
+        "welcome_title": "Bengal Heroes",
+        "welcome_subtitle": "Discover the legends, freedom fighters,\nand intellectuals of Bengal",
+        "features_title": "Features",
+        "features_subtitle": "Everything you need to explore Bengal's history",
+        "preferences_title": "Customize Your Experience",
+        "preferences_subtitle": "You can change these settings anytime",
+        "feature_biographies": "Rich Biographies",
+        "feature_biographies_desc": "Detailed accounts of historical figures",
+        "feature_on_this_day": "On This Day",
+        "feature_on_this_day_desc": "Discover what happened in history today",
+        "feature_search": "Smart Search",
+        "feature_search_desc": "Find heroes by name, era, or keywords",
+        "feature_filters": "Advanced Filters",
+        "feature_filters_desc": "Filter by era, category, or location"
+    },
+    "eras": {
+        "sultanate": "Sultanate Era",
+        "mughal": "Mughal Era",
+        "british_raj": "British Colonial Era",
+        "british_resistance": "Anti-Colonial Resistance",
+        "language_movement": "Language Movement",
+        "liberation_1971": "Liberation War 1971"
+    },
+    "categories": {
+        "martyr": "Martyr",
+        "revolutionary": "Revolutionary",
+        "intellectual": "Intellectual",
+        "ruler": "Ruler",
+        "poet": "Poet",
+        "philosopher": "Philosopher",
+        "soldier": "Soldier"
+    },
+    "on_this_day_events": {
+        "born": "Born",
+        "remembered": "Remembered",
+        "event": "Event"
+    },
+    "common": {
+        "view_all": "View All",
+        "see_all": "See All",
+        "loading": "Loading...",
+        "error": "Something went wrong",
+        "retry": "Retry",
+        "close": "Close",
+        "cancel": "Cancel",
+        "save": "Save",
+        "add": "Add",
+        "remove": "Remove",
+        "favorite": "Favorite",
+        "unfavorite": "Remove from favorites"
+    }
+}
