@@ -396,7 +396,7 @@ class SettingsScreen extends ConsumerWidget {
           ),
           const SizedBox(height: 8),
           Text(
-            'Made with ❤️ for Bengal',
+            'Mahmud Rahman',
             style: theme.textTheme.bodySmall?.copyWith(
               color: theme.colorScheme.onSurfaceVariant,
             ),
