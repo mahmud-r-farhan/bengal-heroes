@@ -9,8 +9,8 @@
         "bn": "গঙ্গারিডাই রাজ্য"
       },
       "description": {
-        "en": "An ancient Greco-Roman described kingdom in Bengal. Their military strength was so renowned that it reportedly deterred Alexander the Great from invading the Ganges region.",
-        "bn": "গ্রিকো-রোমান বর্ণনায় বাংলার একটি প্রাচীন রাজ্য। তাদের সামরিক শক্তি এতই বিখ্যাত ছিল যে এটি আলেকজান্ডার দ্য গ্রেটকে গঙ্গা অঞ্চল আক্রমণ করা থেকে বিরত রেখেছিল বলে কথিত আছে।"
+        "en": "A powerful ancient kingdom in Bengal described by Greek accounts. Their war elephants and military might deterred Alexander the Great from invading the Ganges delta.",
+        "bn": "গ্রীক বর্ণনায় উল্লিখিত বাংলার একটি শক্তিশালী প্রাচীন রাজ্য। তাদের যুদ্ধহস্তী ও সামরিক শক্তি আলেকজান্ডারকে গঙ্গা বদ্বীপ আক্রমণ করা থেকে বিরত রেখেছিল।"
       },
       "category": "empire",
       "significance": "high",
@@ -21,80 +21,112 @@
       "year": 606,
       "period": "606-637",
       "title": {
-        "en": "Reign of Shashanka",
-        "bn": "শশাঙ্কের রাজত্ব"
+        "en": "Shashanka's Gauda Kingdom",
+        "bn": "শশাঙ্কের গৌড় রাজ্য"
       },
       "description": {
-        "en": "Shashanka unifies the region and becomes the first independent sovereign King of Gauda (Bengal), creating the first separate geopolitical entity of Bengal.",
-        "bn": "শশাঙ্ক অঞ্চলটিকে একত্রিত করেন এবং গৌড়ের (বাংলা) প্রথম স্বাধীন সার্বভৌম রাজা হন, যা বাংলার প্রথম পৃথক ভূ-রাজনৈতিক সত্তা তৈরি করে।"
+        "en": "Shashanka unifies the region as the first independent sovereign King of Bengal (Gauda), ending the Gupta influence.",
+        "bn": "শশাঙ্ক অঞ্চলটিকে একত্রিত করেন এবং বাংলার (গৌড়) প্রথম স্বাধীন সার্বভৌম রাজা হিসেবে গুপ্ত প্রভাবের অবসান ঘটান।"
       },
       "category": "empire",
       "significance": "critical",
       "icon": "crown"
     },
     {
-      "id": "750_pala_empire",
+      "id": "750_pala",
       "year": 750,
       "period": "750-1161",
       "title": {
-        "en": "Pala Empire & Matsyanyayam",
-        "bn": "পাল সাম্রাজ্য ও মাৎস্যন্যায়"
+        "en": "Pala Empire",
+        "bn": "পাল সাম্রাজ্য"
       },
       "description": {
-        "en": "Ending a century of anarchy ('Matsyanyayam'), Gopala is elected king. The Palas fostered the Golden Era of Bengal with Buddhist art, Nalanda university support, and trade.",
-        "bn": "এক শতাব্দীর নৈরাজ্য ('মাৎস্যন্যায়') শেষ করে গোপাল রাজা নির্বাচিত হন। পালরা বৌদ্ধ শিল্প, নালন্দা বিশ্ববিদ্যালয়ের পৃষ্ঠপোষকতা এবং বাণিজ্যের মাধ্যমে বাংলার স্বর্ণযুগের সূচনা করে।"
+        "en": "Establishment of the Pala Dynasty by Gopala, ending the 'Matsyanyayam' (anarchy). It was the Golden Era of Bengal regarding trade, Buddhism, and architecture (Somapura Mahavihara).",
+        "bn": "গোপাল কর্তৃক পাল রাজবংশ প্রতিষ্ঠা, যা 'মাৎস্যন্যায়' (নৈরাজ্য) এর অবসান ঘটায়। বাণিজ্য, বৌদ্ধধর্ম এবং স্থাপত্যের (সোমপুর মহাবিহার) ক্ষেত্রে এটি ছিল বাংলার স্বর্ণযুগ।"
       },
       "category": "empire",
       "significance": "high",
       "icon": "account_balance"
     },
     {
-      "id": "1338_fakhruddin",
-      "year": 1338,
-      "period": "1338",
+      "id": "1352_bengal_sultanate",
+      "year": 1352,
+      "period": "1352-1576",
       "title": {
-        "en": "Independence from Delhi",
-        "bn": "দিল্লি থেকে স্বাধীনতা"
+        "en": "Bengal Sultanate",
+        "bn": "শাহী বাংলা (সালতানাত)"
       },
       "description": {
-        "en": "Fakhruddin Mubarak Shah declares independence in Sonargaon, breaking away from the Tughlaq Sultanate of Delhi, paving the way for a distinct Bengali Muslim sovereignty.",
-        "bn": "ফখরুদ্দিন মোবারক শাহ সোনারগাঁয়ে স্বাধীনতা ঘোষণা করেন এবং দিল্লির তুঘলক সালতানাত থেকে বিচ্ছিন্ন হয়ে স্বতন্ত্র বাঙালি মুসলিম সার্বভৌমত্বের পথ প্রশস্ত করেন।"
+        "en": "Shamsuddin Ilyas Shah unifies the region into an independent Sultanate. A distinct Bengali identity begins to form, with patronage of Bengali literature and language.",
+        "bn": "শামসুদ্দিন ইলিয়াস শাহ অঞ্চলটিকে একটি স্বাধীন সালতানাতে একত্রিত করেন। বাংলা সাহিত্য ও ভাষার পৃষ্ঠপোষকতায় একটি স্বতন্ত্র বাঙালি পরিচয় গড়ে উঠতে শুরু করে।"
       },
-      "category": "independence",
-      "significance": "high",
-      "icon": "broken_image"
+      "category": "empire",
+      "significance": "critical",
+      "icon": "auto_stories"
     },
     {
       "id": "1576_baro_bhuyans",
       "year": 1576,
-      "period": "1576-1611",
+      "period": "1576-1610",
       "title": {
-        "en": "Baro-Bhuyan Resistance",
-        "bn": "বারো ভূঁইয়া প্রতিরোধ"
+        "en": "Resistance of Baro-Bhuyans",
+        "bn": "বারো ভূঁইয়াদের প্রতিরোধ"
       },
       "description": {
-        "en": "A confederacy of twelve zamindars led by Isa Khan fiercely resisted Mughal aggression. They defeated the Mughal navy multiple times, defending Bengal's autonomy.",
-        "bn": "ঈসা খানের নেতৃত্বে বারো জন জমিদারের একটি জোট মোঘল আগ্রাসনের তীব্র প্রতিরোধ গড়ে তোলে। তারা একাধিকবার মোঘল নৌবাহিনীকে পরাজিত করে বাংলার স্বায়ত্তশাসন রক্ষা করে।"
+        "en": "Isa Khan and the Baro-Bhuyans (12 landlords) fiercely resist the Mughal invasion. They defeat the Mughal navy in several battles, maintaining Bengal's autonomy.",
+        "bn": "ঈসা খান এবং বারো ভূঁইয়ারা মোঘল আক্রমণের তীব্র প্রতিরোধ করেন। তারা একাধিক যুদ্ধে মোঘল নৌবাহিনীকে পরাজিত করে বাংলার স্বায়ত্তশাসন বজায় রাখেন।"
       },
       "category": "war",
       "significance": "high",
       "icon": "shield"
     },
     {
-      "id": "1760_fakir_sannyasi",
-      "year": 1760,
-      "period": "1760-1800",
+      "id": "1666_chittagong",
+      "year": 1666,
+      "period": "1666",
       "title": {
-        "en": "Fakir-Sannyasi Rebellion",
-        "bn": "ফকির-সন্ন্যাসী বিদ্রোহ"
+        "en": "Conquest of Chittagong",
+        "bn": "চট্টগ্রাম বিজয়"
       },
       "description": {
-        "en": "The first armed resistance against the British East India Company by wandering Muslim mystics and Hindu ascetics, led by Majnu Shah and Bhawani Pathak.",
-        "bn": "মজনু শাহ এবং ভবানী পাঠকের নেতৃত্বে ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির বিরুদ্ধে মুসলিম সুফি ও হিন্দু সন্ন্যাসীদের প্রথম সশস্ত্র প্রতিরোধ।"
+        "en": "Mughal Subedar Shaista Khan expels Portuguese pirates and the Arakanese from Chittagong, renaming it Islamabad.",
+        "bn": "মোঘল সুবাদার শায়েস্তা খান চট্টগ্রাম থেকে পর্তুগিজ জলদস্যু এবং আরাকানীদের বিতাড়িত করেন এবং এর নাম রাখেন ইসলামাবাদ।"
       },
-      "category": "revolution",
+      "category": "war",
       "significance": "medium",
-      "icon": "hiking"
+      "icon": "sailing"
+    },
+    {
+      "id": "1757_plassey",
+      "year": 1757,
+      "period": "1757",
+      "title": {
+        "en": "Battle of Plassey",
+        "bn": "পলাশীর যুদ্ধ"
+      },
+      "description": {
+        "en": "The last independent Nawab, Siraj ud-Daulah, is defeated by Robert Clive due to the betrayal of Mir Jafar. This marks the beginning of British colonial rule.",
+        "bn": "মীর জাফরের বিশ্বাসঘাতকতায় রবার্ট ক্লাইভের কাছে শেষ স্বাধীন নবাব সিরাজ-উদ-দৌলা পরাজিত হন। এটি ব্রিটিশ ঔপনিবেশিক শাসনের সূচনা করে।"
+      },
+      "category": "war",
+      "significance": "critical",
+      "icon": "gavel"
+    },
+    {
+      "id": "1764_buxar",
+      "year": 1764,
+      "period": "1764",
+      "title": {
+        "en": "Battle of Buxar",
+        "bn": "বক্সারের যুদ্ধ"
+      },
+      "description": {
+        "en": "The combined forces of Bengal, Oudh, and the Mughal Emperor are defeated. The East India Company gains the 'Diwani' (right to collect tax), cementing their power.",
+        "bn": "বাংলা, অযোধ্যা এবং মোঘল সম্রাটের সম্মিলিত বাহিনী পরাজিত হয়। ইস্ট ইন্ডিয়া কোম্পানি 'দিওয়ানি' (রাজস্ব আদায়ের অধিকার) লাভ করে তাদের ক্ষমতা সুসংহত করে।"
+      },
+      "category": "war",
+      "significance": "high",
+      "icon": "request_quote"
     },
     {
       "id": "1770_famine",
@@ -105,27 +137,27 @@
         "bn": "ছিয়াত্তরের মন্বন্তর"
       },
       "description": {
-        "en": "A catastrophic famine causing the death of 1/3rd of the population. Caused by British tax policies during a drought. Known in history as 'Chhiattorer Monnontor'.",
-        "bn": "একটি ভয়াবহ দুর্ভিক্ষ যাতে জনসংখ্যার এক-তৃতীয়াংশ মারা যায়। খরা চলাকালীন ব্রিটিশ কর নীতির কারণে এটি ঘটে। ইতিহাসে এটি 'ছিয়াত্তরের মন্বন্তর' নামে পরিচিত।"
+        "en": "A catastrophic famine caused by British resource extraction and tax policies during a drought. Roughly 10 million people (1/3rd of the population) died.",
+        "bn": "খরা চলাকালীন ব্রিটিশদের সম্পদ লুণ্ঠন এবং কর নীতির কারণে সৃষ্ট একটি ভয়াবহ দুর্ভিক্ষ। প্রায় ১ কোটি মানুষ (জনসংখ্যার এক-তৃতীয়াংশ) মারা যায়।"
       },
       "category": "suffering",
       "significance": "critical",
       "icon": "sentiment_very_dissatisfied"
     },
     {
-      "id": "1818_faraizi",
-      "year": 1818,
-      "period": "1818-1860",
+      "id": "1831_titumir",
+      "year": 1831,
+      "period": "1831",
       "title": {
-        "en": "Faraizi Movement",
-        "bn": "ফরায়েজি আন্দোলন"
+        "en": "Titumir's Bamboo Fort",
+        "bn": "তিতুমীরের বাঁশের কেল্লা"
       },
       "description": {
-        "en": "Led by Haji Shariatullah and Dudu Miyan, this movement fought for Islamic purity and rights of the peasantry against oppressive indigo planters and landlords.",
-        "bn": "হাজী শরীয়তুল্লাহ এবং দুদু মিয়ার নেতৃত্বে এই আন্দোলনটি ইসলামী বিশুদ্ধতা এবং অত্যাচারী নীলকর ও জমিদারদের বিরুদ্ধে কৃষকদের অধিকারের জন্য লড়াই করেছিল।"
+        "en": "Mir Nisar Ali (Titumir) builds a 'Basher Kella' (Bamboo Fort) in Narkelberia to resist British indigo planters and oppressive zamindars. He is martyred in battle.",
+        "bn": "মীর নিসার আলী (তিতুমীর) ব্রিটিশ নীলকর এবং অত্যাচারী জমিদারদের প্রতিরোধ করতে নারকেলবেড়িয়ায় একটি 'বাঁশের কেল্লা' নির্মাণ করেন। যুদ্ধে তিনি শহীদ হন।"
       },
       "category": "revolution",
-      "significance": "medium",
+      "significance": "high",
       "icon": "agriculture"
     },
     {
@@ -137,31 +169,63 @@
         "bn": "সাঁওতাল বিদ্রোহ"
       },
       "description": {
-        "en": "A massive tribal uprising by the Santhal people against the British colonial authority and corrupt zamindari system, led by Sidhu and Kanhu Murmu.",
-        "bn": "সিধুর ও কানহু মুরমুর নেতৃত্বে ব্রিটিশ ঔপনিবেশিক কর্তৃপক্ষ এবং দুর্নীতিগ্রস্ত জমিদারি প্রথার বিরুদ্ধে সাঁওতাল জনগণের এক বিশাল আদিবাসী অভ্যুত্থান।"
+        "en": "Led by Sidhu and Kanhu Murmu, the Santhal indigenous people wage a war against the British East India Company and corrupt usurers.",
+        "bn": "সিধুর ও কানহু মুরমুর নেতৃত্বে সাঁওতাল আদিবাসীরা ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানি এবং দুর্নীতিবাজ মহাজনদের বিরুদ্ধে যুদ্ধ ঘোষণা করে।"
+      },
+      "category": "revolution",
+      "significance": "medium",
+      "icon": "forest"
+    },
+    {
+      "id": "1857_sepoy_mutiny",
+      "year": 1857,
+      "period": "1857",
+      "title": {
+        "en": "Sepoy Mutiny (Bengal)",
+        "bn": "সিপাহী বিদ্রোহ (বাংলা)"
+      },
+      "description": {
+        "en": "Sepoys in Dhaka and Chittagong revolt. The uprising is brutally suppressed at Victoria Park (now Bahadur Shah Park) where rebels were hanged publicly.",
+        "bn": "ঢাকা ও চট্টগ্রামের সিপাহীরা বিদ্রোহ করে। ভিক্টোরিয়া পার্কে (বর্তমান বাহাদুর শাহ পার্ক) প্রকাশ্যে বিদ্রোহিদের ফাঁসি দিয়ে এই অভ্যুত্থান নির্মমভাবে দমন করা হয়।"
+      },
+      "category": "war",
+      "significance": "high",
+      "icon": "swords"
+    },
+    {
+      "id": "1859_indigo_revolt",
+      "year": 1859,
+      "period": "1859-1860",
+      "title": {
+        "en": "Indigo Revolt",
+        "bn": "নীল বিদ্রোহ"
+      },
+      "description": {
+        "en": "Farmers refuse to grow indigo for British planters. This mass civil disobedience, highlighted by the play 'Nil Darpan', forced the British to change laws.",
+        "bn": "কৃষকরা ব্রিটিশ নীলকরদের জন্য নীল চাষ করতে অস্বীকার করে। 'নীল দর্পণ' নাটকের মাধ্যমে প্রচারিত এই গণ-অসহযোগ আন্দোলন ব্রিটিশদের আইন পরিবর্তন করতে বাধ্য করে।"
       },
       "category": "revolution",
       "significance": "high",
-      "icon": "forest"
+      "icon": "spa"
     },
     {
       "id": "1905_partition",
       "year": 1905,
       "period": "1905",
       "title": {
-        "en": "Partition of Bengal",
+        "en": "First Partition of Bengal",
         "bn": "বঙ্গভঙ্গ"
       },
       "description": {
-        "en": "Viceroy Curzon partitions Bengal, sparking the 'Swadeshi Movement'. It created a divide between East (Muslim majority) and West (Hindu majority) Bengal.",
-        "bn": "ভাইসরয় কার্জন বাংলা ভাগ করেন, যা 'স্বদেশী আন্দোলন' শুরু করে। এটি পূর্ব (মুসলিম সংখ্যাগরিষ্ঠ) এবং পশ্চিম (হিন্দু সংখ্যাগরিষ্ঠ) বাংলার মধ্যে বিভাজন সৃষ্টি করে।"
+        "en": "Lord Curzon divides Bengal into East and West. This sparks the 'Swadeshi Movement' (boycott of British goods). The partition is annulled in 1911 due to protests.",
+        "bn": "লর্ড কার্জন বাংলাকে পূর্ব ও পশ্চিমে ভাগ করেন। এর ফলে 'স্বদেশী আন্দোলন' (ব্রিটিশ পণ্য বর্জন) শুরু হয়। প্রতিবাদের মুখে ১৯১১ সালে এই বিভাজন রদ করা হয়।"
       },
       "category": "event",
       "significance": "high",
       "icon": "call_split"
     },
     {
-      "id": "1930_chittagong_raid",
+      "id": "1930_armoury_raid",
       "year": 1930,
       "period": "1930",
       "title": {
@@ -169,28 +233,44 @@
         "bn": "চট্টগ্রাম অস্ত্রাগার লুণ্ঠন"
       },
       "description": {
-        "en": "Masterda Surya Sen and his revolutionaries (including Pritilata Waddedar) raided the British armoury, briefly liberating Chittagong from British rule.",
-        "bn": "মাস্টারদা সূর্য সেন এবং তার বিপ্লবীরা (প্রীতিলতা ওয়াদ্দেদার সহ) ব্রিটিশ অস্ত্রাগার আক্রমণ করেন এবং সাময়িকভাবে চট্টগ্রামকে ব্রিটিশ শাসন থেকে মুক্ত করেন।"
+        "en": "Revolutionaries led by Masterda Surya Sen and Pritilata Waddedar raid the British armoury, declaring a provisional revolutionary government in Chittagong.",
+        "bn": "মাস্টারদা সূর্য সেন এবং প্রীতিলতা ওয়াদ্দেদারের নেতৃত্বে বিপ্লবীরা ব্রিটিশ অস্ত্রাগার আক্রমণ করেন এবং চট্টগ্রামে একটি অস্থায়ী বিপ্লবী সরকার ঘোষণা করেন।"
       },
       "category": "revolution",
       "significance": "high",
       "icon": "flash_on"
     },
     {
-      "id": "1946_tebhaga",
-      "year": 1946,
-      "period": "1946-1947",
+      "id": "1943_famine",
+      "year": 1943,
+      "period": "1943",
       "title": {
-        "en": "Tebhaga Movement",
-        "bn": "তেভাগা আন্দোলন"
+        "en": "Bengal Famine of 1943",
+        "bn": "পঞ্চাশের মন্বন্তর"
       },
       "description": {
-        "en": "A significant peasant agitation initiated by the Kishan Sabha demanding 2/3rds share of the harvest for the farmers instead of the customary 1/2.",
-        "bn": "কিষাণ সভা দ্বারা শুরু হওয়া একটি উল্লেখযোগ্য কৃষক আন্দোলন যা প্রথাগত অর্ধেকের পরিবর্তে ফসলের দুই-তৃতীয়াংশ ভাগ কৃষকদের জন্য দাবি করেছিল।"
+        "en": "Three million Bengalis die due to British war policies (Churchill's denial of rice imports) during WWII. A man-made tragedy of immense scale.",
+        "bn": "দ্বিতীয় বিশ্বযুদ্ধের সময় ব্রিটিশ যুদ্ধ নীতির (চার্চিল কর্তৃক চাল আমদানি বাতিলের) কারণে ত্রিশ লক্ষ বাঙালি মারা যায়। এটি ছিল একটি বিশাল আকারের মনুষ্যসৃষ্ট বিপর্যয়।"
       },
-      "category": "revolution",
-      "significance": "medium",
-      "icon": "grass"
+      "category": "suffering",
+      "significance": "critical",
+      "icon": "block"
+    },
+    {
+      "id": "1947_partition",
+      "year": 1947,
+      "period": "1947",
+      "title": {
+        "en": "Partition & Pakistan",
+        "bn": "দেশভাগ ও পাকিস্তান"
+      },
+      "description": {
+        "en": "British rule ends. Bengal is divided again. The East becomes 'East Pakistan'. The Radcliffe Line separates families and lands, leading to massive migration.",
+        "bn": "ব্রিটিশ শাসনের অবসান। বাংলা আবার ভাগ হয়। পূর্ব অংশ 'পূর্ব পাকিস্তান' হয়। র‍্যাডক্লিফ লাইন পরিবার এবং জমি আলাদা করে দেয়, যার ফলে ব্যাপক অভিবাসন ঘটে।"
+      },
+      "category": "independence",
+      "significance": "critical",
+      "icon": "flag_circle"
     },
     {
       "id": "1952_language",
@@ -201,28 +281,12 @@
         "bn": "ভাষা আন্দোলন"
       },
       "description": {
-        "en": "Police open fire on students demanding Bangla as a state language. Salam, Barkat, Rafiq, Jabbar die. This event sowed the seeds of Bangladesh's independence.",
-        "bn": "বাংলাকে রাষ্ট্রভাষা করার দাবিতে আন্দোলনরত ছাত্রদের ওপর পুলিশ গুলি চালায়। সালাম, বরকত, রফিক, জব্বার শহীদ হন। এই ঘটনা বাংলাদেশের স্বাধীনতার বীজ বপন করে।"
+        "en": "On Feb 21, police fire on students demanding Bangla as a state language. Martyrs (Salam, Barkat, Rafiq) inspire Bengali nationalism. Recognized now as Int'l Mother Language Day.",
+        "bn": "২১শে ফেব্রুয়ারি বাংলাকে রাষ্ট্রভাষা করার দাবিতে ছাত্রদের ওপর পুলিশ গুলি চালায়। শহীদরা (সালাম, বরকত, রফিক) বাঙালি জাতীয়তাবাদকে অনুপ্রাণিত করে। এটি এখন আন্তর্জাতিক মাতৃভাষা দিবস।"
       },
       "category": "revolution",
       "significance": "critical",
-      "icon": "campaign"
-    },
-    {
-      "id": "1954_jukto_front",
-      "year": 1954,
-      "period": "1954",
-      "title": {
-        "en": "United Front Election Victory",
-        "bn": "যুক্তফ্রন্টের নির্বাচন বিজয়"
-      },
-      "description": {
-        "en": "The United Front (Jukto Front) led by Suhrawardy, Bhashani, and Fazlul Huq routs the Muslim League in provincial elections, signaling the rise of Bengali politics.",
-        "bn": "সোহরাওয়ার্দী, ভাসানী এবং ফজলুল হকের নেতৃত্বে যুক্তফ্রন্ট প্রাদেশিক নির্বাচনে মুসলিম লীগকে পরাজিত করে, যা বাঙালি রাজনীতির উত্থানের ইঙ্গিত দেয়।"
-      },
-      "category": "event",
-      "significance": "high",
-      "icon": "how_to_vote"
+      "icon": "record_voice_over"
     },
     {
       "id": "1966_six_point",
@@ -233,111 +297,63 @@
         "bn": "ছয় দফা আন্দোলন"
       },
       "description": {
-        "en": "Sheikh Mujibur Rahman announces the Six Point Charter, demanding economic and political autonomy for East Pakistan. It is known as the 'Charter of Freedom'.",
-        "bn": "শেখ মুজিবুর রহমান ছয় দফা সনদ ঘোষণা করেন, পূর্ব পাকিস্তানের জন্য অর্থনৈতিক ও রাজনৈতিক স্বায়ত্তশাসন দাবি করেন। এটি 'মুক্তির সনদ' নামে পরিচিত।"
-      },
-      "category": "revolution",
-      "significance": "critical",
-      "icon": "list_alt"
-    },
-    {
-      "id": "1969_mass_uprising",
-      "year": 1969,
-      "period": "1969",
-      "title": {
-        "en": "Mass Uprising of 1969",
-        "bn": "ঊনসত্তরের গণঅভ্যুত্থান"
-      },
-      "description": {
-        "en": "A popular uprising that forced Ayub Khan to resign and drop the Agartala Conspiracy Case. Martyrdom of Asad and Dr. Zoha fueled the fire.",
-        "bn": "একটি গণঅভ্যুত্থান যা আইয়ুব খানকে পদত্যাগ করতে এবং আগরতলা ষড়যন্ত্র মামলা প্রত্যাহার করতে বাধ্য করে। আসাদ এবং ডঃ জোহা-র শাহাদাত এই আগুনকে উসকে দেয়।"
+        "en": "Sheikh Mujibur Rahman presents the 'Six Points', a charter for autonomy. It serves as the bridge to the demand for total independence.",
+        "bn": "শেখ মুজিবুর রহমান স্বায়ত্তশাসনের সনদ 'ছয় দফা' পেশ করেন। এটি পূর্ণ স্বাধীনতার দাবির সেতুবন্ধন হিসেবে কাজ করে।"
       },
       "category": "revolution",
       "significance": "high",
-      "icon": "groups"
+      "icon": "list_alt"
     },
     {
       "id": "1971_liberation",
       "year": 1971,
       "period": "1971",
       "title": {
-        "en": "Independence of Bangladesh",
-        "bn": "বাংলাদেশের স্বাধীনতা"
+        "en": "Liberation War",
+        "bn": "মুক্তিযুদ্ধ"
       },
       "description": {
-        "en": "Following Operation Searchlight (genocide) on March 25, Bangladesh fights a 9-month Liberation War. Victory achieved on Dec 16 with the surrender of Pakistani forces.",
-        "bn": "২৫শে মার্চ অপারেশন সার্চলাইট (গণহত্যা) এর পর, বাংলাদেশ ৯ মাসের স্বাধীনতা যুদ্ধ করে। ১৬ই ডিসেম্বর পাকিস্তানি বাহিনীর আত্মসমর্পণের মাধ্যমে বিজয় অর্জিত হয়।"
+        "en": "Following the March 25 Genocide, Bangladesh declares independence. After 9 months of war and the sacrifice of 3 million martyrs, victory is achieved on Dec 16.",
+        "bn": "২৫শে মার্চের গণহত্যার পর বাংলাদেশ স্বাধীনতা ঘোষণা করে। ৯ মাসের যুদ্ধ এবং ৩০ লক্ষ শহীদের আত্মত্যাগের পর ১৬ই ডিসেম্বর বিজয় অর্জিত হয়।"
       },
       "category": "independence",
       "significance": "critical",
       "icon": "flag"
     },
     {
-      "id": "1975_tragic_august",
+      "id": "1975_tragedy",
       "year": 1975,
       "period": "1975",
       "title": {
-        "en": "Assassination of Sheikh Mujib",
-        "bn": "শেখ মুজিবের হত্যাকাণ্ড"
+        "en": "August 15 Tragedy",
+        "bn": "১৫ই আগস্টের ট্র্যাজেডি"
       },
       "description": {
-        "en": "Bangabandhu Sheikh Mujibur Rahman and most of his family are assassinated by a group of army officers. A dark chapter begins with military rule.",
-        "bn": "বঙ্গবন্ধু শেখ মুজিবুর রহমান এবং তার পরিবারের অধিকাংশ সদস্যকে একদল সেনা কর্মকর্তা হত্যা করে। সামরিক শাসনের মাধ্যমে এক অন্ধকার অধ্যায় শুরু হয়।"
+        "en": "Bangabandhu Sheikh Mujibur Rahman is assassinated with his family. This event halts democratic progress and ushers in years of military rule.",
+        "bn": "বঙ্গবন্ধু শেখ মুজিবুর রহমানকে সপরিবারে হত্যা করা হয়। এই ঘটনা গণতান্ত্রিক অগ্রগতিকে থামিয়ে দেয় এবং সামরিক শাসনের যুগের সূচনা করে।"
       },
       "category": "suffering",
       "significance": "critical",
       "icon": "person_off"
     },
     {
-      "id": "1975_nov_uprising",
-      "year": 1975,
-      "period": "1975 (Nov 7)",
-      "title": {
-        "en": "Sepoy-Janata Biplob",
-        "bn": "সিপাহী-জনতা বিপ্লব"
-      },
-      "description": {
-        "en": "A soldier-people uprising led by JSD and Col. Taher frees Ziaur Rahman from house arrest, altering the course of Bangladeshi politics.",
-        "bn": "জাসদ এবং কর্নেল তাহেরের নেতৃত্বে সিপাহী-জনতার বিপ্লব জিয়াউর রহমানকে গৃহবন্দী দশা থেকে মুক্ত করে, যা বাংলাদেশের রাজনীতির মোড় ঘুরিয়ে দেয়।"
-      },
-      "category": "revolution",
-      "significance": "high",
-      "icon": "change_history"
-    },
-    {
-      "id": "1990_anti_ershad",
+      "id": "1990_democracy",
       "year": 1990,
       "period": "1990",
       "title": {
-        "en": "Fall of Autocrat Ershad",
-        "bn": "স্বৈরাচার এরশাদের পতন"
+        "en": "Anti-Autocracy Movement",
+        "bn": "স্বৈরাচার বিরোধী আন্দোলন"
       },
       "description": {
-        "en": "After years of protests by student alliances and political parties, military dictator H.M. Ershad resigns. Noor Hossain's 'Let Democracy be Free' slogan becomes iconic.",
-        "bn": "ছাত্র জোট এবং রাজনৈতিক দলগুলোর বছরের পর বছর প্রতিবাদের পর, সামরিক একনায়ক এইচ.এম. এরশাদ পদত্যাগ করেন। নূর হোসেনের 'গণতন্ত্র মুক্তি পাক' স্লোগান আইকনিক হয়ে ওঠে।"
+        "en": "A mass uprising forces military dictator H.M. Ershad to resign. This marks the restoration of parliamentary democracy in Bangladesh.",
+        "bn": "গণঅভ্যুত্থান সামরিক একনায়ক এইচ.এম. এরশাদকে পদত্যাগ করতে বাধ্য করে। এটি বাংলাদেশে সংসদীয় গণতন্ত্রের পুনরুদ্ধার চিহ্নিত করে।"
       },
       "category": "revolution",
       "significance": "high",
-      "icon": "celebration"
+      "icon": "how_to_vote"
     },
     {
-      "id": "2013_shahbag",
-      "year": 2013,
-      "period": "2013",
-      "title": {
-        "en": "Shahbag Movement",
-        "bn": "শাহবাগ আন্দোলন"
-      },
-      "description": {
-        "en": "A massive youth-led movement at Ganojagaran Mancha demanding maximum punishment for war criminals of 1971 and a ban on religion-based politics.",
-        "bn": "গণজাগরণ মঞ্চে তরুণদের নেতৃত্বে এক বিশাল আন্দোলন যা ১৯৭১ সালের যুদ্ধাপরাধীদের সর্বোচ্চ শাস্তি এবং ধর্মভিত্তিক রাজনীতি নিষিদ্ধ করার দাবি জানায়।"
-      },
-      "category": "revolution",
-      "significance": "medium",
-      "icon": "mic_external_on"
-    },
-    {
-      "id": "2024_july_revolution",
+      "id": "2024_july_uprising",
       "year": 2024,
       "period": "2024",
       "title": {
@@ -345,12 +361,12 @@
         "bn": "জুলাই বিপ্লব"
       },
       "description": {
-        "en": "Starting as a student movement against discrimination (quota), it evolved into a mass uprising that toppled the 15-year Awami League regime, forcing the Prime Minister to flee.",
-        "bn": "বৈষম্যের (কোটা) বিরুদ্ধে ছাত্র আন্দোলন হিসেবে শুরু হয়ে, এটি একটি গণঅভ্যুত্থানে পরিণত হয় যা ১৫ বছরের আওয়ামী লীগ সরকারের পতন ঘটায় এবং প্রধানমন্ত্রীকে দেশত্যাগে বাধ্য করে।"
+        "en": "A student-led movement demanding quota reform turns into a mass uprising against authoritarianism, leading to the resignation and flight of Prime Minister Sheikh Hasina.",
+        "bn": "কোটা সংস্কারের দাবিতে শুরু হওয়া ছাত্র আন্দোলন স্বৈরতন্ত্রের বিরুদ্ধে গণঅভ্যুত্থানে রূপ নেয়, যার ফলে প্রধানমন্ত্রী শেখ হাসিনা পদত্যাগ করে দেশত্যাগে বাধ্য হন।"
       },
       "category": "revolution",
       "significance": "critical",
-      "icon": "crisis_alert"
+      "icon": "groups_2"
     }
   ]
 }
