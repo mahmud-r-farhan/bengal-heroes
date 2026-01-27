@@ -495,7 +495,6 @@ class _EnhancedOnThisDayCardState extends State<_EnhancedOnThisDayCard> {
             ],
           ),
         ),
-      ),
     );
   }
 }
