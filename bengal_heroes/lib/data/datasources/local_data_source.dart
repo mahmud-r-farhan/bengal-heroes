@@ -16,6 +16,7 @@ class LocalDataSource {
   List<Category>? _categories;
   List<GlobalEvent>? _events;
   List<Location>? _locations;
+  List<TimelineEvent>? _timelineEvents;
 
   /// Load all data from assets
   Future<void> loadAllData() async {
@@ -25,6 +26,7 @@ class LocalDataSource {
       loadCategories(),
       loadEvents(),
       loadLocations(),
+      loadTimelineEvents(),
     ]);
   }
 
@@ -182,6 +184,32 @@ class LocalDataSource {
     return events.where((e) => e.matchesDate(month, day)).toList();
   }
 
+  /// Load timeline events from JSON
+  Future<List<TimelineEvent>> loadTimelineEvents() async {
+    if (_timelineEvents != null) return _timelineEvents!;
+
+    try {
+      final String jsonString =
+          await rootBundle.loadString('assets/data/timeline.json');
+      final Map<String, dynamic> jsonMap =
+          json.decode(jsonString) as Map<String, dynamic>;
+      final List<dynamic> events =
+          jsonMap['timeline_events'] as List<dynamic>;
+      _timelineEvents = events
+          .map((e) => TimelineEvent.fromJson(e as Map<String, dynamic>))
+          .toList();
+      return _timelineEvents!;
+    } catch (e) {
+      // Error loading timeline events
+      return [];
+    }
+  }
+
+  /// Get all timeline events
+  Future<List<TimelineEvent>> getTimelineEvents() async {
+    return loadTimelineEvents();
+  }
+
   /// Clear cache (for refresh)
   void clearCache() {
     _heroes = null;
@@ -189,5 +217,6 @@ class LocalDataSource {
     _categories = null;
     _events = null;
     _locations = null;
+    _timelineEvents = null;
   }
 }

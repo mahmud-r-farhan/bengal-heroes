@@ -1,0 +1,214 @@
+{
+  "timeline_events": [
+    {
+      "id": "1352_sultanate",
+      "year": 1352,
+      "period": "1352-1576",
+      "title": {
+        "en": "Bengal Sultanate",
+        "bn": "বেঙ্গল সালতানাত"
+      },
+      "description": {
+        "en": "Bengal Sultanate established as independent state. Era of Islamic rule in Bengal with development of architecture, literature, and administration.",
+        "bn": "বেঙ্গল স্বাধীন রাজ্য হিসেবে প্রতিষ্ঠিত। বাংলায় ইসলামী শাসনের যুগ যেখানে স্থাপত্য, সাহিত্য এবং প্রশাসনের উন্নয়ন ঘটেছিল।"
+      },
+      "category": "empire",
+      "empire": "Bengal Sultanate",
+      "significance": "high",
+      "icon": "crown"
+    },
+    {
+      "id": "1576_mughal",
+      "year": 1576,
+      "period": "1576-1717",
+      "title": {
+        "en": "Mughal Rule Begins",
+        "bn": "মোঘল শাসন শুরু"
+      },
+      "description": {
+        "en": "Bengal conquered by Mughal Emperor Akbar. Bengal becomes a prosperous Mughal subah (province) with flourishing trade, culture, and arts.",
+        "bn": "মোঘল সম্রাট আকবর বাংলা জয় করেন। বাংলা একটি সমৃদ্ধ মোঘল সুবাহ হয়ে ওঠে বাণিজ্য, সংস্কৃতি এবং শিল্পের বিকাশ সহ।"
+      },
+      "category": "empire",
+      "empire": "Mughal Empire",
+      "significance": "high",
+      "icon": "crown"
+    },
+    {
+      "id": "1717_decline",
+      "year": 1717,
+      "period": "1717-1757",
+      "title": {
+        "en": "Decline of Mughal Authority",
+        "bn": "মোঘল কর্তৃত্ব হ্রাস"
+      },
+      "description": {
+        "en": "As Mughal central authority weakens, Bengal becomes increasingly independent. Rise of regional powers and local nawabs. Start of European merchant activities.",
+        "bn": "মোঘল কেন্দ্রীয় কর্তৃত্ব দুর্বল হওয়ার সাথে সাথে বাংলা ক্রমবর্ধমান স্বাধীন হয়ে ওঠে। আঞ্চলিক ক্ষমতা এবং স্থানীয় নবাবদের উত্থান।"
+      },
+      "category": "event",
+      "significance": "medium",
+      "icon": "trending_down"
+    },
+    {
+      "id": "1757_plassey",
+      "year": 1757,
+      "period": "1757",
+      "title": {
+        "en": "Battle of Plassey",
+        "bn": "প্লাসির যুদ্ধ"
+      },
+      "description": {
+        "en": "Siraj ud-Daulah defeated by Robert Clive at Battle of Plassey. British East India Company gains control over Bengal. Beginning of colonial rule and end of independent Bengal.",
+        "bn": "সিরাজ উদ-দৌলা রবার্ট ক্লাইভের কাছে প্লাসির যুদ্ধে পরাজিত হন। ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানি বাংলার নিয়ন্ত্রণ লাভ করে। উপনিবেশীয় শাসনের শুরু এবং স্বাধীন বাংলার সমাপ্তি।"
+      },
+      "category": "war",
+      "significance": "critical",
+      "icon": "local_fire_department"
+    },
+    {
+      "id": "1770_famine",
+      "year": 1770,
+      "period": "1770",
+      "title": {
+        "en": "Bengal Famine",
+        "bn": "বেঙ্গল দুর্ভিক্ষ"
+      },
+      "description": {
+        "en": "Severe famine ravages Bengal due to overtaxation by British administration. Millions perish. First major humanitarian crisis under colonial rule.",
+        "bn": "ব্রিটিশ প্রশাসনের অতিরিক্ত কর আরোপের কারণে ভীষণ দুর্ভিক্ষ বাংলাকে বিধ্বস্ত করে। লক্ষ লক্ষ মানুষ মারা যায়। উপনিবেশীয় শাসনের অধীনে প্রথম বড় মানবিক সংকট।"
+      },
+      "category": "suffering",
+      "significance": "critical",
+      "icon": "sentiment_very_dissatisfied"
+    },
+    {
+      "id": "1873_indigo",
+      "year": 1873,
+      "period": "1873",
+      "title": {
+        "en": "Indigo Revolt",
+        "bn": "নীল বিদ্রোহ"
+      },
+      "description": {
+        "en": "Peasants rise against oppressive indigo cultivation system. First organized rural revolt against colonial exploitation. Marks beginning of anti-colonial consciousness.",
+        "bn": "কৃষকরা অত্যাচারী নীল চাষ ব্যবস্থার বিরুদ্ধে বিদ্রোহ করে। উপনিবেশীয় শোষণের বিরুদ্ধে প্রথম সংগঠিত গ্রামীণ বিদ্রোহ। উপনিবেশ বিরোধী চেতনার সূচনা।"
+      },
+      "category": "revolution",
+      "significance": "high",
+      "icon": "groups"
+    },
+    {
+      "id": "1905_swadeshi",
+      "year": 1905,
+      "period": "1905-1911",
+      "title": {
+        "en": "Swadeshi Movement",
+        "bn": "স্বদেশী আন্দোলন"
+      },
+      "description": {
+        "en": "Swadeshi movement against partition of Bengal. Boycott of British goods and promotion of Indian products. Major anti-colonial movement with economic nationalism.",
+        "bn": "বাংলা বিভাজনের বিরুদ্ধে স্বদেশী আন্দোলন। ব্রিটিশ পণ্য বর্জন এবং ভারতীয় পণ্য প্রচার। অর্থনৈতিক জাতীয়তাবাদ সহ প্রধান উপনিবেশ বিরোধী আন্দোলন।"
+      },
+      "category": "revolution",
+      "significance": "high",
+      "icon": "local_fire_department"
+    },
+    {
+      "id": "1911_partition_reversed",
+      "year": 1911,
+      "period": "1911",
+      "title": {
+        "en": "Partition Reversed",
+        "bn": "বিভাজন বাতিল"
+      },
+      "description": {
+        "en": "Partition of Bengal reversed due to mass protests. Victory for swadeshi movement but heightens political tensions and leads to rise of revolutionary nationalism.",
+        "bn": "জনতাত্ত্বিক প্রতিবাদের কারণে বেঙ্গলের বিভাজন বাতিল। স্বদেশী আন্দোলনের জন্য বিজয় কিন্তু রাজনৈতিক উত্তেজনা বৃদ্ধি এবং বিপ্লবী জাতীয়তাবাদের উত্থান।"
+      },
+      "category": "event",
+      "significance": "high",
+      "icon": "check_circle"
+    },
+    {
+      "id": "1921_non_cooperation",
+      "year": 1921,
+      "period": "1921-1922",
+      "title": {
+        "en": "Non-Cooperation Movement",
+        "bn": "অসহযোগ আন্দোলন"
+      },
+      "description": {
+        "en": "Gandhi launches Non-Cooperation Movement. Massive participation from Bengal with boycotts, protests, and civil disobedience against British rule.",
+        "bn": "গান্ধী অসহযোগ আন্দোলন শুরু করেন। বাংলা থেকে ব্যাপক অংশগ্রহণ বর্জন, প্রতিবাদ এবং ব্রিটিশ শাসনের বিরুদ্ধে অসহযোগিতা সহ।"
+      },
+      "category": "revolution",
+      "significance": "high",
+      "icon": "people"
+    },
+    {
+      "id": "1943_famine",
+      "year": 1943,
+      "period": "1943",
+      "title": {
+        "en": "Bengal Famine",
+        "bn": "বেঙ্গল দুর্ভিক্ষ"
+      },
+      "description": {
+        "en": "Devastating famine during World War II. British policies and negligence lead to deaths of 3 million people. One of history's worst humanitarian disasters. Height of colonial oppression.",
+        "bn": "দ্বিতীয় বিশ্বযুদ্ধের সময় ভয়াবহ দুর্ভিক্ষ। ব্রিটিশ নীতি এবং অবহেলা ৩ মিলিয়ন মানুষের মৃত্যু ঘটায়। ইতিহাসের সবচেয়ে খারাপ মানবিক দুর্যোগ। উপনিবেশীয় নিপীড়নের চূড়ান্ত।"
+      },
+      "category": "suffering",
+      "significance": "critical",
+      "icon": "sentiment_very_dissatisfied"
+    },
+    {
+      "id": "1947_independence",
+      "year": 1947,
+      "period": "1947",
+      "title": {
+        "en": "Independence",
+        "bn": "স্বাধীনতা"
+      },
+      "description": {
+        "en": "India gains independence from British rule. End of 190 years of colonial oppression. Bengal celebrates freedom but faces partition and communal violence. Birth of new nation.",
+        "bn": "ভারত ব্রিটিশ শাসন থেকে স্বাধীনতা লাভ করে। ১৯০ বছরের উপনিবেশীয় নিপীড়নের অবসান। বাংলা স্বাধীনতা উদযাপন করে কিন্তু বিভাজন এবং সাম্প্রদায়িক সংঘাতের সম্মুখীন হয়। নতুন জাতির জন্ম।"
+      },
+      "category": "independence",
+      "significance": "critical",
+      "icon": "flag"
+    },
+    {
+      "id": "1947_partition",
+      "year": 1947,
+      "period": "1947",
+      "title": {
+        "en": "Partition of India",
+        "bn": "ভারত বিভাজন"
+      },
+      "description": {
+        "en": "India and Pakistan partition announced. Bengal is divided between India and Pakistan. Communal violence, mass displacement, and unprecedented human tragedy. Millions displaced.",
+        "bn": "ভারত এবং পাকিস্তান বিভাজন ঘোষণা করা হয়। বাংলা ভারত এবং পাকিস্তানের মধ্যে বিভক্ত। সাম্প্রদায়িক সংঘাত, গণবিস্থাপন এবং অভূতপূর্ব মানব ট্রেজেডি। লক্ষ লক্ষ মানুষ বাস্তুহারা।"
+      },
+      "category": "suffering",
+      "significance": "critical",
+      "icon": "sentiment_very_dissatisfied"
+    },
+    {
+      "id": "1950_republic",
+      "year": 1950,
+      "period": "1950-present",
+      "title": {
+        "en": "Republic of India",
+        "bn": "ভারত প্রজাতন্ত্র"
+      },
+      "description": {
+        "en": "India becomes a sovereign democratic republic. Constitution adopted. Bengal integrates as West Bengal state. Era of reconstruction and democratic governance begins.",
+        "bn": "ভারত একটি সার্বভৌম গণতান্ত্রিক প্রজাতন্ত্র হয়ে ওঠে। সংবিধান গৃহীত হয়। বাংলা পশ্চিমবঙ্গ রাজ্য হিসেবে একীভূত হয়। পুনর্নির্মাণ এবং গণতান্ত্রিক শাসনের যুগ শুরু।"
+      },
+      "category": "independence",
+      "significance": "high",
+      "icon": "flag"
+    }
+  ]
+}

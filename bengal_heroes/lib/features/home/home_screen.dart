@@ -11,6 +11,7 @@ import 'widgets/on_this_day_section.dart';
 import 'widgets/era_carousel.dart';
 import 'widgets/featured_heroes_section.dart';
 import 'widgets/war_collection_section.dart';
+import 'widgets/timeline_section.dart';
 
 /// Home screen with "On This Day" and featured content
 class HomeScreen extends ConsumerWidget {
@@ -112,6 +113,14 @@ class HomeScreen extends ConsumerWidget {
                 const WarCollectionSection()
                     .animate()
                     .fadeIn(delay: 500.ms, duration: 400.ms)
+                    .slideY(begin: 0.1, end: 0),
+
+                const SizedBox(height: 24),
+
+                // Bengal Timeline
+                const TimelineSection()
+                    .animate()
+                    .fadeIn(delay: 600.ms, duration: 400.ms)
                     .slideY(begin: 0.1, end: 0),
 
                 const SizedBox(height: 24),
