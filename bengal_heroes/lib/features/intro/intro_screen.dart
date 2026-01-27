@@ -247,7 +247,7 @@ class _IntroScreenState extends ConsumerState<IntroScreen> {
             children: [
               _buildEraBadge('Sultanate Era', AppColors.eraSultanate),
               _buildEraBadge('British Raj', AppColors.eraBritishRaj),
-              _buildEraBadge('Liberation 1971', AppColors.eraLiberation1971),
+              _buildEraBadge('Liberations', AppColors.eraLiberation1971),
             ],
           ).animate().fadeIn(delay: 600.ms),
         ],
