@@ -9,7 +9,8 @@
     "era": "british_resistance",
     "category": [
       "martyr",
-      "revolutionary"
+      "revolutionary",
+      "war_movement"
     ],
     "images": [
       "assets/images/heroes/titumir.png"
@@ -81,7 +82,8 @@
     "era": "liberation_1971",
     "category": [
       "revolutionary",
-      "ruler"
+      "ruler",
+      "war_movement"
     ],
     "images": [
       "assets/images/heroes/bangabandhu.png"
@@ -195,7 +197,8 @@
     "era": "mughal",
     "category": [
       "ruler",
-      "soldier"
+      "soldier",
+      "war_movement"
     ],
     "images": [
       "assets/images/heroes/isa_khan.png"
@@ -231,7 +234,8 @@
     "era": "british_resistance",
     "category": [
       "martyr",
-      "revolutionary"
+      "revolutionary",
+      "war_movement"
     ],
     "images": [
       "assets/images/heroes/surya_sen.png"
@@ -267,7 +271,8 @@
     "era": "liberation_1971",
     "category": [
       "martyr",
-      "soldier"
+      "soldier",
+      "war_movement"
     ],
     "images": [
       "assets/images/heroes/ruhul_amin.png"
@@ -304,7 +309,8 @@
     "category": [
       "martyr",
       "student",
-      "revolutionary"
+      "revolutionary",
+      "war_movement"
     ],
     "images": [
       "assets/images/heroes/abu_sayed.png"
@@ -340,7 +346,8 @@
     "era": "july_revolution_2024",
     "category": [
       "martyr",
-      "student"
+      "student",
+      "war_movement"
     ],
     "images": [
       "assets/images/heroes/mir_mugdho.png"

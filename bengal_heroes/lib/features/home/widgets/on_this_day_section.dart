@@ -321,12 +321,14 @@ class _EnhancedOnThisDayCard extends StatefulWidget {
   final String locale;
   final OnThisDayEventType eventType;
   final int animationDelay;
+  final VoidCallback? onTap;
 
   const _EnhancedOnThisDayCard({
     required this.hero,
     required this.locale,
     required this.eventType,
     required this.animationDelay,
+    this.onTap,
   });
 
   @override
@@ -348,152 +350,155 @@ class _EnhancedOnThisDayCardState extends State<_EnhancedOnThisDayCard> {
     return MouseRegion(
       onEnter: (_) => setState(() => _isHovered = true),
       onExit: (_) => setState(() => _isHovered = false),
-      child: Container(
-        width: 300,
-        margin: const EdgeInsets.only(right: 16),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(20),
-          color: theme.colorScheme.surface,
-          border: Border.all(
-            color: _isHovered ? color : color.withValues(alpha: 0.2),
-            width: 2,
-          ),
-          boxShadow: [
-            BoxShadow(
-              color: _isHovered ? color.withValues(alpha: 0.3) : Colors.black.withValues(alpha: 0.08),
-              blurRadius: _isHovered ? 20 : 12,
-              offset: _isHovered ? const Offset(0, 8) : const Offset(0, 4),
+      child: GestureDetector(
+        onTap: widget.onTap,
+        child: Container(
+          width: 300,
+          margin: const EdgeInsets.only(right: 16),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(20),
+            color: theme.colorScheme.surface,
+            border: Border.all(
+              color: _isHovered ? color : color.withValues(alpha: 0.2),
+              width: 2,
             ),
-          ],
-        ),
-        child: Stack(
-          children: [
-            // Background decorative element
-            Positioned(
-              top: -40,
-              right: -40,
-              child: Container(
-                width: 120,
-                height: 120,
-                decoration: BoxDecoration(
-                  color: color.withValues(alpha: 0.05),
-                  shape: BoxShape.circle,
+            boxShadow: [
+              BoxShadow(
+                color: _isHovered ? color.withValues(alpha: 0.3) : Colors.black.withValues(alpha: 0.08),
+                blurRadius: _isHovered ? 20 : 12,
+                offset: _isHovered ? const Offset(0, 8) : const Offset(0, 4),
+              ),
+            ],
+          ),
+          child: Stack(
+            children: [
+              // Background decorative element
+              Positioned(
+                top: -40,
+                right: -40,
+                child: Container(
+                  width: 120,
+                  height: 120,
+                  decoration: BoxDecoration(
+                    color: color.withValues(alpha: 0.05),
+                    shape: BoxShape.circle,
+                  ),
                 ),
               ),
-            ),
 
-            // Main content
-            Padding(
-              padding: const EdgeInsets.all(20),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  // Event type badge with icon
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 12,
-                      vertical: 6,
-                    ),
-                    decoration: BoxDecoration(
-                      color: color.withValues(alpha: 0.12),
-                      borderRadius: BorderRadius.circular(20),
-                      border: Border.all(
-                        color: color.withValues(alpha: 0.3),
+              // Main content
+              Padding(
+                padding: const EdgeInsets.all(20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    // Event type badge with icon
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 6,
                       ),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Icon(
-                          icon,
-                          size: 14,
-                          color: color,
+                      decoration: BoxDecoration(
+                        color: color.withValues(alpha: 0.12),
+                        borderRadius: BorderRadius.circular(20),
+                        border: Border.all(
+                          color: color.withValues(alpha: 0.3),
                         ),
-                        const SizedBox(width: 6),
-                        Text(
-                          isBirth ? 'Born' : 'Remembered',
-                          style: theme.textTheme.labelSmall?.copyWith(
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Icon(
+                            icon,
+                            size: 14,
                             color: color,
-                            fontWeight: FontWeight.w700,
-                            letterSpacing: 0.2,
                           ),
-                        ),
-                      ],
-                    ),
-                  ),
-
-                  const SizedBox(height: 14),
-
-                  // Hero name
-                  Text(
-                    content.name,
-                    style: theme.textTheme.titleMedium?.copyWith(
-                      fontWeight: FontWeight.bold,
-                      letterSpacing: 0.3,
-                      height: 1.3,
-                    ),
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-
-                  const SizedBox(height: 8),
-
-                  // Year with styling
-                  if (year != null)
-                    Row(
-                      children: [
-                        Container(
-                          width: 3,
-                          height: 3,
-                          decoration: BoxDecoration(
-                            color: color,
-                            shape: BoxShape.circle,
+                          const SizedBox(width: 6),
+                          Text(
+                            isBirth ? 'Born' : 'Remembered',
+                            style: theme.textTheme.labelSmall?.copyWith(
+                              color: color,
+                              fontWeight: FontWeight.w700,
+                              letterSpacing: 0.2,
+                            ),
                           ),
-                        ),
-                        const SizedBox(width: 8),
-                        Text(
-                          year,
-                          style: theme.textTheme.bodyMedium?.copyWith(
-                            color: color,
-                            fontWeight: FontWeight.w700,
-                            letterSpacing: 0.5,
-                          ),
-                        ),
-                      ],
-                    ),
-
-                  const Spacer(),
-
-                  // Short bio with fade effect
-                  Text(
-                    content.shortBio,
-                    style: theme.textTheme.bodySmall?.copyWith(
-                      color: theme.colorScheme.onSurfaceVariant,
-                      height: 1.4,
-                    ),
-                    maxLines: 3,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-
-                  const SizedBox(height: 12),
-
-                  // Bottom accent line
-                  Container(
-                    height: 2,
-                    decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          color,
-                          color.withValues(alpha: 0),
                         ],
                       ),
-                      borderRadius: BorderRadius.circular(2),
                     ),
-                  ),
-                ],
+
+                    const SizedBox(height: 14),
+
+                    // Hero name
+                    Text(
+                      content.name,
+                      style: theme.textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 0.3,
+                        height: 1.3,
+                      ),
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+
+                    const SizedBox(height: 8),
+
+                    // Year with styling
+                    if (year != null)
+                      Row(
+                        children: [
+                          Container(
+                            width: 3,
+                            height: 3,
+                            decoration: BoxDecoration(
+                              color: color,
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Text(
+                            year,
+                            style: theme.textTheme.bodyMedium?.copyWith(
+                              color: color,
+                              fontWeight: FontWeight.w700,
+                              letterSpacing: 0.5,
+                            ),
+                          ),
+                        ],
+                      ),
+
+                    const Spacer(),
+
+                    // Short bio with fade effect
+                    Text(
+                      content.shortBio,
+                      style: theme.textTheme.bodySmall?.copyWith(
+                        color: theme.colorScheme.onSurfaceVariant,
+                        height: 1.4,
+                      ),
+                      maxLines: 3,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+
+                    const SizedBox(height: 12),
+
+                    // Bottom accent line
+                    Container(
+                      height: 2,
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            color,
+                            color.withValues(alpha: 0),
+                          ],
+                        ),
+                        borderRadius: BorderRadius.circular(2),
+                      ),
+                    ),
+                  ],
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
@@ -504,11 +509,13 @@ class _EnhancedOnThisDayEventCard extends StatefulWidget {
   final models.GlobalEvent event;
   final String locale;
   final int animationDelay;
+  final VoidCallback? onTap;
 
   const _EnhancedOnThisDayEventCard({
     required this.event,
     required this.locale,
     required this.animationDelay,
+    this.onTap,
   });
 
   @override
@@ -526,7 +533,9 @@ class _EnhancedOnThisDayEventCardState extends State<_EnhancedOnThisDayEventCard
     return MouseRegion(
       onEnter: (_) => setState(() => _isHovered = true),
       onExit: (_) => setState(() => _isHovered = false),
-      child: Container(
+      child: GestureDetector(
+        onTap: widget.onTap,
+        child: Container(
         width: 300,
         margin: const EdgeInsets.only(right: 16),
         decoration: BoxDecoration(
@@ -674,6 +683,7 @@ class _EnhancedOnThisDayEventCardState extends State<_EnhancedOnThisDayEventCard
               ),
             ),
           ],
+        ),
         ),
       ),
     );

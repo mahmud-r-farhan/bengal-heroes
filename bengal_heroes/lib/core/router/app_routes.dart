@@ -13,10 +13,13 @@ class AppRoutes {
   static const String heroDetail = '/hero';
   static const String heroesByEra = '/era';
   static const String heroesByCategory = '/category';
+  static const String warMovements = '/war-movements';
 
   // Helper methods for navigation
   static String getHeroDetailPath(String heroId) => '$heroDetail/$heroId';
   static String getHeroesByEraPath(String eraId) => '$heroesByEra/$eraId';
   static String getHeroesByCategoryPath(String categoryId) =>
       '$heroesByCategory/$categoryId';
+  static String getWarMovementsPath(String categoryId) =>
+      '$warMovements/$categoryId';
 }

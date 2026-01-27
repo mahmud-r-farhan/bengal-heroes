@@ -102,5 +102,18 @@
         },
         "icon_asset": "assets/icons/cat_student.svg",
         "color_hex": "#FF9800"
+    },
+    {
+        "id": "war_movement",
+        "name": {
+            "en": "Bengal Faces War",
+            "bn": "বেঙ্গল যুদ্ধ এবং আন্দোলন"
+        },
+        "description": {
+            "en": "Political leaders, warriors, and activists who shaped Bengal's struggle from the Sultanate era through modern times. Covering conflicts, political upheavals, and mass movements that defined the region.",
+            "bn": "রাজনৈতিক নেতা, যোদ্ধা এবং কর্মীরা যারা সালতানাৎ যুগ থেকে আধুনিক সময় পর্যন্ত বাংলার সংগ্রাম গঠন করেছেন। বিরোধ, রাজনৈতিক উত্থান-পতন এবং জনগণের আন্দোলন যা এই অঞ্চলকে সংজ্ঞায়িত করেছে।"
+        },
+        "icon_asset": "assets/icons/cat_war_movement.svg",
+        "color_hex": "#C62828"
     }
 ]

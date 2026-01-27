@@ -154,6 +154,31 @@ final appRouterProvider = Provider<GoRouter>((ref) {
           );
         },
       ),
+      
+      // War Movements by Category (alias for war_movement category)
+      GoRoute(
+        path: '${AppRoutes.warMovements}/:categoryId',
+        name: 'warMovements',
+        pageBuilder: (context, state) {
+          final categoryId = state.pathParameters['categoryId']!;
+          return CustomTransitionPage(
+            key: state.pageKey,
+            child: HeroesScreen(categoryId: categoryId),
+            transitionsBuilder: (context, animation, secondaryAnimation, child) {
+              return SlideTransition(
+                position: Tween<Offset>(
+                  begin: const Offset(1, 0),
+                  end: Offset.zero,
+                ).animate(CurvedAnimation(
+                  parent: animation,
+                  curve: Curves.easeOutCubic,
+                )),
+                child: child,
+              );
+            },
+          );
+        },
+      ),
     ],
     errorBuilder: (context, state) => Scaffold(
       body: Center(
@@ -195,7 +220,7 @@ class MainShell extends StatelessWidget {
   }
 }
 
-/// Bottom Navigation Bar widget
+/// Bottom Navigation Bar widget with enhanced UX/UI
 class MainBottomNavBar extends StatelessWidget {
   const MainBottomNavBar({super.key});
 
@@ -213,46 +238,56 @@ class MainBottomNavBar extends StatelessWidget {
     final selectedIndex = _calculateSelectedIndex(context);
     final theme = Theme.of(context);
 
-    return NavigationBar(
-      selectedIndex: selectedIndex,
-      onDestinationSelected: (index) {
-        switch (index) {
-          case 0:
-            context.go(AppRoutes.home);
-            break;
-          case 1:
-            context.go(AppRoutes.heroes);
-            break;
-          case 2:
-            context.go(AppRoutes.search);
-            break;
-          case 3:
-            context.go(AppRoutes.settings);
-            break;
-        }
-      },
-      destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.home_outlined),
-          selectedIcon: Icon(Icons.home, color: theme.colorScheme.primary),
-          label: 'Home',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.people_outline),
-          selectedIcon: Icon(Icons.people, color: theme.colorScheme.primary),
-          label: 'Heroes',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.search_outlined),
-          selectedIcon: Icon(Icons.search, color: theme.colorScheme.primary),
-          label: 'Search',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.settings_outlined),
-          selectedIcon: Icon(Icons.settings, color: theme.colorScheme.primary),
-          label: 'Settings',
-        ),
-      ],
+    return Material(
+      elevation: 12,
+      child: NavigationBar(
+        selectedIndex: selectedIndex,
+        indicatorColor: theme.colorScheme.primary.withValues(alpha: 0.15),
+        animationDuration: const Duration(milliseconds: 500),
+        labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
+        onDestinationSelected: (index) {
+          switch (index) {
+            case 0:
+              context.go(AppRoutes.home);
+              break;
+            case 1:
+              context.go(AppRoutes.heroes);
+              break;
+            case 2:
+              context.go(AppRoutes.search);
+              break;
+            case 3:
+              context.go(AppRoutes.settings);
+              break;
+          }
+        },
+        destinations: [
+          NavigationDestination(
+            icon: const Icon(Icons.home_outlined),
+            selectedIcon: Icon(Icons.home, color: theme.colorScheme.primary),
+            label: 'Home',
+            tooltip: 'Home',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.people_outline),
+            selectedIcon: Icon(Icons.people, color: theme.colorScheme.primary),
+            label: 'Heroes',
+            tooltip: 'Explore Heroes',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.search_outlined),
+            selectedIcon: Icon(Icons.search, color: theme.colorScheme.primary),
+            label: 'Search',
+            tooltip: 'Search',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.settings_outlined),
+            selectedIcon: Icon(Icons.settings, color: theme.colorScheme.primary),
+            label: 'Settings',
+            tooltip: 'Settings',
+          ),
+        ],
+      ),
     );
   }
 }

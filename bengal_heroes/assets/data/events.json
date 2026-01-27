@@ -108,5 +108,215 @@
             "hero_abu_sayed"
         ],
         "image_asset": "assets/images/events/abu_sayed_martyrdom.png"
+    },
+    {
+        "id": "event_008",
+        "date": "1576-06-05",
+        "title": {
+            "en": "Battle of Talikota",
+            "bn": "তালিকোটার যুদ্ধ"
+        },
+        "description": {
+            "en": "Bengal witnessed the fall of Hindu kingdoms and the rise of the Delhi Sultanate's influence. This period marked major political upheaval in the region.",
+            "bn": "বাংলায় হিন্দু রাজ্যের পতন এবং দিল্লির সালতানাৎ প্রভাবের উত্থান দেখা যায়। এই সময় অঞ্চলে বড় রাজনৈতিক পরিবর্তন ঘটেছিল।"
+        },
+        "era_id": "bengal_sultanate",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/talikota.png"
+    },
+    {
+        "id": "event_009",
+        "date": "1526-04-21",
+        "title": {
+            "en": "Rise of the Bengal Sultanate",
+            "bn": "বেঙ্গল সালতানাৎ প্রতিষ্ঠা"
+        },
+        "description": {
+            "en": "Alauddin Husain Shahi established the Bengal Sultanate, bringing independent rule to Bengal after centuries under Delhi's control.",
+            "bn": "আলাউদ্দিন হোসেন শাহী বেঙ্গল সালতানাৎ প্রতিষ্ঠা করেন, দিল্লির নিয়ন্ত্রণ থেকে মুক্ত স্বাধীন শাসন প্রতিষ্ঠা করেন।"
+        },
+        "era_id": "bengal_sultanate",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/sultanate_rise.png"
+    },
+    {
+        "id": "event_010",
+        "date": "1757-06-23",
+        "title": {
+            "en": "Battle of Plassey",
+            "bn": "পলাশীর যুদ্ধ"
+        },
+        "description": {
+            "en": "Robert Clive defeated Siraj ud-Daulah in the Battle of Plassey, marking the beginning of British colonial rule in India and the end of Bengali independence.",
+            "bn": "রবার্ট ক্লাইভ সিরাজ উদ-দৌলাকে পলাশীর যুদ্ধে পরাজিত করেন, ভারতে ব্রিটিশ ঔপনিবেশিক শাসনের সূচনা এবং বাঙালি স্বাধীনতার অবসান ঘটায়।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/plassey.png"
+    },
+    {
+        "id": "event_011",
+        "date": "1873-03-29",
+        "title": {
+            "en": "Indigo Revolt Begins",
+            "bn": "নীলের বিদ্রোহ শুরু"
+        },
+        "description": {
+            "en": "Farmers in Bengal rose against British indigo plantation owners, protesting exploitation and unfair practices. This marked the beginning of peasant resistance movements.",
+            "bn": "বাংলার কৃষকরা ব্রিটিশ নীল চাষীদের বিরুদ্ধে বিদ্রোহ করেন, শোষণ এবং অন্যায্য প্রথার বিরুদ্ধে প্রতিবাদ জানান। এটি কৃষক প্রতিরোধ আন্দোলনের শুরু।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/indigo_revolt.png"
+    },
+    {
+        "id": "event_012",
+        "date": "1906-12-16",
+        "title": {
+            "en": "Swadeshi Movement Spreads",
+            "bn": "স্বদেশী আন্দোলনের বিস্তার"
+        },
+        "description": {
+            "en": "The Swadeshi movement gained momentum across Bengal following the Partition, advocating for Indian-made goods and self-reliance against British economic control.",
+            "bn": "বিভাজনের পর বেঙ্গল জুড়ে স্বদেশী আন্দোলন গতি পায়, ভারত-নির্মিত পণ্য এবং ব্রিটিশ অর্থনৈতিক নিয়ন্ত্রণের বিরুদ্ধে আত্মনির্ভরতার প্রচার করে।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/swadeshi.png"
+    },
+    {
+        "id": "event_013",
+        "date": "1921-02-04",
+        "title": {
+            "en": "Non-Cooperation Movement",
+            "bn": "অসহযোগ আন্দোলন"
+        },
+        "description": {
+            "en": "Bengal played a pivotal role in Gandhi's Non-Cooperation Movement, with thousands boycotting British goods and institutions in a powerful show of solidarity.",
+            "bn": "গান্ধীর অসহযোগ আন্দোলনে বেঙ্গল গুরুত্বপূর্ণ ভূমিকা পালন করে, হাজারো মানুষ ব্রিটিশ পণ্য এবং প্রতিষ্ঠান বর্জন করে।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/non_cooperation.png"
+    },
+    {
+        "id": "event_014",
+        "date": "1943-03-10",
+        "title": {
+            "en": "Bengal Famine of 1943",
+            "bn": "১৯৪৩ সালের বাংলার দুর্ভিক্ষ"
+        },
+        "description": {
+            "en": "A devastating famine swept through Bengal, killing millions due to British colonial policies, wartime conditions, and mismanagement. It was one of history's worst humanitarian disasters.",
+            "bn": "বাংলায় এক ভয়াবহ দুর্ভিক্ষ ছড়িয়ে পড়ে, ব্রিটিশ ঔপনিবেশিক নীতি, যুদ্ধকালীন অবস্থা এবং অব্যবস্থাপনার কারণে লক্ষ লক্ষ মানুষ মৃত্যুবরণ করে।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/bengal_famine.png"
+    },
+    {
+        "id": "event_015",
+        "date": "1947-08-15",
+        "title": {
+            "en": "Independence Day",
+            "bn": "স্বাধীনতা দিবস"
+        },
+        "description": {
+            "en": "India achieved independence from British rule, ending nearly 200 years of colonial subjugation. Bengal became part of independent India and Pakistan.",
+            "bn": "ভারত ব্রিটিশ শাসন থেকে স্বাধীন হয়, প্রায় ২০০ বছরের ঔপনিবেশিক দাসত্বের অবসান ঘটায়। বাংলা স্বাধীন ভারত এবং পাকিস্তানের অংশ হয়ে ওঠে।"
+        },
+        "era_id": "independence",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/independence.png"
+    },
+    {
+        "id": "event_016",
+        "date": "1947-08-14",
+        "title": {
+            "en": "Partition of Bengal",
+            "bn": "বাংলার বিভাজন"
+        },
+        "description": {
+            "en": "Bengal was divided between India and Pakistan, causing massive communal riots, mass migration, and tragic loss of life. Millions were displaced in one of history's worst migrations.",
+            "bn": "বাংলা ভারত এবং পাকিস্তানে বিভক্ত হয়, বিশাল সাম্প্রদায়িক দাঙ্গা, গণ স্থানান্তর এবং অগণিত জীবনহানি ঘটায়। লক্ষ লক্ষ মানুষ ইতিহাসের সবচেয়ে বড় গণ স্থানান্তরে বাস্তুচ্যুত হয়।"
+        },
+        "era_id": "partition",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/partition.png"
+    },
+    {
+        "id": "event_017",
+        "date": "1970-12-07",
+        "title": {
+            "en": "General Elections of 1970",
+            "bn": "১৯৭০ সালের সাধারণ নির্বাচন"
+        },
+        "description": {
+            "en": "Awami League swept elections, signaling demand for Bengali autonomy and democracy. The election results set the stage for the Liberation War.",
+            "bn": "আওয়ামী লীগ নির্বাচনে ব্যাপক বিজয় অর্জন করে, বাঙালি স্বায়ত্তশাসন এবং গণতন্ত্রের দাবি প্রকাশ করে। নির্বাচনের ফলাফল মুক্তিযুদ্ধের পটভূমি তৈরি করে।"
+        },
+        "era_id": "liberation_1971",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/election_1970.png"
+    },
+    {
+        "id": "event_018",
+        "date": "1971-03-25",
+        "title": {
+            "en": "Operation Searchlight Begins",
+            "bn": "অপারেশন সার্চলাইট শুরু"
+        },
+        "description": {
+            "en": "Pakistan Army launched Operation Searchlight, a brutal military crackdown on Bengali civilians and intellectuals in Dhaka, triggering the Liberation War.",
+            "bn": "পাকিস্তান সেনাবাহিনী ঢাকায় বাঙালি নাগরিক এবং বুদ্ধিজীবীদের উপর ভয়ংকর সামরিক অভিযান শুরু করে, মুক্তিযুদ্ধের সূচনা করে।"
+        },
+        "era_id": "liberation_1971",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/searchlight.png"
+    },
+    {
+        "id": "event_019",
+        "date": "1971-09-16",
+        "title": {
+            "en": "Soviet Union Recognizes Bangladesh",
+            "bn": "সোভিয়েত ইউনিয়ন বাংলাদেশকে স্বীকৃতি দেয়"
+        },
+        "description": {
+            "en": "The Soviet Union officially recognized Bangladesh as an independent nation, providing crucial diplomatic support during the Liberation War.",
+            "bn": "সোভিয়েত ইউনিয়ন বাংলাদেশকে একটি স্বাধীন দেশ হিসেবে স্বীকৃতি দেয়, মুক্তিযুদ্ধের সময় গুরুত্বপূর্ণ কূটনৈতিক সহায়তা প্রদান করে।"
+        },
+        "era_id": "liberation_1971",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/soviet_recognition.png"
+    },
+    {
+        "id": "event_020",
+        "date": "2024-07-05",
+        "title": {
+            "en": "Student Uprising Begins",
+            "bn": "ছাত্র অভ্যুত্থান শুরু"
+        },
+        "description": {
+            "en": "Students in Bangladesh launched massive protests against government policies, demanding justice and reform. The movement grew into a nationwide political upheaval.",
+            "bn": "বাংলাদেশের ছাত্ররা সরকারি নীতির বিরুদ্ধে বিশাল প্রতিবাদ আয়োজন করে, ন্যায়বিচার এবং সংস্কার দাবি করে। আন্দোলনটি সারাদেশের রাজনৈতিক পরিবর্তনে পরিণত হয়।"
+        },
+        "era_id": "july_revolution_2024",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/july_uprising.png"
+    },
+    {
+        "id": "event_021",
+        "date": "2024-08-05",
+        "title": {
+            "en": "Mass Rallies and Government Fall",
+            "bn": "বিশাল জনসমাবেশ এবং সরকার পতন"
+        },
+        "description": {
+            "en": "Massive gatherings at Shahbag and nationwide demonstrations led to the resignation of the Prime Minister and major political changes in Bangladesh.",
+            "bn": "শাহবাগে বিশাল জনসমাবেশ এবং সারাদেশে প্রদর্শন প্রধানমন্ত্রীর পদত্যাগ এবং বাংলাদেশে বড় রাজনৈতিক পরিবর্তন ঘটায়।"
+        },
+        "era_id": "july_revolution_2024",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/mass_rally.png"
     }
 ]
