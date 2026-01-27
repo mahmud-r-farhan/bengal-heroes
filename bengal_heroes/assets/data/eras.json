@@ -94,5 +94,21 @@
         "icon_asset": "assets/icons/era_liberation.svg",
         "color_hex": "#00695C",
         "sort_order": 6
+    },
+    {
+        "id": "july_revolution_2024",
+        "name": {
+            "en": "July Revolution 2024",
+            "bn": "জুলাই বিপ্লব ২০২৪"
+        },
+        "description": {
+            "en": "The student-led mass uprising demanding quota reform that turned into a revolution for justice and democracy.",
+            "bn": "কোটা সংস্কারের দাবিতে ছাত্র-জনতার গণঅভ্যুত্থান যা ন্যায়বিচার ও গণতন্ত্রের জন্য বিপ্লবে রূপ নেয়।"
+        },
+        "start_year": "2024",
+        "end_year": "2024",
+        "icon_asset": "assets/icons/era_july_24.svg",
+        "color_hex": "#D50000",
+        "sort_order": 7
     }
 ]

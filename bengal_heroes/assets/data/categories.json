@@ -89,5 +89,18 @@
         },
         "icon_asset": "assets/icons/cat_soldier.svg",
         "color_hex": "#5D4037"
+    },
+    {
+        "id": "student",
+        "name": {
+            "en": "Student",
+            "bn": "ছাত্র"
+        },
+        "description": {
+            "en": "Student leaders and activists who spearheaded movements for change.",
+            "bn": "ছাত্রনেতা এবং কর্মী যারা পরিবর্তনের জন্য আন্দোলনের নেতৃত্ব দিয়েছেন।"
+        },
+        "icon_asset": "assets/icons/cat_student.svg",
+        "color_hex": "#FF9800"
     }
 ]

@@ -78,5 +78,25 @@
         "region": "Chittagong Division, Bangladesh",
         "latitude": 22.8696,
         "longitude": 91.0995
+    },
+    {
+        "id": "loc_rangpur_univ",
+        "name": {
+            "en": "Begum Rokeya University",
+            "bn": "বেগম রোকেয়া বিশ্ববিদ্যালয়"
+        },
+        "region": "Rangpur, Bangladesh",
+        "latitude": 25.7289,
+        "longitude": 89.2667
+    },
+    {
+        "id": "loc_uttara",
+        "name": {
+            "en": "Uttara",
+            "bn": "উত্তরা"
+        },
+        "region": "Dhaka, Bangladesh",
+        "latitude": 23.8728,
+        "longitude": 90.3969
     }
 ]

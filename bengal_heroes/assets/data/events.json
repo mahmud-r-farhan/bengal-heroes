@@ -91,5 +91,22 @@
             "hero_001"
         ],
         "image_asset": "assets/images/events/bamboo_fort.png"
+    },
+    {
+        "id": "event_007",
+        "date": "2024-07-16",
+        "title": {
+            "en": "Martyrdom of Abu Sayed",
+            "bn": "আবু সাঈদের শাহাদাত"
+        },
+        "description": {
+            "en": "Abu Sayed, a student coordinator, was shot dead by police in Rangpur while standing unarmed with his arms outstretched. His death sparked a nationwide uprising.",
+            "bn": "রংপুরে পুলিশের সামনে নিরস্ত্র ও হাত প্রসারিত করে দাঁড়িয়ে থাকা ছাত্র সমন্বয়ক আবু সাঈদকে গুলি করে হত্যা করা হয়। তার মৃত্যু সারাদেশে গণঅভ্যুত্থানের স্ফুলিঙ্গ ছড়ায়।"
+        },
+        "era_id": "july_revolution_2024",
+        "related_hero_ids": [
+            "hero_abu_sayed"
+        ],
+        "image_asset": "assets/images/events/abu_sayed_martyrdom.png"
     }
 ]

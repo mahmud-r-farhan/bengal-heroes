@@ -7,8 +7,13 @@
       "death": "1831-11-19"
     },
     "era": "british_resistance",
-    "category": ["martyr", "revolutionary"],
-    "images": ["assets/images/heroes/titumir.png"],
+    "category": [
+      "martyr",
+      "revolutionary"
+    ],
+    "images": [
+      "assets/images/heroes/titumir.png"
+    ],
     "location_id": "loc_narkelberiya",
     "importance": 5,
     "content": {
@@ -38,8 +43,13 @@
       "death": "1932-12-09"
     },
     "era": "british_raj",
-    "category": ["intellectual", "revolutionary"],
-    "images": ["assets/images/heroes/begum_rokeya.png"],
+    "category": [
+      "intellectual",
+      "revolutionary"
+    ],
+    "images": [
+      "assets/images/heroes/begum_rokeya.png"
+    ],
     "location_id": "loc_rangpur",
     "importance": 5,
     "content": {
@@ -69,11 +79,19 @@
       "death": "1975-08-15"
     },
     "era": "liberation_1971",
-    "category": ["revolutionary", "ruler"],
-    "images": ["assets/images/heroes/bangabandhu.png"],
+    "category": [
+      "revolutionary",
+      "ruler"
+    ],
+    "images": [
+      "assets/images/heroes/bangabandhu.png"
+    ],
     "location_id": "loc_tungipara",
     "importance": 5,
-    "related_hero_ids": ["hero_004", "hero_005"],
+    "related_hero_ids": [
+      "hero_004",
+      "hero_005"
+    ],
     "content": {
       "en": {
         "name": "Sheikh Mujibur Rahman",
@@ -101,8 +119,14 @@
       "death": "1976-08-29"
     },
     "era": "british_raj",
-    "category": ["poet", "revolutionary", "intellectual"],
-    "images": ["assets/images/heroes/nazrul.png"],
+    "category": [
+      "poet",
+      "revolutionary",
+      "intellectual"
+    ],
+    "images": [
+      "assets/images/heroes/nazrul.png"
+    ],
     "location_id": "loc_churulia",
     "importance": 5,
     "content": {
@@ -132,8 +156,14 @@
       "death": "1941-08-07"
     },
     "era": "british_raj",
-    "category": ["poet", "intellectual", "philosopher"],
-    "images": ["assets/images/heroes/tagore.png"],
+    "category": [
+      "poet",
+      "intellectual",
+      "philosopher"
+    ],
+    "images": [
+      "assets/images/heroes/tagore.png"
+    ],
     "location_id": "loc_jorasanko",
     "importance": 5,
     "content": {
@@ -163,8 +193,13 @@
       "death": "1599-09-17"
     },
     "era": "mughal",
-    "category": ["ruler", "soldier"],
-    "images": ["assets/images/heroes/isa_khan.png"],
+    "category": [
+      "ruler",
+      "soldier"
+    ],
+    "images": [
+      "assets/images/heroes/isa_khan.png"
+    ],
     "location_id": "loc_sonargaon",
     "importance": 4,
     "content": {
@@ -194,8 +229,13 @@
       "death": "1934-01-12"
     },
     "era": "british_resistance",
-    "category": ["martyr", "revolutionary"],
-    "images": ["assets/images/heroes/surya_sen.png"],
+    "category": [
+      "martyr",
+      "revolutionary"
+    ],
+    "images": [
+      "assets/images/heroes/surya_sen.png"
+    ],
     "location_id": "loc_chittagong",
     "importance": 5,
     "content": {
@@ -225,8 +265,13 @@
       "death": "1971-12-10"
     },
     "era": "liberation_1971",
-    "category": ["martyr", "soldier"],
-    "images": ["assets/images/heroes/ruhul_amin.png"],
+    "category": [
+      "martyr",
+      "soldier"
+    ],
+    "images": [
+      "assets/images/heroes/ruhul_amin.png"
+    ],
     "location_id": "loc_noakhali",
     "importance": 4,
     "content": {
@@ -245,6 +290,79 @@
         "quote": "দেশের জন্য প্রাণ দিতে আমি প্রস্তুত।",
         "birth_place": "বাগপাড়া, বেগমগঞ্জ, নোয়াখালী",
         "achievements": "বীরশ্রেষ্ঠ - সর্বোচ্চ বীরত্ব পদক • নৌ কমান্ডো • পাকিস্তানি জাহাজে আক্রমণের নেতৃত্ব • বাংলাদেশের জন্য চূড়ান্ত আত্মত্যাগ"
+      }
+    }
+  },
+  {
+    "id": "hero_abu_sayed",
+    "slug": "abu-sayed",
+    "dates": {
+      "birth": "1999-01-01",
+      "death": "2024-07-16"
+    },
+    "era": "july_revolution_2024",
+    "category": [
+      "martyr",
+      "student",
+      "revolutionary"
+    ],
+    "images": [
+      "assets/images/heroes/abu_sayed.png"
+    ],
+    "location_id": "loc_rangpur_univ",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Abu Sayed",
+        "short_bio": "Abu Sayed was a key coordinator of the Student Against Discrimination movement who was shot dead by police while standing unarmed with his chest bared in protest.",
+        "full_biography": "Abu Sayed (born c. 1999) was a student of the English Department at Begum Rokeya University, Rangpur (BRUR). He was a key coordinator of the Anti-Discrimination Student Movement.\n\nOn July 16, 2024, during the nationwide quota reform protests, students at BRUR faced a police crackdown. In a defining moment of courage, Abu Sayed stood alone in front of the police line, his arms outstretched, holding nothing but a stick in one hand, completely exposing his chest to the armed officers.\n\nPolice opened fire directly at him from close range. Despite being hit, he tried to stand his ground before collapsing. He was rushed to the hospital but was pronounced dead.\n\nHis defiant stance and brutal killing were captured on video and circulated globally, becoming the iconic symbol of the July Revolution. His martyrdom galvanized the entire nation, turning the student protest into a mass uprising that eventually toppled the government.",
+        "quote": "Standing unarmed against tyranny is the highest form of bravery.",
+        "birth_place": "Pirganj, Rangpur, Bangladesh",
+        "achievements": "First martyr of the July Revolution • Iconic symbol of defiance • Coordinator of Anti-Discrimination Student Movement • Inspired nationwide uprising"
+      },
+      "bn": {
+        "name": "আবু সাঈদ",
+        "short_bio": "আবু সাঈদ ছিলেন বৈষম্যবিরোধী ছাত্র আন্দোলনের একজন অন্যতম সমন্বয়ক, যিনি পুলিশের সামনে নিরস্ত্র বুক পেতে দিয়ে দাঁড়িয়েছিলেন এবং পুলিশের গুলিতে শহীদ হন।",
+        "full_biography": "আবু সাঈদ (জন্ম আনুমানিক ১৯৯৯) ছিলেন বেগম রোকেয়া বিশ্ববিদ্যালয়ের বাাংলা বিভাগের ছাত্র এবং বৈষম্যবিরোধী ছাত্র আন্দোলনের অন্যতম সমন্বয়ক।\n\n১৬ জুলাই ২০২৪ তারিখে কোটা সংস্কার আন্দোলনের সময় পুলিশের বাধার মুখে আবু সাঈদ অসীম সাহসিকতার সাথে পুলিশের সামনে বুক পেতে দাঁড়িয়ে যান। তাঁর হাতে ছিল কেবল একটি লাঠি।\n\nপুলিশ খুব কাছ থেকে সরাসরি তাঁর বুকে গুলি চালায়। গুলিবিদ্ধ হয়েও তিনি কিছুক্ষণ দাঁড়িয়ে থাকার চেষ্টা করেন এবং পরে মাটিতে লুটিয়ে পড়েন। হাসপাতালে নেওয়ার পর তাঁকে মৃত ঘোষণা করা হয়।\n\nতাঁর এই বীরত্বপূর্ণ অবস্থান এবং নির্মম হত্যার দৃশ্য ভিডিওর মাধ্যমে ছড়িয়ে পড়ে এবং জুলাই বিপ্লবের প্রতীক হয়ে ওঠে। তাঁর আত্মত্যাগ পুরো জাতিকে জাগিয়ে তোলে এবং আন্দোলনকে গণঅভ্যুত্থানে রূপ দেয়।",
+        "quote": "অন্যায়ের বিরুদ্ধে বুক পেতে দাঁড়ানোই সাহসিকতার সর্বোচ্চ রূপ।",
+        "birth_place": "পীরগঞ্জ, রংপুর, বাংলাদেশ",
+        "achievements": "জুলাই বিপ্লবের প্রথম শহীদ • অকুতোভয় সাহসিকতার প্রতীক • বৈষম্যবিরোধী ছাত্র আন্দোলনের সমন্বয়ক • সারা জাতিকে অনুপ্রাণিত করেন"
+      }
+    }
+  },
+  {
+    "id": "hero_mir_mugdho",
+    "slug": "mir-mugdho",
+    "dates": {
+      "birth": "1998-10-09",
+      "death": "2024-07-18"
+    },
+    "era": "july_revolution_2024",
+    "category": [
+      "martyr",
+      "student"
+    ],
+    "images": [
+      "assets/images/heroes/mir_mugdho.png"
+    ],
+    "location_id": "loc_uttara",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Mir Mahfuzur Rahman Mugdho",
+        "short_bio": "Mir Mugdho was a brilliant student and freelancer who was shot dead while distributing water to exhausted protesters in Uttara. His last words, 'Water, water, does anyone need water?' became a haunting memory.",
+        "full_biography": "Mir Mahfuzur Rahman Mugdho was a talented student who had completed his undergraduate degree in Mathematics from Khulna University and was pursuing an MBA at Bangladesh University of Professionals (BUP). He was also a successful freelancer.\n\nOn July 18, 2024, during fierce clashes between protesters and police in Uttara, Dhaka, Mugdho was not throwing stones or fighting; he was distributing water bottles and biscuits to tired and thirsty protesters. A video recorded minutes before his death shows him calling out, 'Water, water, does anyone need water?'\n\nMoments later, he was shot in the head by a police sniper/bullet and died instantly. His innocent humanitarian act and sudden death became a poignant reminder of the brutality unleashed on peaceful students.",
+        "quote": "Water, water, does anyone need water? (পানি লাগবে, পানি?)",
+        "birth_place": "Uttara, Dhaka, Bangladesh",
+        "achievements": "Martyred while serving humanitarian aid • Symbol of selfless service • Talented freelancer and student"
+      },
+      "bn": {
+        "name": "মীর মাহফুজুর রহমান মুগ্ধ",
+        "short_bio": "মীর মুগ্ধ ছিলেন একজন মেধাবী ছাত্র এবং ফ্রিল্যান্সার যিনি উত্তরায় আন্দোলনরত ক্লান্ত শিক্ষার্থীদের মাঝে পানি ও বিস্কুট বিতরণ করার সময় গুলিবিদ্ধ হয়ে শহীদ হন।",
+        "full_biography": "মীর মাহফুজুর রহমান মুগ্ধ খুলনা বিশ্ববিদ্যালয় থেকে গণিতে স্নাতক শেষ করে বাংলাদেশ ইউনিভার্সিটি অফ প্রফেশনালস (বিইউপি)-এ এমবিএ করছিলেন। তিনি একজন সফল ফ্রিল্যান্সারও ছিলেন।\n\n১৮ জুলাই ২০২৪ তারিখে ঢাকার উত্তরায় সংঘর্ষের সময় মুগ্ধ আন্দোলনকারীদের মাঝে পানি বিতরণ করছিলেন। মৃত্যুর কিছুক্ষণ আগের একটি ভিডিওতে তাকে বলতে শোনা যায়, 'পানি লাগবে, পানি?'\n\nএর কিছুক্ষণ পরেই তিনি গুলিবিদ্ধ হন এবং ঘটনাস্থলেই মারা যান। তাঁর এই নিঃস্বার্থ সেবা এবং নির্মম মৃত্যু আন্দোলনের অন্যতম বেদনাদায়ক ঘটনা হিসেবে স্মরণীয় হয়ে আছে।",
+        "quote": "পানি লাগবে, পানি?",
+        "birth_place": "উত্তরা, ঢাকা, বাংলাদেশ",
+        "achievements": "মানবিক সেবার সময় শহীদ • নিঃস্বার্থ সেবার প্রতীক • মেধাবী ছাত্র ও ফ্রিল্যান্সার"
       }
     }
   }
