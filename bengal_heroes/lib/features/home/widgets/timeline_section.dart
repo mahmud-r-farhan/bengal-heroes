@@ -102,7 +102,7 @@ class TimelineSection extends ConsumerWidget {
 }
 
 /// Vertical timeline visualization
-class _TimelineVisualization extends StatelessWidget {
+class _TimelineVisualization extends StatefulWidget {
   final List<TimelineEvent> events;
   final String locale;
   final ThemeData theme;
@@ -114,59 +114,148 @@ class _TimelineVisualization extends StatelessWidget {
   });
 
   @override
+  State<_TimelineVisualization> createState() => _TimelineVisualizationState();
+}
+
+class _TimelineVisualizationState extends State<_TimelineVisualization> {
+  final ScrollController _scrollController = ScrollController();
+
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
+  }
+
+  void _scrollLeft() {
+    _scrollController.animateTo(
+      _scrollController.offset - 200,
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeInOut,
+    );
+  }
+
+  void _scrollRight() {
+    _scrollController.animateTo(
+      _scrollController.offset + 200,
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeInOut,
+    );
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
-      child: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
-        child: Row(
-          children: [
-            SizedBox(
-              width: events.length * 160,
-              child: Stack(
-                children: [
-                  // Timeline line
-                  Positioned(
-                    top: 40,
-                    left: 0,
-                    right: 0,
-                    child: Container(
-                      height: 2,
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          colors: [
-                            AppColors.primaryMaroon.withValues(alpha: 0.3),
-                            AppColors.primaryMaroon.withValues(alpha: 0),
-                          ],
+      child: Stack(
+        children: [
+          SingleChildScrollView(
+            controller: _scrollController,
+            scrollDirection: Axis.horizontal,
+            physics: const AlwaysScrollableScrollPhysics(),
+            child: Row(
+              children: [
+                SizedBox(
+                  width: widget.events.length * 160,
+                  child: Stack(
+                    children: [
+                      // Timeline line
+                      Positioned(
+                        top: 40,
+                        left: 0,
+                        right: 0,
+                        child: Container(
+                          height: 2,
+                          decoration: BoxDecoration(
+                            gradient: LinearGradient(
+                              colors: [
+                                AppColors.primaryMaroon.withValues(alpha: 0.3),
+                                AppColors.primaryMaroon.withValues(alpha: 0),
+                              ],
+                            ),
+                          ),
                         ),
                       ),
-                    ),
-                  ),
 
-                  // Timeline items
-                  Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: List.generate(
-                      events.length,
-                      (index) {
-                        final event = events[index];
-                        return Expanded(
-                          child: _TimelineItem(
-                            event: event,
-                            locale: locale,
-                            theme: theme,
-                            index: index,
-                            total: events.length,
-                          ),
-                        );
-                      },
-                    ),
+                      // Timeline items
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: List.generate(
+                          widget.events.length,
+                          (index) {
+                            final event = widget.events[index];
+                            return Expanded(
+                              child: _TimelineItem(
+                                event: event,
+                                locale: widget.locale,
+                                theme: widget.theme,
+                                index: index,
+                                total: widget.events.length,
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                    ],
                   ),
-                ],
+                ),
+              ],
+            ),
+          ),
+
+          // Left Arrow
+          Positioned(
+            left: 0,
+            top: 0,
+            bottom: 0,
+            child: Center(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: widget.theme.colorScheme.surface.withValues(alpha: 0.8),
+                  shape: BoxShape.circle,
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withValues(alpha: 0.1),
+                      blurRadius: 8,
+                    ),
+                  ],
+                ),
+                child: IconButton(
+                  onPressed: _scrollLeft,
+                  icon: const Icon(Icons.arrow_back_ios_new, size: 20),
+                  color: AppColors.primaryMaroon,
+                  tooltip: 'Scroll Left',
+                ),
               ),
             ),
-          ],
-        ),
+          ),
+
+          // Right Arrow
+          Positioned(
+            right: 0,
+            top: 0,
+            bottom: 0,
+            child: Center(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: widget.theme.colorScheme.surface.withValues(alpha: 0.8),
+                  shape: BoxShape.circle,
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withValues(alpha: 0.1),
+                      blurRadius: 8,
+                    ),
+                  ],
+                ),
+                child: IconButton(
+                  onPressed: _scrollRight,
+                  icon: const Icon(Icons.arrow_forward_ios, size: 20),
+                  color: AppColors.primaryMaroon,
+                  tooltip: 'Scroll Right',
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

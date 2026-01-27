@@ -226,10 +226,10 @@ class MainBottomNavBar extends StatelessWidget {
 
   int _calculateSelectedIndex(BuildContext context) {
     final location = GoRouterState.of(context).uri.toString();
-    if (location.startsWith(AppRoutes.home)) return 0;
-    if (location.startsWith(AppRoutes.heroes)) return 1;
-    if (location.startsWith(AppRoutes.search)) return 2;
     if (location.startsWith(AppRoutes.settings)) return 3;
+    if (location.startsWith(AppRoutes.search)) return 2;
+    if (location.startsWith(AppRoutes.heroes)) return 1;
+    if (location == AppRoutes.home) return 0;
     return 0;
   }
 
