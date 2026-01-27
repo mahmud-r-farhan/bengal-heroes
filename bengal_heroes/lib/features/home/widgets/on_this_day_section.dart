@@ -15,7 +15,6 @@ class OnThisDaySection extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final theme = Theme.of(context);
     final locale = Localizations.localeOf(context).languageCode;
     final onThisDayData = ref.watch(onThisDayProvider);
 
@@ -321,14 +320,12 @@ class _EnhancedOnThisDayCard extends StatefulWidget {
   final String locale;
   final OnThisDayEventType eventType;
   final int animationDelay;
-  final VoidCallback? onTap;
 
   const _EnhancedOnThisDayCard({
     required this.hero,
     required this.locale,
     required this.eventType,
     required this.animationDelay,
-    this.onTap,
   });
 
   @override
@@ -350,9 +347,7 @@ class _EnhancedOnThisDayCardState extends State<_EnhancedOnThisDayCard> {
     return MouseRegion(
       onEnter: (_) => setState(() => _isHovered = true),
       onExit: (_) => setState(() => _isHovered = false),
-      child: GestureDetector(
-        onTap: widget.onTap,
-        child: Container(
+      child: Container(
           width: 300,
           margin: const EdgeInsets.only(right: 16),
           decoration: BoxDecoration(
@@ -509,13 +504,11 @@ class _EnhancedOnThisDayEventCard extends StatefulWidget {
   final models.GlobalEvent event;
   final String locale;
   final int animationDelay;
-  final VoidCallback? onTap;
 
   const _EnhancedOnThisDayEventCard({
     required this.event,
     required this.locale,
     required this.animationDelay,
-    this.onTap,
   });
 
   @override
@@ -533,9 +526,7 @@ class _EnhancedOnThisDayEventCardState extends State<_EnhancedOnThisDayEventCard
     return MouseRegion(
       onEnter: (_) => setState(() => _isHovered = true),
       onExit: (_) => setState(() => _isHovered = false),
-      child: GestureDetector(
-        onTap: widget.onTap,
-        child: Container(
+      child: Container(
         width: 300,
         margin: const EdgeInsets.only(right: 16),
         decoration: BoxDecoration(
@@ -683,7 +674,6 @@ class _EnhancedOnThisDayEventCardState extends State<_EnhancedOnThisDayEventCard
               ),
             ),
           ],
-        ),
         ),
       ),
     );
