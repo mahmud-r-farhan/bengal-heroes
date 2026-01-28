@@ -17,6 +17,7 @@ class LocalDataSource {
   List<GlobalEvent>? _events;
   List<Location>? _locations;
   List<TimelineEvent>? _timelineEvents;
+  List<TimelineEvent>? _travelerEvents;
 
   /// Load all data from assets
   Future<void> loadAllData() async {
@@ -27,6 +28,7 @@ class LocalDataSource {
       loadEvents(),
       loadLocations(),
       loadTimelineEvents(),
+      loadTravelers(),
     ]);
   }
 
@@ -210,6 +212,32 @@ class LocalDataSource {
     return loadTimelineEvents();
   }
 
+  /// Load travelers from JSON
+  Future<List<TimelineEvent>> loadTravelers() async {
+    if (_travelerEvents != null) return _travelerEvents!;
+
+    try {
+      final String jsonString =
+          await rootBundle.loadString(AppConstants.travelersDataFile);
+      final Map<String, dynamic> jsonMap =
+          json.decode(jsonString) as Map<String, dynamic>;
+      final List<dynamic> events =
+          jsonMap['timeline_events'] as List<dynamic>;
+      _travelerEvents = events
+          .map((e) => TimelineEvent.fromJson(e as Map<String, dynamic>))
+          .toList();
+      return _travelerEvents!;
+    } catch (e) {
+      // Error loading traveler events
+      return [];
+    }
+  }
+
+  /// Get all traveler events
+  Future<List<TimelineEvent>> getTravelers() async {
+    return loadTravelers();
+  }
+
   /// Clear cache (for refresh)
   void clearCache() {
     _heroes = null;
@@ -218,5 +246,7 @@ class LocalDataSource {
     _events = null;
     _locations = null;
     _timelineEvents = null;
+    _travelerEvents = null;
   }
 }
+

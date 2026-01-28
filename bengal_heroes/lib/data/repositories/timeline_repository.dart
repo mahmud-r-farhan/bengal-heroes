@@ -28,6 +28,10 @@ class TimelineRepository {
         .where((event) => event.year >= startYear && event.year <= endYear)
         .toList();
   }
+
+  Future<List<TimelineEvent>> getAllTravelers() async {
+    return _dataSource.getTravelers();
+  }
 }
 
 final timelineRepositoryProvider = Provider<TimelineRepository>((ref) {
@@ -37,6 +41,11 @@ final timelineRepositoryProvider = Provider<TimelineRepository>((ref) {
 final allTimelineEventsProvider = FutureProvider<List<TimelineEvent>>((ref) {
   final repository = ref.watch(timelineRepositoryProvider);
   return repository.getAllTimelineEvents();
+});
+
+final allTravelersProvider = FutureProvider<List<TimelineEvent>>((ref) {
+  final repository = ref.watch(timelineRepositoryProvider);
+  return repository.getAllTravelers();
 });
 
 final timelineEventsByCategoryProvider =
@@ -50,3 +59,4 @@ final timelineEventsByPeriodProvider =
   final repository = ref.watch(timelineRepositoryProvider);
   return repository.getTimelineEventsByPeriod(period.$1, period.$2);
 });
+

@@ -29,6 +29,7 @@ class AppConstants {
   static const String categoriesDataFile = 'assets/data/categories.json';
   static const String eventsDataFile = 'assets/data/events.json';
   static const String locationsDataFile = 'assets/data/locations.json';
+  static const String travelersDataFile = 'assets/data/travelers.json';
 
   // Pagination
   static const int pageSize = 20;

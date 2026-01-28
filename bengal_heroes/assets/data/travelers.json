@@ -1,0 +1,132 @@
+{
+    "timeline_events": [
+        {
+            "id": "300bc_megasthenes",
+            "year": -300,
+            "period": "300 BC",
+            "title": {
+                "en": "Megasthenes",
+                "bn": "মেগাস্থিনিস"
+            },
+            "description": {
+                "en": "Greek ambassador to Chandragupta Maurya. Mentioned the 'Gangaridai' kingdom in Bengal, describing their powerful war elephants.",
+                "bn": "চন্দ্রগুপ্ত মৌর্যের গ্রিক রাষ্ট্রদূত। তিনি বাংলার 'গঙ্গারিডাই' রাজ্যের উল্লেখ করেন এবং তাদের শক্তিশালী যুদ্ধহস্তীর বর্ণনা দেন।"
+            },
+            "category": "diplomat",
+            "significance": "high",
+            "icon": "auto_stories"
+        },
+        {
+            "id": "400_faxian",
+            "year": 400,
+            "period": "400 AD",
+            "title": {
+                "en": "Fa-Hien (Faxian)",
+                "bn": "ফা-হিয়েন"
+            },
+            "description": {
+                "en": "Chinese Buddhist monk. Visited Tamralipta (modern Tamluk) and stayed for 2 years, documenting Buddhist monasteries and maritime trade.",
+                "bn": "চীনা বৌদ্ধ ভিক্ষু। তিনি তাম্রলিপ্ত (বর্তমান তমলুক) সফর করেন এবং ২ বছর অবস্থান করে বৌদ্ধ বিহার ও সামুদ্রিক বাণিজ্যের বিবরণ দেন।"
+            },
+            "category": "pilgrim",
+            "significance": "high",
+            "icon": "self_improvement"
+        },
+        {
+            "id": "638_xuanzang",
+            "year": 638,
+            "period": "638 AD",
+            "title": {
+                "en": "Hiuen Tsang (Xuanzang)",
+                "bn": "হিউয়েন সাঙ"
+            },
+            "description": {
+                "en": "Famous Chinese traveler. Visited Karnasuvarna, the capital of King Shashanka via Pundravardhana. Recorded the thriving culture of Bengal.",
+                "bn": "বিখ্যাত চীনা পর্যটক। তিনি পুণ্ড্রবর্ধন হয়ে রাজা শশাঙ্কের রাজধানী কর্ণসুবর্ণ সফর করেন এবং বাংলার সমৃদ্ধ সংস্কৃতির বিবরণ লিপিবদ্ধ করেন।"
+            },
+            "category": "pilgrim",
+            "significance": "critical",
+            "icon": "visibility"
+        },
+        {
+            "id": "1346_ibn_battuta",
+            "year": 1346,
+            "period": "1346",
+            "title": {
+                "en": "Ibn Battuta",
+                "bn": "ইবনে বতুতা"
+            },
+            "description": {
+                "en": "Moroccan explorer. Visited Bengal, calling it 'A hell full of blessings' due to its wealth and climate. Met Shah Jalal in Sylhet.",
+                "bn": "মরক্কান পর্যটক। তিনি বাংলা সফর করেন এবং এর সম্পদ ও আবহাওয়ার কারণে একে 'দোযখ-ই-পুরনিয়ামাত' (নেয়ামতপূর্ণ নরক) বলে অভিহিত করেন। সিলেটে শাহ জালালের সাথে সাক্ষাৎ করেন।"
+            },
+            "category": "explorer",
+            "significance": "critical",
+            "icon": "explore"
+        },
+        {
+            "id": "1406_mahuan",
+            "year": 1406,
+            "period": "1406",
+            "title": {
+                "en": "Ma Huan",
+                "bn": "মা হুয়ান"
+            },
+            "description": {
+                "en": "Chinese voyager with Admiral Zheng He. Wrote detailed accounts of the Bengal Sultanate's textiles, language, and court life.",
+                "bn": "অ্যাডমিরাল ঝেং হির সাথে আগত চীনা নাবিক। তিনি বাংলার সালতানাতের বস্ত্রশিল্প, ভাষা এবং রাজদরবারের জীবনের বিস্তারিত বিবরণ লিখেছেন।"
+            },
+            "category": "diplomat",
+            "significance": "high",
+            "icon": "sailing"
+        },
+        {
+            "id": "1517_tomepires",
+            "year": 1517,
+            "period": "1517",
+            "title": {
+                "en": "Tomé Pires",
+                "bn": "তোমে পিরেস"
+            },
+            "description": {
+                "en": "Portuguese apothecary. His book 'Suma Oriental' describes Bengal's immense wealth, stating 'The Bengalis are great merchants'.",
+                "bn": "পর্তুগিজ ঔষধকার। তাঁর বই 'সুমা ওরিয়েন্টাল'-এ তিনি বাংলার বিপুল সম্পদের বর্ণনা করে বলেন, 'বাঙালিরা মহান বণিক'।"
+            },
+            "category": "trader",
+            "significance": "medium",
+            "icon": "local_shipping"
+        },
+        {
+            "id": "1580_ralph_fitch",
+            "year": 1580,
+            "period": "1580s",
+            "title": {
+                "en": "Ralph Fitch",
+                "bn": "রালফ ফিচ"
+            },
+            "description": {
+                "en": "First English merchant to visit Bengal. His reports on the textile trade and abundance of food attracted the East India Company.",
+                "bn": "বাংলায় আসা প্রথম ইংরেজ বণিক। বস্ত্রবাণিজ্য এবং খাদ্যের প্রাচুর্য নিয়ে তার প্রতিবেদন ইস্ট ইন্ডিয়া কোম্পানিকে আকৃষ্ট করেছিল।"
+            },
+            "category": "trader",
+            "significance": "high",
+            "icon": "store"
+        },
+        {
+            "id": "1665_bernier",
+            "year": 1665,
+            "period": "1665",
+            "title": {
+                "en": "François Bernier",
+                "bn": "ফ্রাঁসোয়া বার্নিয়ার"
+            },
+            "description": {
+                "en": "French physician. Described Bengal as the 'Paradise of Nations' for its fertility and productivity during Shaista Khan's rule.",
+                "bn": "ফরাসি চিকিৎসক। শায়েস্তা খানের শাসনামলে বাংলার উর্বরতা এবং উত্পাদনশীলতার জন্য তিনি বাংলাকে 'জাতিসমূহের স্বর্গ' হিসেবে বর্ণনা করেন।"
+            },
+            "category": "scholar",
+            "significance": "medium",
+            "icon": "medical_services"
+        }
+    ]
+}
