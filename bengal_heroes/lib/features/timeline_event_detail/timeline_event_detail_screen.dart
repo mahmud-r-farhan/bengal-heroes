@@ -3,7 +3,6 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/theme/app_colors.dart';
 import '../../data/models/timeline_model.dart';
-import '../../shared/widgets/icon_picker.dart';
 
 /// Screen for displaying detailed information about a specific timeline/traveler event
 class TimelineEventDetailScreen extends StatelessWidget {
@@ -101,7 +100,7 @@ class TimelineEventDetailScreen extends StatelessWidget {
                       top: 40,
                       right: -30,
                       child: Icon(
-                        IconPicker.getIconData(event.icon),
+                        _getIconData(event.icon),
                         size: 140,
                         color: categoryColor.withValues(alpha: 0.15),
                       ),
@@ -172,7 +171,7 @@ class TimelineEventDetailScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 16),
                       Text(
-                        event.title.get(locale),
+                        event.title.getByLocale(locale),
                         style: theme.textTheme.headlineSmall?.copyWith(
                           fontWeight: FontWeight.bold,
                           color: categoryColor,
@@ -276,7 +275,7 @@ class TimelineEventDetailScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 16),
                         Text(
-                          event.description.get(locale),
+                          event.description.getByLocale(locale),
                           style: theme.textTheme.bodyLarge?.copyWith(
                             height: 1.8,
                             color: theme.colorScheme.onSurface,
@@ -399,5 +398,30 @@ class TimelineEventDetailScreen extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  IconData _getIconData(String iconName) {
+    switch (iconName) {
+      case 'crown':
+        return Icons.dashboard_customize;
+      case 'fort':
+        return Icons.castle;
+      case 'account_balance':
+        return Icons.account_balance;
+      case 'auto_stories':
+        return Icons.auto_stories;
+      case 'shield':
+        return Icons.shield;
+      case 'sailing':
+        return Icons.sailing;
+      case 'explore':
+        return Icons.explore;
+      case 'visibility':
+        return Icons.visibility;
+      case 'local_shipping':
+        return Icons.local_shipping;
+      default:
+        return Icons.history;
+    }
   }
 }
