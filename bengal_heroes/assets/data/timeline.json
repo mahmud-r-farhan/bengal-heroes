@@ -49,6 +49,38 @@
       "icon": "account_balance"
     },
     {
+      "id": "1097_sena",
+      "year": 1097,
+      "period": "1097-1205",
+      "title": {
+        "en": "Sena Dynasty",
+        "bn": "সেন রাজবংশ"
+      },
+      "description": {
+        "en": "Founded by Hemanta Sena and consolidated by Vijaya Sena, the Sena Dynasty replaced the Palas, unifying Bengal under Hindu rule with capitals at Nadia and Vikrampur. Rulers like Ballala Sena and Lakshmana Sena promoted Sanskrit literature, such as Jayadeva's Gita Govinda, enforced caste systems, and declined Buddhism in favor of orthodox Hinduism. The dynasty ended with Muhammad Bakhtiyar Khalji's invasion in 1204, marking the transition to Muslim rule.",
+        "bn": "হেমন্ত সেন কর্তৃক প্রতিষ্ঠিত এবং বিজয় সেন কর্তৃক সুসংহত সেন রাজবংশ পালদের স্থলে বাংলাকে হিন্দু শাসনের অধীনে একত্রিত করে, নদিয়া এবং বিক্রমপুরকে রাজধানী করে। বল্লাল সেন এবং লক্ষ্মণ সেনের মতো শাসকরা জয়দেবের গীতগোবিন্দের মতো সংস্কৃত সাহিত্য প্রচার করেন, জাতি ব্যবস্থা প্রয়োগ করেন এবং বৌদ্ধধর্মের পতন ঘটিয়ে অর্থোডক্স হিন্দুধর্মের পক্ষে। ১২০৪ সালে মুহম্মদ বখতিয়ার খিলজির আক্রমণে রাজবংশের অবসান ঘটে, যা মুসলিম শাসনের সূচনা করে।"
+      },
+      "category": "empire",
+      "significance": "high",
+      "icon": "crown"
+    },
+    {
+      "id": "1204_bakhtiyar",
+      "year": 1204,
+      "period": "1204",
+      "title": {
+        "en": "Bakhtiyar Khalji's Conquest",
+        "bn": "বখতিয়ার খিলজির বিজয়"
+      },
+      "description": {
+        "en": "Muhammad Bakhtiyar Khalji, a Turkic general from the Delhi Sultanate, invaded Bengal, capturing the Sena capital Nadia and defeating Lakshmana Sena, who retreated to southeastern Bengal. This established the first Muslim foothold in the region, leading to the Bengal Sultanate era, with Gaur as capital and the spread of Islam through Sufi missionaries.",
+        "bn": "দিল্লি সালতানাতের তুর্কি জেনারেল মুহম্মদ বখতিয়ার খিলজি বাংলা আক্রমণ করে সেন রাজধানী নদিয়া দখল করেন এবং লক্ষ্মণ সেনকে পরাজিত করেন, যিনি দক্ষিণ-পূর্ব বাংলায় পিছু হটেন। এটি অঞ্চলে প্রথম মুসলিম পদচিহ্ন স্থাপন করে, গৌড়কে রাজধানী করে বাংলা সালতানাত যুগের সূচনা করে এবং সুফি মিশনারিদের মাধ্যমে ইসলামের প্রসার ঘটায়।"
+      },
+      "category": "war",
+      "significance": "critical",
+      "icon": "swords"
+    },
+    {
       "id": "1352_bengal_sultanate",
       "year": 1352,
       "period": "1352-1576",
@@ -97,6 +129,38 @@
       "icon": "sailing"
     },
     {
+      "id": "1717_murshid_quli",
+      "year": 1717,
+      "period": "1717-1727",
+      "title": {
+        "en": "Murshid Quli Khan's Reforms",
+        "bn": "মুর্শিদ কুলি খানের সংস্কার"
+      },
+      "description": {
+        "en": "Appointed as the first Nawab of Bengal by Mughal Emperor Farrukhsiyar, Murshid Quli Khan reorganized the revenue system, shifted the capital to Murshidabad from Dhaka, and promoted economic prosperity through efficient administration and trade. His reforms established semi-independent Nawabi rule, fostering stability amid Mughal decline and setting the stage for conflicts with European powers.",
+        "bn": "মোঘল সম্রাট ফারুখসিয়ার কর্তৃক বাংলার প্রথম নবাব নিযুক্ত মুর্শিদ কুলি খান রাজস্ব ব্যবস্থা পুনর্গঠন করেন, রাজধানী ঢাকা থেকে মুর্শিদাবাদে স্থানান্তর করেন এবং দক্ষ প্রশাসন এবং বাণিজ্যের মাধ্যমে অর্থনৈতিক সমৃদ্ধি প্রচার করেন। তার সংস্কার মোঘল পতনের মধ্যে অর্ধ-স্বাধীন নবাবী শাসন প্রতিষ্ঠা করে এবং ইউরোপীয় শক্তির সাথে সংঘর্ষের মঞ্চ তৈরি করে।"
+      },
+      "category": "event",
+      "significance": "medium",
+      "icon": "request_quote"
+    },
+    {
+      "id": "1742_maratha",
+      "year": 1742,
+      "period": "1742-1751",
+      "title": {
+        "en": "Maratha Invasions",
+        "bn": "মারাঠা আক্রমণ"
+      },
+      "description": {
+        "en": "Maratha forces under Bhaskar Ram Kolhatkar raided Bengal multiple times during Nawab Alivardi Khan's rule, extracting chauth (tribute) and causing widespread devastation, including attacks on Murshidabad. Alivardi repelled them after years of guerrilla warfare, but the invasions weakened Bengal's economy and military, paving the way for British intervention.",
+        "bn": "নবাব আলিবর্দী খানের শাসনকালে ভাস্কর রাম কোলহটকরের নেতৃত্বে মারাঠা বাহিনী বাংলায় একাধিকবার আক্রমণ করে চৌথ (কর) আদায় করে এবং মুর্শিদাবাদ আক্রমণ সহ বিস্তৃত ধ্বংস সাধন করে। আলিবর্দী বছরের গেরিলা যুদ্ধের পর তাদের প্রতিহত করেন, কিন্তু আক্রমণগুলি বাংলার অর্থনীতি এবং সামরিককে দুর্বল করে ব্রিটিশ হস্তক্ষেপের পথ প্রশস্ত করে।"
+      },
+      "category": "war",
+      "significance": "medium",
+      "icon": "shield"
+    },
+    {
       "id": "1757_plassey",
       "year": 1757,
       "period": "1757",
@@ -143,6 +207,54 @@
       "category": "suffering",
       "significance": "critical",
       "icon": "sentiment_very_dissatisfied"
+    },
+    {
+      "id": "1793_permanent_settlement",
+      "year": 1793,
+      "period": "1793",
+      "title": {
+        "en": "Permanent Settlement",
+        "bn": "স্থায়ী বন্দোবস্ত"
+      },
+      "description": {
+        "en": "Introduced by Lord Cornwallis under the British East India Company, this land revenue system fixed taxes permanently with zamindars (landlords), granting them proprietary rights while peasants became tenants. It aimed to stabilize revenue but led to exploitation, rack-renting, and contributed to famines and peasant revolts by ignoring fluctuating agricultural conditions.",
+        "bn": "ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির অধীনে লর্ড কর্নওয়ালিস কর্তৃক প্রবর্তিত এই ভূমি রাজস্ব ব্যবস্থা জমিদারদের সাথে কর স্থায়ীভাবে নির্ধারণ করে, তাদের মালিকানা অধিকার প্রদান করে যখন কৃষকরা ভাড়াটিয়া হয়ে যায়। এটি রাজস্ব স্থিতিশীল করার লক্ষ্যে ছিল কিন্তু অত্যাচার, উচ্চ ভাড়া এবং ওঠানামাকারী কৃষি অবস্থা উপেক্ষা করে দুর্ভিক্ষ এবং কৃষক বিদ্রোহে অবদান রাখে।"
+      },
+      "category": "event",
+      "significance": "high",
+      "icon": "gavel"
+    },
+    {
+      "id": "1818_faraizi",
+      "year": 1818,
+      "period": "1818-1860s",
+      "title": {
+        "en": "Faraizi Movement",
+        "bn": "ফরায়েজি আন্দোলন"
+      },
+      "description": {
+        "en": "Led by Haji Shariatullah and his son Dudu Miyan, this Islamic revivalist movement among Muslim peasants in eastern Bengal emphasized strict adherence to Islamic principles (faraiz) and resisted British indigo planters, oppressive zamindars, and Hindu landlords through non-cooperation and calls for social equality. It mobilized rural masses and influenced later anti-colonial revolts like Titumir's.",
+        "bn": "হাজী শরিয়তুল্লাহ এবং তার পুত্র দুদু মিয়াঁর নেতৃত্বে পূর্ব বাংলার মুসলিম কৃষকদের মধ্যে এই ইসলামী পুনরুজ্জীবন আন্দোলন ইসলামী নীতিগুলির (ফরায়েজ) কঠোর অনুসরণের উপর জোর দেয় এবং ব্রিটিশ নীলকর, অত্যাচারী জমিদার এবং হিন্দু ভূস্বামীদের বিরুদ্ধে অসহযোগ এবং সামাজিক সমতার আহ্বানের মাধ্যমে প্রতিরোধ করে। এটি গ্রামীণ জনগণকে সংগঠিত করে এবং তিতুমীরের মতো পরবর্তী ঔপনিবেশিক-বিরোধী বিদ্রোহকে প্রভাবিত করে।"
+      },
+      "category": "revolution",
+      "significance": "high",
+      "icon": "groups_2"
+    },
+    {
+      "id": "1829_bengal_renaissance",
+      "year": 1829,
+      "period": "1829-1900",
+      "title": {
+        "en": "Bengal Renaissance",
+        "bn": "বঙ্গীয় রেনেসাঁ"
+      },
+      "description": {
+        "en": "A socio-cultural and intellectual awakening in 19th-century Bengal, led by reformers like Raja Ram Mohan Roy (who abolished sati in 1829), Ishwar Chandra Vidyasagar (widow remarriage), and Bankim Chandra Chattopadhyay. It promoted education, women's rights, rationalism, and Bengali literature, blending Western ideas with Indian traditions and fueling nationalist sentiments against British rule.",
+        "bn": "১৯শ শতাব্দীর বাংলায় একটি সামাজিক-সাংস্কৃতিক এবং বৌদ্ধিক জাগরণ, যা রাজা রামমোহন রায় (১৮২৯ সালে সতীদাহ নিষিদ্ধকারী), ঈশ্বরচন্দ্র বিদ্যাসাগর (বিধবা পুনর্বিবাহ) এবং বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের মতো সংস্কারকদের নেতৃত্বে। এটি শিক্ষা, নারী অধিকার, যুক্তিবাদ এবং বাংলা সাহিত্য প্রচার করে, পশ্চিমী ধারণা এবং ভারতীয় ঐতিহ্যের মিশ্রণ করে ব্রিটিশ শাসনের বিরুদ্ধে জাতীয়তাবাদী ভাবনা উজ্জীবিত করে।"
+      },
+      "category": "event",
+      "significance": "high",
+      "icon": "auto_stories"
     },
     {
       "id": "1831_titumir",
@@ -257,6 +369,22 @@
       "icon": "block"
     },
     {
+      "id": "1946_tebhaga",
+      "year": 1946,
+      "period": "1946-1947",
+      "title": {
+        "en": "Tebhaga Movement",
+        "bn": "তেভাগা আন্দোলন"
+      },
+      "description": {
+        "en": "Led by the Bengal Provincial Kisan Sabha under communist influence, sharecroppers (bargadars) demanded two-thirds (tebhaga) of the crop produce instead of half from landlords amid food shortages and high prices. The movement involved strikes, land seizures, and clashes across northern Bengal, influencing post-partition land reforms and highlighting agrarian unrest before independence.",
+        "bn": "কমিউনিস্ট প্রভাবিত বাংলা প্রাদেশিক কিষান সভার নেতৃত্বে ভাগচাষীরা (বর্গাদার) খাদ্য সংকট এবং উচ্চ মূল্যের মধ্যে জমিদারদের থেকে অর্ধেকের পরিবর্তে দুই-তৃতীয়াংশ (তেভাগা) ফসলের দাবি করে। আন্দোলন ধর্মঘট, জমি দখল এবং উত্তর বাংলায় সংঘর্ষ জড়িত, যা দেশভাগ-পরবর্তী ভূমি সংস্কারকে প্রভাবিত করে এবং স্বাধীনতার আগে কৃষি অস্থিরতা প্রকাশ করে।"
+      },
+      "category": "revolution",
+      "significance": "high",
+      "icon": "agriculture"
+    },
+    {
       "id": "1947_partition",
       "year": 1947,
       "period": "1947",
@@ -289,6 +417,22 @@
       "icon": "record_voice_over"
     },
     {
+      "id": "1954_united_front",
+      "year": 1954,
+      "period": "1954",
+      "title": {
+        "en": "United Front Election Victory",
+        "bn": "যুক্তফ্রন্টের নির্বাচনী বিজয়"
+      },
+      "description": {
+        "en": "The United Front coalition, including Awami League and Krishak Sramik Party under A.K. Fazlul Huq, defeated the Muslim League in East Pakistan's provincial elections, securing 223 out of 309 seats and demanding greater autonomy. The central government dismissed the ministry, exposing West Pakistan's dominance and fueling Bengali separatism.",
+        "bn": "আওয়ামী লীগ এবং এ.কে. ফজলুল হকের নেতৃত্বে কৃষক শ্রমিক পার্টি সহ যুক্তফ্রন্ট জোট পূর্ব পাকিস্তানের প্রাদেশিক নির্বাচনে মুসলিম লীগকে পরাজিত করে ৩০৯টির মধ্যে ২২৩টি আসন লাভ করে এবং বৃহত্তর স্বায়ত্তশাসনের দাবি করে। কেন্দ্রীয় সরকার মন্ত্রিসভা বরখাস্ত করে পশ্চিম পাকিস্তানের আধিপত্য প্রকাশ করে এবং বাঙালি বিচ্ছিন্নতাবাদকে উজ্জীবিত করে।"
+      },
+      "category": "revolution",
+      "significance": "high",
+      "icon": "how_to_vote"
+    },
+    {
       "id": "1966_six_point",
       "year": 1966,
       "period": "1966",
@@ -305,6 +449,38 @@
       "icon": "list_alt"
     },
     {
+      "id": "1968_agartala",
+      "year": 1968,
+      "period": "1968-1969",
+      "title": {
+        "en": "Agartala Conspiracy Case",
+        "bn": "আগরতলা ষড়যন্ত্র মামলা"
+      },
+      "description": {
+        "en": "The Pakistani government accused Sheikh Mujibur Rahman and 34 others of conspiring with India for East Pakistan's secession in the Agartala Conspiracy Case. The trial sparked massive protests and strikes, leading to its withdrawal in 1969 amid the mass uprising, which intensified demands for autonomy and set the stage for the Liberation War.",
+        "bn": "পাকিস্তানি সরকার শেখ মুজিবুর রহমান এবং ৩৪ জনকে ভারতের সাথে পূর্ব পাকিস্তানের বিচ্ছিন্নতার ষড়যন্ত্রের অভিযোগে আগরতলা ষড়যন্ত্র মামলায় অভিযুক্ত করে। বিচার ব্যাপক প্রতিবাদ এবং ধর্মঘট সৃষ্টি করে, যা ১৯৬৯ সালে গণঅভ্যুত্থানের মধ্যে প্রত্যাহার করে, যা স্বায়ত্তশাসনের দাবিকে তীব্র করে এবং মুক্তিযুদ্ধের মঞ্চ তৈরি করে।"
+      },
+      "category": "revolution",
+      "significance": "high",
+      "icon": "gavel"
+    },
+    {
+      "id": "1970_bhola_cyclone",
+      "year": 1970,
+      "period": "1970",
+      "title": {
+        "en": "Bhola Cyclone",
+        "bn": "ভোলা ঘূর্ণিঝড়"
+      },
+      "description": {
+        "en": "The deadliest tropical cyclone in history struck East Pakistan on November 12, killing an estimated 300,000-500,000 people and destroying villages and crops. The inadequate response from West Pakistan fueled resentment, contributing to the political crisis and accelerating the movement for Bangladesh's independence.",
+        "bn": "ইতিহাসের সবচেয়ে মারাত্মক গ্রীষ্মমণ্ডলীয় ঘূর্ণিঝড় ১২ই নভেম্বর পূর্ব পাকিস্তানে আঘাত করে, অনুমানিত ৩০০,০০০-৫০০,০০০ মানুষকে হত্যা করে এবং গ্রাম এবং ফসল ধ্বংস করে। পশ্চিম পাকিস্তানের অপর্যাপ্ত সাড়া ক্ষোভ উস্কে দেয়, রাজনৈতিক সংকটে অবদান রাখে এবং বাংলাদেশের স্বাধীনতা আন্দোলনকে ত্বরান্বিত করে।"
+      },
+      "category": "suffering",
+      "significance": "critical",
+      "icon": "block"
+    },
+    {
       "id": "1971_liberation",
       "year": 1971,
       "period": "1971",
@@ -319,6 +495,22 @@
       "category": "independence",
       "significance": "critical",
       "icon": "flag"
+    },
+    {
+      "id": "1974_famine",
+      "year": 1974,
+      "period": "1974",
+      "title": {
+        "en": "1974 Famine",
+        "bn": "১৯৭৪ সালের দুর্ভিক্ষ"
+      },
+      "description": {
+        "en": "Caused by severe floods, rice crop failures, inflation, and governance challenges under Sheikh Mujibur Rahman's government, this famine led to an estimated 1-1.5 million deaths from starvation and disease. It highlighted post-independence economic vulnerabilities and contributed to political instability leading to the 1975 coup.",
+        "bn": "শেখ মুজিবুর রহমানের সরকারের অধীনে গুরুতর বন্যা, ধান ফসল ব্যর্থতা, মুদ্রাস্ফীতি এবং শাসনগত চ্যালেঞ্জের কারণে এই দুর্ভিক্ষ অনাহার এবং রোগ থেকে অনুমানিত ১-১.৫ মিলিয়ন মৃত্যু ঘটায়। এটি স্বাধীনতা-পরবর্তী অর্থনৈতিক দুর্বলতা প্রকাশ করে এবং ১৯৭৫ অভ্যুত্থানের দিকে রাজনৈতিক অস্থিরতায় অবদান রাখে।"
+      },
+      "category": "suffering",
+      "significance": "high",
+      "icon": "sentiment_very_dissatisfied"
     },
     {
       "id": "1975_tragedy",
