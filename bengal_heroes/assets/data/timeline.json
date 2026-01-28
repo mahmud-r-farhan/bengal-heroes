@@ -337,6 +337,22 @@
       "icon": "person_off"
     },
     {
+      "id": "1981_zia_assassination",
+      "year": 1981,
+      "period": "1981",
+      "title": {
+        "en": "Assassination of Ziaur Rahman",
+        "bn": "জিয়াউর রহমানের হত্যাকাণ্ড"
+      },
+      "description": {
+        "en": "President Ziaur Rahman, a Liberation War hero who declared independence on radio and commanded forces, rises to power after 1975 coups, founds the Bangladesh Nationalist Party (BNP), reinstates multi-party politics, and implements economic reforms. He is assassinated on May 30 in Chittagong Circuit House during a coup attempt by army officers while resolving a local BNP dispute, along with bodyguards and aides, leading to further instability and the eventual rise of Ershad's military rule.",
+        "bn": "প্রেসিডেন্ট জিয়াউর রহমান, মুক্তিযুদ্ধের বীর যিনি রেডিওতে স্বাধীনতা ঘোষণা করেন এবং বাহিনী নেতৃত্ব দেন, ১৯৭৫ অভ্যুত্থানের পর ক্ষমতায় উঠেন, বাংলাদেশ জাতীয়তাবাদী দল (বিএনপি) প্রতিষ্ঠা করেন, বহুদলীয় রাজনীতি পুনরুদ্ধার করেন এবং অর্থনৈতিক সংস্কার বাস্তবায়ন করেন। তিনি ৩০শে মে চট্টগ্রাম সার্কিট হাউসে স্থানীয় বিএনপি বিবাদ সমাধান করতে গিয়ে সেনা অফিসারদের অভ্যুত্থান চেষ্টায় বডিগার্ড এবং সহায়কদের সাথে হত্যাকৃত হন, যা আরও অস্থিরতা এবং শেষ পর্যন্ত এরশাদের সামরিক শাসনের উত্থান ঘটায়।"
+      },
+      "category": "suffering",
+      "significance": "high",
+      "icon": "person_off"
+    },
+    {
       "id": "1990_democracy",
       "year": 1990,
       "period": "1990",
