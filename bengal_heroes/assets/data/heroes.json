@@ -49,7 +49,7 @@
       "revolutionary"
     ],
     "images": [
-      "assets/images/heroes/begum_rokeya.png"
+      "assets/images/heroes/begum_rokeya.jpeg"
     ],
     "location_id": "loc_rangpur",
     "importance": 5,
@@ -86,7 +86,7 @@
       "war_movement"
     ],
     "images": [
-      "assets/images/heroes/bangabandhu.png"
+      "assets/images/heroes/bangabandhu.jpg"
     ],
     "location_id": "loc_tungipara",
     "importance": 5,
@@ -127,7 +127,7 @@
       "intellectual"
     ],
     "images": [
-      "assets/images/heroes/nazrul.png"
+      "assets/images/heroes/nazrul.jpg"
     ],
     "location_id": "loc_churulia",
     "importance": 5,
@@ -164,7 +164,7 @@
       "philosopher"
     ],
     "images": [
-      "assets/images/heroes/tagore.png"
+      "assets/images/heroes/tagore.jfif"
     ],
     "location_id": "loc_jorasanko",
     "importance": 5,
@@ -201,7 +201,7 @@
       "war_movement"
     ],
     "images": [
-      "assets/images/heroes/isa_khan.png"
+      "assets/images/heroes/isa_khan.jfif"
     ],
     "location_id": "loc_sonargaon",
     "importance": 4,
@@ -238,7 +238,7 @@
       "war_movement"
     ],
     "images": [
-      "assets/images/heroes/surya_sen.png"
+      "assets/images/heroes/surya_sen.jfif"
     ],
     "location_id": "loc_chittagong",
     "importance": 5,
@@ -275,7 +275,7 @@
       "war_movement"
     ],
     "images": [
-      "assets/images/heroes/ruhul_amin.png"
+      "assets/images/heroes/ruhul_amin.jpg"
     ],
     "location_id": "loc_noakhali",
     "importance": 4,
@@ -299,6 +299,228 @@
     }
   },
   {
+    "id": "hero_009",
+    "slug": "bir-shreshtha-munshi-abdur-rouf",
+    "dates": {
+      "birth": "1943-05-01",
+      "death": "1971-04-08"
+    },
+    "era": "liberation_1971",
+    "category": [
+      "martyr",
+      "soldier",
+      "war_movement"
+    ],
+    "images": [
+      "assets/images/heroes/munshi_abdur_rouf.jpg"
+    ],
+    "location_id": "loc_faridpur",
+    "importance": 4,
+    "content": {
+      "en": {
+        "name": "Bir Shreshtha Munshi Abdur Rouf",
+        "short_bio": "A Lance Nayek in the East Pakistan Rifles who single-handedly held back Pakistani forces with his machine gun, allowing his company to retreat to safety.",
+        "full_biography": "Munshi Abdur Rouf was born on May 1, 1943, in Salamatpur village, Boalmari, Faridpur. He joined the East Pakistan Rifles (EPR) in 1963.\n\nDuring the War of Independence, he was stationed at the 8th East Bengal Regiment. On April 8, 1971, Pakistani forces launched a massive attack on the Mukti Bahini defensive position at Burighat in the Chittagong Hill Tracts using speedboats and mortars.\n\nRealizing the danger to his company, Rouf crawled to a strategic trench and engaged the enemy with his machine gun. He single-handedly destroyed two enemy speedboats and killed several soldiers. His relentless cover fire allowed his comrades to retreat to safety.\n\nEventually, a mortar shell hit his trench, and he was martyred instantly. His bravery saved approximately 150 freedom fighters that day.",
+        "quote": "If we retreat, they will kill us all. Save yourselves, I will cover you.",
+        "birth_place": "Salamatpur, Boalmari, Faridpur",
+        "achievements": "Bir Shreshtha • Saved 150 comrades • Single-handedly fought off enemy speedboats • Symbol of supreme sacrifice"
+      },
+      "bn": {
+        "name": "বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ",
+        "short_bio": "ইস্ট পাকিস্তান রাইফেলসের একজন ল্যান্স নায়েক যিনি তাঁর মেশিনগান দিয়ে একাই পাকিস্তানি বাহিনীকে ঠেকিয়ে রেখেছিলেন, যার ফলে তাঁর কোম্পানি নিরাপদে পিছু হটতে পেরেছিল।",
+        "full_biography": "মুন্সী আব্দুর রউফ ১৯৪৩ সালের ১ মে ফরিদপুরের বোয়ালমারীর সালামতপুর গ্রামে জন্মগ্রহণ করেন। তিনি ১৯৬৩ সালে ইস্ট পাকিস্তান রাইফেলসে (ইপিআর) যোগ দেন।\n\nমুক্তিযুদ্ধের সময় তিনি ৮ম ইস্ট বেঙ্গল রেজিমেন্টে কর্মরত ছিলেন। ১৯৭১ সালের ৮ এপ্রিল, পাকিস্তানি বাহিনী স্পিডবোট ও মর্টার ব্যবহার করে পার্বত্য চট্টগ্রামের বুড়িঘাটে মুক্তিবাহিনীর রক্ষণাত্মক অবস্থানে ব্যাপক আক্রমণ চালায়।\n\nতাঁর কোম্পানির বিপদ বুঝতে পেরে, রউফ একটি কৌশলগত ট্রেঞ্চে অবস্থান নেন এবং তাঁর মেশিনগান দিয়ে শত্রুর মোকাবিলা করেন। তিনি একাই শত্রুর দুটি স্পিডবোট ধ্বংস করেন এবং বেশ কয়েকজন সৈন্যকে হত্যা করেন। তাঁর অবিরাম কভার ফায়ারের কারণে তাঁর সহযোদ্ধারা নিরাপদে সরে যেতে সক্ষম হন।\n\nঅবশেষে, একটি মর্টার শেল তাঁর ট্রেঞ্চে আঘাত হানে এবং তিনি ঘটনাস্থলেই শহীদ হন। তাঁর বীরত্ব সেদিন প্রায় ১৫০ জন মুক্তিযোদ্ধার প্রাণ বাঁচিয়েছিল।",
+        "quote": "আমরা পিছু হটলে ওরা আমাদের সবাইকে মেরে ফেলবে। তোমরা নিজেদের বাঁচাও, আমি কভার দিচ্ছি।",
+        "birth_place": "সালামতপুর, বোয়ালমারী, ফরিদপুর",
+        "achievements": "বীরশ্রেষ্ঠ • ১৫০ জন সহযোদ্ধাকে রক্ষা • একাই শত্রুর স্পিডবোট প্রতিহত করা • সর্বোচ্চ ত্যাগের প্রতীক"
+      }
+    }
+  },
+  {
+    "id": "hero_010",
+    "slug": "bir-shreshtha-mostafa-kamal",
+    "dates": {
+      "birth": "1947-12-16",
+      "death": "1971-04-18"
+    },
+    "era": "liberation_1971",
+    "category": [
+      "martyr",
+      "soldier",
+      "war_movement"
+    ],
+    "images": [
+      "assets/images/heroes/mostafa_kamal.jpg"
+    ],
+    "location_id": "loc_bhola",
+    "importance": 4,
+    "content": {
+      "en": {
+        "name": "Bir Shreshtha Mohammad Mostafa Kamal",
+        "short_bio": "Known as the 'Shaheed Sepoy', he sacrificed his life at Daruin to cover the retreat of his fellow freedom fighters against heavy Pakistani artillery.",
+        "full_biography": "Mohammad Mostafa Kamal was born on December 16, 1947, in Hajipur village, Daulatkhan, Bhola. He was a Sepoy in the 4th East Bengal Regiment.\n\nOn April 18, 1971, at Daruin in Brahmanbaria, his platoon was surrounded by Pakistani forces. The enemy opened heavy artillery and mortar fire. With no other option but to retreat, someone needed to stay back to provide covering fire.\n\nMostafa Kamal voluntarily took the responsibility. He ordered his comrades to leave while he remained in his trench, firing his light machine gun non-stop. He held his position until he ran out of ammunition and was eventually surrounded and bayoneted to death by Pakistani soldiers.\n\nHis self-sacrifice allowed his entire platoon to escape certain death.",
+        "quote": "Don't worry about me. Save the others. I will hold them back.",
+        "birth_place": "Hajipur, Daulatkhan, Bhola",
+        "achievements": "Bir Shreshtha • Saved his entire platoon • Fought alone until ammunition ended • Example of selfless courage"
+      },
+      "bn": {
+        "name": "বীরশ্রেষ্ঠ মোহাম্মদ মোস্তফা কামাল",
+        "short_bio": "'শহীদ সিপাহী' হিসেবে পরিচিত, তিনি দরুইনে ভারী পাকিস্তানি আর্টিলারির বিরুদ্ধে সহযোদ্ধাদের পিছু হটার সুযোগ করে দিতে নিজের জীবন উৎসর্গ করেন।",
+        "full_biography": "মোহাম্মদ মোস্তফা কামাল ১৯৪৭ সালের ১৬ ডিসেম্বর ভোলার দৌলতখানের হাজিপুর গ্রামে জন্মগ্রহণ করেন। তিনি ৪র্থ ইস্ট বেঙ্গল রেজিমেন্টের সিপাহী ছিলেন।\n\n১৯৭১ সালের ১৮ এপ্রিল, ব্রাহ্মণবাড়িয়ার দরুইনে তাঁর প্লাটুন পাকিস্তানি বাহিনী দ্বারা ঘেরাও হয়ে পড়ে। শত্রুরা ভারী আর্টিলারি ও মর্টার বর্ষণ শুরু করে। পিছু হটা ছাড়া আর কোনো উপায় না থাকায়, কাউকে কভার ফায়ার দেওয়ার জন্য পেছনে থাকার প্রয়োজন ছিল।\n\nমোস্তফা কামাল স্বেচ্ছায় এই দায়িত্ব গ্রহণ করেন। তিনি তাঁর সহযোদ্ধাদের চলে যেতে নির্দেশ দেন এবং নিজে ট্রেঞ্চে থেকে অবিরাম লাইট মেশিনগান চালাতে থাকেন। গুলি শেষ না হওয়া পর্যন্ত তিনি তাঁর অবস্থান ধরে রাখেন এবং অবশেষে পাকিস্তানি সৈন্যদের দ্বারা ঘেরাও হয়ে বেয়নেটের আঘাতে শহীদ হন।\n\nতাঁর আত্মত্যাগ তাঁর পুরো প্লাটুনকে নিশ্চিত মৃত্যুর হাত থেকে বাঁচিয়েছিল।",
+        "quote": "আমাকে নিয়ে চিন্তা করো না। অন্যদের বাঁচাও। আমি ওদের আটকে রাখছি।",
+        "birth_place": "হাজিপুর, দৌলতখান, ভোলা",
+        "achievements": "বীরশ্রেষ্ঠ • পুরো প্লাটুনকে রক্ষা • গুলি শেষ না হওয়া পর্যন্ত একা লড়াই • নিঃস্বার্থ সাহসের উদাহরণ"
+      }
+    }
+  },
+  {
+    "id": "hero_011",
+    "slug": "bir-shreshtha-motiur-rahman",
+    "dates": {
+      "birth": "1941-10-29",
+      "death": "1971-08-20"
+    },
+    "era": "liberation_1971",
+    "category": [
+      "martyr",
+      "air_force",
+      "war_movement"
+    ],
+    "images": [
+      "assets/images/heroes/motiur_rahman.jpg"
+    ],
+    "location_id": "loc_dhaka",
+    "importance": 4,
+    "content": {
+      "en": {
+        "name": "Bir Shreshtha Motiur Rahman",
+        "short_bio": "A Flight Lieutenant in the Pakistan Air Force who attempted to hijack a T-33 training aircraft to join the Liberation War but crashed near the Indian border.",
+        "full_biography": "Motiur Rahman was born on October 29, 1941, in Dhaka. He was a Flight Lieutenant in the Pakistan Air Force based at Masroor Airbase in Karachi.\n\nDetermined to contribute to the Liberation War, he devised a plan to hijack a T-33 aircraft (code named 'Bluebird') and fly it to India. On August 20, 1971, he seized control of the aircraft from a trainee pilot, Rashid Minhas.\n\nA mid-air struggle ensued between Motiur and Minhas for control of the plane. The aircraft eventually crashed in Thatta, near the Indian border, killing both. Though he could not reach Bangladesh with the plane, his daring attempt became a legendary tale of patriotism.",
+        "quote": "I must go back to my country. My people need me.",
+        "birth_place": "Dhaka",
+        "achievements": "Bir Shreshtha • Attempted to hijack aircraft for the war • Flight Lieutenant • Symbol of aerial bravery"
+      },
+      "bn": {
+        "name": "বীরশ্রেষ্ঠ মতিউর রহমান",
+        "short_bio": "পাকিস্তান বিমান বাহিনীর একজন ফ্লাইট লেফটেন্যান্ট যিনি মুক্তিযুদ্ধে যোগ দেওয়ার জন্য একটি টি-৩৩ প্রশিক্ষণ বিমান ছিনতাই করার চেষ্টা করেছিলেন কিন্তু ভারতীয় সীমান্তের কাছে বিধ্বস্ত হন।",
+        "full_biography": "মতিউর রহমান ১৯৪১ সালের ২৯ অক্টোবর ঢাকায় জন্মগ্রহণ করেন। তিনি করাচির মসরুর বিমান ঘাঁটিতে পাকিস্তান বিমান বাহিনীর ফ্লাইট লেফটেন্যান্ট ছিলেন।\n\nমুক্তিযুদ্ধে অবদান রাখার দৃঢ় সংকল্প নিয়ে, তিনি একটি টি-৩৩ বিমান (কোড নাম 'ব্লুবার্ড') ছিনতাই করে ভারতে নিয়ে যাওয়ার পরিকল্পনা করেন। ১৯৭১ সালের ২০ আগস্ট, তিনি প্রশিক্ষণার্থী পাইলট রশিদ মিনহাসের কাছ থেকে বিমানটির নিয়ন্ত্রণ নিয়ে নেন।\n\nবিমানের নিয়ন্ত্রণের জন্য মাঝ আকাশে মতিউর এবং মিনহাসের মধ্যে ধস্তাধস্তি হয়। শেষ পর্যন্ত বিমানটি ভারতীয় সীমান্তের কাছে থাট্টায় বিধ্বস্ত হয় এবং দুজনেই নিহত হন। যদিও তিনি বিমানটি নিয়ে বাংলাদেশে পৌঁছাতে পারেননি, তাঁর এই সাহসী প্রচেষ্টা দেশপ্রেমের এক কিংবদন্তি হয়ে ওঠে।",
+        "quote": "আমাকে আমার দেশে ফিরতেই হবে। আমার দেশের মানুষ আমাকে চায়।",
+        "birth_place": "ঢাকা",
+        "achievements": "বীরশ্রেষ্ঠ • যুদ্ধের জন্য বিমান ছিনতাইয়ের প্রচেষ্টা • ফ্লাইট লেফটেন্যান্ট • আকাশসম সাহসের প্রতীক"
+      }
+    }
+  },
+  {
+    "id": "hero_012",
+    "slug": "bir-shreshtha-hamidur-rahman",
+    "dates": {
+      "birth": "1953-02-02",
+      "death": "1971-10-28"
+    },
+    "era": "liberation_1971",
+    "category": [
+      "martyr",
+      "soldier",
+      "war_movement"
+    ],
+    "images": [
+      "assets/images/heroes/hamidur_rahman.jpg"
+    ],
+    "location_id": "loc_jhenaidah",
+    "importance": 4,
+    "content": {
+      "en": {
+        "name": "Bir Shreshtha Hamidur Rahman",
+        "short_bio": "The youngest Bir Shreshtha, who sacrificed his life destroying an enemy machine gun post at Dhalai Border Outpost during a critical assault.",
+        "full_biography": "Hamidur Rahman was born on February 2, 1953, in Khordo Khalishpur, Jhenaidah. He joined the army as a Sepoy in 1971 and is the youngest recipient of the Bir Shreshtha award.\n\nOn October 28, 1971, the 1st East Bengal Regiment was tasked with capturing the Dhalai Border Outpost in Sylhet. The Pakistani forces had a heavily fortified machine gun post that was halting the Mukti Bahini's advance.\n\nHamidur Rahman volunteered to silence the gun. Crawling through the darkness under heavy fire, he reached the bunker and threw two grenades, destroying the post. He then engaged in hand-to-hand combat with the enemy soldiers before succumbing to gunshot wounds.\n\nHis bravery cleared the path for the Mukti Bahini to capture the outpost.",
+        "quote": "Give me the grenades. I will take out that bunker.",
+        "birth_place": "Khordo Khalishpur, Moheshpur, Jhenaidah",
+        "achievements": "Bir Shreshtha • Youngest recipient • Destroyed enemy bunker single-handedly • Secured victory at Dhalai"
+      },
+      "bn": {
+        "name": "বীরশ্রেষ্ঠ হামিদুর রহমান",
+        "short_bio": "কনিষ্ঠতম বীরশ্রেষ্ঠ, যিনি ধলাই বর্ডার আউটপোস্টে এক গুরুত্বপূর্ণ অভিযানের সময় শত্রুর মেশিনগান পোস্ট ধ্বংস করতে গিয়ে জীবন উৎসর্গ করেন।",
+        "full_biography": "হামিদুর রহমান ১৯৫৩ সালের ২ ফেব্রুয়ারি ঝিনাইদহের খোর্দ খালিশপুরে জন্মগ্রহণ করেন। তিনি ১৯৭১ সালে সিপাহী হিসেবে সেনাবাহিনীতে যোগ দেন এবং বীরশ্রেষ্ঠ খেতাবপ্রাপ্তদের মধ্যে তিনি সর্বকনিষ্ঠ।\n\n১৯৭১ সালের ২৮ অক্টোবর, ১ম ইস্ট বেঙ্গল রেজিমেন্টকে সিলেটের ধলাই বর্ডার আউটপোস্ট দখলের দায়িত্ব দেওয়া হয়। পাকিস্তানি বাহিনীর একটি অত্যন্ত সুরক্ষিত মেশিনগান পোস্ট ছিল যা মুক্তিবাহিনীর অগ্রগতি থামিয়ে দিচ্ছিল।\n\nহামিদুর রহমান সেই গানটি থামানোর জন্য স্বেচ্ছায় এগিয়ে আসেন। প্রবল গোলাগুলির মধ্যে অন্ধকারে হামাগুড়ি দিয়ে তিনি বাঙ্কারের কাছে পৌঁছান এবং দুটি গ্রেনেড ছুঁড়ে পোস্টটি ধ্বংস করে দেন। গুলির আঘাতে শহীদ হওয়ার আগে তিনি শত্রু সৈন্যদের সাথে হাতাহাতি লড়াইও করেন।\n\nতাঁর বীরত্ব মুক্তিবাহিনীর জন্য আউটপোস্টটি দখলের পথ পরিষ্কার করে দেয়।",
+        "quote": "আমাকে গ্রেনেড দিন। আমি ওই বাঙ্কার উড়িয়ে দেব।",
+        "birth_place": "খোর্দ খালিশপুর, মহেশপুর, ঝিনাইদহ",
+        "achievements": "বীরশ্রেষ্ঠ • কনিষ্ঠতম খেতাবপ্রাপ্ত • একাই শত্রুর বাঙ্কার ধ্বংস • ধলাই যুদ্ধে বিজয় নিশ্চিত করা"
+      }
+    }
+  },
+  {
+    "id": "hero_013",
+    "slug": "bir-shreshtha-mohiuddin-jahangir",
+    "dates": {
+      "birth": "1949-03-07",
+      "death": "1971-12-14"
+    },
+    "era": "liberation_1971",
+    "category": [
+      "martyr",
+      "officer",
+      "war_movement"
+    ],
+    "images": [
+      "assets/images/heroes/mohiuddin_jahangir.jpg"
+    ],
+    "location_id": "loc_barisal",
+    "importance": 4,
+    "content": {
+      "en": {
+        "name": "Bir Shreshtha Mohiuddin Jahangir",
+        "short_bio": "A Captain in the Bangladesh Army who was martyred just two days before victory while leading an assault to liberate Chapainawabganj.",
+        "full_biography": "Mohiuddin Jahangir was born on March 7, 1949, in Rahimganj, Babuganj, Barisal. He was an officer in the Engineering Corps of the Pakistan Army but defected to join the Liberation War.\n\nHe was made the Captain of a sub-sector in Sector 7. On December 14, 1971, he led a daring attack to liberate Chapainawabganj from Pakistani occupation. He crossed the Mahananda River and attacked enemy defense lines, destroying multiple bunkers.\n\nWhile advancing to destroy the final enemy pillbox, he was shot in the eye and attained martyrdom instantly. His bold leadership was instrumental in the liberation of the Rajshahi region.",
+        "quote": "We will free this land or die trying. Forward!",
+        "birth_place": "Rahimganj, Babuganj, Barisal",
+        "achievements": "Bir Shreshtha • Captain of Sector 7 • Liberated Chapainawabganj • Martyred 2 days before victory"
+      },
+      "bn": {
+        "name": "বীরশ্রেষ্ঠ মহিউদ্দিন জাহাঙ্গীর",
+        "short_bio": "বাংলাদেশ সেনাবাহিনীর একজন ক্যাপ্টেন যিনি বিজয়ের মাত্র দুই দিন আগে চাঁপাইনবাবগঞ্জ মুক্ত করার অভিযানের নেতৃত্ব দেওয়ার সময় শহীদ হন।",
+        "full_biography": "মহিউদ্দিন জাহাঙ্গীর ১৯৪৯ সালের ৭ মার্চ বরিশালের বাবুগঞ্জের রহিমগঞ্জে জন্মগ্রহণ করেন। তিনি পাকিস্তান সেনাবাহিনীর ইঞ্জিনিয়ারিং কোরের একজন অফিসার ছিলেন কিন্তু মুক্তিযুদ্ধে যোগ দেওয়ার জন্য পক্ষত্যাগ করেন।\n\nতিনি ৭ নম্বর সেক্টরের একটি সাব-সেক্টরের ক্যাপ্টেন নিযুক্ত হন। ১৯৭১ সালের ১৪ ডিসেম্বর, তিনি চাঁপাইনবাবগঞ্জকে পাকিস্তানি দখলমুক্ত করার জন্য এক সাহসী আক্রমণের নেতৃত্ব দেন। তিনি মহানন্দা নদী পার হয়ে শত্রুর প্রতিরক্ষা ব্যূহে আক্রমণ করেন এবং একাধিক বাঙ্কার ধ্বংস করেন।\n\nশত্রুর শেষ পিলবক্সটি ধ্বংস করার জন্য অগ্রসর হওয়ার সময়, তিনি চোখে গুলিবিদ্ধ হন এবং ঘটনাস্থলেই শহীদ হন। রাজশাহী অঞ্চল মুক্ত করার ক্ষেত্রে তাঁর সাহসী নেতৃত্ব ছিল অত্যন্ত গুরুত্বপূর্ণ।",
+        "quote": "আমরা এই দেশ মুক্ত করব, নয়তো মরব। সামনে চলো!",
+        "birth_place": "রহিমগঞ্জ, বাবুগঞ্জ, বরিশাল",
+        "achievements": "বীরশ্রেষ্ঠ • ৭ নম্বর সেক্টরের ক্যাপ্টেন • চাঁপাইনবাবগঞ্জ মুক্ত করা • বিজয়ের ২ দিন আগে শাহাদাত বরণ"
+      }
+    }
+  },
+  {
+    "id": "hero_014",
+    "slug": "bir-shreshtha-nur-mohammad-sheikh",
+    "dates": {
+      "birth": "1936-02-26",
+      "death": "1971-09-05"
+    },
+    "era": "liberation_1971",
+    "category": [
+      "martyr",
+      "soldier",
+      "war_movement"
+    ],
+    "images": [
+      "assets/images/heroes/nur_mohammad_sheikh.jpg"
+    ],
+    "location_id": "loc_narail",
+    "importance": 4,
+    "content": {
+      "en": {
+        "name": "Bir Shreshtha Nur Mohammad Sheikh",
+        "short_bio": "A Lance Nayek in the EPR who fought to death to save his injured comrade during the Battle of Goalhati in Jessore.",
+        "full_biography": "Nur Mohammad Sheikh was born on February 26, 1936, in Moheshkhali, Narail. He joined the East Pakistan Rifles (EPR) in 1959.\n\nOn September 5, 1971, at Goalhati in Jessore, he was patrolling with a small team when they were ambushed by a large Pakistani force. During the firefight, his fellow soldier Nannu Mia was severely injured.\n\nRefusing to leave his comrade behind, Nur Mohammad carried Nannu Mia towards safety while firing his light machine gun with the other hand. Despite being hit by a mortar shell which severely damaged his leg, he continued to provide cover fire, allowing the rest of his team to escape. He fought until he succumbed to his injuries.",
+        "quote": "Leave me here. Take Nannu and go!",
+        "birth_place": "Moheshkhali, Narail",
+        "achievements": "Bir Shreshtha • Saved injured comrade • Fought alone with severe injuries • Displayed ultimate loyalty"
+      },
+      "bn": {
+        "name": "বীরশ্রেষ্ঠ নূর মোহাম্মদ শেখ",
+        "short_bio": "ইপিআরের একজন ল্যান্স নায়েক যিনি যশোরের গোয়ালহাটির যুদ্ধে তাঁর আহত সহযোদ্ধাকে বাঁচাতে আমৃত্যু লড়াই করেছিলেন।",
+        "full_biography": "নূর মোহাম্মদ শেখ ১৯৩৬ সালের ২৬ ফেব্রুয়ারি নড়াইলের মহিষখালীতে জন্মগ্রহণ করেন। তিনি ১৯৫৯ সালে ইস্ট পাকিস্তান রাইফেলসে (ইপিআর) যোগ দেন।\n\n১৯৭১ সালের ৫ সেপ্টেম্বর, যশোরের গোয়ালহাটিতে তিনি একটি ছোট দলের সাথে টহল দিচ্ছিলেন যখন বিশাল পাকিস্তানি বাহিনী তাদের অতর্কিত আক্রমণ করে। গোলাগুলির সময় তাঁর সহযোদ্ধা নান্নু মিয়া গুরুতর আহত হন।\n\nসহযোদ্ধাকে ফেলে রেখে যেতে অস্বীকার করে, নূর মোহাম্মদ নান্নু মিয়াকে কাঁধে তুলে নিরাপদ স্থানের দিকে নিয়ে যাওয়ার সময় অন্য হাতে লাইট মেশিনগান চালাতে থাকেন। একটি মর্টার শেলের আঘাতে তাঁর পা মারাত্মকভাবে ক্ষতিগ্রস্ত হওয়া সত্ত্বেও, তিনি কভার ফায়ার দিতে থাকেন, যার ফলে তাঁর দলের বাকিরা পালাতে সক্ষম হয়। তিনি মৃত্যুর আগ পর্যন্ত লড়াই চালিয়ে যান।",
+        "quote": "আমাকে এখানে রেখে যাও। নান্নুকে নিয়ে চলে যাও!",
+        "birth_place": "মহিষখালী, নড়াইল",
+        "achievements": "বীরশ্রেষ্ঠ • আহত সহযোদ্ধাকে রক্ষা • গুরুতর আহত অবস্থায় একা লড়াই • চরম আনুগত্যের নিদর্শন"
+      }
+    }
+  },
+  {
     "id": "hero_abu_sayed",
     "slug": "abu-sayed",
     "dates": {
@@ -313,7 +535,7 @@
       "war_movement"
     ],
     "images": [
-      "assets/images/heroes/abu_sayed.png"
+      "assets/images/heroes/abu_sayed.jfif"
     ],
     "location_id": "loc_rangpur_univ",
     "importance": 5,
@@ -350,7 +572,7 @@
       "war_movement"
     ],
     "images": [
-      "assets/images/heroes/mir_mugdho.png"
+      "assets/images/heroes/mir_mugdho.jpg"
     ],
     "location_id": "loc_uttara",
     "importance": 5,
