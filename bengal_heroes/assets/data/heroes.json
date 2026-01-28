@@ -1,6 +1,6 @@
 [
   {
-    "id": "hero_001",
+    "id": "hero_0001",
     "slug": "titumir",
     "dates": {
       "birth": "1782-01-27",
@@ -36,44 +36,9 @@
       }
     }
   },
+  
   {
-    "id": "hero_002",
-    "slug": "begum-rokeya",
-    "dates": {
-      "birth": "1880-12-09",
-      "death": "1932-12-09"
-    },
-    "era": "british_raj",
-    "category": [
-      "intellectual",
-      "revolutionary"
-    ],
-    "images": [
-      "assets/images/heroes/begum_rokeya.jpeg"
-    ],
-    "location_id": "loc_rangpur",
-    "importance": 5,
-    "content": {
-      "en": {
-        "name": "Begum Rokeya",
-        "short_bio": "Begum Rokeya Sakhawat Hossain was a pioneering feminist writer and activist who championed women's education and rights in Bengal during the early 20th century.",
-        "full_biography": "Begum Rokeya Sakhawat Hossain, born on December 9, 1880, in Pairaband, Rangpur, was a Bengali feminist thinker, writer, educator, and political activist. She is widely regarded as the pioneer of the women's liberation movement in South Asia.\n\nDespite being born into a conservative aristocratic family where women's education was discouraged, Rokeya secretly learned Bengali and English with the help of her brothers. This early struggle for education profoundly influenced her life's work.\n\nHer most famous work, 'Sultana's Dream' (1905), is considered one of the earliest works of feminist science fiction. The story imagines a world where gender roles are reversed, with women running society while men are secluded.\n\nIn 1909, she established the Sakhawat Memorial Girls' School in Calcutta, which provided education to Muslim girls from underprivileged backgrounds. She also founded the Anjuman-e-Khawatin-e-Islam in 1916 for the welfare of women.\n\nRokeya's writings, including 'Padmarag', 'Abarodhbasini', and numerous essays, challenged patriarchal norms and advocated for women's education, freedom, and equal rights. She passed away on December 9, 1932, on her birthday, leaving behind a legacy that continues to inspire feminists worldwide.",
-        "quote": "আমরা পুরুষদের সমান করে তুলিতে চাহি না, আমরা নারীদের মানুষ করিতে চাহি। (We do not want to make women equal to men, we want to make them human beings.)",
-        "birth_place": "Pairaband, Mithapukur, Rangpur",
-        "achievements": "Pioneer of women's education in Bengal • Author of 'Sultana's Dream' - early feminist science fiction • Founded Sakhawat Memorial Girls' School • Established Anjuman-e-Khawatin-e-Islam for women's welfare"
-      },
-      "bn": {
-        "name": "বেগম রোকেয়া",
-        "short_bio": "বেগম রোকেয়া সাখাওয়াত হোসেন ছিলেন একজন অগ্রগামী নারীবাদী লেখক এবং সমাজকর্মী যিনি বিংশ শতাব্দীর প্রথম দিকে বাংলায় নারী শিক্ষা এবং অধিকারের পক্ষে কাজ করেছিলেন।",
-        "full_biography": "বেগম রোকেয়া সাখাওয়াত হোসেন ১৮৮০ সালের ৯ ডিসেম্বর রংপুরের পায়রাবন্দে জন্মগ্রহণ করেন। তিনি ছিলেন একজন বাঙালি নারীবাদী চিন্তাবিদ, লেখক, শিক্ষাবিদ এবং সমাজ সংস্কারক। তাঁকে দক্ষিণ এশিয়ায় নারী মুক্তি আন্দোলনের পথিকৃৎ হিসেবে গণ্য করা হয়।\n\nএকটি রক্ষণশীল পরিবারে জন্মগ্রহণ করা সত্ত্বেও, রোকেয়া তাঁর ভাইদের সাহায্যে গোপনে বাংলা ও ইংরেজি শিখেছিলেন। শিক্ষার জন্য এই প্রাথমিক সংগ্রাম তাঁর জীবনের কাজকে গভীরভাবে প্রভাবিত করেছিল।\n\nতাঁর সবচেয়ে বিখ্যাত রচনা 'সুলতানার স্বপ্ন' (১৯০৫) নারীবাদী বিজ্ঞান কল্পকাহিনীর অন্যতম প্রাথমিক রচনা হিসেবে বিবেচিত হয়।\n\n১৯০৯ সালে তিনি কলকাতায় সাখাওয়াত মেমোরিয়াল বালিকা বিদ্যালয় প্রতিষ্ঠা করেন। তিনি ১৯১৬ সালে নারী কল্যাণের জন্য আঞ্জুমান-ই-খাওয়াতিন-ই-ইসলাম প্রতিষ্ঠা করেন।\n\nতাঁর রচনা পিতৃতান্ত্রিক রীতিনীতিকে চ্যালেঞ্জ করেছে এবং নারী শিক্ষা, স্বাধীনতা ও সমান অধিকারের পক্ষে কথা বলেছে।",
-        "quote": "আমরা পুরুষদের সমান করে তুলিতে চাহি না, আমরা নারীদের মানুষ করিতে চাহি।",
-        "birth_place": "পায়রাবন্দ, মিঠাপুকুর, রংপুর",
-        "achievements": "বাংলায় নারী শিক্ষার পথিকৃৎ • 'সুলতানার স্বপ্ন' এর লেখক • সাখাওয়াত মেমোরিয়াল বালিকা বিদ্যালয় প্রতিষ্ঠা • আঞ্জুমান-ই-খাওয়াতিন-ই-ইসলাম প্রতিষ্ঠা"
-      }
-    }
-  },
-  {
-    "id": "hero_003",
+    "id": "hero_0002",
     "slug": "sheikh-mujibur-rahman",
     "dates": {
       "birth": "1920-03-17",
@@ -114,7 +79,7 @@
     }
   },
   {
-    "id": "hero_004",
+    "id": "hero_0003",
     "slug": "kazi-nazrul-islam",
     "dates": {
       "birth": "1899-05-24",
@@ -151,7 +116,7 @@
     }
   },
   {
-    "id": "hero_005",
+    "id": "hero_0005",
     "slug": "rabindranath-tagore",
     "dates": {
       "birth": "1861-05-07",
@@ -188,7 +153,7 @@
     }
   },
   {
-    "id": "hero_006",
+    "id": "hero_0006",
     "slug": "isa-khan",
     "dates": {
       "birth": "1529-01-01",
@@ -225,7 +190,7 @@
     }
   },
   {
-    "id": "hero_007",
+    "id": "hero_0007",
     "slug": "surya-sen",
     "dates": {
       "birth": "1894-03-22",
@@ -262,7 +227,7 @@
     }
   },
   {
-    "id": "hero_008",
+    "id": "hero_0008",
     "slug": "bir-shreshtha-ruhul-amin",
     "dates": {
       "birth": "1935-06-01",
@@ -299,7 +264,7 @@
     }
   },
   {
-    "id": "hero_009",
+    "id": "hero_0009",
     "slug": "bir-shreshtha-munshi-abdur-rouf",
     "dates": {
       "birth": "1943-05-01",
@@ -336,7 +301,7 @@
     }
   },
   {
-    "id": "hero_010",
+    "id": "hero_0010",
     "slug": "bir-shreshtha-mostafa-kamal",
     "dates": {
       "birth": "1947-12-16",
@@ -373,7 +338,7 @@
     }
   },
   {
-    "id": "hero_011",
+    "id": "hero_0011",
     "slug": "bir-shreshtha-motiur-rahman",
     "dates": {
       "birth": "1941-10-29",
@@ -410,7 +375,7 @@
     }
   },
   {
-    "id": "hero_012",
+    "id": "hero_0012",
     "slug": "bir-shreshtha-hamidur-rahman",
     "dates": {
       "birth": "1953-02-02",
@@ -447,7 +412,7 @@
     }
   },
   {
-    "id": "hero_013",
+    "id": "hero_0013",
     "slug": "bir-shreshtha-mohiuddin-jahangir",
     "dates": {
       "birth": "1949-03-07",
@@ -484,7 +449,7 @@
     }
   },
   {
-    "id": "hero_014",
+    "id": "hero_0014",
     "slug": "bir-shreshtha-nur-mohammad-sheikh",
     "dates": {
       "birth": "1936-02-26",
@@ -520,79 +485,443 @@
       }
     }
   },
+
   {
-    "id": "hero_abu_sayed",
-    "slug": "abu-sayed",
+    "id": "hero_001",
+    "slug": "ziaur-rahman",
     "dates": {
-      "birth": "1999-01-01",
-      "death": "2024-07-16"
+      "birth": "1936-01-19",
+      "death": "1981-05-30"
     },
-    "era": "july_revolution_2024",
+    "era": "liberation_1971",
     "category": [
-      "martyr",
-      "student",
-      "revolutionary",
-      "war_movement"
+      "politician",
+      "military_leader",
+      "independence_figure"
     ],
     "images": [
-      "assets/images/heroes/abu_sayed.jfif"
+      "assets/images/heroes/ziaur_rahman.jpg"
     ],
-    "location_id": "loc_rangpur_univ",
+    "location_id": "loc_bogra",
     "importance": 5,
     "content": {
       "en": {
-        "name": "Abu Sayed",
-        "short_bio": "Abu Sayed was a key coordinator of the Student Against Discrimination movement who was shot dead by police while standing unarmed with his chest bared in protest.",
-        "full_biography": "Abu Sayed (born c. 1999) was a student of the English Department at Begum Rokeya University, Rangpur (BRUR). He was a key coordinator of the Anti-Discrimination Student Movement.\n\nOn July 16, 2024, during the nationwide quota reform protests, students at BRUR faced a police crackdown. In a defining moment of courage, Abu Sayed stood alone in front of the police line, his arms outstretched, holding nothing but a stick in one hand, completely exposing his chest to the armed officers.\n\nPolice opened fire directly at him from close range. Despite being hit, he tried to stand his ground before collapsing. He was rushed to the hospital but was pronounced dead.\n\nHis defiant stance and brutal killing were captured on video and circulated globally, becoming the iconic symbol of the July Revolution. His martyrdom galvanized the entire nation, turning the student protest into a mass uprising that eventually toppled the government.",
-        "quote": "Standing unarmed against tyranny is the highest form of bravery.",
-        "birth_place": "Pirganj, Rangpur, Bangladesh",
-        "achievements": "First martyr of the July Revolution • Iconic symbol of defiance • Coordinator of Anti-Discrimination Student Movement • Inspired nationwide uprising"
+        "name": "Ziaur Rahman",
+        "short_bio": "Ziaur Rahman was a Bangladeshi military officer and politician who served as the sixth President of Bangladesh from 1977 until his assassination in 1981, and was a leading figure in the country's independence war, notably broadcasting the declaration of independence in 1971.",
+        "full_biography": "Ziaur Rahman, born in a Bengali Muslim family in Bagbari village, trained at the Pakistan Military Academy and served in the Pakistan Army, earning the Hilal-i-Jurat for his role in the 1965 Indo-Pakistani War. He emerged as a key commander in the Bangladesh Forces during the 1971 Liberation War, broadcasting the declaration of independence from Chittagong and leading Z Force in battles against Pakistani forces, for which he received the Bir Uttom award. After independence, he rose through military ranks, becoming Chief of Army Staff amid post-war instability, and played a pivotal role in the 7 November 1975 coup that ousted Khondaker Mostaq Ahmad, leading to his de facto control under martial law.\n\nAs Chief Martial Law Administrator from 1976 and President from 1977, Ziaur Rahman implemented pragmatic economic policies including liberalization, rural development programs, and irrigation initiatives that aided economic recovery. He founded the Bangladesh Nationalist Party in 1978, reinstated multi-party politics, and pursued civic nationalism while improving relations with the West, China, and Islamic nations, proposing SAARC. His rule faced over 20 coup attempts, resulting in executions, and he introduced Islamic elements into the constitution, though he was criticized for suppressing opposition and controversial measures like the Indemnity Act.\n\nZiaur Rahman was assassinated on 30 May 1981 in Chittagong during an attempted coup. His legacy is divided: credited with stabilizing Bangladesh post-Sheikh Mujib, ending one-party rule, and fostering economic growth, but assailed for ruthlessness and alleged involvement in Mujib's assassination. The BNP, founded by him, remains a major political force led by his widow Khaleda Zia.",
+        "quote": "I, Major Ziaur Rahman, on behalf of Bangabandhu Sheikh Mujibur Rahman, hereby declare that the independent People's Republic of Bangladesh has been established. I call upon all Bengalis to rise against the attack by the West Pakistani Army. We shall fight to the last to free our motherland. By the grace of Allah, victory is ours.",
+        "birth_place": "Bagbari, Bogra District, British India",
+        "achievements": "Broadcast the declaration of Bangladeshi independence from Swadhin Bangla Betar Kendra in Chittagong on 27 March 1971 • Led Z Force as a commander in the Bangladesh Liberation War, earning Bir Uttom • Served as Chief of Army Staff of Bangladesh (1975–1978) • Became the 6th President of Bangladesh (1977–1981) • Founded the Bangladesh Nationalist Party in 1978 • Initiated economic liberalization and rural development programs leading to recovery • Proposed the formation of SAARC for regional cooperation in South Asia"
       },
       "bn": {
-        "name": "আবু সাঈদ",
-        "short_bio": "আবু সাঈদ ছিলেন বৈষম্যবিরোধী ছাত্র আন্দোলনের একজন অন্যতম সমন্বয়ক, যিনি পুলিশের সামনে নিরস্ত্র বুক পেতে দিয়ে দাঁড়িয়েছিলেন এবং পুলিশের গুলিতে শহীদ হন।",
-        "full_biography": "আবু সাঈদ (জন্ম আনুমানিক ১৯৯৯) ছিলেন বেগম রোকেয়া বিশ্ববিদ্যালয়ের বাাংলা বিভাগের ছাত্র এবং বৈষম্যবিরোধী ছাত্র আন্দোলনের অন্যতম সমন্বয়ক।\n\n১৬ জুলাই ২০২৪ তারিখে কোটা সংস্কার আন্দোলনের সময় পুলিশের বাধার মুখে আবু সাঈদ অসীম সাহসিকতার সাথে পুলিশের সামনে বুক পেতে দাঁড়িয়ে যান। তাঁর হাতে ছিল কেবল একটি লাঠি।\n\nপুলিশ খুব কাছ থেকে সরাসরি তাঁর বুকে গুলি চালায়। গুলিবিদ্ধ হয়েও তিনি কিছুক্ষণ দাঁড়িয়ে থাকার চেষ্টা করেন এবং পরে মাটিতে লুটিয়ে পড়েন। হাসপাতালে নেওয়ার পর তাঁকে মৃত ঘোষণা করা হয়।\n\nতাঁর এই বীরত্বপূর্ণ অবস্থান এবং নির্মম হত্যার দৃশ্য ভিডিওর মাধ্যমে ছড়িয়ে পড়ে এবং জুলাই বিপ্লবের প্রতীক হয়ে ওঠে। তাঁর আত্মত্যাগ পুরো জাতিকে জাগিয়ে তোলে এবং আন্দোলনকে গণঅভ্যুত্থানে রূপ দেয়।",
-        "quote": "অন্যায়ের বিরুদ্ধে বুক পেতে দাঁড়ানোই সাহসিকতার সর্বোচ্চ রূপ।",
-        "birth_place": "পীরগঞ্জ, রংপুর, বাংলাদেশ",
-        "achievements": "জুলাই বিপ্লবের প্রথম শহীদ • অকুতোভয় সাহসিকতার প্রতীক • বৈষম্যবিরোধী ছাত্র আন্দোলনের সমন্বয়ক • সারা জাতিকে অনুপ্রাণিত করেন"
+        "name": "জিয়াউর রহমান",
+        "short_bio": "বাংলাদেশের স্বাধীনতা যুদ্ধে মুক্তিযোদ্ধা হিসেবে গুরুত্বপূর্ণ ভূমিকা পালন করেন, স্বাধীনতার ঘোষণা পাঠ করেন, পরবর্তীতে সেনাপ্রধান ও রাষ্ট্রপতি হিসেবে দায়িত্ব পালন করেন এবং বাংলাদেশ জাতীয়তাবাদী দল প্রতিষ্ঠা করেন।",
+        "full_biography": "জিয়াউর রহমান ১৯৩৬ সালের ১৯ জানুয়ারি ব্রিটিশ ভারতের বাংলা প্রেসিডেন্সির বগুড়া জেলার নশিপুর ইউনিয়নের বাগবাড়ি গ্রামে জন্মগ্রহণ করেন। তিনি পাকিস্তান সেনাবাহিনীতে যোগদান করেন এবং ১৯৫৩ সালে পাকিস্তান মিলিটারি একাডেমিতে প্রশিক্ষণ গ্রহণ করেন। ১৯৭১ সালের স্বাধীনতা যুদ্ধে তিনি বিদ্রোহ করেন এবং ২৭ মার্চ চট্টগ্রামের কালুরঘাট বেতার কেন্দ্র থেকে স্বাধীনতার ঘোষণা পাঠ করেন, সেক্টর কমান্ডার এবং জেড ফোর্সের অধিনায়ক হিসেবে মুক্তিযুদ্ধে অংশগ্রহণ করেন, যা তার বীর উত্তম উপাধি অর্জনের কারণ হয়। স্বাধীনতার পর তিনি বাংলাদেশ সেনাবাহিনীর উচ্চ পদে দায়িত্ব পালন করেন এবং ১৯৭৫ সালে সেনাপ্রধান হন। ১৯৭৭ সালে তিনি রাষ্ট্রপতি নির্বাচিত হন এবং ১৯৭৮ সালে বাংলাদেশ জাতীয়তাবাদী দল প্রতিষ্ঠা করেন, যা তার রাজনৈতিক জীবনের মূল ভিত্তি হয়ে ওঠে। তার শাসনকালে বহুদলীয় গণতন্ত্র পুনঃপ্রতিষ্ঠা, অর্থনৈতিক সংস্কার, বাংলাদেশী জাতীয়তাবাদের প্রচার এবং আন্তর্জাতিক সম্পর্ক জোরদার করা হয়, যা দেশের উন্নয়নে গুরুত্বপূর্ণ ভূমিকা পালন করে। তবে তার শাসনকালে বিরোধীদের দমন এবং সামরিক অভ্যুত্থানের প্রচেষ্টা নিয়ে বিতর্ক রয়েছে। ১৯৮১ সালের ৩০ মে চট্টগ্রামে এক সামরিক অভ্যুত্থানে তিনি নিহত হন।",
+        "quote": "আমি রাজনীতিবিদদের জন্য রাজনীতি কঠিন করে তুলব।",
+        "birth_place": "বাগবাড়ি, বগুড়া জেলা/বিভাগ, বাংলাদেশ",
+        "achievements": "বাংলাদেশের স্বাধীনতা যুদ্ধে সেক্টর কমান্ডার এবং জেড ফোর্সের অধিনায়ক হিসেবে বীরত্বের জন্য বীর উত্তম উপাধি প্রাপ্তি • বাংলাদেশের রাষ্ট্রপতি হিসেবে ১৯৭৭-১৯৮১ পর্যন্ত দায়িত্ব পালন • বাংলাদেশ জাতীয়তাবাদী দল প্রতিষ্ঠা • বহুদলীয় গণতন্ত্র পুনঃপ্রতিষ্ঠা এবং রাজনৈতিক সংস্কার • অর্থনৈতিক উন্নয়ন যেমন কৃষি বিপ্লব, শিল্প উৎপাদন বৃদ্ধি এবং রপ্তানি বৃদ্ধি • গ্রাম প্রতিরক্ষা বাহিনী গঠন এবং গ্রামীণ উন্নয়ন • সার্ক প্রতিষ্ঠায় উদ্যোগ • আন্তর্জাতিক সম্পর্ক জোরদার, যেমন চীন, মার্কিন যুক্তরাষ্ট্র এবং মুসলিম বিশ্বের সাথে সম্পর্ক স্থাপন"
       }
     }
   },
   {
-    "id": "hero_mir_mugdho",
-    "slug": "mir-mugdho",
+    "id": "hero_002",
+    "slug": "huseyn-shaheed-suhrawardy",
     "dates": {
-      "birth": "1998-10-09",
-      "death": "2024-07-18"
+      "birth": "1892-09-08",
+      "death": "1963-12-05"
     },
-    "era": "july_revolution_2024",
+    "era": "partition_era",
     "category": [
-      "martyr",
-      "student",
-      "war_movement"
+      "politician",
+      "statesman"
     ],
     "images": [
-      "assets/images/heroes/mir_mugdho.jpg"
+      "assets/images/heroes/huseyn_shaheed_suhrawardy.jpg"
     ],
-    "location_id": "loc_uttara",
+    "location_id": "loc_midnapore",
     "importance": 5,
     "content": {
       "en": {
-        "name": "Mir Mahfuzur Rahman Mugdho",
-        "short_bio": "Mir Mugdho was a brilliant student and freelancer who was shot dead while distributing water to exhausted protesters in Uttara. His last words, 'Water, water, does anyone need water?' became a haunting memory.",
-        "full_biography": "Mir Mahfuzur Rahman Mugdho was a talented student who had completed his undergraduate degree in Mathematics from Khulna University and was pursuing an MBA at Bangladesh University of Professionals (BUP). He was also a successful freelancer.\n\nOn July 18, 2024, during fierce clashes between protesters and police in Uttara, Dhaka, Mugdho was not throwing stones or fighting; he was distributing water bottles and biscuits to tired and thirsty protesters. A video recorded minutes before his death shows him calling out, 'Water, water, does anyone need water?'\n\nMoments later, he was shot in the head by a police sniper/bullet and died instantly. His innocent humanitarian act and sudden death became a poignant reminder of the brutality unleashed on peaceful students.",
-        "quote": "Water, water, does anyone need water? (পানি লাগবে, পানি?)",
-        "birth_place": "Uttara, Dhaka, Bangladesh",
-        "achievements": "Martyred while serving humanitarian aid • Symbol of selfless service • Talented freelancer and student"
+        "name": "Huseyn Shaheed Suhrawardy",
+        "short_bio": "Huseyn Shaheed Suhrawardy was a prominent Bengali Muslim politician who served as the last Prime Minister of undivided Bengal, advocated for a united independent Bengal, and later became Prime Minister of Pakistan, while also being recognized as a pioneer of the Bengali civil rights movement in Bangladesh.",
+        "full_biography": "Born into one of Bengal's most illustrious Muslim families, the Suhrawardys, Huseyn Shaheed Suhrawardy was educated at Calcutta Madrasa, St. Xavier's College, the University of Calcutta, and St Catherine's College, Oxford, where he earned degrees in science, Arabic, and political science, and was called to the Bar of England and Wales. He began his political career in the 1920s as a trade union leader in Calcutta, associated with the Swaraj Party, before joining the All-India Muslim League and rising as a key figure in its Bengal branch. Elected to the Bengal Legislative Assembly in 1937, he served as Minister of Commerce and Labor under A. K. Fazlul Huq and later as Minister of Civil Supplies under Khawaja Nazimuddin during the Bengal famine of 1943, where he blamed black marketers and the central government while facing accusations of corruption and inaction.\n\nAs Prime Minister of Bengal from 1946 to 1947, Suhrawardy led the Muslim League to a decisive victory in the 1946 provincial elections and proposed a separate united Bengal, supported by the Muslim League but opposed by the Indian National Congress. His tenure was marred by the Great Calcutta Killings in August 1946, which he organized as Direct Action Day, and the subsequent Noakhali riots, where he attempted to restrict media coverage. After partition, he moved to Pakistan, becoming leader of the Awami League in East Pakistan and serving as Prime Minister of Pakistan from 1956 to 1957 under a coalition government, forging ties with the United States through SEATO and CENTO, visiting Communist China, and establishing the Pakistan Atomic Energy Commission. His pro-Western policies led to a split in the Awami League, with figures like Maulana Bhashani forming the National Awami Party.\n\nSuhrawardy was arrested after the 1958 military coup and founded the National Democratic Front in 1962 to oppose Ayub Khan's regime but died of cardiac arrest in Beirut in 1963. In Bangladesh, he is revered as a patron of the Pakistan Movement and pioneer of Bengali nationalism, with his protégé Sheikh Mujibur Rahman leading the eventual independence movement; however, in India, he is criticized as responsible for the 1946 Calcutta killings and the Bengal famine.",
+        "quote": "Let us pause for a moment to consider what Bengal can be if it remains united. It will be a great country, indeed the richest and the most prosperous in India capable of giving to its people a high standard of living, where a great people will be able to rise to the fullest height of their stature, a land that will truly be plentiful.",
+        "birth_place": "Midnapore, Medinipur District, British India",
+        "achievements": "Led the All-India Muslim League to victory in the 1946 Bengal provincial elections, winning 113 out of 119 Muslim seats • Proposed and advocated for a united, independent Bengal as a sovereign state, influencing British and international considerations of partition options • Served as the last Prime Minister of undivided Bengal from 1946 to 1947 • Became the fifth Prime Minister of Pakistan from 1956 to 1957, leading a coalition government and strengthening ties with the United States through SEATO and CENTO • Established the Pakistan Atomic Energy Commission and supported nuclear energy development, including importing a nuclear swimming pool reactor • Pioneered the Bengali civil rights movement in East Pakistan, with his leadership in the Awami League laying groundwork for Bengali nationalism and the eventual Six-Point Movement"
       },
       "bn": {
-        "name": "মীর মাহফুজুর রহমান মুগ্ধ",
-        "short_bio": "মীর মুগ্ধ ছিলেন একজন মেধাবী ছাত্র এবং ফ্রিল্যান্সার যিনি উত্তরায় আন্দোলনরত ক্লান্ত শিক্ষার্থীদের মাঝে পানি ও বিস্কুট বিতরণ করার সময় গুলিবিদ্ধ হয়ে শহীদ হন।",
-        "full_biography": "মীর মাহফুজুর রহমান মুগ্ধ খুলনা বিশ্ববিদ্যালয় থেকে গণিতে স্নাতক শেষ করে বাংলাদেশ ইউনিভার্সিটি অফ প্রফেশনালস (বিইউপি)-এ এমবিএ করছিলেন। তিনি একজন সফল ফ্রিল্যান্সারও ছিলেন।\n\n১৮ জুলাই ২০২৪ তারিখে ঢাকার উত্তরায় সংঘর্ষের সময় মুগ্ধ আন্দোলনকারীদের মাঝে পানি বিতরণ করছিলেন। মৃত্যুর কিছুক্ষণ আগের একটি ভিডিওতে তাকে বলতে শোনা যায়, 'পানি লাগবে, পানি?'\n\nএর কিছুক্ষণ পরেই তিনি গুলিবিদ্ধ হন এবং ঘটনাস্থলেই মারা যান। তাঁর এই নিঃস্বার্থ সেবা এবং নির্মম মৃত্যু আন্দোলনের অন্যতম বেদনাদায়ক ঘটনা হিসেবে স্মরণীয় হয়ে আছে।",
-        "quote": "পানি লাগবে, পানি?",
-        "birth_place": "উত্তরা, ঢাকা, বাংলাদেশ",
-        "achievements": "মানবিক সেবার সময় শহীদ • নিঃস্বার্থ সেবার প্রতীক • মেধাবী ছাত্র ও ফ্রিল্যান্সার"
+        "name": "হোসেন শহীদ সোহ্‌রাওয়ার্দী",
+        "short_bio": "বাংলার শেষ প্রধানমন্ত্রী এবং পাকিস্তানের ৫ম প্রধানমন্ত্রী হিসেবে তিনি গণতান্ত্রিক রীতি ও জনমতের প্রতি শ্রদ্ধাশীল ছিলেন, যুক্তফ্রন্ট গঠনের মূলনেতা এবং বাংলাদেশের ইতিহাসে অসাম্প্রদায়িক চেতনা প্রতিষ্ঠায় অবদান রেখেছেন।",
+        "full_biography": "হোসেন শহীদ সোহ্‌রাওয়ার্দী মেদিনীপুরের এক সম্ভ্রান্ত পরিবারে জন্মগ্রহণ করেন, তার পিতা ছিলেন কলকাতা হাইকোর্টের বিচারক জাহিদ সোহরাওয়ার্দী এবং মা ছিলেন উর্দু সাহিত্যিক খুজাস্তা আখতার বানু। তিনি কলকাতা আলিয়া মাদ্রাসা, সেন্ট জেভিয়ার্স কলেজ, কলকাতা বিশ্ববিদ্যালয়, অক্সফোর্ড বিশ্ববিদ্যালয় এবং ইন্স অব কোর্ট স্কুল অব ল থেকে শিক্ষা গ্রহণ করেন, বাংলা ভাষা শিখে নিজেকে বাঙালি সংস্কৃতির সাথে যুক্ত করেন এবং ১৯২১ সালে আইন পেশায় প্রবেশ করেন। রাজনৈতিক জীবনে তিনি চিত্তরঞ্জন দাসের স্বরাজ পার্টিতে যোগ দেন, ১৯২৪ সালে কলকাতা পৌরসভার ডেপুটি মেয়র হন, ১৯৩৬ সালে ইন্ডিপেন্ডেন্ট মুসলিম পার্টি গঠন করেন যা পরে মুসলিম লিগের সাথে একীভূত হয়, এবং ১৯৪৬ সালে বাংলার মুখ্যমন্ত্রী হিসেবে পাকিস্তান আন্দোলনে সমর্থন দেন। দেশভাগের পর পাকিস্তানে গিয়ে আওয়ামী মুসলিম লিগ গঠনে ভূমিকা রাখেন, ১৯৫৩ সালে যুক্তফ্রন্ট গঠন করেন যা ১৯৫৪ সালের নির্বাচনে বিপুল জয়লাভ করে, ১৯৫৬ সালে পাকিস্তানের প্রধানমন্ত্রী হন এবং সংবিধান প্রণয়নে অবদান রাখেন, কিন্তু অর্থনৈতিক বৈষম্য দূরীকরণের চেষ্টায় বিরোধিতার সম্মুখীন হন। ১৯৫৮ সালে সামরিক শাসন জারির পর রাজনীতি থেকে সরে যান, ১৯৬২ সালে গ্রেফতার হন এবং ১৯৬৩ সালে লেবাননে মৃত্যুবরণ করেন, তার সমাধি ঢাকার হাইকোর্ট প্রাঙ্গণে।",
+        "quote": "গণতান্ত্রিক রীতি ও জনমতের প্রতি শ্রদ্ধাশীল ছিলেন, তাই সুধী সমাজ কর্তৃক ‘গণতন্ত্রের মানসপুত্র’ বলে আখ্যায়িত হন।",
+        "birth_place": "মেদিনীপুর, বেঙ্গল প্রেসিডেন্সি, ব্রিটিশ ভারত (বর্তমান পশ্চিমবঙ্গ, ভারত)",
+        "achievements": "বাংলার শেষ প্রধানমন্ত্রী (১৯৪৬-১৯৪৭) • পাকিস্তানের ৫ম প্রধানমন্ত্রী (১৯৫৬-১৯৫৭) • যুক্তফ্রন্ট গঠনের মূলনেতা এবং ১৯৫৪ সালের নির্বাচনে বিপুল জয়লাভ • পাকিস্তানের প্রথম সংবিধান প্রণয়নে ভূমিকা • বাংলাকে রাষ্ট্রভাষা হিসেবে স্বীকৃতি প্রদানে অবদান • অসাম্প্রদায়িক চেতনা প্রতিষ্ঠার জন্য আওয়ামী লিগ গঠন"
+      }
+    }
+  },
+  {
+    "id": "hero_003",
+    "slug": "a-k-fazlul-huq",
+    "dates": {
+      "birth": "1873-10-26",
+      "death": "1962-04-27"
+    },
+    "era": "partition_era",
+    "category": [
+      "politician",
+      "statesman"
+    ],
+    "images": [
+      "assets/images/heroes/a_k_fazlul_huq.jpg"
+    ],
+    "location_id": "loc_jhalokati",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Abul Kasem Fazlul Huq",
+        "short_bio": "A. K. Fazlul Huq was a Pakistani statesman, lawyer, and politician who served as the first and longest-serving Prime Minister of Bengal during the British Raj, presented the Lahore Resolution for the Pakistan Movement, and held key positions including Governor of East Pakistan.",
+        "full_biography": "Abul Kasem Fazlul Huq, popularly known as Sher-e-Bangla, was born in 1873 to a Bengali Muslim family in Backergunge District, Bengal Presidency. He pursued higher education at Presidency College and the University of Calcutta, earning degrees in mathematics, physics, chemistry, and law. Huq began his career as a civil servant and lawyer, practicing at the Calcutta High Court for over 40 years. He entered politics in 1913 as Secretary of the Bengal Provincial Muslim League and rose to prominence, serving as President of the All India Muslim League (1916–1921), General Secretary of the Indian National Congress (1916–1918), and Education Minister of Bengal in 1924. In 1937, he became the first Prime Minister of Bengal, leading for six years and implementing land reforms to relieve tenant farmers' debts under the Permanent Settlement, including the Bengal Agricultural Debtors' Act and Tenancy Amendment Act. He presented the Lahore Resolution in 1940, calling for sovereign states in Muslim-majority areas, foundational to the Pakistan Movement. During World War II, he joined the Viceroy's Defence Council but resigned in 1943 amid tensions with the Governor and Muslim League rivals. After partition, he served as Advocate-General of East Bengal (1947–1952), Chief Minister of East Bengal (1954), Interior Minister of Pakistan (1955–1956), and Governor of East Pakistan (1956–1958). He founded the Krishak Sramik Party and supported the Bengali language movement. Huq died in Dacca in 1962 and is buried in the Mausoleum of Three Leaders. His legacy includes founding educational institutions and the Bangla Academy, with Sher-e-Bangla Nagar named in his honor.",
+        "quote": "Someday sooner or later, they will be humbled to dust even; as tyrants and oppressors of humanity have met their doom in the chequered history of mankind.",
+        "birth_place": "Saturia, Jhalokati District, Bangladesh",
+        "achievements": "First and longest-serving Prime Minister of Bengal (1937–1943) • Presented the Lahore Resolution (1940), foundational to the Pakistan Movement • Implemented land reforms including Bengal Agricultural Debtors' Act (1938) and Tenancy Amendment Act (1938) to relieve tenant debts • Served as Chief Minister of East Bengal (1954) • Served as Governor of East Pakistan (1956–1958) • Founded Bangla Academy and supported Bengali language movement • Founded multiple educational institutions including Islamia College and Dhaka University contributions"
+      },
+      "bn": {
+        "name": "আবুল কাশেম ফজলুল হক",
+        "short_bio": "বাংলার প্রথম প্রধানমন্ত্রী, কৃষক প্রজা পার্টির নেতা হিসেবে কৃষকদের স্বার্থ রক্ষা করেন এবং যুক্তফ্রন্ট গঠনে ভূমিকা রাখেন।",
+        "full_biography": "আবুল কাশেম ফজলুল হক ১৮৭৩ সালে বাকেরগঞ্জ জেলায় জন্মগ্রহণ করেন। তিনি কলকাতা প্রেসিডেন্সি কলেজ থেকে শিক্ষা লাভ করেন এবং আইনজীবী হিসেবে কলকাতা হাইকোর্টে ৪০ বছরেরও বেশি সময় অনুশীলন করেন। রাজনৈতিক জীবনে তিনি কংগ্রেস, মুসলিম লীগ এবং কৃষক প্রজা পার্টির সাথে যুক্ত ছিলেন। ১৯৩৭ সালে বাংলার প্রধানমন্ত্রী নিযুক্ত হন এবং জমিদারি প্রথা উচ্ছেদ, শিক্ষা প্রসার এবং কৃষকদের অধিকার রক্ষায় গুরুত্বপূর্ণ ভূমিকা পালন করেন। পাকিস্তান আমলে তিনি পূর্ব পাকিস্তানের মুখ্যমন্ত্রী (১৯৫৪) এবং গভর্নর (১৯৫৬-১৯৫৮) হিসেবে দায়িত্ব পালন করেন, যুক্তফ্রন্ট গঠন করে ভাষা আন্দোলন এবং অন্যান্য সংস্কারে অবদান রাখেন। ১৯৬২ সালে ঢাকায় তার মৃত্যু হয়।",
+        "quote": "আরো গরম লিখে যাও, ইংরেজ সাহেবদের টনক নাড়িয়ে দাও",
+        "birth_place": "সাতুরিয়া, ঝালকাঠি জেলা/বরিশাল বিভাগ, বাংলাদেশ",
+        "achievements": "অবিভক্ত বাংলার প্রথম প্রধানমন্ত্রী (১৯৩৭-১৯৪৩) • পূর্ববঙ্গের মুখ্যমন্ত্রী (১৯৫৪-১৯৫৫) • পাকিস্তানের স্বরাষ্ট্রমন্ত্রী (১৯৫৫) • পূর্ব পাকিস্তানের গভর্নর (১৯৫৬-১৯৫৮) • যুক্তফ্রন্ট গঠন এবং ভাষা আন্দোলনের সমর্থন • জমিদারি প্রথা উচ্ছেদ এবং কৃষকদের অধিকার রক্ষা • কলকাতার মেয়র (১৯৩৫)"
+      }
+    }
+  },
+  {
+    "id": "hero_004",
+    "slug": "abdul-hamid-khan-bhashani",
+    "dates": {
+      "birth": "1880-12-12",
+      "death": "1976-11-17"
+    },
+    "era": "post_partition",
+    "category": [
+      "politician",
+      "activist"
+    ],
+    "images": [
+      "assets/images/heroes/abdul_hamid_khan_bhashani.jpg"
+    ],
+    "location_id": "loc_sirajganj",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Abdul Hamid Khan Bhashani",
+        "short_bio": "Maulana Abdul Hamid Khan Bhashani was a Bangladeshi politician and statesman who founded the Awami League, advocated for peasant rights, and played a key role in Bangladesh's independence from Pakistan through his left-leaning, Islamic socialist politics.",
+        "full_biography": "Abdul Hamid Khan Bhashani, born in a Bengali Muslim family in rural Bengal, lost his father young and faced hardships including famines and epidemics. Educated at Darul Uloom Deoband, he emerged as a religious scholar and anti-colonial activist, participating in the Khilafat Movement and joining the Indian National Congress before shifting to the Muslim League. In Assam, he organized peasant conventions against exploitative land systems, earning the title Bhashani and leading the 1947 Sylhet Referendum to integrate Sylhet into Pakistan. He founded the Awami Muslim League in 1949, which became the Awami League, and advocated for East Pakistan's autonomy, forming the National Awami Party in 1957 due to ideological differences with right-leaning leaders.\n\nBhashani's political career spanned British India, Pakistan, and Bangladesh, marked by his advocacy for the poor and opposition to West Pakistan's dominance. He led the 1969 mass uprising against Ayub Khan's regime, supported the Language Movement, and boycotted the 1970 elections, paving the way for Sheikh Mujibur Rahman's victory. During the 1971 Liberation War, he declared East Pakistan's independence and sought international aid, though unsuccessfully. Post-independence, he criticized the Awami League government, led the 1976 Farakka Long March against India's water diversion, and founded newspapers like Weekly Ittefaq and Haq Katha to promote socialist views.",
+        "quote": "As-salamu alaykum",
+        "birth_place": "Dhangara, Sirajganj District, British India",
+        "achievements": "Founded the Awami League and served as its first president (1949–1956) • Led the 1947 Sylhet Referendum to integrate Sylhet into Pakistan • Organized the 1932 Sirajganj peasant convention • Advocated for Bangla as a national language in the Language Movement • Instigated the 1969 Mass uprising in East Pakistan • Declared independence of East Pakistan on 23 November 1970 • Led the 1976 Farakka Long March demanding fair Ganges water distribution"
+      },
+      "bn": {
+        "name": "আবদুল হামিদ খান ভাসানী",
+        "short_bio": "বিংশ শতাব্দীর তৃণমূল রাজনীতিবিদ ও গণআন্দোলনের নেতা, যিনি বাংলাদেশের স্বাধীনতা, ভাষা আন্দোলন এবং কৃষক আন্দোলনে গুরুত্বপূর্ণ ভূমিকা পালন করেন এবং বামপন্থী রাজনীতির সঙ্গে জড়িত ছিলেন।",
+        "full_biography": "আবদুল হামিদ খান ভাসানী ১৮৮০ সালের ১২ ডিসেম্বর ব্রিটিশ ভারতের বেঙ্গল প্রেসিডেন্সির পাবনা জেলার সয়াধানগড়া পল্লীতে জন্মগ্রহণ করেন। পিতৃহীন অবস্থায় তিনি চাচার আশ্রয়ে থাকেন এবং ধর্মীয় শিক্ষা গ্রহণ করেন, পরে দারুল উলুম দেওবন্দে অধ্যয়ন করেন। ১৯১৭ সালে ভারতীয় জাতীয় কংগ্রেসে যোগদান করে অসহযোগ আন্দোলনে অংশ নেন এবং কারাবাস ভোগ করেন। ১৯২৩ সালে স্বরাজ দল গঠনে ভূমিকা পালন করেন এবং ১৯২৬ সালে আলেমা খাতুনকে বিবাহ করেন। আসামে গিয়ে কৃষক-প্রজা আন্দোলনের সূচনা করেন এবং ১৯২৯ সালে ভাসান চরে কৃষক সম্মেলন আয়োজন করে \"ভাসানী\" উপাধি লাভ করেন। ১৯৩০-এর দশকে আসামে কৃষক সম্মেলন করেন এবং মুসলিম লীগে যোগদান করে লাইন প্রথার বিরুদ্ধে আন্দোলন করেন। ১৯৪৭ সালে পাকিস্তান আন্দোলনে গ্রেফতার হন এবং পরে পূর্ব পাকিস্তানে ফিরে আসেন। ১৯৪৯ সালে আওয়ামী মুসলিম লীগ গঠন করেন এবং ভাষা আন্দোলনে নেতৃত্ব দেন, যার ফলে ১৯৫৪ সালে যুক্তফ্রন্ট গঠন করে নির্বাচনে বিজয় লাভ করেন। ১৯৫৭ সালে কাগমারী সম্মেলনে পাকিস্তানের শাসকদের সমালোচনা করে ন্যাশনাল আওয়ামী পার্টি (ন্যাপ) গঠন করেন এবং বামপন্থী রাজনীতিতে যোগ দেন। ১৯৬০-এর দশকে সামরিক শাসনের বিরুদ্ধে আন্দোলন করেন এবং ১৯৭১ সালে বাংলাদেশের স্বাধীনতা যুদ্ধে ভারতে গিয়ে মুক্তিযুদ্ধে সহায়তা করেন, মুজিবনগর সরকারের উপদেষ্টা হিসেবে কাজ করেন। স্বাধীন বাংলাদেশে ফিরে খাদ্য আন্দোলন, ফারাক্কা বাঁধের বিরুদ্ধে লং মার্চ এবং বিভিন্ন সংগঠন গঠন করেন, যা তার দূরদর্শী নেতৃত্ব এবং মজলুম জননেতা হিসেবে পরিচয় বহন করে।",
+        "quote": "আসসালামু আলাইকুম",
+        "birth_place": "সয়াধানগড়া পল্লী, পাবনা জেলা, বেঙ্গল প্রেসিডেন্সি, ব্রিটিশ ভারত (বর্তমানে সিরাজগঞ্জ জেলা, বাংলাদেশ)",
+        "achievements": "আসাম বিধানসভার সদস্য (১৯৩৬-১৯৪৬) • পাকিস্তানের সংসদ সদস্য (১৯৫৪-১৯৫৫) • বাংলাদেশের সংসদ সদস্য (১৯৭৩-১৯৭৫) • বাংলাদেশ আওয়ামী লীগের প্রতিষ্ঠাতা সভাপতি • ন্যাশনাল আওয়ামী পার্টির প্রতিষ্ঠাতা • ভাষা আন্দোলনে নেতৃত্ব এবং যুক্তফ্রন্ট গঠন • বাংলাদেশের স্বাধীনতা যুদ্ধে উপদেষ্টা পরিষদের সদস্য • স্বাধীনতা পুরস্কার (১৯৭৭, মরণোত্তর) এবং একুশে পদক (২০০২, মরণোত্তর)"
+      }
+    }
+  },
+  {
+    "id": "hero_005",
+    "slug": "khwaja-salimullah",
+    "dates": {
+      "birth": "1871-06-07",
+      "death": "1915-01-16"
+    },
+    "era": "colonial_era",
+    "category": [
+      "noble",
+      "politician"
+    ],
+    "images": [
+      "assets/images/heroes/khwaja_salimullah.jpg"
+    ],
+    "location_id": "loc_dhaka",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Khwaja Salimullah",
+        "short_bio": "Khwaja Salimullah was the fourth Nawab of Dhaka and a leading Muslim politician who supported the Partition of Bengal, founded the All-India Muslim League in Dhaka, and contributed to educational institutions in Eastern Bengal.",
+        "full_biography": "Khwaja Salimullah Bahadur served as the Nawab of Dhaka from 1901 to 1915, inheriting the title after his father Khwaja Ahsanullah. Born in Ahsan Manzil, he was educated in Arabic, Urdu, Persian, and English. He played a pivotal role in Muslim politics during British India, advocating for the 1905 Partition of Bengal, which he supported against opposition from the Indian National Congress. He organized meetings and conferences in East Bengal to promote the partition and served as a member of the East Bengal and Assam Legislative Council from 1906 to 1907.\n\nSalimullah was instrumental in the establishment of the All-India Muslim League, hosting the foundational educational conference at Ahsan Manzil in Dhaka on 30 December 1906, where the league was formed, and he was appointed its first interim president. A staunch patron of education, he founded the University of Dhaka and the Ahsanullah School of Engineering (now Bangladesh University of Engineering and Technology). He also chaired various Muslim leagues and conferences, including the All Bengal Muslim League and the East Bengal and Assam Provincial Muslim League, and pushed for Muslim educational rights and separate electorates.\n\nIn his later years, Salimullah focused on educational advancements, such as demanding and securing the establishment of Dhaka University following the annulment of the Bengal Partition in 1911. He organized fundraising for Turkish Muslims during the Balkan Wars and supported the Allies in World War I after Turkey aligned with Germany. He withdrew from active politics in 1914 and served in the Bengal Legislative Assembly until his death in 1915.",
+        "quote": "",
+        "birth_place": "Dacca, Bengal, British India",
+        "achievements": "Supported and organized campaigns for the Partition of Bengal (1905) • Founded the All-India Muslim League as its first interim president in Dhaka (1906) • Established the University of Dhaka and Ahsanullah School of Engineering • Served as president of the All Bengal Muslim League and East Bengal and Assam Provincial Muslim League • Advocated for Muslim educational rights and separate electorates"
+      },
+      "bn": {
+        "name": "খাজা সলিমুল্লাহ",
+        "short_bio": "খাজা সলিমুল্লাহ ঢাকার নবাব এবং নিখিল ভারত মুসলিম লীগের প্রতিষ্ঠাতা ও প্রথম প্রেসিডেন্ট ছিলেন, যিনি ঢাকা বিশ্ববিদ্যালয় প্রতিষ্ঠায় গুরুত্বপূর্ণ ভূমিকা পালন করেন এবং বঙ্গভঙ্গের প্রেক্ষাপটে মুসলিম ঐক্য গঠনে অগ্রণী ছিলেন।",
+        "full_biography": "খাজা সলিমুল্লাহ ১৮৭১ সালের ৭ জুন আহসান মঞ্জিলে জন্মগ্রহণ করেন এবং ঢাকার চতুর্থ নবাব হিসেবে ১৯০১ থেকে ১৯১৫ সাল পর্যন্ত রাজত্ব করেন। তার পিতা খাজা আহসানউল্লাহ এবং পিতামহ খাজা আব্দুল গনি ছিলেন। তিনি নিখিল ভারত মুসলিম লীগের প্রতিষ্ঠাতা ও প্রথম প্রেসিডেন্ট হিসেবে মুসলিম রাজনীতিতে অগ্রণী ভূমিকা পালন করেন। ঢাকা বিশ্ববিদ্যালয় প্রতিষ্ঠার জন্য তিনি বিশেষ ভূমিকা পালন করেন, যদিও জীবদ্দশায় তা দেখতে পাননি এবং বিশ্ববিদ্যালয়ের স্থানের একটি বড় অংশ জমি তার প্রদান করা।\n\n১৯০৩ সালে লর্ড কার্জনের ঢাকা সফরে তিনি পূর্ব বাংলার সমস্যা তুলে ধরেন, যা বঙ্গভঙ্গের সিদ্ধান্তে ভূমিকা রাখে। ১৯০৬ সালে তিনি সর্বভারতীয় মুসলিম সংঘ গঠনের প্রস্তাব দেন, যা নিখিল ভারত মুসলিম লীগে রূপান্তরিত হয়। বঙ্গভঙ্গ সমর্থন এবং বিরোধী আন্দোলনের নিন্দা করা হয় এই সম্মেলনে। তার মৃত্যু ১৯১৫ সালের ১৬ জানুয়ারি কলকাতার চৌরঙ্গীতে হয়, যা ঢাকা বিশ্ববিদ্যালয় প্রতিষ্ঠা নিয়ে বড়লাটের সঙ্গে মতবিরোধের ফলে ঘটে।",
+        "quote": "ঢাকা বিশ্ববিদ্যালয় প্রতিষ্ঠা এবং পূর্ববাংলার মানুষের জন্য তিনি অগ্রগণ্য ভূমিকা পালন করেন।",
+        "birth_place": "আহসান মঞ্জিল, ঢাকা, বেঙ্গল প্রেসিডেন্সি, ব্রিটিশ ভারত",
+        "achievements": "ঢাকার নবাব (১৯০১-১৯১৫) • নিখিল ভারত মুসলিম লীগের প্রতিষ্ঠাতা ও প্রথম প্রেসিডেন্ট • ঢাকা বিশ্ববিদ্যালয় প্রতিষ্ঠায় গুরুত্বপূর্ণ ভূমিকা (জমি প্রদানসহ) • বঙ্গভঙ্গের প্রেক্ষাপটে মুসলিম ঐক্য গঠন"
+      }
+    }
+  },
+  {
+    "id": "hero_006",
+    "slug": "saiful-azam",
+    "dates": {
+      "birth": "1941-09-11",
+      "death": "2020-06-14"
+    },
+    "era": "modern_era",
+    "category": [
+      "military",
+      "pilot",
+      "politician"
+    ],
+    "images": [
+      "assets/images/heroes/saiful_azam.jpg"
+    ],
+    "location_id": "loc_pabna",
+    "importance": 4,
+    "content": {
+      "en": {
+        "name": "Saiful Azam",
+        "short_bio": "Saiful Azam was a Bangladeshi fighter pilot and flying ace who served in the Pakistan Air Force and later the Bangladesh Air Force, and later became a politician as a Member of Parliament for Pabna-3 from the Bangladesh Nationalist Party.",
+        "full_biography": "Saiful Azam was born in a Bengali Muslim family in Khalishadah-Khagarbaria village, Faridpur subdivision, Pabna District, under the Bengal Presidency in British India. He spent part of his childhood in Calcutta until the Partition of Bengal in 1947, completed secondary schooling in East Pakistan, and then moved to West Pakistan to join PAF College Sargodha and the Pakistan Air Force Academy in Risalpur, gaining commission in 1960. He served in the Pakistan Air Force from 1960 to 1971, participating in the 1965 Indo-Pakistani War where he shot down an Indian Air Force aircraft and took part in 12 ground-attack missions, earning the Sitara-e-Jurat. He also served as an adviser and pilot for the Royal Jordanian Air Force and Iraqi Air Force during the Six-Day War, claiming to have shot down four Israeli aircraft. After Bangladesh's independence in 1971, he joined the Bangladesh Air Force in 1974, serving as Director of Flight Safety and Operations, commanding the Dhaka Air Base, and retiring as a Group Captain in 1977. Post-retirement, he served as Chairman of the Civil Aviation Authority of Bangladesh twice (1982–1984 and 1987–1988), entered politics with the Bangladesh Nationalist Party, and was elected Member of Parliament for Pabna-3 from 1991 to 1996. He also engaged in private business as managing director of Natasha Trading Agency.",
+        "quote": "on behalf of all Palestinians, I send our deepest condolences to his family in Pakistan and in Bangladesh.",
+        "birth_place": "Khalishadah-Khagarbaria, Faridpur Upazila, Pabna District, British India",
+        "achievements": "Fighter pilot and flying ace in Pakistan Air Force and Bangladesh Air Force • Shot down one Indian Air Force aircraft in 1965 Indo-Pakistani War • Claimed to have shot down four Israeli Air Force aircraft during Six-Day War • Awarded Sitara-e-Jurat by Pakistan • Awarded Wisam al-Istiqlal by Jordan • Awarded Nawt as-Shaja'ah by Iraq • Chairman of Civil Aviation Authority of Bangladesh (1982–1984 and 1987–1988) • Member of Parliament for Pabna-3 (1991–1996)"
+      },
+      "bn": {
+        "name": "সাইফুল আজম",
+        "short_bio": "সাইফুল আজম ছিলেন বাংলাদেশী আকাশযোদ্ধা ও রাজনীতিবিদ, যিনি পাকিস্তান, জর্ডান, ইরাক ও বাংলাদেশ বিমানবাহিনীতে যুদ্ধে অংশগ্রহণ করেছেন এবং চারটি ইসরায়েলি বিমান ভূপাতিত করার রেকর্ডধারী।",
+        "full_biography": "সাইফুল আজম ১৯৪১ সালে ব্রিটিশ ভারতের পূর্ব বাংলার পাবনা জেলায় জন্মগ্রহণ করেন। তার প্রারম্ভিক জীবন কলকাতায় কেটে যায় এবং দেশভাগের পর পরিবার ফিরে আসে পূর্ব পাকিস্তানে। ১৯৫৮ সালে তিনি পাকিস্তান এয়ার ফোর্স ক্যাডেট কলেজে ভর্তি হন এবং ১৯৬০ সালে পাইলট হিসেবে পাকিস্তান বিমানবাহিনীতে যোগ দেন। তিনি ১৯৬৫ সালের পাক-ভারত যুদ্ধে এবং ১৯৬৭ সালের ছয় দিনের যুদ্ধে জর্ডান ও ইরাকের বিমানবাহিনীর হয়ে যুদ্ধ করেন, যেখানে তিনি চারটি ইসরায়েলি বিমান ভূপাতিত করেন। ১৯৭১ সালে তিনি বাংলাদেশ বিমানবাহিনীতে যোগ দেন এবং গ্রুপ ক্যাপ্টেন পদে অবসর নেন। রাজনৈতিক জীবনে তিনি বাংলাদেশ জাতীয়তাবাদী দলের হয়ে পাবনা-৩ আসন থেকে দুবার সংসদ সদস্য নির্বাচিত হন এবং বেসামরিক বিমান চলাচল কর্তৃপক্ষের চেয়ারম্যান ও চলচ্চিত্র উন্নয়ন কর্পোরেশনের ব্যবস্থাপনা পরিচালক হিসেবে দায়িত্ব পালন করেন।\n\nসাইফুল আজমের সামরিক অবদান অসামান্য; তিনি পাকিস্তান বিমানবাহিনীতে প্রশিক্ষক এবং যোদ্ধা হিসেবে কাজ করেন, জর্ডানে উপদেষ্টা হিসেবে যান এবং ইরাকে যুদ্ধে অংশ নেন। ১৯৭১ সালে মুক্তিযুদ্ধে যোগ দেওয়ার চেষ্টা করলেও বাধা পান এবং পরবর্তীকালে বাংলাদেশে ফিরে বিভিন্ন গুরুত্বপূর্ণ পদে কর্মরত ছিলেন। তিনি বিশ্বের একমাত্র বৈমানিক যিনি চারটি দেশের বিমানবাহিনীর হয়ে যুদ্ধ করেছেন এবং মার্কিন যুক্তরাষ্ট্র তাকে লিভিং ঈগল উপাধি প্রদান করে। তার মৃত্যু হয় ২০২০ সালে ঢাকায় এবং তাকে শাহীন কবরস্থানে সমাহিত করা হয়।",
+        "quote": "তিনি ছিলেন একজন মহান বৈমানিক",
+        "birth_place": "খলিশাদহ-খাগড়বাড়িয়া গ্রাম, পাবনা জেলা, রাজশাহী বিভাগ, বাংলাদেশ",
+        "achievements": "১৯৬৫ সালের পাক-ভারত যুদ্ধে সিতারা-ই-জুরাত পদক প্রাপ্তি • ১৯৬৭ সালের ছয় দিনের যুদ্ধে চারটি ইসরায়েলি বিমান ভূপাতিত করার রেকর্ড • জর্ডান থেকে ওয়াসাম আল-ইস্তিকলাল এবং ইরাক থেকে নুত আস-সিহাজিয়াহ্ পদক প্রাপ্তি • মার্কিন যুক্তরাষ্ট্রের ঈগল ফাউন্ডেশন কর্তৃক লিভিং ঈগল উপাধি প্রাপ্তি • পঞ্চম ও ষষ্ঠ জাতীয় সংসদের সদস্য হিসেবে দায়িত্ব পালন"
+      }
+    }
+  },
+  {
+    "id": "hero_007",
+    "slug": "subhas-chandra-bose",
+    "dates": {
+      "birth": "1897-01-23",
+      "death": "1945-08-18"
+    },
+    "era": "independence_movement",
+    "category": [
+      "nationalist",
+      "military_leader"
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Subhas_Chandra_Bose.jpg"
+    ],
+    "location_id": "loc_cuttack",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Subhas Chandra Bose",
+        "short_bio": "Subhas Chandra Bose was a prominent Indian nationalist leader who played a key role in the independence movement, serving as president of the Indian National Congress, mayor of Calcutta, and leader of the Indian National Army during World War II to fight British colonial rule.",
+        "full_biography": "Subhas Chandra Bose was born into a wealthy Bengali family in Cuttack, part of the Bengal Presidency, and received an Anglo-centric education before pursuing studies in philosophy at Presidency College, Calcutta, and the University of Cambridge. Expelled from college in 1916 for participating in a student protest against a professor, he later passed the Indian Civil Service exam in England but resigned in 1921 to join the nationalist movement under Mahatma Gandhi and Chittaranjan Das. Bose rose quickly in the Indian National Congress, becoming general secretary in 1927, mayor of Calcutta in 1930, and president of the Congress in 1938 and 1939, where he advocated for unqualified Swaraj and socialist policies, leading to conflicts with Gandhi and Nehru over non-violence and leadership. Ousted from the Congress in 1939, he formed the All India Forward Bloc and later escaped British surveillance in 1941 to seek alliances abroad.\n\nIn Nazi Germany, Bose established the Free India Centre in Berlin and formed the Indian Legion from Indian POWs, though German support was limited. Disillusioned, he traveled to Japanese-occupied Southeast Asia in 1943, reorganizing the Indian National Army with Japanese aid and declaring the Provisional Government of Free India (Azad Hind) in 1943, which included the Andaman and Nicobar Islands. Leading the INA in battles against British forces in Burma and India, including operations like U-Go, Bose inspired many with his militant approach but faced military setbacks. He died in a plane crash in Taiwan on 18 August 1945, an event that sparked widespread disbelief and myths in India, particularly Bengal, about his survival and return.",
+        "quote": "Give me blood, and I shall give you freedom!",
+        "birth_place": "Cuttack, Cuttack district, Bengal Presidency, India",
+        "achievements": "President of the Indian National Congress (1938–1939) • Mayor of Calcutta (1930–1931) • Leader of the Indian National Army (1943–1945) • Founder of the All India Forward Bloc (1939) • Head of the Provisional Government of Free India (Azad Hind, 1943–1945)"
+      },
+      "bn": {
+        "name": "সুভাষচন্দ্র বসু",
+        "short_bio": "সুভাষচন্দ্র বসু ভারতের স্বাধীনতা সংগ্রামের একজন প্রধান জাতীয়তাবাদী নেতা ছিলেন, যিনি আজাদ হিন্দ ফৌজের সেনাপ্রধান হিসেবে সশস্ত্র সংগ্রামের মাধ্যমে ব্রিটিশ শাসনের বিরুদ্ধে লড়াই করেন এবং নেতাজি উপাধি লাভ করেন।",
+        "full_biography": "সুভাষচন্দ্র বসু ১৮৯৭ সালের ২৩ জানুয়ারি ওড়িশার কটকে এক বাঙালি কায়স্থ পরিবারে জন্মগ্রহণ করেন। তার পিতা জানকীনাথ বসু একজন আইনজীবী এবং মাতা প্রভাবতী দত্ত। তিনি কটকের বিভিন্ন স্কুলে পড়াশোনা করেন এবং কলকাতা বিশ্ববিদ্যালয় থেকে দর্শনে বিএ ডিগ্রি লাভ করেন, পরে কেমব্রিজ বিশ্ববিদ্যালয়ে অধ্যয়ন করেন কিন্তু ইন্ডিয়ান সিভিল সার্ভিস পরীক্ষা ত্যাগ করে স্বাধীনতা আন্দোলনে যোগ দেন। তিনি ভারতীয় জাতীয় কংগ্রেসের সভাপতি নির্বাচিত হন কিন্তু গান্ধীর সাথে আদর্শগত বিরোধের কারণে পদত্যাগ করেন এবং ফরওয়ার্ড ব্লক গঠন করেন। ব্রিটিশদের বিরুদ্ধে সশস্ত্র সংগ্রামের পক্ষে তিনি গান্ধীর অহিংসা নীতি প্রত্যাখ্যান করেন এবং ১৯৪১ সালে জার্মানি ও জাপানে গিয়ে আজাদ হিন্দ ফৌজ গঠন করেন।\n\nদ্বিতীয় বিশ্বযুদ্ধকালে তিনি জাপানি সহায়তায় আজাদ হিন্দ সরকার প্রতিষ্ঠা করেন এবং আজাদ হিন্দ ফৌজের নেতৃত্বে ইম্ফল ও কোহিমার যুদ্ধে ব্রিটিশদের বিরুদ্ধে লড়াই করেন। তিনি অক্ষশক্তির সাথে মিত্রতা স্থাপন করেন যাতে ভারতে ব্রিটিশ শাসন উৎখাত করা যায়, যদিও এতে সমালোচনা হয়। ১৯৪৫ সালের ১৮ আগস্ট তাইওয়ানে এক বিমান দুর্ঘটনায় তার মৃত্যু হয়, যদিও অনেকে এটি নিয়ে সন্দেহ প্রকাশ করেন।",
+        "quote": "তোমরা আমাকে রক্ত দাও, আমি তোমাদের স্বাধীনতা দেবো।",
+        "birth_place": "কটক, পুরী জেলা, ওড়িশা, ভারত",
+        "achievements": "ভারতীয় জাতীয় কংগ্রেসের সভাপতি (১৯৩৮-১৯৩৯, ১৯৩৯-১৯৪১) • কলকাতার মেয়র (১৯৩০-১৯৩১) • আজাদ হিন্দ ফৌজের সেনাপ্রধান (১৯৪৩-১৯৪৫) • আজাদ হিন্দ সরকারের প্রধান • ফরোয়ার্ড ব্লকের সভাপতি"
+      }
+    }
+  },
+  {
+    "id": "hero_008",
+    "slug": "jagadish-chandra-bose",
+    "dates": {
+      "birth": "1858-11-30",
+      "death": "1937-11-23"
+    },
+    "era": "bengal_renaissance",
+    "category": [
+      "scientist",
+      "polymath"
+    ],
+    "images": [
+      "https://en.wikipedia.org/wiki/File:J._C._Bose_in_1897.jpg"
+    ],
+    "location_id": "loc_mymensingh",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Sir Jagadish Chandra Bose",
+        "short_bio": "Sir Jagadish Chandra Bose was a Bengali polymath who pioneered research in radio microwave optics, made significant contributions to plant physiology, and founded the Bose Institute in Kolkata, serving as its director until his death.",
+        "full_biography": "Born in Mymensingh during the British governance of India, Bose was educated at St. Xavier's College in Calcutta and later studied at Christ's College, Cambridge, and University College London. He faced health issues that forced him to abandon medical studies but pursued natural sciences under mentors like Lord Rayleigh. Returning to India, he joined Presidency College in Calcutta as a professor of physics, where he endured racial discrimination, reduced salary, and limited resources but continued his research on radio waves and plant responses. Despite protests against unequal pay, he worked without full remuneration initially and later made his position permanent. Bose's work expanded experimental science on the Indian subcontinent, including inventions like the crescograph for measuring plant stimuli and contributions to understanding plant perception.\n\nIn his radio research, Bose explored microwave properties, inventing devices such as the crystal detector, waveguide, and horn antenna, and was the first to use semiconductor junctions for detecting radio waves. He demonstrated millimeter-wave transmissions and developed a self-recovering mercury coherer, which played a role in early wireless technology, though he did not patent it due to disinterest in commercialization. Bose also advanced botany by proving parallels between animal and plant tissues, interpreting plant quivering as sensory response, and authoring key texts like *Response in the Living and Non-Living* (1902) and *The Nervous Mechanism of Plants* (1926). He founded the Bose Institute in Kolkata in 1917, the first interdisciplinary research center in Asia, dedicating it to advancing scientific inquiry in India. Bose is recognized as the father of Bengali science fiction and ranked seventh in a 2004 BBC poll of the Greatest Bengali of All Time.",
+        "quote": "I dedicate today this Institute—not merely a Laboratory but a Temple. The power of physical methods applies to the establishment of that truth which can be realised directly through our senses, or through the vast expansion of the perceptive range by means of artificially created organs...",
+        "birth_place": "Mymensingh, Mymensingh District, Bangladesh",
+        "achievements": "Pioneered investigation of radio microwave optics and invented the crescograph for plant research • First to use semiconductor junctions to detect radio waves and developed the mercury coherer detector • Founded the Bose Institute in 1917, serving as its director until death • Considered the father of Bengali science fiction and expanded experimental science in the Indian subcontinent • Made significant contributions to botany, demonstrating parallelism between animal and plant tissues"
+      },
+      "bn": {
+        "name": "স্যার শ্রী জগদীশ চন্দ্র বসু সিএসআই, সিআইই, এফআরএস",
+        "short_bio": "জগদীশ চন্দ্র বসু একজন ব্রিটিশ ভারতীয় বাঙালি পদার্থবিদ, জীববিজ্ঞানী এবং কল্পবিজ্ঞান রচয়িতা ছিলেন, যিনি ভারতীয় উপমহাদেশে ব্যবহারিক এবং গবেষণাধর্মী বিজ্ঞানের সূচনা করেন এবং রেডিও বিজ্ঞানের একজন জনক হিসেবে পরিচিত।",
+        "full_biography": "জগদীশ চন্দ্র বসু ১৮৫৮ সালের ৩০ নভেম্বর ব্রিটিশ ভারতের বেঙ্গল প্রেসিডেন্সির ময়মনসিংহে জন্মগ্রহণ করেন, যেখানে তার পরিবারের প্রকৃত বাসস্থান ছিল বিক্রমপুরের রাঢ়িখাল গ্রামে। তার পিতা ভগবান চন্দ্র বসু একজন ব্রাহ্ম ধর্মাবলম্বী এবং ফরিদপুরের ডেপুটি ম্যাজিস্ট্রেট ছিলেন, যিনি ময়মনসিংহ জিলা স্কুলের প্রথম প্রধান শিক্ষকও ছিলেন। জগদীশ চন্দ্র প্রথমে ময়মনসিংহ জিলা স্কুলে পড়াশোনা করেন, তারপর কলকাতার হেয়ার স্কুল এবং সেন্ট জেভিয়ার্স কলেজ থেকে বিএ পাশ করেন। তিনি লন্ডনে গিয়ে চিকিৎসাবিজ্ঞান পড়ার চেষ্টা করেন কিন্তু অসুস্থতার কারণে বন্ধ করেন, পরে কেমব্রিজের ক্রাইস্ট কলেজে ভর্তি হয়ে ট্রাইপস পাশ করেন এবং লন্ডন বিশ্ববিদ্যালয় থেকে বিএসসি লাভ করেন। তার শিক্ষকদের মধ্যে ছিলেন জন উইলিয়াম স্ট্রাট, মাইকেল ফস্টার, জেমস ডেওয়ার প্রমুখ। ১৮৮৫ সালে ভারতে ফিরে তিনি প্রেসিডেন্সি কলেজে পদার্থবিদ্যার অধ্যাপক হন, যেখানে তিনি বেতনের সমতার দাবিতে তিন বছর অবৈতনিক অধ্যাপনা করেন। তার গবেষণা কাজ প্রধানত অতিক্ষুদ্র তরঙ্গ নিয়ে ছিল, যা আধুনিক রাডার, টেলিভিশন এবং মহাকাশ যোগাযোগের ভিত্তি। তিনি ১৮৯৫ সালে প্রায় ৫ মিলিমিটার তরঙ্গ দৈর্ঘ্যবিশিষ্ট মাইক্রোওয়েভ তৈরি করেন। তার বক্তৃতাগুলো লিভারপুল, লন্ডন, ফ্রান্স এবং জার্মানিতে বিশেষ প্রশংসিত হয়, যেখানে বিজ্ঞানী লর্ড কেলভিন এবং লর্ড র‍্যালে তার কাজের প্রশংসা করেন। তিনি স্বদেশপ্রেমিক ছিলেন এবং তার বক্তৃতায় ভারতের বিদ্যাচর্চা এবং আধুনিক বিজ্ঞানে ভারতের দানের কথা বলেন। ১৯৩৭ সালের ২৩ নভেম্বর গিরিডিতে তার মৃত্যু হয়, এবং মৃত্যুর আগে তিনি তার সম্পত্তির একটি বড় অংশ বসু বিজ্ঞান মন্দিরে দান করেন।",
+        "quote": "বিজ্ঞান প্রাচ্যেরও নহে, পাশ্চাত্যেরও নহে, ইহা বিশ্বজনীন৷ তথাপি ভারতরবর্ষ উত্তরাধিকারসূত্রে বংশ পরম্পরায় যে ধীশক্তি পাইয়াছে, তাহার দ্বারা সে জ্ঞানপ্রচারে বিশেষ করিয়া সক্ষম৷ যে জ্বলন্ত কল্পনা বলে ভারতবাসী পরস্পর বিরোধী ঘটনাবলীর মধ্য হইতে সত্য বাছিয়া লইতে পারে, সে কল্পনাই আবার ভারতবাসী সংযত করিতে পারে৷ এই মনঃসংযমই সত্যান্বেষণের শক্তি দিয়া থাকে৷",
+        "birth_place": "ময়মনসিংহ, ময়মনসিংহ জেলা/বিভাগ, বাংলাদেশ",
+        "achievements": "অতিক্ষুদ্র তরঙ্গ সৃষ্টি এবং প্রেরণে সফলতা • মাইক্রোওয়েভ যন্ত্রপাতি উদ্ভাবন • রেডিও বিজ্ঞানের জনক হিসেবে পরিচিতি • প্রেসিডেন্সি কলেজে বেতনের সমতা অর্জন • লন্ডন বিশ্ববিদ্যালয় থেকে ডিএসসি ডিগ্রি • রয়েল সোসাইটির ফেলো নির্বাচিত • নাইট ব্যাচেলর, সিআইই, সিএসআই পুরস্কার • ভিয়েনা একাডেমি অফ সাইন্সের সদস্য • ভারতীয় বিজ্ঞান কংগ্রেসের সভাপতি • ইন্ডিয়ান ন্যাশনাল সাইন্স একাডেমির প্রতিষ্ঠাতা ফেলো"
+      }
+    }
+  },
+  {
+    "id": "hero_009",
+    "slug": "muhammad-shahidullah",
+    "dates": {
+      "birth": "1885-07-10",
+      "death": "1969-07-13"
+    },
+    "era": "bengal_renaissance",
+    "category": [
+      "linguist",
+      "educationist"
+    ],
+    "images": [
+      "assets/images/heroes/muhammad_shahidullah.jpg"
+    ],
+    "location_id": "loc_24_parganas",
+    "importance": 4,
+    "content": {
+      "en": {
+        "name": "Muhammad Shahidullah",
+        "short_bio": "Muhammad Shahidullah was a Bengali linguist, philologist, and educationist who played a vital role in the Language Movement of 1952 by establishing the logic for Bengali as the state language of Pakistan over Urdu.",
+        "full_biography": "Muhammad Shahidullah was born in a Bengali Muslim family and became one of South Asia's foremost scholars in linguistics. He received his early education in Howrah and Kolkata, earning degrees in Sanskrit and comparative philology from the University of Calcutta, and a PhD from Sorbonne University in 1928 for his research on Charyapada dialects, making him the first Bengali Muslim to achieve this doctorate. He was also a disciple of Mohammad Abu Bakr Siddique, receiving mystic education and spiritual succession.\n\nShahidullah began his career teaching in Jessore and as headmaster in Sitakunda, later practicing law and serving as vice-chairman of Basirhat municipality. He joined the University of Dhaka in 1921, contributing significantly to research on the origins of the Bengali language, proposing it originated from Gaudi or Magadhi Prakrit. He held various academic positions, including principal of Bogra Azizul Huq College, head of the Bangla Department at Dhaka University, and head of departments at Rajshahi University. His mastery extended to 24 languages, with deep knowledge of 18, including Bengali, Urdu, Persian, Arabic, and French.\n\nHe authored numerous works on language, literature, and Islam, and served as an editor for the Islami Bishwakosh project. Shahidullah's contributions to Bengali linguistics and the Language Movement earned him posthumous honors, including the Independence Day Award in 1980.",
+        "quote": "He played vital role in Language movement of 1952 he was the first to establish logic about why Bengali should be the state language of Pakistan over Urdu.",
+        "birth_place": "Peyara, 24 Parganas district, Bengal Presidency, British India",
+        "achievements": "First Bengali Muslim to receive a PhD from Sorbonne University • Presented thesis that Bangla originated from Gaudi or Magadhi Prakrit • Played vital role in the Language Movement of 1952 by establishing logic for Bengali as the state language of Pakistan over Urdu • Ranked number 16 in the BBC's poll of the Greatest Bengali of all time • Awarded Independence Day Award posthumously in 1980"
+      },
+      "bn": {
+        "name": "ডক্টর মুহম্মদ শহীদুল্লাহ",
+        "short_bio": "বাংলাদেশের ইতিহাসে তিনি একজন বিশিষ্ট ভাষাবিদ, বহুভাষাবিদ এবং শিক্ষাবিদ হিসেবে অবদান রেখেছেন, বিশেষ করে রাষ্ট্রভাষা আন্দোলনে বাংলার পক্ষে জোরালো ভূমিকা পালন করেছেন।",
+        "full_biography": "মুহম্মদ শহীদুল্লাহ ১৮৮৫ সালে ব্রিটিশ ভারতের পশ্চিমবঙ্গের চব্বিশ পরগনা জেলার পেয়ারা গ্রামে জন্মগ্রহণ করেন। তিনি কলকাতা প্রেসিডেন্সি কলেজ এবং সিটি কলেজ থেকে শিক্ষা গ্রহণ করেন এবং প্যারিসের সর্বন বিশ্ববিদ্যালয় থেকে ১৯২৮ সালে পিএইচডি ডিগ্রি লাভ করেন। যশোর জেলা স্কুলে শিক্ষকতা শুরু করে তিনি পরবর্তীকালে ঢাকা বিশ্ববিদ্যালয়ে যোগ দেন, যেখানে তিনি বাংলা ও সংস্কৃত বিভাগে প্রভাষক, অধ্যাপক এবং রিডার হিসেবে কাজ করেন এবং ১৯৪৪ সালে অবসর গ্রহণ করেন। অবসরের পর তিনি বগুড়ার সরকারি আজিজুল হক কলেজে অধ্যক্ষ এবং রাজশাহী বিশ্ববিদ্যালয়ে শিক্ষক হিসেবে নিযুক্ত হন। তিনি প্রায় ২৪টি ভাষা আয়ত্ত করেছিলেন এবং উর্দু অভিধান প্রকল্প এবং বাংলা একাডেমিতে সম্পাদক হিসেবে কাজ করেছেন।\n\nবাংলাদেশের ইতিহাসে তার সবচেয়ে উল্লেখযোগ্য ভূমিকা ছিল রাষ্ট্রভাষা আন্দোলনে। পাকিস্তান প্রতিষ্ঠার পর বাংলাকে রাষ্ট্রভাষা করার পক্ষে তিনি জোরালো বক্তব্য উপস্থাপন করেন এবং আরবি হরফে বাংলা প্রবর্তনের প্রস্তাবের বিরোধিতা করেন। তিনি আরবিকে রাষ্ট্রভাষা করার প্রস্তাবও সমর্থন করেছেন। তার লেখা গ্রন্থগুলোতে বাংলা ভাষা, সাহিত্য এবং ব্যাকরণের উপর গভীর আলোচনা রয়েছে। ১৯৬৯ সালে ঢাকায় তার মৃত্যুর পর ঢাকা বিশ্ববিদ্যালয়ে শহীদুল্লাহ হলের নামকরণ করা হয় তার স্মৃতিতে।",
+        "quote": "আমরা হিন্দু বা মুসলমান যেমন সত্য, তার চেয়ে বেশি সত্য আমরা বাঙ্গালী।",
+        "birth_place": "পেয়ারা গ্রাম, বসিরহাট মহকুমা, চব্বিশ পরগনা, পশ্চিমবঙ্গ, ব্রিটিশ ভারত",
+        "achievements": "প্রায় ২৪টি ভাষা আয়ত্ত করা এবং ১৮টির উপর পাণ্ডিত্য অর্জন • ঢাকা বিশ্ববিদ্যালয়ে প্রথম এমেরিটাস অধ্যাপক পদ লাভ (১৯৬৭) • নাইট অফ দি অর্ডারস অফ আর্টস অ্যান্ড লেটার্স পদক (১৯৬৭) • প্রাইড অফ পারফরম্যান্স পদক (১৯৫৮) • স্বাধীনতা পুরস্কার (মরণোত্তর, ১৯৮০) • একুশে পদক (২০০২, মরণোত্তর) • ঢাকা বিশ্ববিদ্যালয় থেকে মরণোত্তর ডি. লিট উপাধি"
+      }
+    }
+  },
+  {
+    "id": "hero_010",
+    "slug": "ishwar-chandra-vidyasagar",
+    "dates": {
+      "birth": "1820-09-26",
+      "death": "1891-07-29"
+    },
+    "era": "bengal_renaissance",
+    "category": [
+      "reformer",
+      "educationist"
+    ],
+    "images": [
+      "https://bn.wikipedia.org/wiki/File:Ishwar_Chandra_Vidyasagar.jpg"
+    ],
+    "location_id": "loc_paschim_medinipur",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Ishwar Chandra Vidyasagar",
+        "short_bio": "Ishwar Chandra Vidyasagar was a prominent Indian educator, social reformer, and author who played a key role in the Bengal Renaissance by advocating for women's rights, including Hindu widow remarriage and female education, while simplifying Bengali prose and alphabet.",
+        "full_biography": "Ishwar Chandra Vidyasagar was born in a Bengali Brahmin family and excelled in Sanskrit and philosophy studies at the Sanskrit College in Calcutta, earning the title 'Vidyasagar' for his scholarly achievements. He championed social reforms in Bengal, focusing on uplifting women's status by campaigning against child marriage, polygamy, and the ill-treatment of widows, who were often forced into deplorable conditions. His efforts led to significant legislative changes, including the Hindu Widows' Remarriage Act of 1856, despite strong opposition from orthodox groups like the Dharma Sabha. Vidyasagar also simplified and modernized Bengali prose and type, contributing to the cultural revival during the Bengal Renaissance. Later in life, he spent over 18 years in Santhal Pargana, establishing a girls' school, a night school for adults, and a free homeopathy clinic in Karmatar, supporting tribal communities. He served as secretary of the Hindu Female School, which became Bethune Female School, and influenced educational and social discourse through his writings and petitions.",
+        "quote": "An impression appears to have gained ground, both here and in England, that enough has been done for the education of the higher classes and that attention should now be directed towards the education of the masses... As the best, if not the only practicable means of promoting education in Bengal, the Government should, in my humble opinion, confine itself to the education of the higher classes on a comprehensive scale.",
+        "birth_place": "Birsingha, Paschim Medinipur District, India",
+        "achievements": "Simplified and modernized Bengali prose and alphabet • Campaigner for the Hindu Widows' Remarriage Act, 1856 • Advocated for the Age of Consent Act, 1891 against child marriage • Established girls' school and night school in Santhal Pargana • Served as secretary of Hindu Female School (later Bethune Female School) • Ranked number 9 in BBC's Greatest Bengali of all time poll • Designated Companion of the Indian Empire (CIE) in 1877"
+      },
+      "bn": {
+        "name": "ঈশ্বরচন্দ্র বন্দ্যোপাধ্যায়",
+        "short_bio": "ঊনবিংশ শতকের বিশিষ্ট বাঙালি শিক্ষাবিদ ও সমাজ সংস্কারক যিনি সংস্কৃত ও বাংলা সাহিত্যে অগাধ পাণ্ডিত্য লাভ করেন, বাংলা লিপি সংস্কার করেন, বিধবা বিবাহ প্রচলন ও নারী শিক্ষার প্রসারে অক্লান্ত সংগ্রাম করেন এবং বাংলা গদ্যের প্রথম সার্থক রূপকার হিসেবে পরিচিত।",
+        "full_biography": "ঈশ্বরচন্দ্র বিদ্যাসাগর ১৮২০ সালের ২৬ সেপ্টেম্বর বীরসিংহ গ্রামে জন্মগ্রহণ করেন এবং ১৮৯১ সালের ২৯ জুলাই কলকাতায় মৃত্যুবরণ করেন। তিনি সংস্কৃত কলেজে শিক্ষা লাভ করেন এবং ১৮৩৯ সালে বিদ্যাসাগর উপাধি লাভ করেন। তার জীবনীতে শিক্ষা, সাহিত্য রচনা, সমাজ সংস্কার এবং নারী মুক্তির আন্দোলনের ভূমিকা বিশদভাবে বর্ণিত। তিনি বাংলা গদ্যের প্রথম শিল্পী হিসেবে রবীন্দ্রনাথ ঠাকুর কর্তৃক অভিহিত এবং বিধবা বিবাহ আইন প্রণয়নে তার অবদান অমর।\n\nতার কর্মজীবনে সংস্কৃত কলেজের অধ্যক্ষ হিসেবে শিক্ষা সংস্কার, বর্ণপরিচয়সহ শিশু পাঠ্যপুস্তক রচনা, বিধবা বিবাহ প্রচলন এবং নারী শিক্ষার বিস্তারে ৩৫টি বালিকা বিদ্যালয় স্থাপন অন্তর্ভুক্ত। তিনি দয়ার সাগর নামে পরিচিত ছিলেন এবং দরিদ্রদের সাহায্যে সর্বদা সক্রিয় ছিলেন। তার রচনাবলীতে ব্যাকরণ কৌমুদী, শকুন্তলা অনুবাদ ইত্যাদি উল্লেখযোগ্য।",
+        "quote": "বীরসিংহগ্রামে আমার জন্ম হইয়াছে; কিন্তু, এই গ্রাম আমার পিতৃপক্ষীয় অথবা মাতৃপক্ষীয় পূর্ব্ব পুরুষদিগের বাসস্থান নহে।",
+        "birth_place": "বীরসিংহ, হুগলি জেলা, বাংলা প্রেসিডেন্সি, ব্রিটিশ ভারত",
+        "achievements": "বাংলা লিপি সংস্কার করে যুক্তিবহ ও সহজপাঠ্য করে তোলা • বিধবা বিবাহ প্রচলন এবং বহুবিবাহ রহিতকরণে সংগ্রাম • নারী শিক্ষার প্রসারে ৩৫টি বালিকা বিদ্যালয় স্থাপন • বাংলা গদ্যের প্রথম সার্থক রূপকার হিসেবে বর্ণপরিচয়, বোধোদয় ইত্যাদি রচনা • সংস্কৃত কলেজে শিক্ষা সংস্কার এবং অধ্যক্ষ হিসেবে সকল বর্ণের জন্য দ্বার উন্মুক্ত করা"
+      }
+    }
+  },
+  {
+    "id": "event_001",
+    "slug": "bengali-language-movement-1952",
+    "dates": {
+      "birth": "1948-01-01",
+      "death": "1952-02-21"
+    },
+    "era": "post_partition",
+    "category": [
+      "language_movement",
+      "protest",
+      "cultural_identity"
+    ],
+    "images": [
+      "assets/images/events/language_movement_1952.jpg"
+    ],
+    "location_id": "loc_dhaka",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Bengali Language Movement",
+        "short_bio": "A political movement in East Bengal advocating for the recognition of Bengali as an official state language of Pakistan, culminating in protests and sacrifices in 1952.",
+        "full_biography": "The Bengali Language Movement began in 1948 following the partition of India and the creation of Pakistan, where Urdu was declared the sole national language despite Bengali being spoken by the majority in East Pakistan. This decision sparked widespread resentment among Bengalis, who saw it as an imposition of cultural dominance by West Pakistan. The movement gained momentum with protests, strikes, and demands for Bengali's recognition.\n\nKey events included the formation of the All-Party Central Language Action Committee in 1948, general strikes, and clashes with authorities. The climax occurred on February 21, 1952, when students and activists defied Section 144 orders and marched to demand Bengali's status. Police opened fire, killing several protesters including Salam, Barkat, Rafiq, Jabbar, and Shafiur. This martyrdom intensified the movement, leading to more protests and arrests.\n\nThe movement's persistence resulted in the Pakistani government recognizing Bengali as a state language in 1956 through constitutional amendments. It fostered Bengali nationalism, paving the way for the 1971 Liberation War and Bangladesh's independence. In 1999, UNESCO declared February 21 as International Mother Language Day in honor of the movement.",
+        "quote": "We shall fight to the last to free our motherland.",
+        "birth_place": "Dhaka, East Bengal, Pakistan",
+        "achievements": "Recognition of Bengali as a state language of Pakistan in 1956 • Fostered Bengali nationalism and cultural identity • Led to the establishment of International Mother Language Day on February 21 by UNESCO in 1999 • Paved the way for the 1971 Liberation War and independence of Bangladesh • Inspired global movements for linguistic rights"
+      },
+      "bn": {
+        "name": "বাংলা ভাষা আন্দোলন",
+        "short_bio": "পাকিস্তানের পূর্বাঞ্চলে বাংলা ভাষাকে রাষ্ট্রভাষা হিসেবে স্বীকৃতি দেওয়ার জন্য একটি রাজনৈতিক আন্দোলন, যা ১৯৫২ সালে প্রতিবাদ এবং বলিদানের মাধ্যমে চরমে পৌঁছে।",
+        "full_biography": "বাংলা ভাষা আন্দোলন ১৯৪৮ সালে ভারত বিভাজন এবং পাকিস্তান সৃষ্টির পর শুরু হয়, যখন উর্দুকে একমাত্র জাতীয় ভাষা ঘোষণা করা হয় যদিও পূর্ব পাকিস্তানে সংখ্যাগরিষ্ঠ লোক বাংলা ভাষায় কথা বলত। এই সিদ্ধান্ত পশ্চিম পাকিস্তানের সাংস্কৃতিক আধিপত্যের প্রতীক হিসেবে বাঙালিদের মধ্যে ব্যাপক ক্ষোভ সৃষ্টি করে। আন্দোলন প্রতিবাদ, ধর্মঘট এবং বাংলার স্বীকৃতির দাবিতে গতি লাভ করে।\n\nমূল ঘটনাগুলির মধ্যে ১৯৪৮ সালে সর্বদলীয় কেন্দ্রীয় ভাষা কর্মসমিতি গঠন, সাধারণ ধর্মঘট এবং কর্তৃপক্ষের সাথে সংঘর্ষ অন্তর্ভুক্ত। চরমোন্নতি ঘটে ১৯৫২ সালের ২১ ফেব্রুয়ারি, যখন ছাত্র এবং কর্মীরা ১৪৪ ধারা অমান্য করে বাংলার মর্যাদার দাবিতে মিছিল করে। পুলিশ গুলি চালায়, যাতে সালাম, বরকত, রফিক, জব্বার এবং শফিউর সহ কয়েকজন প্রতিবাদকারী নিহত হন। এই শহীদত্ব আন্দোলনকে তীব্র করে, যা আরও প্রতিবাদ এবং গ্রেপ্তারের দিকে নিয়ে যায়।\n\nআন্দোলনের অধ্যবসায়ের ফলে পাকিস্তান সরকার ১৯৫৬ সালে সাংবিধানিক সংশোধনের মাধ্যমে বাংলাকে রাষ্ট্রভাষা হিসেবে স্বীকৃতি দেয়। এটি বাঙালি জাতীয়তাবাদকে উত্সাহিত করে, ১৯৭১ সালের মুক্তিযুদ্ধ এবং বাংলাদেশের স্বাধীনতার পথ প্রশস্ত করে। ১৯৯৯ সালে ইউনেস্কো আন্দোলনের সম্মানে ২১ ফেব্রুয়ারিকে আন্তর্জাতিক মাতৃভাষা দিবস ঘোষণা করে।",
+        "quote": "আমরা আমাদের মাতৃভূমি মুক্ত করার জন্য শেষ পর্যন্ত লড়াই করব।",
+        "birth_place": "ঢাকা, পূর্ববঙ্গ, পাকিস্তান",
+        "achievements": "১৯৫৬ সালে পাকিস্তানের রাষ্ট্রভাষা হিসেবে বাংলার স্বীকৃতি • বাঙালি জাতীয়তাবাদ এবং সাংস্কৃতিক পরিচয়কে উত্সাহিত করা • ১৯৯৯ সালে ইউনেস্কো কর্তৃক ২১ ফেব্রুয়ারিকে আন্তর্জাতিক মাতৃভাষা দিবস প্রতিষ্ঠা • ১৯৭১ সালের মুক্তিযুদ্ধ এবং বাংলাদেশের স্বাধীনতার পথ প্রশস্ত করা • ভাষাগত অধিকারের জন্য বিশ্বব্যাপী আন্দোলনকে অনুপ্রাণিত করা"
+      }
+    }
+  },
+  {
+    "id": "event_002",
+    "slug": "july-revolution-2024",
+    "dates": {
+      "birth": "2024-06-05",
+      "death": "2024-08-05"
+    },
+    "era": "modern_era",
+    "category": [
+      "revolution",
+      "student_movement",
+      "anti_government_protest"
+    ],
+    "images": [
+      "assets/images/events/july_revolution_2024.jpg"
+    ],
+    "location_id": "loc_dhaka",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "July Revolution 2024",
+        "short_bio": "A student-led mass uprising in Bangladesh against government job quotas that escalated into a revolution, leading to the ousting of Prime Minister Sheikh Hasina and the end of her 15-year rule.",
+        "full_biography": "The July Revolution, also known as the Anti-Discrimination Students' Movement, began in early June 2024 following a Supreme Court decision that reinstated a controversial quota system in government jobs, allocating 30% for descendants of 1971 freedom fighters. Students protested against this, demanding merit-based reforms, as it was seen as benefiting Awami League supporters.\n\nThe movement intensified in July with nationwide protests, blockades, and clashes. On July 15, violence erupted at Dhaka University, leading to deaths and injuries. The government imposed curfews, internet blackouts, and deployed security forces, but protests continued, evolving into demands for Sheikh Hasina's resignation amid allegations of corruption and authoritarianism.\n\nKey events included the 'Bangla Blockade' starting July 10, mass killings during July 18-20 (over 200 deaths), and a non-cooperation movement from August 4. On August 5, protesters stormed Ganabhaban, forcing Hasina to flee to India. The army chief announced an interim government led by Muhammad Yunus.\n\nThe revolution ended 15 years of Awami League rule, with over 1,000 deaths and thousands injured. It reshaped Bangladesh's political landscape, empowering youth and leading to reforms in governance and justice.",
+        "quote": "We will not stop until justice is served.",
+        "birth_place": "Dhaka, Bangladesh",
+        "achievements": "Ousting of Prime Minister Sheikh Hasina and end of 15-year Awami League authoritarian rule • Formation of interim government under Muhammad Yunus • Reforms in government job quota system towards merit-based allocation • Empowerment of youth and student-led political change • International recognition of the movement as a successful people's revolution • Initiation of justice processes against former regime's corruption and abuses"
+      },
+      "bn": {
+        "name": "জুলাই বিপ্লব ২০২৪",
+        "short_bio": "সরকারি চাকরির কোটা ব্যবস্থার বিরুদ্ধে ছাত্র-নেতৃত্বাধীন গণঅভ্যুত্থান যা বিপ্লবে পরিণত হয়, প্রধানমন্ত্রী শেখ হাসিনাকে ক্ষমতাচ্যুত করে তার ১৫ বছরের শাসনের অবসান ঘটায়।",
+        "full_biography": "জুলাই বিপ্লব, যা অসমতা বিরোধী ছাত্র আন্দোলন নামেও পরিচিত, ২০২৪ সালের জুন মাসের শুরুতে সুপ্রিম কোর্টের একটি সিদ্ধান্তের পর শুরু হয় যা সরকারি চাকরিতে বিতর্কিত কোটা ব্যবস্থা পুনর্বহাল করে, যাতে ১৯৭১ সালের মুক্তিযোদ্ধাদের বংশধরদের জন্য ৩০% সংরক্ষিত। ছাত্ররা এর বিরুদ্ধে প্রতিবাদ করে, যোগ্যতা-ভিত্তিক সংস্কার দাবি করে, কারণ এটি আওয়ামী লীগের সমর্থকদের সুবিধা দেয় বলে দেখা হয়।\n\nআন্দোলন জুলাই মাসে তীব্র হয়ে ওঠে দেশব্যাপী প্রতিবাদ, অবরোধ এবং সংঘর্ষের সাথে। ১৫ জুলাই ঢাকা বিশ্ববিদ্যালয়ে সহিংসতা ছড়িয়ে পড়ে, যাতে মৃত্যু এবং আহত হয়। সরকার কারফিউ, ইন্টারনেট ব্ল্যাকআউট এবং নিরাপত্তা বাহিনী মোতায়েন করে, কিন্তু প্রতিবাদ অব্যাহত থাকে, যা দুর্নীতি এবং স্বৈরাচারের অভিযোগের মধ্যে শেখ হাসিনার পদত্যাগের দাবিতে পরিণত হয়।\n\nমূল ঘটনাগুলির মধ্যে ১০ জুলাই থেকে 'বাংলা অবরোধ', ১৮-২০ জুলাইয় গণহত্যা (২০০ এর বেশি মৃত্যু), এবং ৪ আগস্ট থেকে অসহযোগ আন্দোলন অন্তর্ভুক্ত। ৫ আগস্ট প্রতিবাদকারীরা গণভবনে ঢোকে, হাসিনাকে ভারতে পালাতে বাধ্য করে। সেনাপ্রধান মুহাম্মদ ইউনুসের নেতৃত্বে অন্তর্বর্তী সরকার ঘোষণা করে।\n\nবিপ্লবটি ১৫ বছরের আওয়ামী লীগ শাসনের অবসান ঘটায়, ১০০০ এর বেশি মৃত্যু এবং হাজার হাজার আহত সহ। এটি বাংলাদেশের রাজনৈতিক দৃশ্যপট পুনর্গঠন করে, যুবকদের ক্ষমতায়িত করে এবং শাসন এবং ন্যায়বিচারে সংস্কারের দিকে নিয়ে যায়।",
+        "quote": "আমরা ন্যায়বিচার না পাওয়া পর্যন্ত থামব না।",
+        "birth_place": "ঢাকা, বাংলাদেশ",
+        "achievements": "প্রধানমন্ত্রী শেখ হাসিনার ক্ষমতাচ্যুতি এবং ১৫ বছরের আওয়ামী লীগ স্বৈরাচারী শাসনের অবসান • মুহাম্মদ ইউনুসের নেতৃত্বে অন্তর্বর্তী সরকার গঠন • সরকারি চাকরির কোটা ব্যবস্থায় যোগ্যতা-ভিত্তিক বরাদ্দের দিকে সংস্কার • যুবকদের ক্ষমতায়ন এবং ছাত্র-নেতৃত্বাধীন রাজনৈতিক পরিবর্তন • আন্দোলনকে সফল গণবিপ্লব হিসেবে আন্তর্জাতিক স্বীকৃতি • পূর্ববর্তী শাসনের দুর্নীতি এবং অপব্যবহারের বিরুদ্ধে ন্যায়বিচার প্রক্রিয়া শুরু"
       }
     }
   }
+
+
 ]
