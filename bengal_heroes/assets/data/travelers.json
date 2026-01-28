@@ -9,8 +9,8 @@
                 "bn": "মেগাস্থিনিস"
             },
             "description": {
-                "en": "Greek ambassador to Chandragupta Maurya. Mentioned the 'Gangaridai' kingdom in Bengal, describing their powerful war elephants.",
-                "bn": "চন্দ্রগুপ্ত মৌর্যের গ্রিক রাষ্ট্রদূত। তিনি বাংলার 'গঙ্গারিডাই' রাজ্যের উল্লেখ করেন এবং তাদের শক্তিশালী যুদ্ধহস্তীর বর্ণনা দেন।"
+                "en": "Greek ambassador and historian sent by Seleucus I Nicator to the court of Chandragupta Maurya in Pataliputra. In his book 'Indica', he described the 'Gangaridai' kingdom in the Ganges Delta of Bengal as a powerful realm with a massive army, including 4,000 war elephants, which deterred Alexander the Great's invasion. His accounts provide early insights into Bengal's military strength and geography.",
+                "bn": "সেলুকাস প্রথম নিকেটর কর্তৃক চন্দ্রগুপ্ত মৌর্যের দরবারে পাটলীপুত্রে প্রেরিত গ্রিক রাষ্ট্রদূত এবং ঐতিহাসিক। তার বই 'ইন্ডিকা'-তে তিনি বাংলার গঙ্গা ডেল্টার 'গঙ্গারিডাই' রাজ্যকে একটি শক্তিশালী রাজ্য হিসেবে বর্ণনা করেন যার বিশাল সেনাবাহিনীতে ৪,০০০ যুদ্ধহস্তী ছিল, যা আলেকজান্ডার দ্য গ্রেটের আক্রমণকে বিরত করে। তার বর্ণনা বাংলার সামরিক শক্তি এবং ভূগোলের প্রাথমিক অন্তর্দৃষ্টি প্রদান করে।"
             },
             "category": "diplomat",
             "significance": "high",
@@ -25,8 +25,8 @@
                 "bn": "ফা-হিয়েন"
             },
             "description": {
-                "en": "Chinese Buddhist monk. Visited Tamralipta (modern Tamluk) and stayed for 2 years, documenting Buddhist monasteries and maritime trade.",
-                "bn": "চীনা বৌদ্ধ ভিক্ষু। তিনি তাম্রলিপ্ত (বর্তমান তমলুক) সফর করেন এবং ২ বছর অবস্থান করে বৌদ্ধ বিহার ও সামুদ্রিক বাণিজ্যের বিবরণ দেন।"
+                "en": "Chinese Buddhist monk and pilgrim who traveled to India between 399-414 AD to collect Buddhist scriptures. He visited Tamralipta (modern Tamluk in Bengal), a major port, and stayed for two years, documenting thriving Buddhist monasteries, the local culture, and active maritime trade routes connecting Bengal to Southeast Asia and China.",
+                "bn": "চীনা বৌদ্ধ ভিক্ষু এবং তীর্থযাত্রী যিনি ৩৯৯-৪১৪ খ্রিস্টাব্দে বৌদ্ধ ধর্মগ্রন্থ সংগ্রহের জন্য ভারতে ভ্রমণ করেন। তিনি বাংলার প্রধান বন্দর তাম্রলিপ্ত (বর্তমান তমলুক) সফর করেন এবং দুই বছর অবস্থান করে সমৃদ্ধ বৌদ্ধ বিহার, স্থানীয় সংস্কৃতি এবং দক্ষিণ-পূর্ব এশিয়া ও চীনের সাথে সক্রিয় সামুদ্রিক বাণিজ্য পথের বিবরণ দেন।"
             },
             "category": "pilgrim",
             "significance": "high",
@@ -41,12 +41,60 @@
                 "bn": "হিউয়েন সাঙ"
             },
             "description": {
-                "en": "Famous Chinese traveler. Visited Karnasuvarna, the capital of King Shashanka via Pundravardhana. Recorded the thriving culture of Bengal.",
-                "bn": "বিখ্যাত চীনা পর্যটক। তিনি পুণ্ড্রবর্ধন হয়ে রাজা শশাঙ্কের রাজধানী কর্ণসুবর্ণ সফর করেন এবং বাংলার সমৃদ্ধ সংস্কৃতির বিবরণ লিপিবদ্ধ করেন।"
+                "en": "Renowned Chinese Buddhist monk and scholar who journeyed to India from 629-645 AD. He visited Pundravardhana (northern Bengal) and Karnasuvarna, the capital of King Shashanka, describing the region's prosperous cities, numerous Buddhist monasteries, Hindu temples, and vibrant cultural life in his travelogue 'Great Tang Records on the Western Regions'.",
+                "bn": "বিখ্যাত চীনা বৌদ্ধ ভিক্ষু এবং পণ্ডিত যিনি ৬২৯-৬৪৫ খ্রিস্টাব্দে ভারতে ভ্রমণ করেন। তিনি পুণ্ড্রবর্ধন (উত্তর বাংলা) এবং রাজা শশাঙ্কের রাজধানী কর্ণসুবর্ণ সফর করেন, তার ভ্রমণকথা 'গ্রেট ট্যাং রেকর্ডস অন দ্য ওয়েস্টার্ন রিজিয়নস'-এ অঞ্চলের সমৃদ্ধ শহর, অসংখ্য বৌদ্ধ বিহার, হিন্দু মন্দির এবং প্রাণবন্ত সাংস্কৃতিক জীবনের বর্ণনা দেন।"
             },
             "category": "pilgrim",
             "significance": "critical",
             "icon": "visibility"
+        },
+        {
+            "id": "671_itsing",
+            "year": 671,
+            "period": "671-695 AD",
+            "title": {
+                "en": "I-Tsing (Yijing)",
+                "bn": "ই-ত্সিং (ইজিং)"
+            },
+            "description": {
+                "en": "Chinese Buddhist monk who traveled to India via the maritime route from 671-695 AD to study Buddhism. He visited Tamralipta in Bengal, staying for several months, and documented the port's role in international trade, Buddhist practices, and the journey to Nalanda University, providing valuable insights into 7th-century Bengal's religious and commercial life in his works 'A Record of Buddhist Practices' and 'Biographies of Eminent Monks'.",
+                "bn": "চীনা বৌদ্ধ ভিক্ষু যিনি ৬৭১-৬৯৫ খ্রিস্টাব্দে সামুদ্রিক পথে ভারতে ভ্রমণ করেন বৌদ্ধধর্ম অধ্যয়নের জন্য। তিনি বাংলার তাম্রলিপ্ত সফর করেন, কয়েক মাস অবস্থান করে এবং বন্দরের আন্তর্জাতিক বাণিজ্যে ভূমিকা, বৌদ্ধ অনুশীলন এবং নালন্দা বিশ্ববিদ্যালয়ের যাত্রার বিবরণ দেন তার রচনা 'এ রেকর্ড অফ বৌদ্ধ প্র্যাকটিসেস' এবং 'বায়োগ্রাফিজ অফ ইমিনেন্ট মঙ্কস'-এ, যা ৭ম শতাব্দীর বাংলার ধর্মীয় এবং বাণিজ্যিক জীবনের মূল্যবান অন্তর্দৃষ্টি প্রদান করে।"
+            },
+            "category": "pilgrim",
+            "significance": "high",
+            "icon": "self_improvement"
+        },
+        {
+            "id": "851_sulaiman",
+            "year": 851,
+            "period": "851 AD",
+            "title": {
+                "en": "Sulaiman the Merchant",
+                "bn": "সুলায়মান বণিক"
+            },
+            "description": {
+                "en": "Arab merchant and traveler who visited India and Bengal around 851 AD. In his travelogue 'Akhbar al-Sin wa'l-Hind' (Accounts of China and India), he described Bengal's flourishing trade ports, rice cultivation, and export of goods like rhinoceros horns and cowries, highlighting the region's economic prosperity and connections with the Arab world.",
+                "bn": "আরব বণিক এবং পর্যটক যিনি ৮৫১ খ্রিস্টাব্দে ভারত এবং বাংলা সফর করেন। তার ভ্রমণকথা 'আখবার আল-সিন ওয়াল-হিন্দ' (চীন এবং ভারতের বিবরণ)-এ তিনি বাংলার সমৃদ্ধ বাণিজ্য বন্দর, ধান চাষ এবং গণ্ডারের শিং এবং কড়ির মতো পণ্যের রপ্তানির বর্ণনা দেন, যা অঞ্চলের অর্থনৈতিক সমৃদ্ধি এবং আরব বিশ্বের সাথে সংযোগ প্রকাশ করে।"
+            },
+            "category": "trader",
+            "significance": "medium",
+            "icon": "local_shipping"
+        },
+        {
+            "id": "943_almasudi",
+            "year": 943,
+            "period": "943 AD",
+            "title": {
+                "en": "Al-Masudi",
+                "bn": "আল-মাসুদি"
+            },
+            "description": {
+                "en": "Arab historian and geographer known as the 'Herodotus of the Arabs'. In his work 'Meadows of Gold and Mines of Gems' (Muruj al-Dhahab), he described Bengal's rivers, fertile lands, and trade in spices, textiles, and precious stones, noting its wealth and the presence of Muslim traders in the region.",
+                "bn": "আরব ঐতিহাসিক এবং ভূগোলবিদ যিনি 'আরবদের হিরোডোটাস' নামে পরিচিত। তার রচনা 'মেডোজ অফ গোল্ড অ্যান্ড মাইনস অফ জেমস' (মুরুজ আল-ধাহাব)-এ তিনি বাংলার নদী, উর্বর জমি এবং মশলা, বস্ত্র এবং মূল্যবান পাথরের বাণিজ্যের বর্ণনা দেন, অঞ্চলের সম্পদ এবং মুসলিম বণিকদের উপস্থিতি উল্লেখ করে।"
+            },
+            "category": "scholar",
+            "significance": "high",
+            "icon": "auto_stories"
         },
         {
             "id": "1346_ibn_battuta",
@@ -57,12 +105,28 @@
                 "bn": "ইবনে বতুতা"
             },
             "description": {
-                "en": "Moroccan explorer. Visited Bengal, calling it 'A hell full of blessings' due to its wealth and climate. Met Shah Jalal in Sylhet.",
-                "bn": "মরক্কান পর্যটক। তিনি বাংলা সফর করেন এবং এর সম্পদ ও আবহাওয়ার কারণে একে 'দোযখ-ই-পুরনিয়ামাত' (নেয়ামতপূর্ণ নরক) বলে অভিহিত করেন। সিলেটে শাহ জালালের সাথে সাক্ষাৎ করেন।"
+                "en": "Moroccan explorer and scholar who traveled extensively across the Islamic world. In 1346, during the Bengal Sultanate under Fakhruddin Mubarak Shah, he visited Bengal, describing it as 'a hell full of blessings' due to its abundant rice, fruits, and wealth contrasted with its humid climate. He met Sufi saint Shah Jalal in Sylhet and documented the region's bustling ports, diverse population, and Sufi influence in his Rihla (Travels).",
+                "bn": "মরক্কান পর্যটক এবং পণ্ডিত যিনি ইসলামী বিশ্ব জুড়ে ব্যাপক ভ্রমণ করেন। ১৩৪৬ সালে ফখরুদ্দিন মুবারক শাহের অধীনে বাংলা সালতানাতে তিনি বাংলা সফর করেন এবং এর প্রচুর ধান, ফল এবং সম্পদের সাথে আর্দ্র আবহাওয়ার বিপরীতে একে 'দোযখ-ই-পুরনিয়ামাত' (নেয়ামতপূর্ণ নরক) বলে বর্ণনা করেন। তিনি সিলেটে সুফি সাধক শাহ জালালের সাথে সাক্ষাৎ করেন এবং তার রিহলা (ভ্রমণকথা)-তে অঞ্চলের ব্যস্ত বন্দর, বৈচিত্র্যময় জনসংখ্যা এবং সুফি প্রভাবের বিবরণ দেন।"
             },
             "category": "explorer",
             "significance": "critical",
             "icon": "explore"
+        },
+        {
+            "id": "1348_shihabuddin",
+            "year": 1348,
+            "period": "1348 AD",
+            "title": {
+                "en": "Shihabuddin al-Umari",
+                "bn": "শিহাবুদ্দিন আল-উমারি"
+            },
+            "description": {
+                "en": "Arab scholar from Damascus who compiled accounts of travelers. In his book 'Masalik al-Absar fi Mamalik al-Amsar', he described Bengal's vast territory, agricultural richness, and the sultanate's military might, based on reports from merchants, noting its independence and trade in fine cotton and silk.",
+                "bn": "দামেস্কের আরব পণ্ডিত যিনি পর্যটকদের বিবরণ সংকলন করেন। তার বই 'মাসালিক আল-আবসার ফি মামালিক আল-আমসার'-এ তিনি বণিকদের প্রতিবেদনের ভিত্তিতে বাংলার বিস্তৃত অঞ্চল, কৃষি সমৃদ্ধি এবং সালতানাতের সামরিক শক্তির বর্ণনা দেন, এর স্বাধীনতা এবং সূক্ষ্ম তুলা এবং রেশমের বাণিজ্য উল্লেখ করে।"
+            },
+            "category": "scholar",
+            "significance": "medium",
+            "icon": "auto_stories"
         },
         {
             "id": "1406_mahuan",
@@ -73,12 +137,60 @@
                 "bn": "মা হুয়ান"
             },
             "description": {
-                "en": "Chinese voyager with Admiral Zheng He. Wrote detailed accounts of the Bengal Sultanate's textiles, language, and court life.",
-                "bn": "অ্যাডমিরাল ঝেং হির সাথে আগত চীনা নাবিক। তিনি বাংলার সালতানাতের বস্ত্রশিল্প, ভাষা এবং রাজদরবারের জীবনের বিস্তারিত বিবরণ লিখেছেন।"
+                "en": "Chinese Muslim interpreter and chronicler who accompanied Admiral Zheng He's treasure fleet on its fourth voyage. In 1406, he visited the Bengal Sultanate, documenting in 'Yingya Shenglan' (The Overall Survey of the Ocean's Shores) the region's advanced textile industry, Bengali language, royal court customs, architecture like mosques and palaces, and prosperous trade in pearls, corals, and spices.",
+                "bn": "চীনা মুসলিম অনুবাদক এবং ইতিহাসকার যিনি অ্যাডমিরাল ঝেং হির ধনসম্পদ নৌবহরের চতুর্থ যাত্রায় সঙ্গী হন। ১৪০৬ সালে তিনি বাংলা সালতানাত সফর করেন এবং 'ইংয়া শেংলান' (দ্য ওভারঅল সার্ভে অফ দ্য ওশানস শোরস)-এ অঞ্চলের উন্নত বস্ত্রশিল্প, বাংলা ভাষা, রাজদরবারের রীতিনীতি, মসজিদ এবং প্রাসাদের মতো স্থাপত্য এবং মুক্তা, প্রবাল এবং মশলার সমৃদ্ধ বাণিজ্যের বিবরণ দেন।"
             },
             "category": "diplomat",
             "significance": "high",
             "icon": "sailing"
+        },
+        {
+            "id": "1440_nicolo_conti",
+            "year": 1440,
+            "period": "1440s",
+            "title": {
+                "en": "Nicolo de' Conti",
+                "bn": "নিকোলো দে কন্টি"
+            },
+            "description": {
+                "en": "Italian merchant and explorer who traveled to India in the 1440s. He visited Bengal during the Sultanate period, describing its fertile lands, river systems, and trade in spices, silks, and precious metals, as recorded in his accounts compiled by Poggio Bracciolini in 'Historia de varietate fortunae'.",
+                "bn": "ইতালীয় বণিক এবং অনুসন্ধানকারী যিনি ১৪৪০-এর দশকে ভারতে ভ্রমণ করেন। তিনি সালতানাত যুগে বাংলা সফর করেন এবং এর উর্বর জমি, নদী ব্যবস্থা এবং মশলা, রেশম এবং মূল্যবান ধাতুর বাণিজ্যের বর্ণনা দেন, যা পোগিও ব্র্যাচিওলিনির সংকলিত 'হিস্টোরিয়া দে ভারিয়েটেট ফরচুনা'-এ লিপিবদ্ধ।"
+            },
+            "category": "explorer",
+            "significance": "medium",
+            "icon": "explore"
+        },
+        {
+            "id": "1443_abdur_razzaq",
+            "year": 1443,
+            "period": "1443",
+            "title": {
+                "en": "Abdur Razzaq Samarqandi",
+                "bn": "আবদুর রাজ্জাক সামারকান্দি"
+            },
+            "description": {
+                "en": "Persian ambassador from the Timurid Empire sent by Shah Rukh. In 1443, he visited the Bengal Sultanate under Sultan Nasiruddin Mahmud Shah, detailing in 'Matla-us-Sadain wa Majma-ul-Bahrain' the opulent court, advanced administration, diverse markets, and cultural practices, including the sultan's patronage of arts and scholars.",
+                "bn": "তৈমুরীয় সাম্রাজ্যের পারস্য রাষ্ট্রদূত যিনি শাহ রুখ কর্তৃক প্রেরিত। ১৪৪৩ সালে তিনি সুলতান নাসিরুদ্দিন মাহমুদ শাহের অধীনে বাংলা সালতানাত সফর করেন এবং 'মাতলা-উস-সাদাইন ওয়া মাজমা-উল-বাহরাইন'-এ সমৃদ্ধ দরবার, উন্নত প্রশাসন, বৈচিত্র্যময় বাজার এবং সাংস্কৃতিক অনুশীলনের বিবরণ দেন, যার মধ্যে সুলতানের শিল্প এবং পণ্ডিতদের পৃষ্ঠপোষকতা অন্তর্ভুক্ত।"
+            },
+            "category": "diplomat",
+            "significance": "high",
+            "icon": "auto_stories"
+        },
+        {
+            "id": "1505_varthema",
+            "year": 1505,
+            "period": "1505",
+            "title": {
+                "en": "Ludovico di Varthema",
+                "bn": "লুডোভিকো দি ভার্থেমা"
+            },
+            "description": {
+                "en": "Italian adventurer and traveler, one of the first Europeans to visit Mecca as a non-Muslim. Around 1505, he reached Bengal via the sea route, describing in 'Itinerario' the region's spices, textiles, and wildlife, including elephants and rhinoceroses, and the bustling ports like Chittagong during the Sultanate era.",
+                "bn": "ইতালীয় অভিযাত্রী এবং পর্যটক, প্রথম ইউরোপীয়দের মধ্যে একজন যিনি অমুসলিম হিসেবে মক্কা সফর করেন। ১৫০৫ সালের কাছাকাছি তিনি সামুদ্রিক পথে বাংলায় পৌঁছেন এবং 'ইটিনেরারিও'-তে অঞ্চলের মশলা, বস্ত্র এবং বন্যপ্রাণী যেমন হাতি এবং গণ্ডারের বর্ণনা দেন, সালতানাত যুগে চট্টগ্রামের মতো ব্যস্ত বন্দর উল্লেখ করে।"
+            },
+            "category": "explorer",
+            "significance": "high",
+            "icon": "explore"
         },
         {
             "id": "1517_tomepires",
@@ -89,8 +201,40 @@
                 "bn": "তোমে পিরেস"
             },
             "description": {
-                "en": "Portuguese apothecary. His book 'Suma Oriental' describes Bengal's immense wealth, stating 'The Bengalis are great merchants'.",
-                "bn": "পর্তুগিজ ঔষধকার। তাঁর বই 'সুমা ওরিয়েন্টাল'-এ তিনি বাংলার বিপুল সম্পদের বর্ণনা করে বলেন, 'বাঙালিরা মহান বণিক'।"
+                "en": "Portuguese apothecary and colonial administrator who served in Malacca. In his influential book 'Suma Oriental' (1512-1515, published later), he portrayed Bengal as an immensely wealthy kingdom with extensive trade networks, stating 'The Bengalis are great merchants' and detailing exports like fine cotton cloths (muslins), silks, and agricultural products.",
+                "bn": "পর্তুগিজ ঔষধকার এবং ঔপনিবেশিক প্রশাসক যিনি মালাক্কায় দায়িত্ব পালন করেন। তার প্রভাবশালী বই 'সুমা ওরিয়েন্টাল' (১৫১২-১৫১৫, পরে প্রকাশিত)-এ তিনি বাংলাকে বিপুল সম্পদশালী রাজ্য হিসেবে চিত্রিত করেন যার বিস্তৃত বাণিজ্য নেটওয়ার্ক ছিল, বলেন 'বাঙালিরা মহান বণিক' এবং সূক্ষ্ম তুলো কাপড় (মুসলিন), রেশম এবং কৃষি পণ্যের রপ্তানির বিবরণ দেন।"
+            },
+            "category": "trader",
+            "significance": "medium",
+            "icon": "local_shipping"
+        },
+        {
+            "id": "1518_duarte_barbosa",
+            "year": 1518,
+            "period": "1518",
+            "title": {
+                "en": "Duarte Barbosa",
+                "bn": "দুয়ার্তে বার্বোসা"
+            },
+            "description": {
+                "en": "Portuguese explorer and writer, relative of Ferdinand Magellan. Around 1518, he visited Bengal's ports, providing in 'The Book of Duarte Barbosa' detailed observations on society, customs, Hindu-Muslim relations, and thriving trade in rice, sugar, and textiles during the waning years of the Bengal Sultanate before Mughal conquest.",
+                "bn": "পর্তুগিজ অনুসন্ধানকারী এবং লেখক, ফার্ডিনান্ড ম্যাগেলানের আত্মীয়। ১৫১৮ সালের কাছাকাছি তিনি বাংলার বন্দর সফর করেন এবং 'দ্য বুক অফ দুয়ার্তে বার্বোসা'-তে সমাজ, রীতিনীতি, হিন্দু-মুসলিম সম্পর্ক এবং ধান, চিনি এবং বস্ত্রের সমৃদ্ধ বাণিজ্যের বিস্তারিত পর্যবেক্ষণ দেন, মোঘল বিজয়ের আগে বাংলা সালতানাতের শেষ বছরগুলিতে।"
+            },
+            "category": "explorer",
+            "significance": "high",
+            "icon": "explore"
+        },
+        {
+            "id": "1569_caesar_frederick",
+            "year": 1569,
+            "period": "1569",
+            "title": {
+                "en": "Caesar Frederick",
+                "bn": "সিজার ফ্রেডরিক"
+            },
+            "description": {
+                "en": "Venetian merchant who traveled to India in 1563-1581. He visited Bengal's ports like Satgaon and Chittagong, describing in his travel accounts the region's spice trade, shipbuilding industry, and the impact of Portuguese presence, providing insights into pre-Mughal Bengal's economy.",
+                "bn": "ভেনিসীয় বণিক যিনি ১৫৬৩-১৫৮১ সালে ভারতে ভ্রমণ করেন। তিনি সাতগাঁও এবং চট্টগ্রামের মতো বাংলার বন্দর সফর করেন এবং তার ভ্রমণকথায় অঞ্চলের মশলা বাণিজ্য, জাহাজ নির্মাণ শিল্প এবং পর্তুগিজ উপস্থিতির প্রভাবের বর্ণনা দেন, মোঘল-পূর্ব বাংলার অর্থনীতির অন্তর্দৃষ্টি প্রদান করে।"
             },
             "category": "trader",
             "significance": "medium",
@@ -105,12 +249,28 @@
                 "bn": "রালফ ফিচ"
             },
             "description": {
-                "en": "First English merchant to visit Bengal. His reports on the textile trade and abundance of food attracted the East India Company.",
-                "bn": "বাংলায় আসা প্রথম ইংরেজ বণিক। বস্ত্রবাণিজ্য এবং খাদ্যের প্রাচুর্য নিয়ে তার প্রতিবেদন ইস্ট ইন্ডিয়া কোম্পানিকে আকৃষ্ট করেছিল।"
+                "en": "Pioneering English merchant who was one of the first Englishmen to visit India in the 1580s. Traveling via the overland route through the Middle East, he reached Bengal, documenting the abundance of food, fine muslin textiles, and prosperous markets in places like Hugli and Satgaon, which later influenced the establishment of the English East India Company.",
+                "bn": "পথপ্রদর্শক ইংরেজ বণিক যিনি ১৫৮০-এর দশকে ভারতে আসা প্রথম ইংরেজদের মধ্যে একজন। মধ্যপ্রাচ্যের স্থলপথে ভ্রমণ করে তিনি বাংলায় পৌঁছেন, খাদ্যের প্রাচুর্য, সূক্ষ্ম মুসলিন বস্ত্র এবং হুগলি এবং সাতগাঁওয়ের সমৃদ্ধ বাজারের বিবরণ দেন, যা পরে ইংলিশ ইস্ট ইন্ডিয়া কোম্পানির প্রতিষ্ঠায় প্রভাব ফেলে।"
             },
             "category": "trader",
             "significance": "high",
             "icon": "store"
+        },
+        {
+            "id": "1640_tavernier",
+            "year": 1640,
+            "period": "1640-1667",
+            "title": {
+                "en": "Jean-Baptiste Tavernier",
+                "bn": "জাঁ-ব্যাপটিস্ত তাভের্নিয়ে"
+            },
+            "description": {
+                "en": "French gem merchant and traveler who made six voyages to India between 1640-1667. He visited Bengal multiple times during the Mughal era, detailing in 'Les Six Voyages de Jean-Baptiste Tavernier' the diamond trade, opulent lifestyle of Mughal nobles, and the region's rivers, agriculture, and handicrafts like embroidery and jewelry.",
+                "bn": "ফরাসি রত্ন বণিক এবং পর্যটক যিনি ১৬৪০-১৬৬৭ সালের মধ্যে ভারতে ছয়বার ভ্রমণ করেন। তিনি মোঘল যুগে বাংলা একাধিকবার সফর করেন এবং 'লেস সিক্স ভয়েজেস দে জাঁ-ব্যাপটিস্ত তাভের্নিয়ে'-তে হীরা বাণিজ্য, মোঘল অভিজাতদের বিলাসবহুল জীবনযাত্রা এবং অঞ্চলের নদী, কৃষি এবং সূচিকর্ম এবং গহনার মতো হস্তশিল্পের বিবরণ দেন।"
+            },
+            "category": "trader",
+            "significance": "high",
+            "icon": "local_shipping"
         },
         {
             "id": "1665_bernier",
@@ -121,8 +281,8 @@
                 "bn": "ফ্রাঁসোয়া বার্নিয়ার"
             },
             "description": {
-                "en": "French physician. Described Bengal as the 'Paradise of Nations' for its fertility and productivity during Shaista Khan's rule.",
-                "bn": "ফরাসি চিকিৎসক। শায়েস্তা খানের শাসনামলে বাংলার উর্বরতা এবং উত্পাদনশীলতার জন্য তিনি বাংলাকে 'জাতিসমূহের স্বর্গ' হিসেবে বর্ণনা করেন।"
+                "en": "French physician and philosopher who served in the Mughal court of Aurangzeb from 1658-1668. He described Bengal as the 'Paradise of Nations' for its extraordinary fertility, endless rice fields, and industrial productivity in textiles and shipbuilding during Subedar Shaista Khan's rule, in his book 'Travels in the Mogul Empire'.",
+                "bn": "ফরাসি চিকিৎসক এবং দার্শনিক যিনি ১৬৫৮-১৬৬৮ সালে আওরঙ্গজেবের মোঘল দরবারে দায়িত্ব পালন করেন। তিনি সুবাদার শায়েস্তা খানের শাসনামলে বাংলার অসাধারণ উর্বরতা, অসীম ধানক্ষেত্র এবং বস্ত্র এবং জাহাজ নির্মাণের শিল্পগত উত্পাদনশীলতার জন্য একে 'জাতিসমূহের স্বর্গ' হিসেবে বর্ণনা করেন তার বই 'ট্রাভেলস ইন দ্য মোগল এম্পায়ার'-এ।"
             },
             "category": "scholar",
             "significance": "medium",
