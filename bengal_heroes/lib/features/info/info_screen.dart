@@ -68,7 +68,7 @@ class InfoScreen extends StatelessWidget {
                 ),
                 child: Center(
                   child: Icon(
-                    isTimeline ? Icons.timeline : Icons.airplaneticket,
+                    isTimeline ? Icons.timeline : Icons.airplane_ticket,
                     size: 80,
                     color: primaryColor.withValues(alpha: 0.3),
                   ),
