@@ -241,6 +241,22 @@
       "icon": "groups_2"
     },
     {
+      "id": "1820_wahabi",
+      "year": 1820,
+      "period": "1820-1860s",
+      "title": {
+        "en": "Wahabi Movement in Bengal",
+        "bn": "বঙ্গের ওয়াহাবি আন্দোলন"
+      },
+      "description": {
+        "en": "The Wahabi movement in Bengal emerged in the early nineteenth century, influenced by the broader revivalist teachings of Syed Ahmad Barelvi. It was primarily a religious reform and socio-political movement among Muslims, emphasizing strict adherence to Islamic monotheism, opposition to perceived religious innovations, and the revival of Islamic practices. In Bengal, the movement also acquired a political dimension, opposing British colonial authority and local exploitation by landlords. Though largely suppressed by the British, the movement fostered a culture of organized resistance and inspired subsequent anti-colonial and reformist initiatives in the region.",
+        "bn": "বাংলায় ওয়াহাবি আন্দোলন উনবিংশ শতকের প্রথমার্ধে শুরু হয়, যা সৈয়দ আহমদ বেরেলভির ইসলামী সংস্কারমূলক শিক্ষার দ্বারা প্রভাবিত ছিল। এটি প্রধানত মুসলিম সম্প্রদায়ের মধ্যে একটি ধর্মীয় সংস্কার ও সামাজিক আন্দোলন ছিল, যা ইসলামের একেশ্বরবাদ অনুসরণের প্রতি জোর দেয়, কুসংস্কার ও ধর্মীয় বিচ্যুতির বিরোধ করে এবং ইসলামী প্রথাগুলোর পুনরুজ্জীবনের আহ্বান জানায়। বাংলায়, এই আন্দোলন রাজনৈতিক মাত্রা অর্জন করে এবং ব্রিটিশ ঔপনিবেশিক শাসন ও স্থানীয় জমিদারদের শোষণের বিরুদ্ধে প্রতিরোধ গড়ে তোলে। যদিও ব্রিটিশ শাসন দ্বারা প্রধানত দমন করা হয়, আন্দোলনটি সংগঠিত প্রতিরোধের সংস্কৃতি তৈরি করে এবং পরবর্তীকালে এই অঞ্চলের অন্যান্য ঔপনিবেশিক-বিরোধী ও সংস্কারমূলক উদ্যোগকে প্রভাবিত করে।"
+      },
+      "category": "revolution",
+      "significance": "medium",
+      "icon": "groups_2"
+    },
+    {
       "id": "1829_bengal_renaissance",
       "year": 1829,
       "period": "1829-1900",
