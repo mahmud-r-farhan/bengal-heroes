@@ -13,7 +13,16 @@
         "explore_by_era": "Explore by Era",
         "collection_overview": "Collection Overview",
         "no_events_today": "No events today",
-        "explore_collection": "Explore our collection to discover Bengal's heroes"
+        "explore_collection": "Explore our collection to discover Bengal's heroes",
+        "featured_heroes_subtitle": "Prominent figures in Bengal's history",
+        "explore_by_era_subtitle": "Discover heroes from different periods",
+        "war_title": "Bengal Faces War",
+        "war_subtitle": "Political movements & historical upheavals",
+        "war_explore": "Explore All War & Movements",
+        "travelers_title": "Travelers in Bengal",
+        "travelers_subtitle": "Accounts from explorers who visited golden Bengal",
+        "timeline_title": "Bengal Through Time",
+        "timeline_subtitle": "A journey through empires, revolutions, and independence"
     },
     "heroes": {
         "title": "Heroes",
@@ -61,7 +70,12 @@
         "about_app": "About Bengal Heroes",
         "privacy_policy": "Privacy Policy",
         "terms_of_service": "Terms of Service",
-        "made_with_love": "Made with ❤️ for Bengal"
+        "made_with_love": "Made with ❤️ for Bengal",
+        "about_desc": "This app is dedicated to preserving and celebrating the rich history of Bengal through the stories of its heroes, from the Sultanate era to the 1971 Liberation War.",
+        "features_list": "• No ads - Pure educational focus\n• Offline-first - Works without internet\n• Bilingual - English & Bengali support",
+        "version": "Version",
+        "privacy_coming_soon": "Privacy Policy coming soon!",
+        "terms_coming_soon": "Terms of Service coming soon!"
     },
     "intro": {
         "skip": "Skip",
@@ -97,12 +111,27 @@
         "ruler": "Ruler",
         "poet": "Poet",
         "philosopher": "Philosopher",
-        "soldier": "Soldier"
+        "soldier": "Soldier",
+        "empire": "Empire",
+        "war": "War",
+        "revolution": "Revolution",
+        "crisis": "Crisis",
+        "freedom": "Freedom",
+        "pilgrim": "Pilgrim",
+        "trader": "Trader",
+        "diplomat": "Diplomat",
+        "explorer": "Explorer",
+        "scholar": "Scholar",
+        "traveler": "Traveler",
+        "history": "History"
     },
     "on_this_day_events": {
         "born": "Born",
         "remembered": "Remembered",
-        "event": "Event"
+        "event": "Event",
+        "no_records": "No Historical Records Today",
+        "no_records_desc": "Explore our vast collection to discover Bengal's remarkable heroes and events",
+        "historical_event": "Historical Event"
     },
     "common": {
         "view_all": "View All",
@@ -116,6 +145,9 @@
         "add": "Add",
         "remove": "Remove",
         "favorite": "Favorite",
-        "unfavorite": "Remove from favorites"
+        "unfavorite": "Remove from favorites",
+        "view_details": "View Details",
+        "born_abbr": "b.",
+        "died_abbr": "d."
     }
 }

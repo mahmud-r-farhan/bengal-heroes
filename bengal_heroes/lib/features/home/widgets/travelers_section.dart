@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -51,7 +52,7 @@ class TravelersSection extends ConsumerWidget {
                   ),
                   const SizedBox(height: 12),
                   Text(
-                    'Travelers in Bengal',
+                    'home.travelers_title'.tr(),
                     style: theme.textTheme.titleLarge?.copyWith(
                       fontWeight: FontWeight.bold,
                       letterSpacing: 0.5,
@@ -60,7 +61,7 @@ class TravelersSection extends ConsumerWidget {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    'Accounts from explorers who visited golden Bengal',
+                    'home.travelers_subtitle'.tr(),
                     style: theme.textTheme.bodyMedium?.copyWith(
                       color: theme.colorScheme.onSurfaceVariant,
                     ),
@@ -464,17 +465,17 @@ class _TimelineItemState extends State<_TimelineItem> {
   String _getCategoryLabel(String category) {
     switch (category) {
       case 'pilgrim':
-        return 'Pilgrim';
+        return 'timeline.pilgrim'.tr();
       case 'trader':
-        return 'Trader';
+        return 'timeline.trader'.tr();
       case 'diplomat':
-        return 'Diplomat';
+        return 'timeline.diplomat'.tr();
       case 'explorer':
-        return 'Explorer';
+        return 'timeline.explorer'.tr();
       case 'scholar':
-        return 'Scholar';
+        return 'timeline.scholar'.tr();
       default:
-        return 'Traveler';
+        return 'timeline.traveler'.tr();
     }
   }
 

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -72,7 +73,7 @@ class WarCollectionSection extends ConsumerWidget {
                       ),
                       const SizedBox(height: 12),
                       Text(
-                        'Bengal Faces War',
+                        'home.war_title'.tr(),
                         style: theme.textTheme.titleLarge?.copyWith(
                           fontWeight: FontWeight.bold,
                           letterSpacing: 0.5,
@@ -81,7 +82,7 @@ class WarCollectionSection extends ConsumerWidget {
                       ),
                       const SizedBox(height: 4),
                       Text(
-                        'Political movements & historical upheavals',
+                        'home.war_subtitle'.tr(),
                         style: theme.textTheme.bodyMedium?.copyWith(
                           color: theme.colorScheme.onSurfaceVariant,
                         ),
@@ -139,7 +140,7 @@ class WarCollectionSection extends ConsumerWidget {
                       },
                       icon: const Icon(Icons.arrow_forward),
                       label: Text(
-                        'Explore All War & Movements',
+                        'home.war_explore'.tr(),
                         style: theme.textTheme.labelLarge,
                       ),
                       style: ElevatedButton.styleFrom(
@@ -300,7 +301,7 @@ class _WarEventCardState extends State<_WarEventCard> {
                         const SizedBox(width: 4),
                         Expanded(
                           child: Text(
-                            'View details',
+                            'common.view_details'.tr(),
                             style: theme.textTheme.labelSmall?.copyWith(
                               color: AppColors.primaryMaroon.withValues(alpha: 0.7),
                             ),
@@ -323,10 +324,10 @@ class _WarEventCardState extends State<_WarEventCard> {
     if (birthYear != null && deathYear != null) {
       return '$birthYear - $deathYear';
     } else if (birthYear != null) {
-      return 'b. $birthYear';
+      return '${'common.born_abbr'.tr()} $birthYear';
     } else if (deathYear != null) {
-      return 'd. $deathYear';
+      return '${'common.died_abbr'.tr()} $deathYear';
     }
-    return 'Era';
+    return 'filter.era'.tr();
   }
 }

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -96,7 +97,7 @@ class OnThisDaySection extends ConsumerWidget {
                   children: [
                     // Main title with serif-like styling
                     Text(
-                      'On This Day',
+                      'home.on_this_day'.tr(),
                       style: theme.textTheme.headlineSmall?.copyWith(
                         fontWeight: FontWeight.bold,
                         letterSpacing: 0.5,
@@ -197,7 +198,7 @@ class OnThisDaySection extends ConsumerWidget {
           const SizedBox(height: 20),
 
           Text(
-            'No Historical Records Today',
+            'on_this_day_events.no_records'.tr(),
             style: theme.textTheme.titleLarge?.copyWith(
               fontWeight: FontWeight.bold,
               letterSpacing: 0.3,
@@ -206,7 +207,7 @@ class OnThisDaySection extends ConsumerWidget {
           const SizedBox(height: 8),
 
           Text(
-            'Explore our vast collection to discover Bengal\'s remarkable heroes and events',
+            'on_this_day_events.no_records_desc'.tr(),
             textAlign: TextAlign.center,
             style: theme.textTheme.bodyMedium?.copyWith(
               color: theme.colorScheme.onSurfaceVariant,
@@ -301,7 +302,7 @@ class OnThisDaySection extends ConsumerWidget {
           const SizedBox(width: 12),
           Expanded(
             child: Text(
-              'Unable to load historical records',
+              'common.error'.tr(),
               style: theme.textTheme.bodyMedium?.copyWith(
                 color: theme.colorScheme.error,
               ),
@@ -410,7 +411,7 @@ class _EnhancedOnThisDayCardState extends State<_EnhancedOnThisDayCard> {
                           ),
                           const SizedBox(width: 6),
                           Text(
-                            isBirth ? 'Born' : 'Remembered',
+                            isBirth ? 'on_this_day_events.born'.tr() : 'on_this_day_events.remembered'.tr(),
                             style: theme.textTheme.labelSmall?.copyWith(
                               color: color,
                               fontWeight: FontWeight.w700,
@@ -588,7 +589,7 @@ class _EnhancedOnThisDayEventCardState extends State<_EnhancedOnThisDayEventCard
                         ),
                         const SizedBox(width: 6),
                         Text(
-                          'Historical Event',
+                          'on_this_day_events.historical_event'.tr(),
                           style: theme.textTheme.labelSmall?.copyWith(
                             color: color,
                             fontWeight: FontWeight.w700,

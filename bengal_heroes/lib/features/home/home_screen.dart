@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -40,7 +41,7 @@ class HomeScreen extends ConsumerWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Bengal Heroes',
+                    'app_name'.tr(),
                     style: theme.textTheme.headlineSmall?.copyWith(
                       fontWeight: FontWeight.bold,
                       color: theme.colorScheme.onSurface,
@@ -96,9 +97,9 @@ class HomeScreen extends ConsumerWidget {
 
                 // Explore by Era
                 SectionHeader(
-                  title: 'Explore by Era',
-                  subtitle: 'Discover heroes from different periods',
-                  actionText: 'See All',
+                  title: 'home.explore_by_era'.tr(),
+                  subtitle: 'home.explore_by_era_subtitle'.tr(),
+                  actionText: 'common.see_all'.tr(),
                   onActionTap: () => context.go(AppRoutes.heroes),
                 ),
                 const SizedBox(height: 8),
@@ -173,7 +174,7 @@ class HomeScreen extends ConsumerWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Collection Overview',
+            'home.collection_overview'.tr(),
             style: theme.textTheme.titleMedium?.copyWith(
               fontWeight: FontWeight.bold,
             ),
@@ -190,7 +191,7 @@ class HomeScreen extends ConsumerWidget {
                   loading: () => '...',
                   error: (_, _) => '0',
                 ),
-                label: 'Heroes',
+                label: 'home.stats_heroes'.tr(),
                 color: AppColors.primaryMaroon,
               ),
               _buildStatItem(
@@ -201,7 +202,7 @@ class HomeScreen extends ConsumerWidget {
                   loading: () => '...',
                   error: (_, _) => '0',
                 ),
-                label: 'Eras',
+                label: 'home.stats_eras'.tr(),
                 color: AppColors.secondaryOlive,
               ),
               _buildStatItem(
@@ -212,7 +213,7 @@ class HomeScreen extends ConsumerWidget {
                   loading: () => '...',
                   error: (_, _) => '0',
                 ),
-                label: 'Categories',
+                label: 'home.stats_categories'.tr(),
                 color: AppColors.secondaryTeal,
               ),
             ],

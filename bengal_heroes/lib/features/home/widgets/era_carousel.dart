@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -116,7 +117,7 @@ class EraCarousel extends ConsumerWidget {
                                       borderRadius: BorderRadius.circular(20),
                                     ),
                                     child: Text(
-                                      '$count heroes',
+                                      'heroes.heroes_count'.tr(args: [count.toString()]),
                                       style: theme.textTheme.labelSmall?.copyWith(
                                         color: Colors.white,
                                         fontWeight: FontWeight.w600,
@@ -160,7 +161,7 @@ class EraCarousel extends ConsumerWidget {
         height: 140,
       ),
       error: (error, _) => Center(
-        child: Text('Error loading eras: $error'),
+        child: Text('${'common.error'.tr()}: $error'),
       ),
     );
   }

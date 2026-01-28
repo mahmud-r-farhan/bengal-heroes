@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -18,9 +19,9 @@ class FeaturedHeroesSection extends ConsumerWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SectionHeader(
-          title: 'Featured Heroes',
-          subtitle: 'Prominent figures in Bengal\'s history',
-          actionText: 'View All',
+          title: 'home.featured_heroes'.tr(),
+          subtitle: 'home.featured_heroes_subtitle'.tr(),
+          actionText: 'common.view_all'.tr(),
           onActionTap: () => context.go(AppRoutes.heroes),
         ),
         const SizedBox(height: 8),

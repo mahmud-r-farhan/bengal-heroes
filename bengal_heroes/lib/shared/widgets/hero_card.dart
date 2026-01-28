@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -91,7 +92,7 @@ class HeroCard extends ConsumerWidget {
                       const SizedBox(height: 4),
                       // Life span
                       Text(
-                        hero.dates.lifeSpan,
+                        _getLifeSpan(hero.dates),
                         style: theme.textTheme.bodySmall?.copyWith(
                           color: Colors.white70,
                         ),
@@ -262,7 +263,7 @@ class HeroCardHorizontal extends ConsumerWidget {
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      hero.dates.lifeSpan,
+                      _getLifeSpan(hero.dates),
                       style: theme.textTheme.bodySmall?.copyWith(
                         color: Colors.white70,
                       ),
@@ -300,4 +301,17 @@ class HeroCardHorizontal extends ConsumerWidget {
       },
     );
   }
+}
+
+String _getLifeSpan(models.HeroDates dates) {
+  final birth = dates.birthYear;
+  final death = dates.deathYear;
+  if (birth != null && death != null) {
+    return '$birth - $death';
+  } else if (birth != null) {
+    return '${'common.born_abbr'.tr()} $birth';
+  } else if (death != null) {
+    return '${'common.died_abbr'.tr()} $death';
+  }
+  return '';
 }

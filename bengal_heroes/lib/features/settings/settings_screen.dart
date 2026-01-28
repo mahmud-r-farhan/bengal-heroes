@@ -17,27 +17,27 @@ class SettingsScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Settings'),
+        title: Text('settings.title'.tr()),
       ),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
           // Appearance section
-          _buildSectionHeader(context, 'Appearance'),
+          _buildSectionHeader(context, 'settings.appearance'.tr()),
           const SizedBox(height: 12),
           _buildThemeSelector(context, ref, themeMode),
 
           const SizedBox(height: 32),
 
           // Language section
-          _buildSectionHeader(context, 'Language'),
+          _buildSectionHeader(context, 'settings.language'.tr()),
           const SizedBox(height: 12),
           _buildLanguageSelector(context, ref, currentLocale),
 
           const SizedBox(height: 32),
 
           // About section
-          _buildSectionHeader(context, 'About'),
+          _buildSectionHeader(context, 'settings.about'.tr()),
           const SizedBox(height: 12),
           _buildAboutSection(context),
 
@@ -83,7 +83,7 @@ class SettingsScreen extends ConsumerWidget {
               context,
               ref,
               icon: Icons.light_mode_outlined,
-              label: 'Light',
+              label: 'settings.theme_light'.tr(),
               mode: ThemeMode.light,
               isSelected: currentTheme == ThemeMode.light,
             ),
@@ -93,7 +93,7 @@ class SettingsScreen extends ConsumerWidget {
               context,
               ref,
               icon: Icons.dark_mode_outlined,
-              label: 'Dark',
+              label: 'settings.theme_dark'.tr(),
               mode: ThemeMode.dark,
               isSelected: currentTheme == ThemeMode.dark,
             ),
@@ -103,7 +103,7 @@ class SettingsScreen extends ConsumerWidget {
               context,
               ref,
               icon: Icons.phone_android,
-              label: 'System',
+              label: 'settings.theme_system'.tr(),
               mode: ThemeMode.system,
               isSelected: currentTheme == ThemeMode.system,
             ),
@@ -252,7 +252,7 @@ class SettingsScreen extends ConsumerWidget {
         children: [
           ListTile(
             leading: const Icon(Icons.info_outline),
-            title: const Text('About Bengal Heroes'),
+            title: Text('settings.about_app'.tr()),
             trailing: const Icon(Icons.chevron_right),
             onTap: () => _showAboutDialog(context),
           ),
@@ -262,11 +262,11 @@ class SettingsScreen extends ConsumerWidget {
           ),
           ListTile(
             leading: const Icon(Icons.policy_outlined),
-            title: const Text('Privacy Policy'),
+            title: Text('settings.privacy_policy'.tr()),
             trailing: const Icon(Icons.chevron_right),
             onTap: () {
               ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text('Privacy Policy coming soon!')),
+                SnackBar(content: Text('settings.privacy_coming_soon'.tr())),
               );
             },
           ),
@@ -276,11 +276,11 @@ class SettingsScreen extends ConsumerWidget {
           ),
           ListTile(
             leading: const Icon(Icons.description_outlined),
-            title: const Text('Terms of Service'),
+            title: Text('settings.terms_of_service'.tr()),
             trailing: const Icon(Icons.chevron_right),
             onTap: () {
               ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text('Terms of Service coming soon!')),
+                SnackBar(content: Text('settings.terms_coming_soon'.tr())),
               );
             },
           ),
@@ -308,7 +308,7 @@ class SettingsScreen extends ConsumerWidget {
               ),
             ),
             const SizedBox(width: 12),
-            const Text('Bengal Heroes'),
+            Text('app_name'.tr()),
           ],
         ),
         content: Column(
@@ -321,18 +321,14 @@ class SettingsScreen extends ConsumerWidget {
             ),
             const SizedBox(height: 16),
             Text(
-              'This app is dedicated to preserving and celebrating '
-              'the rich history of Bengal through the stories of its heroes, '
-              'from the Sultanate era to the 1971 Liberation War.',
+              'settings.about_desc'.tr(),
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                     color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
             ),
             const SizedBox(height: 16),
             Text(
-              '• No ads - Pure educational focus\n'
-              '• Offline-first - Works without internet\n'
-              '• Bilingual - English & Bengali support',
+              'settings.features_list'.tr(),
               style: Theme.of(context).textTheme.bodySmall,
             ),
           ],
@@ -340,7 +336,7 @@ class SettingsScreen extends ConsumerWidget {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('Close'),
+            child: Text('common.close'.tr()),
           ),
         ],
       ),
@@ -389,7 +385,7 @@ class SettingsScreen extends ConsumerWidget {
           ),
           const SizedBox(height: 4),
           Text(
-            'Version ${AppConstants.appVersion}',
+            '${'settings.version'.tr()} ${AppConstants.appVersion}',
             style: theme.textTheme.bodySmall?.copyWith(
               color: theme.colorScheme.onSurfaceVariant,
             ),

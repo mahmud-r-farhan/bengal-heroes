@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -51,7 +52,7 @@ class TimelineSection extends ConsumerWidget {
                   ),
                   const SizedBox(height: 12),
                   Text(
-                    'Bengal Through Time',
+                    'home.timeline_title'.tr(),
                     style: theme.textTheme.titleLarge?.copyWith(
                       fontWeight: FontWeight.bold,
                       letterSpacing: 0.5,
@@ -60,7 +61,7 @@ class TimelineSection extends ConsumerWidget {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    'A journey through empires, revolutions, and independence',
+                    'home.timeline_subtitle'.tr(),
                     style: theme.textTheme.bodyMedium?.copyWith(
                       color: theme.colorScheme.onSurfaceVariant,
                     ),
@@ -466,19 +467,19 @@ class _TimelineItemState extends State<_TimelineItem> {
   String _getCategoryLabel(String category) {
     switch (category) {
       case 'empire':
-        return 'Empire';
+        return 'timeline.empire'.tr();
       case 'war':
-        return 'War';
+        return 'timeline.war'.tr();
       case 'revolution':
-        return 'Revolution';
+        return 'timeline.revolution'.tr();
       case 'suffering':
-        return 'Crisis';
+        return 'timeline.crisis'.tr();
       case 'event':
-        return 'Event';
+        return 'timeline.event'.tr();
       case 'independence':
-        return 'Freedom';
+        return 'timeline.freedom'.tr();
       default:
-        return 'History';
+        return 'timeline.history'.tr();
     }
   }
 
