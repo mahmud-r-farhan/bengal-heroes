@@ -14,6 +14,9 @@ class AppRoutes {
   static const String heroesByEra = '/era';
   static const String heroesByCategory = '/category';
   static const String warMovements = '/war-movements';
+  
+  // Info routes
+  static const String infoScreen = '/info';
 
   // Helper methods for navigation
   static String getHeroDetailPath(String heroId) => '$heroDetail/$heroId';
@@ -22,4 +25,5 @@ class AppRoutes {
       '$heroesByCategory/$categoryId';
   static String getWarMovementsPath(String categoryId) =>
       '$warMovements/$categoryId';
+  static String getInfoScreenPath(String type) => '$infoScreen/$type';
 }

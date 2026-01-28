@@ -167,5 +167,24 @@
         "scholar": "Scholar",
         "traveler": "Traveler",
         "history": "History"
+    },
+    "info": {
+        "timeline_title": "Bengal Through Time",
+        "travelers_title": "Travelers in Bengal",
+        "about_section": "About",
+        "timeline_description": "Bengal's rich history spans thousands of years, marked by the rise and fall of great empires, bloodless revolutions, and the struggle for independence. From the ancient kingdoms of the Maurya and Gupta empires to the Sultanate and Mughal periods, Bengal has been a center of power, culture, and intellectual thought. The colonial era brought new challenges, spurring a renaissance of Bengali culture and independence movements that ultimately led to the birth of modern India and Bangladesh. This timeline captures the pivotal moments that shaped Bengal and its people.",
+        "travelers_description": "Throughout history, Bengal has captivated travelers and explorers from around the world. From ancient Chinese monks seeking Buddhist knowledge to European merchants and adventurers, Bengal was considered the golden jewel of Asia. These travelers left behind remarkable accounts of Bengal's wealth, culture, and people. Their writings provide invaluable insights into how the world perceived Bengal and its contributions to global trade, knowledge, and commerce. The travelers' accounts serve as a bridge between Bengal's glorious past and the world's recognition of its historical importance.",
+        "key_highlights": "Key Highlights",
+        "timeline_highlight_1": "Multiple empires ruled Bengal, each leaving their mark on culture and architecture",
+        "timeline_highlight_2": "The Bengal Renaissance sparked a revolutionary intellectual and cultural movement",
+        "timeline_highlight_3": "Bengal played a crucial role in India's independence struggle",
+        "timeline_highlight_4": "The partition of 1947 and Bangladesh's liberation in 1971 are pivotal events in Bengal's modern history",
+        "travelers_highlight_1": "Famous travelers like Xuanzang and Faxian documented Bengal's prosperity",
+        "travelers_highlight_2": "European merchants established trade routes bringing Bengal's goods to the world",
+        "travelers_highlight_3": "Detailed accounts reveal Bengal's advanced civilization and culture",
+        "travelers_highlight_4": "Travelers' journals provide authentic perspectives on Bengal's social and political systems",
+        "significance": "Historical Significance",
+        "timeline_significance": "Bengal's timeline is not just a chronicle of events, but a reflection of human endeavor, resilience, and progress. Each era contributed unique elements to Bengal's identity, from the philosophical contributions of ancient kingdoms to the scientific and literary renaissance of the 19th and 20th centuries. Understanding this timeline helps us appreciate the complexity and continuity of Bengal's civilization.",
+        "travelers_significance": "The accounts of travelers provide us with a window into Bengal's past from an external perspective. These narratives challenge our understanding of history and validate Bengal's role as a major civilization. They remind us that Bengal was not isolated, but was an integral part of global exchange, influencing and being influenced by cultures across Asia and Europe."
     }
 }

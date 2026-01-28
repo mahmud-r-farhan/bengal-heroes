@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import '../../features/hero_detail/hero_detail_screen.dart';
 import '../../features/heroes/heroes_screen.dart';
 import '../../features/home/home_screen.dart';
+import '../../features/info/info_screen.dart';
 import '../../features/intro/intro_screen.dart';
 import '../../features/search/search_screen.dart';
 import '../../features/settings/settings_screen.dart';
@@ -168,6 +169,31 @@ final appRouterProvider = Provider<GoRouter>((ref) {
               return SlideTransition(
                 position: Tween<Offset>(
                   begin: const Offset(1, 0),
+                  end: Offset.zero,
+                ).animate(CurvedAnimation(
+                  parent: animation,
+                  curve: Curves.easeOutCubic,
+                )),
+                child: child,
+              );
+            },
+          );
+        },
+      ),
+
+      // Info Screen (Timeline and Travelers)
+      GoRoute(
+        path: '${AppRoutes.infoScreen}/:type',
+        name: 'info',
+        pageBuilder: (context, state) {
+          final type = state.pathParameters['type']!;
+          return CustomTransitionPage(
+            key: state.pageKey,
+            child: InfoScreen(type: type),
+            transitionsBuilder: (context, animation, secondaryAnimation, child) {
+              return SlideTransition(
+                position: Tween<Offset>(
+                  begin: const Offset(0, 1),
                   end: Offset.zero,
                 ).animate(CurvedAnimation(
                   parent: animation,
