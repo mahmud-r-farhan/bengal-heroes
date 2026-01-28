@@ -22,7 +22,10 @@
         "travelers_title": "বাংলায় পর্যটকরা",
         "travelers_subtitle": "সোনালী বাংলা ভ্রমণকারী পর্যটকদের বিবরণ",
         "timeline_title": "সময়ের দর্পণে বাংলা",
-        "timeline_subtitle": "সাম্রাজ্য, বিপ্লব এবং স্বাধীনতার এক অগ্রযাত্রা"
+        "timeline_subtitle": "সাম্রাজ্য, বিপ্লব এবং স্বাধীনতার এক অগ্রযাত্রা",
+        "stats_heroes": "বীরগণ",
+        "stats_eras": "যুগ",
+        "stats_categories": "বিভাগ"
     },
     "heroes": {
         "title": "বীরগণ",
@@ -149,5 +152,20 @@
         "view_details": "বিস্তারিত দেখুন",
         "born_abbr": "জন্ম:",
         "died_abbr": "মৃত্যু:"
+    },
+    "timeline": {
+        "empire": "সাম্রাজ্য",
+        "war": "যুদ্ধ",
+        "revolution": "বিপ্লব",
+        "crisis": "সংকট",
+        "event": "ঘটনা",
+        "freedom": "স্বাধীনতা",
+        "pilgrim": "তীর্থযাত্রী",
+        "trader": "ব্যবসায়ী",
+        "diplomat": "কূটনীতিক",
+        "explorer": "অভিযাত্রী",
+        "scholar": "পণ্ডিত",
+        "traveler": "পর্যটক",
+        "history": "ইতিহাস"
     }
 }

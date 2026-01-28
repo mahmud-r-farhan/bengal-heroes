@@ -22,7 +22,10 @@
         "travelers_title": "Travelers in Bengal",
         "travelers_subtitle": "Accounts from explorers who visited golden Bengal",
         "timeline_title": "Bengal Through Time",
-        "timeline_subtitle": "A journey through empires, revolutions, and independence"
+        "timeline_subtitle": "A journey through empires, revolutions, and independence",
+        "stats_heroes": "Heroes",
+        "stats_eras": "Eras",
+        "stats_categories": "Categories"
     },
     "heroes": {
         "title": "Heroes",
@@ -149,5 +152,20 @@
         "view_details": "View Details",
         "born_abbr": "b.",
         "died_abbr": "d."
+    },
+    "timeline": {
+        "empire": "Empire",
+        "war": "War",
+        "revolution": "Revolution",
+        "crisis": "Crisis",
+        "event": "Event",
+        "freedom": "Freedom",
+        "pilgrim": "Pilgrim",
+        "trader": "Trader",
+        "diplomat": "Diplomat",
+        "explorer": "Explorer",
+        "scholar": "Scholar",
+        "traveler": "Traveler",
+        "history": "History"
     }
 }

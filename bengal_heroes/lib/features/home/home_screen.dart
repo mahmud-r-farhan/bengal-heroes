@@ -183,38 +183,44 @@ class HomeScreen extends ConsumerWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              _buildStatItem(
-                context,
-                icon: Icons.people,
-                value: heroCount.when(
-                  data: (count) => '$count',
-                  loading: () => '...',
-                  error: (_, _) => '0',
+              Expanded(
+                child: _buildStatItem(
+                  context,
+                  icon: Icons.people,
+                  value: heroCount.when(
+                    data: (count) => '$count',
+                    loading: () => '...',
+                    error: (_, _) => '0',
+                  ),
+                  label: 'home.stats_heroes'.tr(),
+                  color: AppColors.primaryMaroon,
                 ),
-                label: 'home.stats_heroes'.tr(),
-                color: AppColors.primaryMaroon,
               ),
-              _buildStatItem(
-                context,
-                icon: Icons.history,
-                value: eras.when(
-                  data: (list) => '${list.length}',
-                  loading: () => '...',
-                  error: (_, _) => '0',
+              Expanded(
+                child: _buildStatItem(
+                  context,
+                  icon: Icons.history,
+                  value: eras.when(
+                    data: (list) => '${list.length}',
+                    loading: () => '...',
+                    error: (_, _) => '0',
+                  ),
+                  label: 'home.stats_eras'.tr(),
+                  color: AppColors.secondaryOlive,
                 ),
-                label: 'home.stats_eras'.tr(),
-                color: AppColors.secondaryOlive,
               ),
-              _buildStatItem(
-                context,
-                icon: Icons.category,
-                value: categories.when(
-                  data: (list) => '${list.length}',
-                  loading: () => '...',
-                  error: (_, _) => '0',
+              Expanded(
+                child: _buildStatItem(
+                  context,
+                  icon: Icons.category,
+                  value: categories.when(
+                    data: (list) => '${list.length}',
+                    loading: () => '...',
+                    error: (_, _) => '0',
+                  ),
+                  label: 'home.stats_categories'.tr(),
+                  color: AppColors.secondaryTeal,
                 ),
-                label: 'home.stats_categories'.tr(),
-                color: AppColors.secondaryTeal,
               ),
             ],
           ),

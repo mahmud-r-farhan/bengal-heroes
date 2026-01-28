@@ -379,11 +379,14 @@ class _TimelineItemState extends State<_TimelineItem> {
                           color: categoryColor,
                         ),
                         const SizedBox(width: 4),
-                        Text(
-                          _getCategoryLabel(widget.event.category),
-                          style: widget.theme.textTheme.labelSmall?.copyWith(
-                            color: categoryColor,
-                            fontWeight: FontWeight.w600,
+                        Flexible(
+                          child: Text(
+                            _getCategoryLabel(widget.event.category),
+                            style: widget.theme.textTheme.labelSmall?.copyWith(
+                              color: categoryColor,
+                              fontWeight: FontWeight.w600,
+                            ),
+                            overflow: TextOverflow.ellipsis,
                           ),
                         ),
                       ],
