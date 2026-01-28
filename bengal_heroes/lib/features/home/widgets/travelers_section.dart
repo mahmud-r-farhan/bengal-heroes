@@ -32,48 +32,43 @@ class TravelersSection extends ConsumerWidget {
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Header - Clickable
-            GestureDetector(
-              onTap: () {
-                context.push(AppRoutes.getInfoScreenPath('travelers'));
-              },
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    // Decorative line
-                    Container(
-                      height: 3,
-                      width: 50,
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          colors: [
-                            AppColors.secondaryTeal,
-                            AppColors.secondaryTeal.withValues(alpha: 0),
-                          ],
-                        ),
-                        borderRadius: BorderRadius.circular(2),
+            // Header
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Decorative line
+                  Container(
+                    height: 3,
+                    width: 50,
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [
+                          AppColors.secondaryTeal,
+                          AppColors.secondaryTeal.withValues(alpha: 0),
+                        ],
                       ),
+                      borderRadius: BorderRadius.circular(2),
                     ),
-                    const SizedBox(height: 12),
-                    Text(
-                      'home.travelers_title'.tr(),
-                      style: theme.textTheme.titleLarge?.copyWith(
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 0.5,
-                        color: AppColors.secondaryTeal,
-                      ),
+                  ),
+                  const SizedBox(height: 12),
+                  Text(
+                    'home.travelers_title'.tr(),
+                    style: theme.textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 0.5,
+                      color: AppColors.secondaryTeal,
                     ),
-                    const SizedBox(height: 4),
-                    Text(
-                      'home.travelers_subtitle'.tr(),
-                      style: theme.textTheme.bodyMedium?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    'home.travelers_subtitle'.tr(),
+                    style: theme.textTheme.bodyMedium?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
             ),
             const SizedBox(height: 24),
@@ -297,7 +292,14 @@ class _TimelineItemState extends State<_TimelineItem> {
     final categoryColor = _getCategoryColor(widget.event.category);
     final categoryIcon = _getCategoryIcon(widget.event.category);
 
-    return MouseRegion(
+    return GestureDetector(
+      onTap: () {
+        context.push(
+          '${AppRoutes.timelineEventDetail}/${widget.event.id}/travelers',
+          extra: widget.event.toJson(),
+        );
+      },
+      child: MouseRegion(
       onEnter: (_) => setState(() => _isHovered = true),
       onExit: (_) => setState(() => _isHovered = false),
       child: Padding(
@@ -419,7 +421,8 @@ class _TimelineItemState extends State<_TimelineItem> {
                   duration: 2000.ms,
                   color: categoryColor.withValues(alpha: 0.1),
                 ),
-          ],
+            ],
+          ),
         ),
       ),
     )

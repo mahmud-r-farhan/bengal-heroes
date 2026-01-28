@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../data/models/timeline_model.dart';
 import '../../features/hero_detail/hero_detail_screen.dart';
 import '../../features/heroes/heroes_screen.dart';
 import '../../features/home/home_screen.dart';
-import '../../features/info/info_screen.dart';
 import '../../features/intro/intro_screen.dart';
 import '../../features/search/search_screen.dart';
 import '../../features/settings/settings_screen.dart';
+import '../../features/timeline_event_detail/timeline_event_detail_screen.dart';
 import '../../shared/providers/settings_provider.dart';
 import 'app_routes.dart';
 
@@ -181,19 +182,36 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         },
       ),
 
-      // Info Screen (Timeline and Travelers)
+      // Timeline Event Detail Screen
       GoRoute(
-        path: '${AppRoutes.infoScreen}/:type',
-        name: 'info',
+        path: '${AppRoutes.timelineEventDetail}/:eventId/:type',
+        name: 'timelineEventDetail',
         pageBuilder: (context, state) {
+          final eventData = state.extra as Map<String, dynamic>?;
+          if (eventData == null) {
+            return CustomTransitionPage(
+              key: state.pageKey,
+              child: Scaffold(
+                body: Center(
+                  child: Text('Error: Event data not found'),
+                ),
+              ),
+              transitionsBuilder: (context, animation, secondaryAnimation, child) {
+                return child;
+              },
+            );
+          }
+
+          final event = TimelineEvent.fromJson(eventData);
           final type = state.pathParameters['type']!;
+
           return CustomTransitionPage(
             key: state.pageKey,
-            child: InfoScreen(type: type),
+            child: TimelineEventDetailScreen(event: event, type: type),
             transitionsBuilder: (context, animation, secondaryAnimation, child) {
               return SlideTransition(
                 position: Tween<Offset>(
-                  begin: const Offset(0, 1),
+                  begin: const Offset(1, 0),
                   end: Offset.zero,
                 ).animate(CurvedAnimation(
                   parent: animation,

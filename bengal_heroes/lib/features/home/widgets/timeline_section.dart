@@ -32,48 +32,43 @@ class TimelineSection extends ConsumerWidget {
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Header - Clickable
-            GestureDetector(
-              onTap: () {
-                context.push(AppRoutes.getInfoScreenPath('timeline'));
-              },
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    // Decorative line
-                    Container(
-                      height: 3,
-                      width: 50,
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          colors: [
-                            AppColors.primaryMaroon,
-                            AppColors.primaryMaroon.withValues(alpha: 0),
-                          ],
-                        ),
-                        borderRadius: BorderRadius.circular(2),
+            // Header
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Decorative line
+                  Container(
+                    height: 3,
+                    width: 50,
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [
+                          AppColors.primaryMaroon,
+                          AppColors.primaryMaroon.withValues(alpha: 0),
+                        ],
                       ),
+                      borderRadius: BorderRadius.circular(2),
                     ),
-                    const SizedBox(height: 12),
-                    Text(
-                      'home.timeline_title'.tr(),
-                      style: theme.textTheme.titleLarge?.copyWith(
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 0.5,
-                        color: AppColors.primaryMaroon,
-                      ),
+                  ),
+                  const SizedBox(height: 12),
+                  Text(
+                    'home.timeline_title'.tr(),
+                    style: theme.textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 0.5,
+                      color: AppColors.primaryMaroon,
                     ),
-                    const SizedBox(height: 4),
-                    Text(
-                      'home.timeline_subtitle'.tr(),
-                      style: theme.textTheme.bodyMedium?.copyWith(
-                        color: theme.colorScheme.onSurfaceVariant,
-                      ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    'home.timeline_subtitle'.tr(),
+                    style: theme.textTheme.bodyMedium?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
             ),
             const SizedBox(height: 24),
@@ -297,14 +292,21 @@ class _TimelineItemState extends State<_TimelineItem> {
     final categoryColor = _getCategoryColor(widget.event.category);
     final categoryIcon = _getCategoryIcon(widget.event.category);
 
-    return MouseRegion(
-      onEnter: (_) => setState(() => _isHovered = true),
-      onExit: (_) => setState(() => _isHovered = false),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 8),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
+    return GestureDetector(
+      onTap: () {
+        context.push(
+          '${AppRoutes.timelineEventDetail}/${widget.event.id}/timeline',
+          extra: widget.event.toJson(),
+        );
+      },
+      child: MouseRegion(
+        onEnter: (_) => setState(() => _isHovered = true),
+        onExit: (_) => setState(() => _isHovered = false),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 8),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
             // Timeline dot
             AnimatedContainer(
               duration: const Duration(milliseconds: 200),
@@ -419,7 +421,8 @@ class _TimelineItemState extends State<_TimelineItem> {
                   duration: 2000.ms,
                   color: categoryColor.withValues(alpha: 0.1),
                 ),
-          ],
+            ],
+          ),
         ),
       ),
     )
