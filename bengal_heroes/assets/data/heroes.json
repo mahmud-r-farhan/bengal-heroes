@@ -1,6 +1,6 @@
 [
   {
-    "id": "hero_0001",
+    "id": "titumir",
     "slug": "titumir",
     "dates": {
       "birth": "1782-01-27",
@@ -38,7 +38,7 @@
   },
   
   {
-    "id": "hero_0002",
+    "id": "sheikhmujib",
     "slug": "sheikh-mujibur-rahman",
     "dates": {
       "birth": "1920-03-17",
@@ -79,7 +79,7 @@
     }
   },
   {
-    "id": "hero_0003",
+    "id": "kazinazrul",
     "slug": "kazi-nazrul-islam",
     "dates": {
       "birth": "1899-05-24",
@@ -116,7 +116,7 @@
     }
   },
   {
-    "id": "hero_0005",
+    "id": "rabindranath",
     "slug": "rabindranath-tagore",
     "dates": {
       "birth": "1861-05-07",
@@ -153,7 +153,7 @@
     }
   },
   {
-    "id": "hero_0006",
+    "id": "isakhan",
     "slug": "isa-khan",
     "dates": {
       "birth": "1529-01-01",
@@ -190,7 +190,7 @@
     }
   },
   {
-    "id": "hero_0007",
+    "id": "suryasen",
     "slug": "surya-sen",
     "dates": {
       "birth": "1894-03-22",
@@ -227,7 +227,7 @@
     }
   },
   {
-    "id": "hero_0008",
+    "id": "birruhul",
     "slug": "bir-shreshtha-ruhul-amin",
     "dates": {
       "birth": "1935-06-01",
@@ -264,7 +264,7 @@
     }
   },
   {
-    "id": "hero_0009",
+    "id": "birrouf",
     "slug": "bir-shreshtha-munshi-abdur-rouf",
     "dates": {
       "birth": "1943-05-01",
@@ -301,7 +301,7 @@
     }
   },
   {
-    "id": "hero_0010",
+    "id": "birkamal",
     "slug": "bir-shreshtha-mostafa-kamal",
     "dates": {
       "birth": "1947-12-16",
@@ -338,7 +338,7 @@
     }
   },
   {
-    "id": "hero_0011",
+    "id": "birmotiur",
     "slug": "bir-shreshtha-motiur-rahman",
     "dates": {
       "birth": "1941-10-29",
@@ -375,7 +375,7 @@
     }
   },
   {
-    "id": "hero_0012",
+    "id": "birhamidur",
     "slug": "bir-shreshtha-hamidur-rahman",
     "dates": {
       "birth": "1953-02-02",
@@ -412,7 +412,7 @@
     }
   },
   {
-    "id": "hero_0013",
+    "id": "birmohiuddin",
     "slug": "bir-shreshtha-mohiuddin-jahangir",
     "dates": {
       "birth": "1949-03-07",
@@ -449,7 +449,7 @@
     }
   },
   {
-    "id": "hero_0014",
+    "id": "birnur",
     "slug": "bir-shreshtha-nur-mohammad-sheikh",
     "dates": {
       "birth": "1936-02-26",
@@ -487,7 +487,7 @@
   },
 
   {
-    "id": "hero_001",
+    "id": "ziaurrahman",
     "slug": "ziaur-rahman",
     "dates": {
       "birth": "1936-01-19",
@@ -524,7 +524,7 @@
     }
   },
   {
-    "id": "hero_002",
+    "id": "huseynshaheed",
     "slug": "huseyn-shaheed-suhrawardy",
     "dates": {
       "birth": "1892-09-08",
@@ -560,7 +560,7 @@
     }
   },
   {
-    "id": "hero_003",
+    "id": "fazlulhuq",
     "slug": "a-k-fazlul-huq",
     "dates": {
       "birth": "1873-10-26",
@@ -596,7 +596,7 @@
     }
   },
   {
-    "id": "hero_004",
+    "id": "hamidkhan",
     "slug": "abdul-hamid-khan-bhashani",
     "dates": {
       "birth": "1880-12-12",
@@ -632,7 +632,7 @@
     }
   },
   {
-    "id": "hero_005",
+    "id": "khwajasalimuddah",
     "slug": "khwaja-salimullah",
     "dates": {
       "birth": "1871-06-07",
@@ -668,7 +668,7 @@
     }
   },
   {
-    "id": "hero_006",
+    "id": "saifulazam",
     "slug": "saiful-azam",
     "dates": {
       "birth": "1941-09-11",
@@ -705,7 +705,7 @@
     }
   },
   {
-    "id": "hero_007",
+    "id": "subhasbose",
     "slug": "subhas-chandra-bose",
     "dates": {
       "birth": "1897-01-23",
@@ -741,7 +741,7 @@
     }
   },
   {
-    "id": "hero_008",
+    "id": "jagadishbose",
     "slug": "jagadish-chandra-bose",
     "dates": {
       "birth": "1858-11-30",
@@ -777,7 +777,7 @@
     }
   },
   {
-    "id": "hero_009",
+    "id": "muhammadshahidullah",
     "slug": "muhammad-shahidullah",
     "dates": {
       "birth": "1885-07-10",
@@ -813,7 +813,7 @@
     }
   },
   {
-    "id": "hero_010",
+    "id": "chandravidyasagar",
     "slug": "ishwar-chandra-vidyasagar",
     "dates": {
       "birth": "1820-09-26",
@@ -849,7 +849,7 @@
     }
   },
   {
-    "id": "event_001",
+    "id": "bengalilanguagemovement",
     "slug": "bengali-language-movement-1952",
     "dates": {
       "birth": "1948-01-01",
@@ -886,7 +886,7 @@
     }
   },
   {
-    "id": "event_002",
+    "id": "julyrevolution",
     "slug": "july-revolution-2024",
     "dates": {
       "birth": "2024-06-05",
@@ -907,7 +907,7 @@
       "en": {
         "name": "July Revolution 2024",
         "short_bio": "A student-led mass uprising in Bangladesh against government job quotas that escalated into a revolution, leading to the ousting of Prime Minister Sheikh Hasina and the end of her 15-year rule.",
-        "full_biography": "The July Revolution, also known as the Anti-Discrimination Students' Movement, began in early June 2024 following a Supreme Court decision that reinstated a controversial quota system in government jobs, allocating 30% for descendants of 1971 freedom fighters. Students protested against this, demanding merit-based reforms, as it was seen as benefiting Awami League supporters.\n\nThe movement intensified in July with nationwide protests, blockades, and clashes. On July 15, violence erupted at Dhaka University, leading to deaths and injuries. The government imposed curfews, internet blackouts, and deployed security forces, but protests continued, evolving into demands for Sheikh Hasina's resignation amid allegations of corruption and authoritarianism.\n\nKey events included the 'Bangla Blockade' starting July 10, mass killings during July 18-20 (over 200 deaths), and a non-cooperation movement from August 4. On August 5, protesters stormed Ganabhaban, forcing Hasina to flee to India. The army chief announced an interim government led by Muhammad Yunus.\n\nThe revolution ended 15 years of Awami League rule, with over 1,000 deaths and thousands injured. It reshaped Bangladesh's political landscape, empowering youth and leading to reforms in governance and justice.",
+        "full_biography": "The July Revolution, also known as the Anti-Discrimination Students' Movement, began in early June 2024 following a Supreme Court decision that reinstated a controversial quota system in government jobs, allocating 30% for descendants of 1971 freedom fighters. Students protested against this, demanding merit-based reforms, as it was seen as benefiting Awami League supporters.\n\nThe movement intensified in July with nationwide protests, blockades, and clashes. On July 15, violence erupted at Dhaka University, leading to deaths and injuries. The government imposed curfews, internet blackouts, and deployed security forces, but protests continued, evolving into demands for Sheikh Hasina's resignation amid allegations of corruption and authoritarianism.\n\nKey events included the 'Bangla Blockade' starting July 10, mass killings during July 18-20 (over 200 deaths), and a non-cooperation movement from August 4. On August 5, protesters stormed Ganabhaban, forcing Hasina to flee to India. The army chief announced an interim government led by Muhammad Yunus.\n\nThe revolution ended 15 years of Awami League rule, with over 1,500 deaths and thousands injured. It reshaped Bangladesh's political landscape, empowering youth and leading to reforms in governance and justice.",
         "quote": "We will not stop until justice is served.",
         "birth_place": "Dhaka, Bangladesh",
         "achievements": "Ousting of Prime Minister Sheikh Hasina and end of 15-year Awami League authoritarian rule • Formation of interim government under Muhammad Yunus • Reforms in government job quota system towards merit-based allocation • Empowerment of youth and student-led political change • International recognition of the movement as a successful people's revolution • Initiation of justice processes against former regime's corruption and abuses"
@@ -915,7 +915,7 @@
       "bn": {
         "name": "জুলাই বিপ্লব ২০২৪",
         "short_bio": "সরকারি চাকরির কোটা ব্যবস্থার বিরুদ্ধে ছাত্র-নেতৃত্বাধীন গণঅভ্যুত্থান যা বিপ্লবে পরিণত হয়, প্রধানমন্ত্রী শেখ হাসিনাকে ক্ষমতাচ্যুত করে তার ১৫ বছরের শাসনের অবসান ঘটায়।",
-        "full_biography": "জুলাই বিপ্লব, যা অসমতা বিরোধী ছাত্র আন্দোলন নামেও পরিচিত, ২০২৪ সালের জুন মাসের শুরুতে সুপ্রিম কোর্টের একটি সিদ্ধান্তের পর শুরু হয় যা সরকারি চাকরিতে বিতর্কিত কোটা ব্যবস্থা পুনর্বহাল করে, যাতে ১৯৭১ সালের মুক্তিযোদ্ধাদের বংশধরদের জন্য ৩০% সংরক্ষিত। ছাত্ররা এর বিরুদ্ধে প্রতিবাদ করে, যোগ্যতা-ভিত্তিক সংস্কার দাবি করে, কারণ এটি আওয়ামী লীগের সমর্থকদের সুবিধা দেয় বলে দেখা হয়।\n\nআন্দোলন জুলাই মাসে তীব্র হয়ে ওঠে দেশব্যাপী প্রতিবাদ, অবরোধ এবং সংঘর্ষের সাথে। ১৫ জুলাই ঢাকা বিশ্ববিদ্যালয়ে সহিংসতা ছড়িয়ে পড়ে, যাতে মৃত্যু এবং আহত হয়। সরকার কারফিউ, ইন্টারনেট ব্ল্যাকআউট এবং নিরাপত্তা বাহিনী মোতায়েন করে, কিন্তু প্রতিবাদ অব্যাহত থাকে, যা দুর্নীতি এবং স্বৈরাচারের অভিযোগের মধ্যে শেখ হাসিনার পদত্যাগের দাবিতে পরিণত হয়।\n\nমূল ঘটনাগুলির মধ্যে ১০ জুলাই থেকে 'বাংলা অবরোধ', ১৮-২০ জুলাইয় গণহত্যা (২০০ এর বেশি মৃত্যু), এবং ৪ আগস্ট থেকে অসহযোগ আন্দোলন অন্তর্ভুক্ত। ৫ আগস্ট প্রতিবাদকারীরা গণভবনে ঢোকে, হাসিনাকে ভারতে পালাতে বাধ্য করে। সেনাপ্রধান মুহাম্মদ ইউনুসের নেতৃত্বে অন্তর্বর্তী সরকার ঘোষণা করে।\n\nবিপ্লবটি ১৫ বছরের আওয়ামী লীগ শাসনের অবসান ঘটায়, ১০০০ এর বেশি মৃত্যু এবং হাজার হাজার আহত সহ। এটি বাংলাদেশের রাজনৈতিক দৃশ্যপট পুনর্গঠন করে, যুবকদের ক্ষমতায়িত করে এবং শাসন এবং ন্যায়বিচারে সংস্কারের দিকে নিয়ে যায়।",
+        "full_biography": "জুলাই বিপ্লব, যা অসমতা বিরোধী ছাত্র আন্দোলন নামেও পরিচিত, ২০২৪ সালের জুন মাসের শুরুতে সুপ্রিম কোর্টের একটি সিদ্ধান্তের পর শুরু হয় যা সরকারি চাকরিতে বিতর্কিত কোটা ব্যবস্থা পুনর্বহাল করে, যাতে ১৯৭১ সালের মুক্তিযোদ্ধাদের বংশধরদের জন্য ৩০% সংরক্ষিত। ছাত্ররা এর বিরুদ্ধে প্রতিবাদ করে, যোগ্যতা-ভিত্তিক সংস্কার দাবি করে, কারণ এটি আওয়ামী লীগের সমর্থকদের সুবিধা দেয় বলে দেখা হয়।\n\nআন্দোলন জুলাই মাসে তীব্র হয়ে ওঠে দেশব্যাপী প্রতিবাদ, অবরোধ এবং সংঘর্ষের সাথে। ১৫ জুলাই ঢাকা বিশ্ববিদ্যালয়ে সহিংসতা ছড়িয়ে পড়ে, যাতে মৃত্যু এবং আহত হয়। সরকার কারফিউ, ইন্টারনেট ব্ল্যাকআউট এবং নিরাপত্তা বাহিনী মোতায়েন করে, কিন্তু প্রতিবাদ অব্যাহত থাকে, যা দুর্নীতি এবং স্বৈরাচারের অভিযোগের মধ্যে শেখ হাসিনার পদত্যাগের দাবিতে পরিণত হয়।\n\nমূল ঘটনাগুলির মধ্যে ১০ জুলাই থেকে 'বাংলা অবরোধ', ১৮-২০ জুলাইয় গণহত্যা (২০০ এর বেশি মৃত্যু), এবং ৪ আগস্ট থেকে অসহযোগ আন্দোলন অন্তর্ভুক্ত। ৫ আগস্ট প্রতিবাদকারীরা গণভবনে ঢোকে, হাসিনাকে ভারতে পালাতে বাধ্য করে। সেনাপ্রধান মুহাম্মদ ইউনুসের নেতৃত্বে অন্তর্বর্তী সরকার ঘোষণা করে।\n\nবিপ্লবটি ১৫ বছরের আওয়ামী লীগ শাসনের অবসান ঘটায়, ১৫০০ এর বেশি মৃত্যু এবং হাজার হাজার আহত সহ। এটি বাংলাদেশের রাজনৈতিক দৃশ্যপট পুনর্গঠন করে, যুবকদের ক্ষমতায়িত করে এবং শাসন এবং ন্যায়বিচারে সংস্কারের দিকে নিয়ে যায়।",
         "quote": "আমরা ন্যায়বিচার না পাওয়া পর্যন্ত থামব না।",
         "birth_place": "ঢাকা, বাংলাদেশ",
         "achievements": "প্রধানমন্ত্রী শেখ হাসিনার ক্ষমতাচ্যুতি এবং ১৫ বছরের আওয়ামী লীগ স্বৈরাচারী শাসনের অবসান • মুহাম্মদ ইউনুসের নেতৃত্বে অন্তর্বর্তী সরকার গঠন • সরকারি চাকরির কোটা ব্যবস্থায় যোগ্যতা-ভিত্তিক বরাদ্দের দিকে সংস্কার • যুবকদের ক্ষমতায়ন এবং ছাত্র-নেতৃত্বাধীন রাজনৈতিক পরিবর্তন • আন্দোলনকে সফল গণবিপ্লব হিসেবে আন্তর্জাতিক স্বীকৃতি • পূর্ববর্তী শাসনের দুর্নীতি এবং অপব্যবহারের বিরুদ্ধে ন্যায়বিচার প্রক্রিয়া শুরু"
