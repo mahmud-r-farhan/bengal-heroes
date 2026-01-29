@@ -36,7 +36,6 @@
       }
     }
   },
-  
   {
     "id": "sheikhmujib",
     "slug": "sheikh-mujibur-rahman",
@@ -351,7 +350,7 @@
       "war_movement"
     ],
     "images": [
-      "assets/images/heroes/motiur_rahman.jpg"
+      "assets/images/heroes/motiur_rahman.jfif"
     ],
     "location_id": "loc_dhaka",
     "importance": 4,
@@ -388,7 +387,7 @@
       "war_movement"
     ],
     "images": [
-      "assets/images/heroes/hamidur_rahman.jpg"
+      "assets/images/heroes/hamidur_rahman.webp"
     ],
     "location_id": "loc_jhenaidah",
     "importance": 4,
@@ -425,7 +424,7 @@
       "war_movement"
     ],
     "images": [
-      "assets/images/heroes/mohiuddin_jahangir.jpg"
+      "assets/images/heroes/bir-shreshtha-mohiuddin-jahangir.webp"
     ],
     "location_id": "loc_barisal",
     "importance": 4,
@@ -462,7 +461,7 @@
       "war_movement"
     ],
     "images": [
-      "assets/images/heroes/nur_mohammad_sheikh.jpg"
+      "assets/images/heroes/nur_mohammad_sheikh.webp"
     ],
     "location_id": "loc_narail",
     "importance": 4,
@@ -485,7 +484,6 @@
       }
     }
   },
-
   {
     "id": "ziaurrahman",
     "slug": "ziaur-rahman",
@@ -536,7 +534,7 @@
       "statesman"
     ],
     "images": [
-      "assets/images/heroes/huseyn_shaheed_suhrawardy.jpg"
+      "assets/images/heroes/huseyn_shaheed_suhrawardy.webp"
     ],
     "location_id": "loc_midnapore",
     "importance": 5,
@@ -608,7 +606,7 @@
       "activist"
     ],
     "images": [
-      "assets/images/heroes/abdul_hamid_khan_bhashani.jpg"
+      "assets/images/heroes/abdul_hamid_khan_bhashani.webp"
     ],
     "location_id": "loc_sirajganj",
     "importance": 5,
@@ -717,7 +715,7 @@
       "military_leader"
     ],
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Subhas_Chandra_Bose.jpg"
+      "assets/images/heroes/Subhas_Chandra_Bose.jpeg"
     ],
     "location_id": "loc_cuttack",
     "importance": 5,
@@ -753,7 +751,7 @@
       "polymath"
     ],
     "images": [
-      "https://en.wikipedia.org/wiki/File:J._C._Bose_in_1897.jpg"
+      "assets/images/heroes/jagadish_chandra_bose.jpg"
     ],
     "location_id": "loc_mymensingh",
     "importance": 5,
@@ -789,7 +787,7 @@
       "educationist"
     ],
     "images": [
-      "assets/images/heroes/muhammad_shahidullah.jpg"
+      "assets/images/heroes/muhammad_shahidullah.avif"
     ],
     "location_id": "loc_24_parganas",
     "importance": 4,
@@ -825,7 +823,7 @@
       "educationist"
     ],
     "images": [
-      "https://bn.wikipedia.org/wiki/File:Ishwar_Chandra_Vidyasagar.jpg"
+      "assets/images/heroes/ishwar_chandra_vidyasagar.jpg"
     ],
     "location_id": "loc_paschim_medinipur",
     "importance": 5,
@@ -886,6 +884,43 @@
     }
   },
   {
+    "id": "liberationwar1971",
+    "slug": "liberation-war-1971",
+    "dates": {
+      "birth": "1971-03-26",
+      "death": "1971-12-16"
+    },
+    "era": "modern_era",
+    "category": [
+      "war_of_independence",
+      "liberation_movement",
+      "armed_conflict"
+    ],
+    "images": [
+      "assets/images/events/liberation_war_1971.jpeg"
+    ],
+    "location_id": "loc_bangladesh",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Bangladesh Liberation War 1971",
+        "short_bio": "A revolutionary independence war that led to the birth of the sovereign nation of Bangladesh, ending decades of exploitation and a brutal genocide by West Pakistan.",
+        "full_biography": "The Bangladesh Liberation War began on March 26, 1971, following the Pakistani military's 'Operation Searchlight,' a genocidal crackdown on the Bengali population of East Pakistan. Bangabandhu Sheikh Mujibur Rahman declared independence in the early hours of March 26. The war was fought between the Mukti Bahini (Freedom Fighters), consisting of Bengali military personnel and civilians, and the Pakistan Armed Forces.\n\nOver nine months, the Mukti Bahini engaged in guerrilla warfare with the support of India. The conflict saw extreme atrocities, including the killing of an estimated 3 million people and the displacement of 10 million refugees. The war reached its climax in December 1971 when the Indian Armed Forces joined the Mukti Bahini, leading to the total defeat of the Pakistani army.\n\nOn December 16, 1971, General Niazi signed the Instrument of Surrender at the Ramna Racecourse in Dhaka. This victory marked the official end of the war and the emergence of Bangladesh as an independent, secular, and democratic state.",
+        "quote": "Our struggle is for our freedom, our struggle is for our independence.",
+        "birth_place": "Bangladesh (formerly East Pakistan)",
+        "achievements": "Birth of the sovereign People's Republic of Bangladesh • End of Pakistani colonial exploitation and military rule • Recognition of Bengali as a state language and cultural identity • Establishment of a secular democratic constitution • Defeat of one of the largest military forces in a conventional surrender since WWII • Preservation of Bengali heritage and national dignity"
+      },
+      "bn": {
+        "name": "বাংলাদেশের মুক্তিযুদ্ধ ১৯৭১",
+        "short_bio": "একটি বিপ্লবী স্বাধীনতা যুদ্ধ যা সার্বভৌম বাংলাদেশ রাষ্ট্রের জন্ম দেয় এবং পশ্চিম পাকিস্তানের কয়েক দশকের শোষণ ও নৃশংস গণহত্যার অবসান ঘটায়।",
+        "full_biography": "১৯৭১ সালের ২৬শে মার্চ পশ্চিম পাকিস্তানি বাহিনীর 'অপারেশন সার্চলাইট' নামক বর্বরোচিত গণহত্যার প্রতিক্রিয়ায় বাংলাদেশের মুক্তিযুদ্ধ শুরু হয়। ২৬শে মার্চের প্রথম প্রহরে বঙ্গবন্ধু শেখ মুজিবুর রহমান স্বাধীনতার ঘোষণা দেন। এই যুদ্ধ মূলত বাঙালি সামরিক সদস্য ও সাধারণ জনগণের সমন্বয়ে গঠিত 'মুক্তিবাহিনী' এবং পাকিস্তান সশস্ত্র বাহিনীর মধ্যে সংঘটিত হয়।\n\nদীর্ঘ নয় মাস ধরে মুক্তিবাহিনী ভারতের সহযোগিতায় গেরিলা যুদ্ধ চালিয়ে যায়। এই যুদ্ধে প্রায় ৩০ লক্ষ মানুষ শহিদ হন এবং ১ কোটি মানুষ শরণার্থী হিসেবে আশ্রয় নিতে বাধ্য হন। ১৯৭১ সালের ডিসেম্বরে ভারতীয় সশস্ত্র বাহিনী মুক্তিবাহিনীর সাথে যোগ দিলে যুদ্ধ চূড়ান্ত রূপ নেয় এবং পাকিস্তানি বাহিনীর পরাজয় নিশ্চিত হয়।\n\n১৬ই ডিসেম্বর ১৯৭১ সালে ঢাকার রমনা রেসকোর্স ময়দানে জেনারেল নিয়াজি আত্মসমর্পণের দলিলে স্বাক্ষর করেন। এই বিজয়ের মাধ্যমে যুদ্ধের আনুষ্ঠানিক সমাপ্তি ঘটে এবং বিশ্বের মানচিত্রে একটি স্বাধীন, ধর্মনিরপেক্ষ ও গণতান্ত্রিক রাষ্ট্র হিসেবে বাংলাদেশের অভ্যুদয় ঘটে।",
+        "quote": "এবারের সংগ্রাম আমাদের মুক্তির সংগ্রাম, এবারের সংগ্রাম স্বাধীনতার সংগ্রাম।",
+        "birth_place": "বাংলাদেশ (তৎকালীন পূর্ব পাকিস্তান)",
+        "achievements": "সার্বভৌম গণপ্রজাতন্ত্রী বাংলাদেশের অভ্যুদয় • পাকিস্তানি ঔপনিবেশিক শোষণ ও সামরিক শাসনের অবসান • রাষ্ট্রভাষা হিসেবে বাংলা ও বাঙালি সংস্কৃতির স্বীকৃতি • ধর্মনিরপেক্ষ ও গণতান্ত্রিক সংবিধান প্রতিষ্ঠা • দ্বিতীয় বিশ্বযুদ্ধের পর বৃহত্তম সামরিক আত্মসমর্পণের মাধ্যমে বিজয় অর্জন • বাঙালি ঐতিহ্য ও জাতীয় মর্যাদা রক্ষা"
+      }
+    }
+  },
+  {
     "id": "julyrevolution",
     "slug": "july-revolution-2024",
     "dates": {
@@ -899,7 +934,7 @@
       "anti_government_protest"
     ],
     "images": [
-      "assets/images/events/july_revolution_2024.jpg"
+      "assets/images/events/july_revolution_2024.webp"
     ],
     "location_id": "loc_dhaka",
     "importance": 5,
@@ -922,6 +957,4 @@
       }
     }
   }
-
-
 ]
