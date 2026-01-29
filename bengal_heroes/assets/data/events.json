@@ -105,7 +105,7 @@
         },
         "era_id": "july_revolution_2024",
         "related_hero_ids": [
-            "hero_abu_sayed"
+            "julyrevolution"
         ],
         "image_asset": "assets/images/events/abu_sayed_martyrdom.png"
     },
@@ -290,21 +290,6 @@
         "image_asset": "assets/images/events/soviet_recognition.png"
     },
     {
-        "id": "event_020",
-        "date": "2024-07-05",
-        "title": {
-            "en": "Student Uprising Begins",
-            "bn": "ছাত্র অভ্যুত্থান শুরু"
-        },
-        "description": {
-            "en": "Students in Bangladesh launched massive protests against government policies, demanding justice and reform. The movement grew into a nationwide political upheaval.",
-            "bn": "বাংলাদেশের ছাত্ররা সরকারি নীতির বিরুদ্ধে বিশাল প্রতিবাদ আয়োজন করে, ন্যায়বিচার এবং সংস্কার দাবি করে। আন্দোলনটি সারাদেশের রাজনৈতিক পরিবর্তনে পরিণত হয়।"
-        },
-        "era_id": "july_revolution_2024",
-        "category_id": "war_movement",
-        "image_asset": "assets/images/events/july_uprising.png"
-    },
-    {
         "id": "event_021",
         "date": "2024-08-05",
         "title": {
@@ -318,5 +303,682 @@
         "era_id": "july_revolution_2024",
         "category_id": "war_movement",
         "image_asset": "assets/images/events/mass_rally.png"
+    },
+    {
+        "id": "event_022",
+        "date": "1204-05-10",
+        "title": {
+            "en": "Muslim Conquest of Bengal",
+            "bn": "বাংলার মুসলিম বিজয়"
+        },
+        "description": {
+            "en": "Bakhtiyar Khilji captured Gauda from the Sena dynasty, marking the beginning of Muslim rule in Bengal.",
+            "bn": "বখতিয়ার খিলজি সেন রাজবংশ থেকে গৌড় দখল করেন, বাংলায় মুসলিম শাসনের সূচনা করে।"
+        },
+        "era_id": "bengal_sultanate",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/muslim_conquest.png"
+    },
+    {
+        "id": "event_023",
+        "date": "1352-01-01",
+        "title": {
+            "en": "Establishment of Independent Bengal Sultanate",
+            "bn": "স্বাধীন বাংলা সালতানাতের প্রতিষ্ঠা"
+        },
+        "description": {
+            "en": "Shamsuddin Ilyas Shah unified Bengal, establishing an independent sultanate that lasted until the Mughal conquest.",
+            "bn": "শামসুদ্দিন ইলিয়াস শাহ বাংলা একীভূত করেন, মুঘল বিজয় পর্যন্ত স্থায়ী স্বাধীন সালতানাত প্রতিষ্ঠা করেন।"
+        },
+        "era_id": "bengal_sultanate",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/bengal_sultanate_establishment.png"
+    },
+    {
+        "id": "event_024",
+        "date": "1576-03-03",
+        "title": {
+            "en": "Battle of Tukaroi",
+            "bn": "তুকারোইয়ের যুদ্ধ"
+        },
+        "description": {
+            "en": "Mughal forces under Akbar defeated the Bengal Sultanate, leading to the annexation of Bengal into the Mughal Empire.",
+            "bn": "আকবরের অধীনে মুঘল বাহিনী বাংলা সালতানাতকে পরাজিত করে, বাংলাকে মুঘল সাম্রাজ্যে যুক্ত করে।"
+        },
+        "era_id": "mughal_period",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/tukaroi.png"
+    },
+    {
+        "id": "event_025",
+        "date": "1610-01-01",
+        "title": {
+            "en": "Dhaka Becomes Mughal Capital of Bengal",
+            "bn": "ঢাকা মুঘল বাংলার রাজধানী হয়"
+        },
+        "description": {
+            "en": "Islam Khan shifted the capital from Rajmahal to Dhaka, boosting its importance as a center of trade and administration.",
+            "bn": "ইসলাম খান রাজমহল থেকে ঢাকায় রাজধানী স্থানান্তর করেন, বাণিজ্য এবং প্রশাসনের কেন্দ্র হিসেবে এর গুরুত্ব বাড়িয়ে।"
+        },
+        "era_id": "mughal_period",
+        "image_asset": "assets/images/events/dhaka_capital.png"
+    },
+    {
+        "id": "event_026",
+        "date": "1764-10-22",
+        "title": {
+            "en": "Battle of Buxar",
+            "bn": "বক্সারের যুদ্ধ"
+        },
+        "description": {
+            "en": "British East India Company defeated the combined forces of Mughal Emperor, Nawab of Awadh, and Nawab of Bengal, consolidating British power in India.",
+            "bn": "ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানি মুঘল সম্রাট, আওয়াধের নবাব এবং বাংলার নবাবের যৌথ বাহিনীকে পরাজিত করে, ভারতে ব্রিটিশ ক্ষমতা সুসংহত করে।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/buxar.png"
+    },
+    {
+        "id": "event_027",
+        "date": "1765-08-12",
+        "title": {
+            "en": "Treaty of Allahabad",
+            "bn": "আল্লাহাবাদের চুক্তি"
+        },
+        "description": {
+            "en": "Mughal Emperor Shah Alam II granted the diwani rights of Bengal, Bihar, and Orissa to the British East India Company.",
+            "bn": "মুঘল সম্রাট শাহ আলম দ্বিতীয় বাংলা, বিহার এবং উড়িষ্যার দীওয়ানি অধিকার ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানিকে প্রদান করেন।"
+        },
+        "era_id": "british_resistance",
+        "image_asset": "assets/images/events/allahabad_treaty.png"
+    },
+    {
+        "id": "event_028",
+        "date": "1857-05-10",
+        "title": {
+            "en": "Indian Rebellion of 1857",
+            "bn": "১৮৫৭ সালের ভারতীয় বিদ্রোহ"
+        },
+        "description": {
+            "en": "Also known as the Sepoy Mutiny, it was a major uprising against British rule, with significant participation from Bengal.",
+            "bn": "সিপাহী বিদ্রোহ নামেও পরিচিত, এটি ব্রিটিশ শাসনের বিরুদ্ধে একটি বড় বিদ্রোহ ছিল, বাংলা থেকে উল্লেখযোগ্য অংশগ্রহণ সহ।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/sepoy_mutiny.png"
+    },
+    {
+        "id": "event_029",
+        "date": "1905-10-16",
+        "title": {
+            "en": "Partition of Bengal 1905",
+            "bn": "১৯০৫ সালের বাংলা বিভাজন"
+        },
+        "description": {
+            "en": "British divided Bengal into two provinces for administrative reasons, sparking widespread protests and the Swadeshi Movement.",
+            "bn": "ব্রিটিশরা প্রশাসনিক কারণে বাংলাকে দুটি প্রদেশে বিভক্ত করে, ব্যাপক প্রতিবাদ এবং স্বদেশী আন্দোলনের সূচনা করে।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/partition_1905.png"
+    },
+    {
+        "id": "event_030",
+        "date": "1911-12-12",
+        "title": {
+            "en": "Annulment of Bengal Partition",
+            "bn": "বাংলা বিভাজনের বাতিল"
+        },
+        "description": {
+            "en": "Due to intense protests, the British annulled the 1905 partition and reunited Bengal, while shifting the capital to Delhi.",
+            "bn": "তীব্র প্রতিবাদের কারণে, ব্রিটিশরা ১৯০৫ বিভাজন বাতিল করে বাংলাকে পুনরায় একত্রিত করে, রাজধানী দিল্লিতে স্থানান্তর করে।"
+        },
+        "era_id": "british_resistance",
+        "image_asset": "assets/images/events/annulment_partition.png"
+    },
+    {
+        "id": "event_031",
+        "date": "1946-08-16",
+        "title": {
+            "en": "Direct Action Day Riots",
+            "bn": "প্রত্যক্ষ কর্মদিবসের দাঙ্গা"
+        },
+        "description": {
+            "en": "Communal riots in Calcutta led to thousands of deaths, accelerating the partition of India.",
+            "bn": "কলকাতায় সাম্প্রদায়িক দাঙ্গায় হাজারো মৃত্যু ঘটে, ভারত বিভাজনকে ত্বরান্বিত করে।"
+        },
+        "era_id": "partition",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/direct_action.png"
+    },
+    {
+        "id": "event_032",
+        "date": "1950-02-01",
+        "title": {
+            "en": "East Bengal Riots",
+            "bn": "পূর্ব বাংলার দাঙ্গা"
+        },
+        "description": {
+            "en": "Communal violence in East Bengal led to mass migration and heightened tensions between India and Pakistan.",
+            "bn": "পূর্ব বাংলায় সাম্প্রদায়িক হিংসা গণ স্থানান্তর এবং ভারত-পাকিস্তানের মধ্যে উত্তেজনা বাড়িয়ে তোলে।"
+        },
+        "era_id": "partition",
+        "image_asset": "assets/images/events/east_bengal_riots.png"
+    },
+    {
+        "id": "event_033",
+        "date": "1966-06-07",
+        "title": {
+            "en": "Six Point Movement",
+            "bn": "ছয় দফা আন্দোলন"
+        },
+        "description": {
+            "en": "Sheikh Mujibur Rahman announced the Six Point Demand for autonomy of East Pakistan, a key step towards independence.",
+            "bn": "শেখ মুজিবুর রহমান পূর্ব পাকিস্তানের স্বায়ত্তশাসনের জন্য ছয় দফা দাবি ঘোষণা করেন, স্বাধীনতার দিকে একটি গুরুত্বপূর্ণ পদক্ষেপ।"
+        },
+        "era_id": "liberation_1971",
+        "related_hero_ids": [
+            "hero_003"
+        ],
+        "image_asset": "assets/images/events/six_point.png"
+    },
+    {
+        "id": "event_034",
+        "date": "1969-01-01",
+        "title": {
+            "en": "1969 Mass Uprising",
+            "bn": "১৯৬৯ সালের গণঅভ্যুত্থান"
+        },
+        "description": {
+            "en": "Widespread protests in East Pakistan against the Ayub Khan regime led to his resignation and paved the way for the 1970 elections.",
+            "bn": "পূর্ব পাকিস্তানে আয়ুব খান শাসনের বিরুদ্ধে ব্যাপক প্রতিবাদ তাঁর পদত্যাগ ঘটায় এবং ১৯৭০ নির্বাচনের পথ প্রশস্ত করে।"
+        },
+        "era_id": "liberation_1971",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/mass_uprising_1969.png"
+    },
+    {
+        "id": "event_035",
+        "date": "1970-11-12",
+        "title": {
+            "en": "Bhola Cyclone",
+            "bn": "ভোলা ঘূর্ণিঝড়"
+        },
+        "description": {
+            "en": "The deadliest tropical cyclone in history struck East Pakistan, killing up to 500,000 people and contributing to political unrest.",
+            "bn": "ইতিহাসের সবচেয়ে মারাত্মক গ্রীষ্মমণ্ডলীয় ঘূর্ণিঝড় পূর্ব পাকিস্তানে আঘাত করে, ৫০০,০০০ পর্যন্ত মানুষ মারা যায় এবং রাজনৈতিক অস্থিরতা বাড়ায়।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/bhola_cyclone.png"
+    },
+    {
+        "id": "event_036",
+        "date": "1971-12-06",
+        "title": {
+            "en": "India Recognizes Bangladesh",
+            "bn": "ভারত বাংলাদেশকে স্বীকৃতি দেয়"
+        },
+        "description": {
+            "en": "India became the first country to recognize Bangladesh as an independent nation during the Liberation War.",
+            "bn": "মুক্তিযুদ্ধের সময় ভারত প্রথম দেশ হিসেবে বাংলাদেশকে স্বাধীন দেশ হিসেবে স্বীকৃতি দেয়।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/india_recognition.png"
+    },
+    {
+        "id": "event_038",
+        "date": "1981-05-30",
+        "title": {
+            "en": "Assassination of Ziaur Rahman",
+            "bn": "জিয়াউর রহমানের হত্যা"
+        },
+        "description": {
+            "en": "President Ziaur Rahman was assassinated during a military coup attempt in Chittagong.",
+            "bn": "রাষ্ট্রপতি জিয়াউর রহমান চট্টগ্রামে একটি সামরিক অভ্যুত্থান চেষ্টায় হত্যা করা হয়।"
+        },
+        "era_id": "post_liberation",
+        "related_hero_ids": [
+            "ziaurrahman"
+        ],
+        "image_asset": "assets/images/events/zia_assassination.png"
+    },
+    {
+        "id": "event_039",
+        "date": "1990-12-06",
+        "title": {
+            "en": "Fall of Ershad Regime",
+            "bn": "এরশাদ শাসনের পতন"
+        },
+        "description": {
+            "en": "Mass protests led to the resignation of President Hussain Muhammad Ershad, ending his nine-year military rule.",
+            "bn": "গণ প্রতিবাদ রাষ্ট্রপতি হুসেইন মুহাম্মদ এরশাদের পদত্যাগ ঘটায়, তাঁর নয় বছরের সামরিক শাসনের অবসান ঘটায়।"
+        },
+        "era_id": "post_liberation",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/ershad_fall.png"
+    },
+    {
+        "id": "event_040",
+        "date": "1991-04-29",
+        "title": {
+            "en": "1991 Bangladesh Cyclone",
+            "bn": "১৯৯১ সালের বাংলাদেশ ঘূর্ণিঝড়"
+        },
+        "description": {
+            "en": "A devastating cyclone struck Bangladesh, killing over 138,000 people and causing widespread destruction.",
+            "bn": "একটি ভয়াবহ ঘূর্ণিঝড় বাংলাদেশে আঘাত করে, ১৩৮,০০০ এর বেশি মানুষ মারা যায় এবং ব্যাপক ধ্বংস সাধন করে।"
+        },
+        "era_id": "post_liberation",
+        "image_asset": "assets/images/events/cyclone_1991.png"
+    },
+    {
+        "id": "event_042",
+        "date": "2013-04-24",
+        "title": {
+            "en": "Rana Plaza Collapse",
+            "bn": "রানা প্লাজা ধস"
+        },
+        "description": {
+            "en": "The Rana Plaza building in Savar collapsed, killing over 1,100 garment workers, highlighting safety issues in the industry.",
+            "bn": "সাভারে রানা প্লাজা ভবন ধসে পড়ে, ১,১০০ এর বেশি পোশাক শ্রমিক মারা যায়, শিল্পে নিরাপত্তা সমস্যা তুলে ধরে।"
+        },
+        "era_id": "post_liberation",
+        "image_asset": "assets/images/events/rana_plaza.png"
+    },
+    {
+        "id": "event_044",
+        "date": "1861-05-07",
+        "title": {
+            "en": "Birth of Rabindranath Tagore",
+            "bn": "রবীন্দ্রনাথ ঠাকুরের জন্ম"
+        },
+        "description": {
+            "en": "Nobel laureate poet, writer, and philosopher Rabindranath Tagore was born in Calcutta, profoundly influencing Bengali culture.",
+            "bn": "নোবেল বিজয়ী কবি, লেখক এবং দার্শনিক রবীন্দ্রনাথ ঠাকুর কলকাতায় জন্মগ্রহণ করেন, বাঙালি সংস্কৃতিকে গভীরভাবে প্রভাবিত করেন।"
+        },
+        "era_id": "british_resistance",
+        "image_asset": "assets/images/events/tagore_birth.png"
+    },
+    {
+        "id": "event_046",
+        "date": "1897-01-23",
+        "title": {
+            "en": "Birth of Subhas Chandra Bose",
+            "bn": "সুভাষ চন্দ্র বসুর জন্ম"
+        },
+        "description": {
+            "en": "Indian nationalist leader Subhas Chandra Bose, known as Netaji, was born in Cuttack, playing a key role in the independence movement.",
+            "bn": "ভারতীয় জাতীয়তাবাদী নেতা সুভাষ চন্দ্র বসু, নেতাজি নামে পরিচিত, কটকে জন্মগ্রহণ করেন, স্বাধীনতা আন্দোলনে গুরুত্বপূর্ণ ভূমিকা পালন করেন।"
+        },
+        "era_id": "british_resistance",
+        "image_asset": "assets/images/events/bose_birth.png"
+    },
+    {
+        "id": "event_047",
+        "date": "1945-08-18",
+        "title": {
+            "en": "Death of Subhas Chandra Bose",
+            "bn": "সুভাষ চন্দ্র বসুর মৃত্যু"
+        },
+        "description": {
+            "en": "Subhas Chandra Bose died in a plane crash in Taiwan, though controversies surround his death.",
+            "bn": "সুভাষ চন্দ্র বসু তাইওয়ানে একটি বিমান দুর্ঘটনায় মারা যান, যদিও তাঁর মৃত্যু নিয়ে বিতর্ক রয়েছে।"
+        },
+        "era_id": "british_resistance",
+        "image_asset": "assets/images/events/bose_death.png"
+    },
+    {
+        "id": "event_049",
+        "date": "2024-07-01",
+        "title": {
+            "en": "Quota Reform Protests Begin",
+            "bn": "কোটা সংস্কার প্রতিবাদ শুরু"
+        },
+        "description": {
+            "en": "Students began protests demanding reform in the government job quota system following a High Court ruling.",
+            "bn": "হাইকোর্টের রায়ের পর ছাত্ররা সরকারি চাকরির কোটা ব্যবস্থায় সংস্কার দাবি করে প্রতিবাদ শুরু করে।"
+        },
+        "era_id": "july_revolution_2024",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/quota_protests.png"
+    },
+    {
+        "id": "event_050",
+        "date": "2024-08-05",
+        "title": {
+            "en": "Resignation of Sheikh Hasina",
+            "bn": "শেখ হাসিনার পদত্যাগ"
+        },
+        "description": {
+            "en": "Prime Minister Sheikh Hasina resigned amid escalating protests, leading to the formation of an interim government.",
+            "bn": "প্রধানমন্ত্রী শেখ হাসিনা ক্রমবর্ধমান প্রতিবাদের মধ্যে পদত্যাগ করেন, অন্তর্বর্তীকালীন সরকার গঠনের দিকে নিয়ে যায়।"
+        },
+        "era_id": "july_revolution_2024",
+        "image_asset": "assets/images/events/hasina_resignation.png"
+    },
+    {
+        "id": "event_051",
+        "date": "1903-01-01",
+        "title": {
+            "en": "Birth of Jasimuddin",
+            "bn": "জসীমউদ্দীনের জন্ম"
+        },
+        "description": {
+            "en": "Jasimuddin, known as Polli Kobi (Rural Poet), was born in Tambulkhana, Faridpur. He was a renowned Bengali poet, songwriter, and folklore collector.",
+            "bn": "পল্লী কবি জসীমউদ্দীন তাম্বুলখানা, ফরিদপুরে জন্মগ্রহণ করেন। তিনি একজন প্রখ্যাত বাঙালি কবি, গীতিকার এবং লোককথা সংগ্রাহক ছিলেন।"
+        },
+        "era_id": "british_resistance",
+        "image_asset": "assets/images/events/jasimuddin_birth.png"
+    },
+    {
+        "id": "event_052",
+        "date": "1976-03-14",
+        "title": {
+            "en": "Death of Jasimuddin",
+            "bn": "জসীমউদ্দীনের মৃত্যু"
+        },
+        "description": {
+            "en": "Jasimuddin, the Polli Kobi, passed away in Dhaka. His works celebrated rural Bengali life and culture.",
+            "bn": "পল্লী কবি জসীমউদ্দীন ঢাকায় মারা যান। তাঁর কাজগুলি গ্রামীণ বাঙালি জীবন এবং সংস্কৃতিকে উদযাপন করেছে।"
+        },
+        "era_id": "post_liberation",
+        "image_asset": "assets/images/events/jasimuddin_death.png"
+    },
+    {
+        "id": "event_053",
+        "date": "1936-01-19",
+        "title": {
+            "en": "Birth of Ziaur Rahman",
+            "bn": "জিয়াউর রহমানের জন্ম"
+        },
+        "description": {
+            "en": "Ziaur Rahman, future President of Bangladesh and founder of BNP, was born in Bagbari, Bogra.",
+            "bn": "জিয়াউর রহমান, বাংলাদেশের ভবিষ্যত রাষ্ট্রপতি এবং বিএনপির প্রতিষ্ঠাতা, বাগবাড়ি, বগুড়ায় জন্মগ্রহণ করেন।"
+        },
+        "era_id": "british_resistance",
+        "image_asset": "assets/images/events/zia_birth.png"
+    },
+    {
+        "id": "event_054",
+        "date": "1981-05-30",
+        "title": {
+            "en": "Assassination of Ziaur Rahman",
+            "bn": "জিয়াউর রহমানের হত্যা"
+        },
+        "description": {
+            "en": "President Ziaur Rahman was assassinated in a military coup in Chittagong.",
+            "bn": "রাষ্ট্রপতি জিয়াউর রহমান চট্টগ্রামে একটি সামরিক অভ্যুত্থানে হত্যা করা হয়।"
+        },
+        "era_id": "post_liberation",
+        "image_asset": "assets/images/events/zia_assassination.png"
+    },
+    {
+        "id": "event_055",
+        "date": "1945-08-15",
+        "title": {
+            "en": "Birth of Khaleda Zia",
+            "bn": "খালেদা জিয়ার জন্ম"
+        },
+        "description": {
+            "en": "Khaleda Zia, future Prime Minister of Bangladesh and BNP leader, was born in Dinajpur.",
+            "bn": "খালেদা জিয়া, বাংলাদেশের ভবিষ্যত প্রধানমন্ত্রী এবং বিএনপি নেত্রী, দিনাজপুরে জন্মগ্রহণ করেন।"
+        },
+        "era_id": "partition",
+        "image_asset": "assets/images/events/khaleda_birth.png"
+    },
+    {
+        "id": "event_056",
+        "date": "2025-12-30",
+        "title": {
+            "en": "Death of Khaleda Zia",
+            "bn": "খালেদা জিয়ার মৃত্যু"
+        },
+        "description": {
+            "en": "Former Prime Minister Khaleda Zia passed away in Dhaka.",
+            "bn": "সাবেক প্রধানমন্ত্রী খালেদা জিয়া ঢাকায় মারা যান।"
+        },
+        "era_id": "post_liberation",
+        "image_asset": "assets/images/events/khaleda_death.png"
+    },
+    {
+        "id": "event_057",
+        "date": "1918-01-24",
+        "title": {
+            "en": "Birth of Shafiur Rahman",
+            "bn": "শফিউর রহমানের জন্ম"
+        },
+        "description": {
+            "en": "Shafiur Rahman, future language martyr, was born in Konnagar, West Bengal.",
+            "bn": "শফিউর রহমান, ভবিষ্যত ভাষা শহীদ, পশ্চিমবঙ্গের কোননগরে জন্মগ্রহণ করেন।"
+        },
+        "era_id": "british_resistance",
+        "image_asset": "assets/images/events/shafiur_birth.png"
+    },
+    {
+        "id": "event_058",
+        "date": "1952-02-22",
+        "title": {
+            "en": "Martyrdom of Shafiur Rahman",
+            "bn": "শফিউর রহমানের শাহাদাত"
+        },
+        "description": {
+            "en": "Shafiur Rahman was killed during the Language Movement protests in Dhaka.",
+            "bn": "শফিউর রহমান ঢাকায় ভাষা আন্দোলনের প্রতিবাদে নিহত হন।"
+        },
+        "era_id": "language_movement",
+        "image_asset": "assets/images/events/shafiur_martyrdom.png"
+    },
+    {
+        "id": "event_059",
+        "date": "1899-05-24",
+        "title": {
+            "en": "Birth of Kazi Nazrul Islam",
+            "bn": "কাজী নজরুল ইসলামের জন্ম"
+        },
+        "description": {
+            "en": "Kazi Nazrul Islam, the Rebel Poet, was born in Churulia, West Bengal.",
+            "bn": "কাজী নজরুল ইসলাম, বিদ্রোহী কবি, পশ্চিমবঙ্গের চুরুলিয়ায় জন্মগ্রহণ করেন।"
+        },
+        "era_id": "british_resistance",
+        "image_asset": "assets/images/events/nazrul_birth.png"
+    },
+    {
+        "id": "event_060",
+        "date": "1976-08-29",
+        "title": {
+            "en": "Death of Kazi Nazrul Islam",
+            "bn": "কাজী নজরুল ইসলামের মৃত্যু"
+        },
+        "description": {
+            "en": "National Poet Kazi Nazrul Islam passed away in Dhaka.",
+            "bn": "জাতীয় কবি কাজী নজরুল ইসলাম ঢাকায় মারা যান।"
+        },
+        "era_id": "post_liberation",
+        "image_asset": "assets/images/events/nazrul_death.png"
+    },
+    {
+        "id": "event_061",
+        "date": "1972-05-24",
+        "title": {
+            "en": "Kazi Nazrul Islam Declared National Poet",
+            "bn": "কাজী নজরুল ইসলামকে জাতীয় কবি ঘোষণা"
+        },
+        "description": {
+            "en": "Kazi Nazrul Islam was recognized as the National Poet of Bangladesh upon his arrival.",
+            "bn": "কাজী নজরুল ইসলামকে বাংলাদেশের জাতীয় কবি হিসেবে স্বীকৃতি দেওয়া হয় তাঁর আগমনের সময়।"
+        },
+        "era_id": "post_liberation",
+        "image_asset": "assets/images/events/nazrul_national_poet.png"
+    },
+    {
+        "id": "event_062",
+        "date": "2006-10-13",
+        "title": {
+            "en": "Muhammad Yunus Awarded Nobel Peace Prize",
+            "bn": "মুহাম্মদ ইউনূসকে নোবেল শান্তি পুরস্কার প্রদান"
+        },
+        "description": {
+            "en": "Dr. Muhammad Yunus and Grameen Bank received the Nobel Peace Prize for microfinance efforts.",
+            "bn": "ড. মুহাম্মদ ইউনূস এবং গ্রামীণ ব্যাংক মাইক্রোফাইন্যান্স প্রচেষ্টার জন্য নোবেল শান্তি পুরস্কার লাভ করেন।"
+        },
+        "era_id": "post_liberation",
+        "image_asset": "assets/images/events/yunus_nobel.png"
+    },
+    {
+        "id": "event_063",
+        "date": "1971-12-14",
+        "title": {
+            "en": "Martyrdom of Bir Shreshtho Mohiuddin Jahangir",
+            "bn": "বীরশ্রেষ্ঠ মহিউদ্দিন জাহাঙ্গীরের শাহাদাত"
+        },
+        "description": {
+            "en": "Captain Mohiuddin Jahangir was killed in action during the Liberation War.",
+            "bn": "ক্যাপ্টেন মহিউদ্দিন জাহাঙ্গীর মুক্তিযুদ্ধে শহীদ হন।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/mohiuddin_jahangir.png"
+    },
+    {
+        "id": "event_064",
+        "date": "1971-10-28",
+        "title": {
+            "en": "Martyrdom of Bir Shreshtho Hamidur Rahman",
+            "bn": "বীরশ্রেষ্ঠ হামিদুর রহমানের শাহাদাত"
+        },
+        "description": {
+            "en": "Sepoy Hamidur Rahman was killed in action during the Liberation War.",
+            "bn": "সিপাহী হামিদুর রহমান মুক্তিযুদ্ধে শহীদ হন।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/hamidur_rahman.png"
+    },
+    {
+        "id": "event_065",
+        "date": "1971-04-18",
+        "title": {
+            "en": "Martyrdom of Bir Shreshtho Mostafa Kamal",
+            "bn": "বীরশ্রেষ্ঠ মোস্তফা কামালের শাহাদাত"
+        },
+        "description": {
+            "en": "Sepoy Mostafa Kamal was killed in action during the Liberation War.",
+            "bn": "সিপাহী মোস্তফা কামাল মুক্তিযুদ্ধে শহীদ হন।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/mostafa_kamal.png"
+    },
+    {
+        "id": "event_066",
+        "date": "1971-08-20",
+        "title": {
+            "en": "Martyrdom of Bir Shreshtho Matiur Rahman",
+            "bn": "বীরশ্রেষ্ঠ মতিউর রহমানের শাহাদাত"
+        },
+        "description": {
+            "en": "Flight Lieutenant Matiur Rahman was killed during the Liberation War.",
+            "bn": "ফ্লাইট লেফটেন্যান্ট মতিউর রহমান মুক্তিযুদ্ধে শহীদ হন।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/matiur_rahman.png"
+    },
+    {
+        "id": "event_067",
+        "date": "1971-12-10",
+        "title": {
+            "en": "Martyrdom of Bir Shreshtho Ruhul Amin",
+            "bn": "বীরশ্রেষ্ঠ রুহুল আমিনের শাহাদাত"
+        },
+        "description": {
+            "en": "Engine Room Artificer Ruhul Amin was killed in action during the Liberation War.",
+            "bn": "ইঞ্জিন রুম আর্টিফিসার রুহুল আমিন মুক্তিযুদ্ধে শহীদ হন।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/ruhul_amin.png"
+    },
+    {
+        "id": "event_068",
+        "date": "1971-05-08",
+        "title": {
+            "en": "Martyrdom of Bir Shreshtho Munshi Abdur Rouf",
+            "bn": "বীরশ্রেষ্ঠ মুন্সী আবদুর রউফের শাহাদাত"
+        },
+        "description": {
+            "en": "Lance Nayek Munshi Abdur Rouf was killed in action during the Liberation War.",
+            "bn": "ল্যান্স নায়েক মুন্সী আবদুর রউফ মুক্তিযুদ্ধে শহীদ হন।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/abdur_rouf.png"
+    },
+    {
+        "id": "event_069",
+        "date": "1971-09-05",
+        "title": {
+            "en": "Martyrdom of Bir Shreshtho Noor Mohammad Sheikh",
+            "bn": "বীরশ্রেষ্ঠ নূর মোহাম্মদ শেখের শাহাদাত"
+        },
+        "description": {
+            "en": "Lance Nayek Noor Mohammad Sheikh was killed in action during the Liberation War.",
+            "bn": "ল্যান্স নায়েক নূর মোহাম্মদ শেখ মুক্তিযুদ্ধে শহীদ হন।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/noor_mohammad.png"
+    },
+    {
+        "id": "event_070",
+        "date": "1971-11-16",
+        "title": {
+            "en": "Martyrdom of Bir Bikrom Jagatjyoti Das",
+            "bn": "বীর বিক্রম জগৎজ্যোতি দাসের শাহাদাত"
+        },
+        "description": {
+            "en": "Jagatjyoti Das, commander of the 'Das Bahini', was killed in action during a battle in Ajmiriganj.",
+            "bn": "‘দাস বাহিনী’র অধিনায়ক জগৎজ্যোতি দাস আজমিরীগঞ্জের এক যুদ্ধে শহীদ হন।"
+        },
+        "era_id": "liberation_1971",
+        "image_asset": "assets/images/events/jagatjyoti_das.png"
+    },
+    {
+        "id": "event_072",
+        "date": "1946-08-16",
+        "title": {
+            "en": "Direct Action Day Riots",
+            "bn": "প্রত্যক্ষ কর্মদিবসের দাঙ্গা"
+        },
+        "description": {
+            "en": "Communal riots in Calcutta killed thousands, accelerating partition.",
+            "bn": "কলকাতায় সাম্প্রদায়িক দাঙ্গায় হাজারো মারা যায়, বিভাজনকে ত্বরান্বিত করে।"
+        },
+        "era_id": "partition",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/calcutta_riots.png"
+    },
+    {
+        "id": "event_073",
+        "date": "1946-10-10",
+        "title": {
+            "en": "Noakhali Riots",
+            "bn": "নোয়াখালী দাঙ্গা"
+        },
+        "description": {
+            "en": "Communal violence in Noakhali targeted Hindus, leading to mass migration.",
+            "bn": "নোয়াখালীতে সাম্প্রদায়িক হিংসা হিন্দুদের লক্ষ্য করে, গণ স্থানান্তর ঘটায়।"
+        },
+        "era_id": "partition",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/noakhali_riots.png"
+    },
+    {
+        "id": "event_074",
+        "date": "1964-01-02",
+        "title": {
+            "en": "1964 East Pakistan Riots",
+            "bn": "১৯৬৪ সালের পূর্ব পাকিস্তান দাঙ্গা"
+        },
+        "description": {
+            "en": "Communal riots against Hindus in East Pakistan led to migration and tensions.",
+            "bn": "পূর্ব পাকিস্তানে হিন্দুদের বিরুদ্ধে সাম্প্রদায়িক দাঙ্গা স্থানান্তর এবং উত্তেজনা সৃষ্টি করে।"
+        },
+        "era_id": "liberation_1971",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/1964_riots.png"
     }
 ]

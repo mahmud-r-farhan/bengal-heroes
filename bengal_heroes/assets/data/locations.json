@@ -98,5 +98,255 @@
         "region": "Dhaka, Bangladesh",
         "latitude": 23.8728,
         "longitude": 90.3969
+    },
+    {
+        "id": "loc_shantiniketan",
+        "name": {
+            "en": "Santiniketan",
+            "bn": "শান্তিনিকেতন"
+        },
+        "region": "Birbhum, West Bengal",
+        "latitude": 23.68,
+        "longitude": 87.6856
+    },
+    {
+        "id": "loc_kamarpukur",
+        "name": {
+            "en": "Kamarpukur",
+            "bn": "কামারপুকুর"
+        },
+        "region": "Hooghly, West Bengal",
+        "latitude": 22.907,
+        "longitude": 88.138
+    },
+    {
+        "id": "loc_jayrambati",
+        "name": {
+            "en": "Jayrambati",
+            "bn": "জয়রামবাটী"
+        },
+        "region": "Bankura, West Bengal",
+        "latitude": 23.013,
+        "longitude": 87.613
+    },
+    {
+        "id": "loc_birsingha",
+        "name": {
+            "en": "Birsingha",
+            "bn": "বীরসিংহ"
+        },
+        "region": "Paschim Medinipur, West Bengal",
+        "latitude": 22.68,
+        "longitude": 87.58
+    },
+    {
+        "id": "loc_naihati",
+        "name": {
+            "en": "Naihati",
+            "bn": "নৈহাটি"
+        },
+        "region": "North 24 Parganas, West Bengal",
+        "latitude": 22.89,
+        "longitude": 88.42
+    },
+    {
+        "id": "loc_sagardari",
+        "name": {
+            "en": "Sagardari",
+            "bn": "সাগরদাঁড়ি"
+        },
+        "region": "Jessore, Bangladesh",
+        "latitude": 23.166,
+        "longitude": 89.216
+    },
+    {
+        "id": "loc_radhanagar",
+        "name": {
+            "en": "Radhanagar",
+            "bn": "রাধানগর"
+        },
+        "region": "Hooghly, West Bengal",
+        "latitude": 23.0,
+        "longitude": 88.3
+    },
+    {
+        "id": "loc_nabadwip",
+        "name": {
+            "en": "Nabadwip",
+            "bn": "নবদ্বীপ"
+        },
+        "region": "Nadia, West Bengal",
+        "latitude": 23.407,
+        "longitude": 88.377
+    },
+    {
+        "id": "loc_munshiganj",
+        "name": {
+            "en": "Munshiganj",
+            "bn": "মুন্সীগঞ্জ"
+        },
+        "region": "Dhaka Division, Bangladesh",
+        "latitude": 23.55,
+        "longitude": 90.53
+    },
+    {
+        "id": "loc_faridpur",
+        "name": {
+            "en": "Faridpur",
+            "bn": "ফরিদপুর"
+        },
+        "region": "Dhaka Division, Bangladesh",
+        "latitude": 23.607,
+        "longitude": 89.841
+    },
+    {
+        "id": "loc_dinajpur",
+        "name": {
+            "en": "Dinajpur",
+            "bn": "দিনাজপুর"
+        },
+        "region": "Rangpur Division, Bangladesh",
+        "latitude": 25.627,
+        "longitude": 88.638
+    },
+    {
+        "id": "loc_palashi",
+        "name": {
+            "en": "Palashi",
+            "bn": "পলাশী"
+        },
+        "region": "Nadia, West Bengal",
+        "latitude": 23.8,
+        "longitude": 88.25
+    },
+    {
+        "id": "loc_bishnupur",
+        "name": {
+            "en": "Bishnupur",
+            "bn": "বিষ্ণুপুর"
+        },
+        "region": "Bankura, West Bengal",
+        "latitude": 23.067,
+        "longitude": 87.319
+    },
+    {
+        "id": "loc_dakshineswar",
+        "name": {
+            "en": "Dakshineswar",
+            "bn": "দক্ষিণেশ্বর"
+        },
+        "region": "Kolkata, West Bengal",
+        "latitude": 22.655,
+        "longitude": 88.358
+    },
+    {
+        "id": "loc_belur_math",
+        "name": {
+            "en": "Belur Math",
+            "bn": "বেলুড় মঠ"
+        },
+        "region": "Howrah, West Bengal",
+        "latitude": 22.632,
+        "longitude": 88.356
+    },
+    {
+        "id": "loc_victoria_memorial",
+        "name": {
+            "en": "Victoria Memorial",
+            "bn": "ভিক্টোরিয়া মেমোরিয়াল"
+        },
+        "region": "Kolkata, West Bengal",
+        "latitude": 22.545,
+        "longitude": 88.343
+    },
+    {
+        "id": "loc_bagerhat",
+        "name": {
+            "en": "Bagerhat",
+            "bn": "বাগেরহাট"
+        },
+        "region": "Khulna Division, Bangladesh",
+        "latitude": 22.667,
+        "longitude": 89.792
+    },
+    {
+        "id": "loc_paharpur",
+        "name": {
+            "en": "Paharpur",
+            "bn": "পাহাড়পুর"
+        },
+        "region": "Naogaon, Bangladesh",
+        "latitude": 25.031,
+        "longitude": 88.977
+    },
+    {
+        "id": "loc_mahasthangarh",
+        "name": {
+            "en": "Mahasthangarh",
+            "bn": "মহাস্থানগড়"
+        },
+        "region": "Bogra, Bangladesh",
+        "latitude": 24.959,
+        "longitude": 89.343
+    },
+    {
+        "id": "loc_lalbagh_fort",
+        "name": {
+            "en": "Lalbagh Fort",
+            "bn": "লালবাগ কেল্লা"
+        },
+        "region": "Dhaka, Bangladesh",
+        "latitude": 23.719,
+        "longitude": 90.388
+    },
+    {
+        "id": "loc_sundarbans",
+        "name": {
+            "en": "Sundarbans",
+            "bn": "সুন্দরবন"
+        },
+        "region": "West Bengal/Bangladesh",
+        "latitude": 21.9497,
+        "longitude": 88.89
+    },
+    {
+        "id": "loc_coxs_bazar",
+        "name": {
+            "en": "Cox's Bazar",
+            "bn": "কক্সবাজার"
+        },
+        "region": "Chittagong Division, Bangladesh",
+        "latitude": 21.4272,
+        "longitude": 91.9798
+    },
+    {
+        "id": "loc_darjeeling",
+        "name": {
+            "en": "Darjeeling",
+            "bn": "দার্জিলিং"
+        },
+        "region": "West Bengal",
+        "latitude": 27.036,
+        "longitude": 88.2627
+    },
+    {
+        "id": "loc_gangasagar",
+        "name": {
+            "en": "Gangasagar",
+            "bn": "গঙ্গাসাগর"
+        },
+        "region": "South 24 Parganas, West Bengal",
+        "latitude": 21.645,
+        "longitude": 88.087
+    },
+    {
+        "id": "loc_jatiyo_smriti_soudho",
+        "name": {
+            "en": "Jatiyo Smriti Soudho",
+            "bn": "জাতীয় স্মৃতি সৌধ"
+        },
+        "region": "Savar, Bangladesh",
+        "latitude": 23.917,
+        "longitude": 90.255
     }
 ]
