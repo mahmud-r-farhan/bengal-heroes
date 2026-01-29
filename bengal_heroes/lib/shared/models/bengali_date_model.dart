@@ -27,16 +27,16 @@ class BengaliDate {
   /// Convert English numerals to Bengali numerals
   String _englishToBengali(String number) {
     const bengaliNumerals = [
-      '०',
-      '१',
-      '२',
-      '३',
-      '४',
-      '५',
-      '६',
-      '७',
-      '८',
-      '९'
+      '০',
+      '১',
+      '২',
+      '৩',
+      '৪',
+      '৫',
+      '৬',
+      '৭',
+      '৮',
+      '৯'
     ];
     String result = '';
     for (int i = 0; i < number.length; i++) {

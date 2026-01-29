@@ -7,18 +7,18 @@ import '../models/bengali_date_model.dart';
 class BengaliCalendarUtils {
   // Bengali month names in English
   static const List<String> bengaliMonthsEnglish = [
-    'Boishakh',
-    'Jyoishtho',
-    'Ashar',
-    'Shraban',
-    'Bhadro',
-    'Ashwin',
-    'Kartik',
-    'Agrohayon',
-    'Poush',
-    'Magh',
-    'Phalgun',
-    'Choitro',
+    'বৈশাখ',
+    'জ্যৈষ্ঠ',
+    'আষাঢ়',
+    'শ্রাবণ',
+    'ভাদ্র',
+    'আশ্বিন',
+    'কার্তিক',
+    'অগ্রহায়ণ',
+    'পৌষ',
+    'মাঘ',
+    'ফাল্গুন',
+    'চৈত্র',
   ];
 
   // Bengali month names in Bengali script
@@ -39,13 +39,13 @@ class BengaliCalendarUtils {
 
   // Bengali day names in English
   static const List<String> bengaliDaysEnglish = [
-    'Sombar',    // Monday (index 0)
-    'Mongol',    // Tuesday
-    'Budhbar',   // Wednesday
-    'Brihospatibor', // Thursday
-    'Shukrobor', // Friday
-    'Shonibor',  // Saturday
-    'Robibar',   // Sunday
+    'সোমবার',     // Monday
+    'মঙ্গলবার',   // Tuesday
+    'বুধবার',     // Wednesday
+    'বৃহস্পতিবার', // Thursday
+    'শুক্রবার',   // Friday
+    'শনিবার',     // Saturday
+    'রবিবার',     // Sunday
   ];
 
   // Bengali day names in Bengali script
@@ -192,16 +192,16 @@ class BengaliCalendarUtils {
   /// Convert English numerals to Bengali numerals
   static String englishToBengali(String englishNumber) {
     const bengaliNumerals = [
-      '०',
-      '१',
-      '२',
-      '३',
-      '४',
-      '५',
-      '६',
-      '७',
-      '८',
-      '९'
+      '০',
+      '১',
+      '২',
+      '৩',
+      '৪',
+      '৫',
+      '৬',
+      '৭',
+      '৮',
+      '৯'
     ];
     String result = '';
     for (int i = 0; i < englishNumber.length; i++) {
