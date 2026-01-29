@@ -956,5 +956,116 @@
         "achievements": "প্রধানমন্ত্রী শেখ হাসিনার ক্ষমতাচ্যুতি এবং ১৫ বছরের আওয়ামী লীগ স্বৈরাচারী শাসনের অবসান • মুহাম্মদ ইউনুসের নেতৃত্বে অন্তর্বর্তী সরকার গঠন • সরকারি চাকরির কোটা ব্যবস্থায় যোগ্যতা-ভিত্তিক বরাদ্দের দিকে সংস্কার • যুবকদের ক্ষমতায়ন এবং ছাত্র-নেতৃত্বাধীন রাজনৈতিক পরিবর্তন • আন্দোলনকে সফল গণবিপ্লব হিসেবে আন্তর্জাতিক স্বীকৃতি • পূর্ববর্তী শাসনের দুর্নীতি এবং অপব্যবহারের বিরুদ্ধে ন্যায়বিচার প্রক্রিয়া শুরু"
       }
     }
+  },
+  {
+    "id": "sultan_balkhi",
+    "slug": "sultan-balkhi-mahisawar",
+    "dates": {
+      "birth": "1000-01-01",
+      "death": "1045-01-01"
+    },
+    "era": "medieval_bengal",
+    "category": [
+      "sufi_saint",
+      "missionary",
+      "ruler"
+    ],
+    "images": [
+      "assets/images/heroes/night_sky.jpg"
+    ],
+    "location_id": "loc_mahasthangarh",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Shah Sultan Balkhi Mahisawar",
+        "short_bio": "A prince of Balkh who renounced his throne to spread Islam in Bengal. He is legendary for arriving on a fish-shaped boat and establishing justice in Pundravardhana (Bogura).",
+        "full_biography": "Shah Sultan Balkhi, known as Mahisawar (Fish Rider), was a royal prince of Balkh (Afghanistan) in the 11th century. Abandoning his kingdom for a spiritual journey, he arrived in the ancient capital of Pundravardhana (Mahasthangarh, Bogura).\n\nAccording to legends, he crossed the river on a boat shaped like a fish, earning the title 'Mahisawar'. He fought against the oppression of the local ruler Parshuram and established a rule of peace and equality.\n\nHe settled in Bogura, preached Islam, and protected the common people from tyranny. He passed away in Mahasthangarh, where his shrine remains a major pilgrimage site, symbolizing the spiritual heritage of Bengal.",
+        "quote": "True royalty lies not in wearing a crown, but in serving the creation of the Almighty.",
+        "birth_place": "Balkh, Afghanistan",
+        "achievements": "Renounced royalty for spirituality • Ended the tyrannical rule of Parshuram • Spread Islam in North Bengal • Established social justice in Mahasthangarh"
+      },
+      "bn": {
+        "name": "শাহ সুলতান বলখী মাহিসাওয়ার",
+        "short_bio": "বলখ রাজ্যের রাজপুত্র যিনি সিংহাসন ত্যাগ করে ইসলাম প্রচারে বাংলায় আসেন। মাছের পিঠে (বা মাছ আকৃতির নৌকায়) চড়ে আসার কিংবদন্তি এবং পুণ্ড্রবর্ধনে (বগুড়া) ন্যায়বিচার প্রতিষ্ঠার জন্য তিনি বিখ্যাত।",
+        "full_biography": "শাহ সুলতান বলখী, যিনি মাহিসাওয়ার (মাছের পিঠে আরোহণকারী) নামে পরিচিত, একাদশ শতাব্দীতে বলখ (আফগানিস্তান) রাজ্যের রাজপুত্র ছিলেন। আধ্যাত্মিকতার সন্ধানে রাজত্ব ত্যাগ করে তিনি প্রাচীন পুণ্ড্রবর্ধনে (মহাস্থানগড়, বগুড়া) আসেন।\n\nকিংবদন্তি অনুযায়ী, তিনি মাছ আকৃতির নৌকায় বা মাছের পিঠে চড়ে নদী পার হয়েছিলেন, তাই তাঁকে 'মাহিসাওয়ার' বলা হয়। তিনি তৎকালীন শাসক পরশুরামের অত্যাচার রুখে দেন এবং সাম্য ও শান্তির ডাক দেন।\n\nতিনি বগুড়াতেই স্থায়ীভাবে বসবাস শুরু করেন এবং আমৃত্যু মানুষের সেবা ও ইসলাম প্রচার করেন। মহাস্থানগড়ে তাঁর মাজার আজও বাংলার আধ্যাত্মিক ইতিহাসের সাক্ষী হয়ে দাঁড়িয়ে আছে।",
+        "quote": "মুকুট পরায় প্রকৃত রাজত্ব নেই, সৃষ্টিকর্তার সৃষ্টির সেবার মধ্যেই প্রকৃত রাজত্ব নিহিত।",
+        "birth_place": "বলখ, আফগানিস্তান",
+        "achievements": "রাজসিংহাসন ত্যাগ করে আধ্যাত্মিক জীবন বেছে নেন • পরশুরামের অত্যাচারী শাসনের অবসান ঘটান • উত্তরবঙ্গে ইসলামের আলো ছড়ান • মহাস্থানগড়ে ন্যায়বিচার প্রতিষ্ঠা করেন"
+      }
+    }
+  },
+  {
+    "id": "shah_jalal",
+    "slug": "shah-jalal",
+    "dates": {
+      "birth": "1271-05-25",
+      "death": "1346-03-15"
+    },
+    "era": "sultanate_period",
+    "category": [
+      "sufi_saint",
+      "spiritual_leader",
+      "legend"
+    ],
+    "images": [
+      "assets/images/heroes/night_sky.jpg"
+    ],
+    "location_id": "loc_sylhet",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Hazrat Shah Jalal",
+        "short_bio": "The most prominent Sufi saint of Bengal who traveled from Yemen to Sylhet. He played a pivotal role in the spread of Islam in the region and is revered as a spiritual guardian.",
+        "full_biography": "Hazrat Shah Jalal was born in Yemen and traveled across the Middle East and South Asia before arriving in Sylhet in 1303 AD with 360 companions. He came to help the oppressed people under the rule of King Gour Govinda.\n\nHis arrival marked the beginning of the Islamic era in Sylhet. Known for his miraculous spiritual powers and simple lifestyle, he remained a bachelor and dedicated his entire life to preaching and social welfare.\n\nHe is buried in Sylhet, and his shrine is one of the most visited spiritual sites in Bangladesh, transcending religious boundaries.",
+        "quote": "The soil of this land is as sacred as my devotion; here I shall rest.",
+        "birth_place": "Hadramaut, Yemen",
+        "achievements": "Led the Conquest of Sylhet (1303) • Spread Islam across Eastern Bengal • Established a center for spirituality and learning • Revered by people of all faiths"
+      },
+      "bn": {
+        "name": "হযরত শাহজালাল",
+        "short_bio": "বাংলার অন্যতম প্রধান সুফি সাধক যিনি ইয়েমেন থেকে সিলেটে এসেছিলেন। এই অঞ্চলে ইসলাম প্রচারে তাঁর ভূমিকা অপরিসীম এবং তিনি সিলেটের আধ্যাত্মিক অভিভাবক হিসেবে বিবেচিত হন।",
+        "full_biography": "হযরত শাহজালাল ইয়েমেনে জন্মগ্রহণ করেন এবং মধ্যপ্রাচ্য ও দক্ষিণ এশিয়া ভ্রমণ শেষে ১৩০৩ খ্রিস্টাব্দে ৩৬০ জন সঙ্গী নিয়ে সিলেটে আসেন। রাজা গৌর গোবিন্দর শাসনে অত্যাচারিত মানুষের সাহায্যে তিনি এগিয়ে আসেন।\n\nতাঁর আগমনের মাধ্যমেই সিলেটে ইসলামের প্রচার ও প্রসার ঘটে। তিনি তাঁর অলৌকিক আধ্যাত্মিক শক্তি এবং অনাড়ম্বর জীবনযাপনের জন্য পরিচিত ছিলেন। তিনি চিরকুমার ছিলেন এবং নিজের জীবন মানুষের সেবা ও ধর্মে উৎসর্গ করেছিলেন।\n\nসিলেটে তাঁর মাজার অবস্থিত যা বাংলাদেশের অন্যতম প্রধান ধর্মীয় তীর্থস্থান। ধর্ম-বর্ণ নির্বিশেষে মানুষ তাঁকে শ্রদ্ধা করে।",
+        "quote": "এই মাটির মায়া আমাকে বেঁধেছে, এখানেই আমার শেষ ঠিকানা।",
+        "birth_place": "হাধরামৌত, ইয়েমেন",
+        "achievements": "সিলেট বিজয়ে (১৩০৩) নেতৃত্ব দেন • পূর্ব বাংলায় ব্যাপকভাবে ইসলাম প্রচার করেন • আধ্যাত্মিকতা ও শিক্ষার কেন্দ্র স্থাপন করেন • সর্বধর্মের মানুষের শ্রদ্ধা অর্জন"
+      }
+    }
+  },
+  {
+    "id": "khan_jahan_ali",
+    "slug": "khan-jahan-ali",
+    "dates": {
+      "birth": "1369-01-01",
+      "death": "1459-10-25"
+    },
+    "era": "sultanate_period",
+    "category": [
+      "warrior_saint",
+      "architect",
+      "ruler"
+    ],
+    "images": [
+      "assets/images/heroes/night_sky.jpg"
+    ],
+    "location_id": "loc_bagerhat",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Khan Jahan Ali",
+        "short_bio": "A warrior saint and ruler who cleared the Sundarbans to establish a thriving settlement in Bagerhat. He is famous for building the Sixty Dome Mosque and numerous water tanks.",
+        "full_biography": "Khan Jahan Ali, also known as Ulugh Khan Jahan, was a Turkic warrior saint who arrived in southern Bengal in the 15th century. He was sent by the Delhi Sultanate but established an independent township in the Sundarbans region called Khalifatabad (modern Bagerhat).\n\nHe was not just a preacher but a great administrator and builder. He constructed roads, bridges, and dug massive water tanks (dighis) to solve the water crisis. His most famous contribution is the Sixty Dome Mosque (Shait Gumbad Masjid), a UNESCO World Heritage site.\n\nHe died in 1459 and was buried near the mosque he built. He is remembered as a builder-saint who tamed nature to serve humanity.",
+        "quote": "To build for the people is to build for the Creator.",
+        "birth_place": "Unknown (Likely Central Asia or Delhi)",
+        "achievements": "Founded the city of Khalifatabad (Bagerhat) • Built the Sixty Dome Mosque (UNESCO Site) • Dug extensive water tanks (Ghora Dighi, Thakur Dighi) • Developed infrastructure in the Sundarbans region"
+      },
+      "bn": {
+        "name": "খান জাহান আলী",
+        "short_bio": "একজন বীর সাধক এবং শাসক যিনি সুন্দরবন অঞ্চল পরিষ্কার করে বাগেরহাটে জনবসতি গড়ে তোলেন। ষাট গম্বুজ মসজিদ নির্মাণ এবং বিশাল সব দিঘি খননের জন্য তিনি বিখ্যাত।",
+        "full_biography": "খান জাহান আলী, যিনি উলুগ খান জাহান নামেও পরিচিত, ছিলেন একজন তুর্কি বংশোদ্ভূত বীর সাধক। তিনি পঞ্চদশ শতাব্দীতে দক্ষিণ বাংলায় আসেন এবং সুন্দরবন অঞ্চলে 'খলিফাতাবাদ' (বর্তমান বাগেরহাট) নামে একটি সমৃদ্ধ জনপদ গড়ে তোলেন।\n\nতিনি কেবল ধর্ম প্রচারক ছিলেন না, ছিলেন একজন দক্ষ প্রশাসক ও নির্মাতা। তিনি রাস্তাঘাট নির্মাণ করেন এবং পানির কষ্ট দূর করতে বিশাল সব দিঘি খনন করেন। তাঁর অমর কীর্তি হলো 'ষাট গম্বুজ মসজিদ', যা আজ ইউনেস্কো বিশ্ব ঐতিহ্যবাহী স্থান।\n\n১৪৫৯ সালে তিনি মৃত্যুবরণ করেন এবং নিজের নির্মিত নগরেই সমাহিত হন। প্রতিকূল প্রকৃতিকে জয় করে মানুষের কল্যাণে কাজ করার জন্য তিনি স্মরণীয় হয়ে আছেন।",
+        "quote": "মানুষের জন্য নির্মাণ করাই হলো স্রষ্টার সন্তুষ্টির পথ।",
+        "birth_place": "অজানা (সম্ভবত মধ্য এশিয়া বা দিল্লি)",
+        "achievements": "খলিফাতাবাদ (বাগেরহাট) নগর প্রতিষ্ঠা • ষাট গম্বুজ মসজিদ নির্মাণ (ইউনেস্কো সাইট) • বিশাল দিঘি খনন ও সুপেয় পানির ব্যবস্থা • সুন্দরবন অঞ্চলে যাতায়াত ও অবকাঠামো উন্নয়ন"
+      }
+    }
   }
 ]
