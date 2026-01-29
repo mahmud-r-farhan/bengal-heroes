@@ -385,6 +385,22 @@
       "icon": "block"
     },
     {
+      "id": "1946_bengal_riots",
+      "year": 1946,
+      "period": "1946",
+      "title": {
+        "en": "1946 Bengal Communal Riots (Calcutta and Noakhali)",
+        "bn": "১৯৪৬ বাংলা সাম্প্রদায়িক দাঙ্গা (কলকাতা এবং নোয়াখালী)"
+      },
+      "description": {
+        "en": "In 1946, Bengal witnessed severe communal violence: the Direct Action Day riots in Calcutta starting August 16 led to 4,000-10,000 deaths between Hindus and Muslims, triggered by the Muslim League's call for a separate homeland, accelerating India's partition. This was followed by the Noakhali riots in October-November, where around 5,000 Hindus were killed in mass attacks involving killings, rapes, abductions, forced conversions, and looting, prompting Mahatma Gandhi's peace mission and heightening partition tensions.",
+        "bn": "১৯৪৬ সালে বাংলায় গুরুতর সাম্প্রদায়িক হিংসা দেখা যায়: ১৬ আগস্ট থেকে কলকাতায় প্রত্যক্ষ কর্ম দিবসের দাঙ্গায় হিন্দু ও মুসলমানদের মধ্যে ৪,০০০-১০,০০০ লোক মারা যায়, মুসলিম লীগের পৃথক দেশ দাবির আহ্বান দ্বারা উস্কানো, ভারত বিভাজনকে ত্বরান্বিত করে। এর পর অক্টোবর-নভেম্বরে নোয়াখালী দাঙ্গায় প্রায় ৫,০০০ হিন্দু গণহত্যা, ধর্ষণ, অপহরণ, জোরপূর্বক ধর্মান্তরণ এবং লুটপাটের শিকার হয়, মহাত্মা গান্ধীর শান্তি অভিযানকে প্ররোচিত করে এবং বিভাজনের উত্তেজনা বাড়িয়ে তোলে।"
+      },
+      "category": "suffering",
+      "significance": "critical",
+      "icon": "block"
+    },
+    {
       "id": "1946_tebhaga",
       "year": 1946,
       "period": "1946-1947",
