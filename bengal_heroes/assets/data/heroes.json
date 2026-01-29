@@ -239,7 +239,7 @@
       "war_movement"
     ],
     "images": [
-      "assets/images/heroes/ruhul_amin.jpg"
+      "assets/images/heroes/bir-shreshtha-ruhul-amin.jpg"
     ],
     "location_id": "loc_noakhali",
     "importance": 4,
@@ -860,7 +860,7 @@
       "cultural_identity"
     ],
     "images": [
-      "assets/images/events/language_movement_1952.jpg"
+      "assets/images/language_movement_1952.jpg"
     ],
     "location_id": "loc_dhaka",
     "importance": 5,
@@ -897,7 +897,7 @@
       "armed_conflict"
     ],
     "images": [
-      "assets/images/events/liberation_war_1971.jpeg"
+      "assets/images/liberation_war_1971.jpeg"
     ],
     "location_id": "loc_bangladesh",
     "importance": 5,
@@ -934,7 +934,7 @@
       "anti_government_protest"
     ],
     "images": [
-      "assets/images/events/july_revolution_2024.webp"
+      "assets/images/july_revolution_2024.webp"
     ],
     "location_id": "loc_dhaka",
     "importance": 5,

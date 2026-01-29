@@ -2,7 +2,7 @@
   "timeline_events": [
     {
       "id": "300bc_gangaridai",
-      "year": -300,
+      "year": -325,
       "period": "300 BC",
       "title": {
         "en": "Kingdom of Gangaridai",
@@ -15,6 +15,38 @@
       "category": "empire",
       "significance": "high",
       "icon": "fort"
+    },
+    {
+      "id": "322bc_maurya",
+      "year": -322,
+      "period": "322-185 BCE",
+      "title": {
+        "en": "Maurya Empire",
+        "bn": "মৌর্য সাম্রাজ্য"
+      },
+      "description": {
+        "en": "Established by Chandragupta Maurya after overthowing the Nanda dynasty. It was the first empire to bring Bengal under a centralized pan-Indian administration, with Pundranagara as a regional capital.",
+        "bn": "নন্দ বংশকে উৎখাত করে চন্দ্রগুপ্ত মৌর্য এই সাম্রাজ্য প্রতিষ্ঠা করেন। এটি ছিল প্রথম সাম্রাজ্য যা বাংলাকে একটি কেন্দ্রীয় সর্বভারতীয় প্রশাসনের অধীনে আনে।"
+      },
+      "category": "empire",
+      "significance": "high",
+      "icon": "account_balance"
+    },
+    {
+      "id": "320_gupta",
+      "year": 320,
+      "period": "320-550",
+      "title": {
+        "en": "Gupta Empire",
+        "bn": "গুপ্ত সাম্রাজ্য"
+      },
+      "description": {
+        "en": "Often called the 'Golden Age,' the Gupta Empire brought stability and prosperity to Bengal. The region was divided into administrative units called 'Bhuktis'. It was a period of immense growth in Sanskrit literature, Hindu-Buddhist art, and maritime trade through the port of Tamralipta. The decline of the Guptas eventually paved the way for local chieftains to rise.",
+        "bn": "ভারতের 'স্বর্ণযুগ' হিসেবে পরিচিত গুপ্ত সাম্রাজ্য বাংলায় স্থায়িত্ব ও সমৃদ্ধি নিয়ে আসে। অঞ্চলটি 'ভুক্তি' নামক প্রশাসনিক ইউনিটে বিভক্ত ছিল। এটি সংস্কৃত সাহিত্য, হিন্দু-বৌদ্ধ শিল্প এবং তাম্রলিপ্ত বন্দরের মাধ্যমে সামুদ্রিক বাণিজ্যের ব্যাপক উন্নতির সময় ছিল। গুপ্তদের পতনই মূলত স্থানীয় নেতাদের উত্থানের পথ প্রশস্ত করে দেয়।"
+      },
+      "category": "empire",
+      "significance": "high",
+      "icon": "diamond"
     },
     {
       "id": "606_shashanka",
@@ -69,12 +101,12 @@
       "year": 1204,
       "period": "1204",
       "title": {
-        "en": "Bakhtiyar Khalji's Conquest",
-        "bn": "বখতিয়ার খিলজির বিজয়"
+        "en": "Bakhtiyar Khalji's Conquest of Bengal",
+        "bn": "বখতিয়ার খিলজির বাংলা বিজয়"
       },
       "description": {
-        "en": "Muhammad Bakhtiyar Khalji, a Turkic general from the Delhi Sultanate, invaded Bengal, capturing the Sena capital Nadia and defeating Lakshmana Sena, who retreated to southeastern Bengal. This established the first Muslim foothold in the region, leading to the Bengal Sultanate era, with Gaur as capital and the spread of Islam through Sufi missionaries.",
-        "bn": "দিল্লি সালতানাতের তুরস্কের জেনারেল মুহম্মদ বখতিয়ার খিলজি বাংলা আক্রমণ করে সেন রাজধানী নদিয়া দখল করেন এবং লক্ষ্মণ সেনকে পরাজিত করেন, যিনি দক্ষিণ-পূর্ব বাংলায় পিছু হটেন। এটি অঞ্চলে প্রথম মুসলিম পদচিহ্ন স্থাপন করে, গৌড়কে রাজধানী করে বাংলা সালতানাত যুগের সূচনা করে এবং সুফি মিশনারিদের মাধ্যমে ইসলামের প্রসার ঘটায়।"
+        "en": "In 1204, Ikhtiyar al-Din Muhammad Bakhtiyar Khalji launched a daring lightning raid against the Sena Empire. Legendarily entering the capital Nadia with only 18 horsemen, he caught King Lakshmana Sena off-guard, forcing a retreat to East Bengal. This pivotal event ended Sena rule in the west and established the Lakhnauti kingdom. It marked the dawn of the Indo-Islamic era in Bengal, facilitating the spread of Sufism and setting the stage for the later independent Bengal Sultanate.",
+        "bn": "১২০৪ সালে ইখতিয়ার উদ্দিন মুহাম্মদ বখতিয়ার খিলজি সেন সাম্রাজ্যের বিরুদ্ধে একটি আকস্মিক ও দুঃসাহসী অভিযান পরিচালনা করেন। প্রচলিত ইতিহাস অনুযায়ী, মাত্র ১৮ জন অশ্বারোহী নিয়ে তিনি রাজধানী নদীয়ায় প্রবেশ করে রাজা লক্ষ্মণ সেনকে চমকে দেন, যার ফলে রাজা পূর্ববঙ্গে আশ্রয় নিতে বাধ্য হন। এই বিজয়ের মাধ্যমে পশ্চিমে সেন শাসনের অবসান ঘটে এবং লখনৌতি রাজ্যের গোড়াপত্তন হয়। এটি বাংলায় ইন্দো-ইসলামিক যুগের সূচনা করে এবং সুফিবাদের প্রসার ও পরবর্তী স্বাধীন বাংলা সালতানাতের ভিত্তি স্থাপন করে।"
       },
       "category": "war",
       "significance": "critical",
@@ -128,7 +160,6 @@
       "significance": "critical",
       "icon": "crown"
     },
-
     {
       "id": "1352_bengal_sultanate",
       "year": 1352,
@@ -209,7 +240,6 @@
       "significance": "high",
       "icon": "flag"
     },
-
     {
       "id": "1576_mughal_conquest_resistance",
       "year": 1576,
@@ -299,8 +329,8 @@
         "bn": "পলাশীর যুদ্ধ"
       },
       "description": {
-       "en": "The Battle of Plassey was a watershed moment resulting in the defeat of Siraj ud-Daulah by the British East India Company. While the 'Great Conspiracy' involving Mir Jafar and Jagat Seth secured the military victory, the aftermath was defined by the 'Plassey Plunder.' The British systematically robbed the Bengal treasury, extracting millions of pounds in silver and gold. This state-sponsored robbery saw the Nawab's wealth liquidated to fund British wars and trade, marking the beginning of a predatory economic era that drained Bengal's prosperity and triggered devastating famines. This event effectively ended the sovereign era of Bengal, paving the way for two centuries of British colonial exploitation and the eventual subjugation of the entire Indian subcontinent.",
-       "bn": "পলাশীর যুদ্ধ ছিল দক্ষিণ এশিয়ার ইতিহাসের একটি কলঙ্কিত অধ্যায় যেখানে ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির হাতে বাংলার শেষ স্বাধীন নবাব সিরাজ-উদ-দৌলার পরাজয় ঘটে। মীর জাফর ও জগৎ শেঠের বিশ্বাসঘাতকতা ব্রিটিশদের জয় নিশ্চিত করলেও, যুদ্ধের পরবর্তী সময়টি 'পলাশীর লুণ্ঠন' হিসেবে পরিচিত। ব্রিটিশরা পরিকল্পিতভাবে বাংলার রাজকোষ লুট করে লক্ষ লক্ষ পাউন্ড সোনা ও রূপা পাচার করে। এই রাষ্ট্রীয় পৃষ্ঠপোষকতায় সংঘটিত লুটতরাজ বাংলার অর্থনীতিকে ধ্বংস করে দেয় এবং ব্রিটিশদের শিল্প বিপ্লবের অর্থায়ন করে, যার ফলে এক সময়ের সমৃদ্ধ বাংলা দুর্ভিক্ষ ও দারিদ্র্যের কবলে পড়ে। এই ঘটনাটি বাংলার স্বাধীন সার্বভৌমত্বের অবসান ঘটায় এবং পরবর্তী দুই শতাব্দীর ব্রিটিশ ঔপনিবেশিক শোষণ ও সমগ্র ভারতীয় উপমহাদেশে ব্রিটিশ আধিপত্য বিস্তারের পথ প্রশস্ত করে।"
+        "en": "The Battle of Plassey was a watershed moment resulting in the defeat of Siraj ud-Daulah by the British East India Company. While the 'Great Conspiracy' involving Mir Jafar and Jagat Seth secured the military victory, the aftermath was defined by the 'Plassey Plunder.' The British systematically robbed the Bengal treasury, extracting millions of pounds in silver and gold. This state-sponsored robbery saw the Nawab's wealth liquidated to fund British wars and trade, marking the beginning of a predatory economic era that drained Bengal's prosperity and triggered devastating famines. This event effectively ended the sovereign era of Bengal, paving the way for two centuries of British colonial exploitation and the eventual subjugation of the entire Indian subcontinent.",
+        "bn": "পলাশীর যুদ্ধ ছিল দক্ষিণ এশিয়ার ইতিহাসের একটি কলঙ্কিত অধ্যায় যেখানে ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির হাতে বাংলার শেষ স্বাধীন নবাব সিরাজ-উদ-দৌলার পরাজয় ঘটে। মীর জাফর ও জগৎ শেঠের বিশ্বাসঘাতকতা ব্রিটিশদের জয় নিশ্চিত করলেও, যুদ্ধের পরবর্তী সময়টি 'পলাশীর লুণ্ঠন' হিসেবে পরিচিত। ব্রিটিশরা পরিকল্পিতভাবে বাংলার রাজকোষ লুট করে লক্ষ লক্ষ পাউন্ড সোনা ও রূপা পাচার করে। এই রাষ্ট্রীয় পৃষ্ঠপোষকতায় সংঘটিত লুটতরাজ বাংলার অর্থনীতিকে ধ্বংস করে দেয় এবং ব্রিটিশদের শিল্প বিপ্লবের অর্থায়ন করে, যার ফলে এক সময়ের সমৃদ্ধ বাংলা দুর্ভিক্ষ ও দারিদ্র্যের কবলে পড়ে। এই ঘটনাটি বাংলার স্বাধীন সার্বভৌমত্বের অবসান ঘটায় এবং পরবর্তী দুই শতাব্দীর ব্রিটিশ ঔপনিবেশিক শোষণ ও সমগ্র ভারতীয় উপমহাদেশে ব্রিটিশ আধিপত্য বিস্তারের পথ প্রশস্ত করে।"
       },
       "category": "war",
       "significance": "critical",
