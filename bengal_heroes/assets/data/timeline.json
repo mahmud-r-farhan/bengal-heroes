@@ -81,6 +81,55 @@
       "icon": "swords"
     },
     {
+      "id": "1210_ali_mardan_revolt",
+      "year": 1210,
+      "period": "1210",
+      "title": {
+        "en": "First Bengal Revolt against Delhi",
+        "bn": "দিল্লির বিরুদ্ধে বাংলার প্রথম বিদ্রোহ"
+      },
+      "description": {
+        "en": "Following the accidental death of Sultan Qutb al-Din Aibak in Delhi, Ali Mardan Khalji declared independence in Bengal, styling himself Sultan. This marked the definitive beginning of the centuries-long 'Delhi-Bengal Conflict,' characterized by Bengal's recurring attempts to break away from central imperial control whenever the Delhi Sultanate showed signs of weakness.",
+        "bn": "দিল্লির সুলতান কুতুবুদ্দিন আইবেকের আকস্মিক মৃত্যুর পর, আলী মর্দান খিলজি বাংলায় স্বাধীনতা ঘোষণা করেন এবং নিজেকে সুলতান হিসেবে দাবি করেন। এটি দিল্লি-বাংলা দীর্ঘস্থায়ী সংঘাতের একটি নির্দিষ্ট সূচনা হিসেবে চিহ্নিত হয়, যেখানে দিল্লির দুর্বলতার সুযোগে বাংলা বারবার কেন্দ্রীয় নিয়ন্ত্রণ থেকে বিচ্ছিন্ন হওয়ার চেষ্টা করত।"
+      },
+      "category": "revolt",
+      "significance": "high",
+      "icon": "fist"
+    },
+    {
+      "id": "1227_iltutmish_invasion",
+      "year": 1227,
+      "period": "1227",
+      "title": {
+        "en": "Iltutmish's Conquest of Bengal",
+        "bn": "ইলতুতমিশের বাংলা বিজয়"
+      },
+      "description": {
+        "en": "The Delhi Sultan Iltutmish sent his son, Nasiruddin Mahmud, to suppress the independent ruler Ghiyasuddin Iwaj Khalji. The Delhi forces captured the capital Lakhnauti while Iwaj was away on a campaign. Iwaj was defeated and executed upon his return, briefly bringing Bengal back under Delhi's direct control and ending the first major era of Bengali independence.",
+        "bn": "দিল্লির সুলতান ইলতুতমিশ তার পুত্র নাসিরুদ্দিন মাহমুদকে স্বাধীন শাসক গিয়াসউদ্দিন ইওয়াজ খিলজিকে দমন করতে পাঠান। ইওয়াজ অভিযানে থাকাকালীন দিল্লির বাহিনী রাজধানী লখনৌতি দখল করে। ফিরে আসার পর ইওয়াজ পরাজিত ও নিহত হন, যা বাংলাকে সাময়িকভাবে দিল্লির সরাসরি নিয়ন্ত্রণে নিয়ে আসে এবং বাংলার স্বাধীনতার প্রথম বড় যুগের অবসান ঘটায়।"
+      },
+      "category": "war",
+      "significance": "high",
+      "icon": "castle"
+    },
+    {
+      "id": "1342_shamsuddin_ilyas_shah",
+      "year": 1342,
+      "period": "1342",
+      "title": {
+        "en": "Rise of the Independent Bengal Sultanate",
+        "bn": "স্বাধীন বাংলা সালতানাতের উত্থান"
+      },
+      "description": {
+        "en": "Shamsuddin Ilyas Shah seized power and became the first 'Shah-i-Bangalah,' unifying the three fragmented regions of Bengal (Lakhnauti, Sonargaon, and Satgaon) into a single independent state. This ended over a century of Delhi's direct interference and established a distinct Bengali identity under the Ilyas Shahi Dynasty, which successfully resisted the massive imperial invasions of the Tughlaq Sultans from Delhi.",
+        "bn": "শামসুদ্দীন ইলিয়াস শাহ ক্ষমতা দখল করে প্রথম 'শাহ-ই-বাঙালা' হন এবং বাংলার তিনটি বিচ্ছিন্ন অঞ্চলকে (লখনৌতি, সোনারগাঁও ও সাতগাঁও) একটি একক স্বাধীন রাষ্ট্রে একীভূত করেন। এর মাধ্যমে বাংলার ওপর দিল্লির এক শতাব্দীরও বেশি সময়ের হস্তক্ষেপের অবসান ঘটে এবং ইলিয়াস শাহী রাজবংশের অধীনে একটি স্বতন্ত্র বাঙালি পরিচয় প্রতিষ্ঠিত হয়, যা দিল্লির তুঘলক সুলতানদের বিশাল সাম্রাজ্যিক আক্রমণকেও সফলভাবে প্রতিহত করেছিল।"
+      },
+      "category": "independence",
+      "significance": "critical",
+      "icon": "crown"
+    },
+
+    {
       "id": "1352_bengal_sultanate",
       "year": 1352,
       "period": "1352-1576",
@@ -97,20 +146,101 @@
       "icon": "auto_stories"
     },
     {
-      "id": "1576_baro_bhuyans",
-      "year": 1576,
-      "period": "1576-1610",
+      "id": "1353_siege_of_ekdala",
+      "year": 1353,
+      "period": "1353",
       "title": {
-        "en": "Resistance of Baro-Bhuyans",
-        "bn": "বারো ভূঁইয়াদের প্রতিরোধ"
+        "en": "Siege of Ekdala Fort",
+        "bn": "একডালা দুর্গ অবরোধ"
       },
       "description": {
-        "en": "Isa Khan and the Baro-Bhuyans (confederacy of 12 or more warrior-landowners) fiercely resist the Mughal invasion in the Bhati region. They defeat the Mughal navy in several battles, maintaining Bengal's autonomy through alliances and individual domains until subdued under Jahangir.",
-        "bn": "ঈসা খান এবং বারো ভূঁইয়ারা (১২ বা তার বেশি যোদ্ধা-জমিদারের কনফেডারেসি) ভাটি অঞ্চলে মোঘল আক্রমণের তীব্র প্রতিরোধ করেন। তারা একাধিক যুদ্ধে মোঘল নৌবাহিনীকে পরাজিত করে জাহাঙ্গীরের অধীনে পরাজিত হওয়া পর্যন্ত বাংলার স্বায়ত্তশাসন বজায় রাখেন।"
+        "en": "Sultan Firuz Shah Tughlaq of Delhi invaded Bengal with a massive army to reclaim the territory. Sultan Shamsuddin Ilyas Shah took strategic shelter in the impenetrable Ekdala Fort. Unable to breach the mud-walled fortress and hindered by the onset of the monsoon rains, the Delhi forces were forced to retreat. This victory solidified Bengal's sovereignty and established the 'watery' geography of the region as a natural defense against imperial Delhi.",
+        "bn": "দিল্লির সুলতান ফিরোজ শাহ তুঘলক বাংলাকে পুনর্দখল করতে বিশাল বাহিনী নিয়ে আক্রমণ করেন। সুলতান শামসুদ্দীন ইলিয়াস শাহ কৌশলগতভাবে দুর্ভেদ্য একডালা দুর্গে আশ্রয় নেন। মাটির তৈরি এই দুর্গ ভেদ করতে ব্যর্থ হয়ে এবং বর্ষাকালের প্রতিকূল পরিস্থিতির কারণে দিল্লির বাহিনী পিছু হটতে বাধ্য হয়। এই বিজয় বাংলার সার্বভৌমত্বকে সুসংহত করে এবং দিল্লির সাম্রাজ্যবাদী শক্তির বিরুদ্ধে এ অঞ্চলের জলবেষ্টিত ভৌগোলিক অবস্থানকে একটি প্রাকৃতিক প্রতিরক্ষা হিসেবে প্রতিষ্ঠিত করে।"
       },
       "category": "war",
-      "significance": "high",
+      "significance": "critical",
       "icon": "shield"
+    },
+    {
+      "id": "1414_raja_ganesha_ascent",
+      "year": 1414,
+      "period": "1414",
+      "title": {
+        "en": "Rise of Raja Ganesha",
+        "bn": "রাজা গণেশের উত্থান"
+      },
+      "description": {
+        "en": "Raja Ganesha, a local Hindu landlord (Zamindar), took advantage of the weakness of the Ilyas Shahi dynasty to seize control of Bengal. His rule marked a brief period where local landed elites challenged the Sultanate's power. To maintain peace with influential Sufi saints, his son eventually converted to Islam and ruled as Jalaluddin Muhammad Shah, blending Bengali and Islamic administrative styles.",
+        "bn": "ইলিয়াস শাহী রাজবংশের দুর্বলতার সুযোগ নিয়ে স্থানীয় হিন্দু জমিদার রাজা গণেশ বাংলার ক্ষমতা দখল করেন। তার শাসনকাল ছিল এমন একটি সংক্ষিপ্ত সময় যখন স্থানীয় অভিজাতরা সালতানাতের ক্ষমতাকে চ্যালেঞ্জ করেছিল। প্রভাবশালী সুফি সাধকদের সাথে শান্তি বজায় রাখতে তার পুত্র শেষ পর্যন্ত ইসলাম ধর্ম গ্রহণ করেন এবং জালালুদ্দীন মুহাম্মদ শাহ হিসেবে শাসন করেন, যা বাঙালি ও ইসলামি প্রশাসনিক শৈলীর সংমিশ্রণ ঘটায়।"
+      },
+      "category": "politics",
+      "significance": "high",
+      "icon": "user"
+    },
+    {
+      "id": "1494_husain_shahi_dynasty",
+      "year": 1494,
+      "period": "1494",
+      "title": {
+        "en": "Reign of Alauddin Husain Shah",
+        "bn": "আলাউদ্দিন হোসেন শাহের শাসনকাল"
+      },
+      "description": {
+        "en": "Alauddin Husain Shah founded the Husain Shahi dynasty, ushering in a 'Golden Age' for Bengal. He is celebrated for his religious tolerance, the promotion of the Bengali language, and the flowering of the vernacular literature. Under his rule, Bengal expanded its borders to include parts of Assam, Odisha, and Bihar, while remaining a wealthy and stable sovereign state independent of Delhi.",
+        "bn": "আলাউদ্দিন হোসেন শাহ হোসেন শাহী রাজবংশ প্রতিষ্ঠা করেন, যা বাংলার জন্য একটি 'স্বর্ণযুগ' নিয়ে আসে। তিনি তার ধর্মীয় সহনশীলতা, বাংলা ভাষার প্রচার এবং দেশীয় সাহিত্যের বিকাশের জন্য প্রশংসিত। তার শাসনামলে বাংলার সীমানা আসাম, উড়িষ্যা এবং বিহারের কিছু অংশ পর্যন্ত বিস্তৃত হয় এবং দেশটি দিল্লির প্রভাবমুক্ত একটি সমৃদ্ধ ও স্থিতিশীল স্বাধীন রাষ্ট্র হিসেবে টিকে থাকে।"
+      },
+      "category": "golden_age",
+      "significance": "critical",
+      "icon": "star"
+    },
+    {
+      "id": "1552_karrani_dynasty_rise",
+      "year": 1552,
+      "period": "1550s",
+      "title": {
+        "en": "Rise of the Karrani Dynasty",
+        "bn": "কররানী রাজবংশের উত্থান"
+      },
+      "description": {
+        "en": "As the central Sur Empire in Delhi collapsed, Taj Khan Karrani established the Karrani dynasty in Bengal. This era represented the final phase of independent Afghan rule in the region. The Karranis moved the capital to Tanda and maintained a powerful army of elephants and cavalry, acting as the last major barrier against the expanding Mughal Empire under Akbar.",
+        "bn": "দিল্লির কেন্দ্রীয় সূর সাম্রাজ্যের পতনের সাথে সাথে তাজ খান কররানী বাংলায় কররানী রাজবংশ প্রতিষ্ঠা করেন। এই যুগটি এই অঞ্চলে স্বাধীন আফগান শাসনের শেষ পর্যায়কে প্রতিনিধিত্ব করে। কররানীরা রাজধানী তান্ডায় স্থানান্তরিত করেন এবং হাতি ও অশ্বারোহী বাহিনীর একটি শক্তিশালী সেনাবাহিনী গঠন করেন, যা আকবরের অধীনে সম্প্রসারিত মুঘল সাম্রাজ্যের বিরুদ্ধে শেষ বড় বাধা হিসেবে কাজ করেছিল।"
+      },
+      "category": "politics",
+      "significance": "high",
+      "icon": "flag"
+    },
+
+    {
+      "id": "1576_mughal_conquest_resistance",
+      "year": 1576,
+      "period": "1576",
+      "title": {
+        "en": "Battle of Rajmahal and Rise of Baro-Bhuyans",
+        "bn": "রাজমহলের যুদ্ধ ও বারো ভূঁইয়াদের উত্থান"
+      },
+      "description": {
+        "en": "The Battle of Rajmahal marked the defeat and execution of Daud Khan Karrani by Emperor Akbar’s forces, ending the independent Bengal Sultanate. However, Mughal control remained limited to cities, as Isa Khan and the Baro-Bhuyans (warrior-landlords) launched a fierce guerrilla resistance from the riverine Bhati region. This sparked a decades-long struggle where local naval power successfully checked Mughal imperial expansion until the early 17th century.",
+        "bn": "রাজমহলের যুদ্ধে সম্রাট আকবরের বাহিনীর হাতে দাউদ খান কররানীর পরাজয় ও মৃত্যুদণ্ড স্বাধীন বাংলা সালতানাতের অবসান ঘটায়। তবে মুঘল নিয়ন্ত্রণ কেবল শহরগুলোতেই সীমাবদ্ধ ছিল, কারণ ঈসা খাঁ এবং বারো ভূঁইয়ারা (যোদ্ধা-জমিদার) ভাটি অঞ্চল থেকে তীব্র গেরিলা প্রতিরোধ শুরু করেন। এটি কয়েক দশকের এক দীর্ঘ সংগ্রামের সূচনা করে যেখানে স্থানীয় নৌ-শক্তি ১৭শ শতাব্দীর শুরু পর্যন্ত মুঘল সাম্রাজ্যের বিস্তারকে সফলভাবে রুখে দিয়েছিল।"
+      },
+      "category": "war",
+      "significance": "critical",
+      "icon": "swords"
+    },
+    {
+      "id": "1610_dhaka_capital",
+      "year": 1610,
+      "period": "1610",
+      "title": {
+        "en": "Establishment of Dhaka as Capital",
+        "bn": "রাজধানী হিসেবে ঢাকার প্রতিষ্ঠা"
+      },
+      "description": {
+        "en": "Subahdar Islam Khan Chisti finally defeated the last of the Baro-Bhuyans (Musa Khan, son of Isa Khan) and moved the provincial capital to Dhaka, renaming it Jahangirnagar. This marked the complete Mughal integration of Bengal, ending the era of local resistance and starting a period of immense economic growth through the textile trade.",
+        "bn": "সুুবাদার ইসলাম খাঁ চিশতী অবশেষে শেষ বারো-ভুঁইয়াকে (ঈসা খাঁর পুত্র মুসা খাঁ) পরাজিত করেন এবং প্রাদেশিক রাজধানী ঢাকায় স্থানান্তর করেন, যার নামকরণ করা হয় জাহাঙ্গীরনগর। এটি বাংলার সম্পূর্ণ মুঘল একীভূতকরণকে চিহ্নিত করে, স্থানীয় প্রতিরোধের যুগের অবসান ঘটায় এবং মসলিন ও বস্ত্র বাণিজ্যের মাধ্যমে ব্যাপক অর্থনৈতিক প্রবৃদ্ধির সূচনা করে।"
+      },
+      "category": "politics",
+      "significance": "critical",
+      "icon": "map_pin"
     },
     {
       "id": "1666_chittagong",
@@ -169,8 +299,8 @@
         "bn": "পলাশীর যুদ্ধ"
       },
       "description": {
-        "en": "The last independent Nawab, Siraj ud-Daulah, is defeated by Robert Clive due to the betrayal of Mir Jafar and other conspirators, using superior tactics despite being outnumbered. This marks the beginning of British colonial rule, granting the East India Company concessions and dominance in Bengal.",
-        "bn": "মীর জাফর এবং অন্যান্য ষড়যন্ত্রকারীদের বিশ্বাসঘাতকতায় সংখ্যায় কম হওয়া সত্ত্বেও উন্নত কৌশলে রবার্ট ক্লাইভের কাছে শেষ স্বাধীন নবাব সিরাজ-উদ-দৌলা পরাজিত হন। এটি ব্রিটিশ ঔপনিবেশিক শাসনের সূচনা করে, ইস্ট ইন্ডিয়া কোম্পানিকে ছাড় এবং বাংলায় আধিপত্য প্রদান করে।"
+       "en": "The Battle of Plassey was a watershed moment resulting in the defeat of Siraj ud-Daulah by the British East India Company. While the 'Great Conspiracy' involving Mir Jafar and Jagat Seth secured the military victory, the aftermath was defined by the 'Plassey Plunder.' The British systematically robbed the Bengal treasury, extracting millions of pounds in silver and gold. This state-sponsored robbery saw the Nawab's wealth liquidated to fund British wars and trade, marking the beginning of a predatory economic era that drained Bengal's prosperity and triggered devastating famines. This event effectively ended the sovereign era of Bengal, paving the way for two centuries of British colonial exploitation and the eventual subjugation of the entire Indian subcontinent.",
+       "bn": "পলাশীর যুদ্ধ ছিল দক্ষিণ এশিয়ার ইতিহাসের একটি কলঙ্কিত অধ্যায় যেখানে ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির হাতে বাংলার শেষ স্বাধীন নবাব সিরাজ-উদ-দৌলার পরাজয় ঘটে। মীর জাফর ও জগৎ শেঠের বিশ্বাসঘাতকতা ব্রিটিশদের জয় নিশ্চিত করলেও, যুদ্ধের পরবর্তী সময়টি 'পলাশীর লুণ্ঠন' হিসেবে পরিচিত। ব্রিটিশরা পরিকল্পিতভাবে বাংলার রাজকোষ লুট করে লক্ষ লক্ষ পাউন্ড সোনা ও রূপা পাচার করে। এই রাষ্ট্রীয় পৃষ্ঠপোষকতায় সংঘটিত লুটতরাজ বাংলার অর্থনীতিকে ধ্বংস করে দেয় এবং ব্রিটিশদের শিল্প বিপ্লবের অর্থায়ন করে, যার ফলে এক সময়ের সমৃদ্ধ বাংলা দুর্ভিক্ষ ও দারিদ্র্যের কবলে পড়ে। এই ঘটনাটি বাংলার স্বাধীন সার্বভৌমত্বের অবসান ঘটায় এবং পরবর্তী দুই শতাব্দীর ব্রিটিশ ঔপনিবেশিক শোষণ ও সমগ্র ভারতীয় উপমহাদেশে ব্রিটিশ আধিপত্য বিস্তারের পথ প্রশস্ত করে।"
       },
       "category": "war",
       "significance": "critical",
