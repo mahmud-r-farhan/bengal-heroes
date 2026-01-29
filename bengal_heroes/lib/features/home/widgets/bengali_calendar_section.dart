@@ -1,12 +1,15 @@
+import 'dart:async';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 import '../../../core/theme/app_colors.dart';
 import '../../../shared/utils/bengali_calendar_utils.dart';
+import '../../../shared/models/bengali_date_model.dart';
 
 /// Bengali Calendar Section
 /// Displays the current date in Bengali calendar format
+/// Auto-refreshes at midnight
 class BengaliCalendarSection extends StatefulWidget {
   const BengaliCalendarSection({super.key});
 
@@ -16,16 +19,38 @@ class BengaliCalendarSection extends StatefulWidget {
 
 class _BengaliCalendarSectionState extends State<BengaliCalendarSection> {
   late BengaliDate _bengaliDate;
+  late DateTime _lastUpdateDate;
+  late Timer _midnightTimer;
 
   @override
   void initState() {
     super.initState();
     _updateBengaliDate();
+    _scheduleNextUpdate();
+  }
+
+  @override
+  void dispose() {
+    _midnightTimer.cancel();
+    super.dispose();
   }
 
   void _updateBengaliDate() {
     setState(() {
       _bengaliDate = BengaliCalendarUtils.now();
+      _lastUpdateDate = DateTime.now();
+    });
+  }
+
+  void _scheduleNextUpdate() {
+    // Calculate time until next midnight
+    final now = DateTime.now();
+    final tomorrow = DateTime(now.year, now.month, now.day + 1);
+    final durationUntilMidnight = tomorrow.difference(now);
+
+    _midnightTimer = Timer(durationUntilMidnight, () {
+      _updateBengaliDate();
+      _scheduleNextUpdate(); // Schedule next update
     });
   }
 
@@ -117,7 +142,7 @@ class _BengaliCalendarSectionState extends State<BengaliCalendarSection> {
 
                 // Month and Year in Bengali
                 Text(
-                  '${_bengaliDate.monthName} ${_bengaliDate.bengaliYear}',
+                  '${_bengaliDate.monthName} ${_bengaliDate.bengaliYearString}',
                   style: theme.textTheme.titleLarge?.copyWith(
                     fontWeight: FontWeight.w600,
                     color: theme.colorScheme.onSurface,
@@ -192,7 +217,11 @@ class _BengaliCalendarSectionState extends State<BengaliCalendarSection> {
           )
               .animate()
               .fadeIn(duration: 500.ms)
-              .scale(begin: const Offset(0.95, 0.95), end: const Offset(1, 1)),
+              .scale(
+                begin: const Offset(0.95, 0.95),
+                end: const Offset(1, 1),
+                duration: 500.ms,
+              ),
         ],
       ),
     )
@@ -201,3 +230,4 @@ class _BengaliCalendarSectionState extends State<BengaliCalendarSection> {
         .slideY(begin: 0.1, end: 0);
   }
 }
+
