@@ -16,6 +16,8 @@
         "explore_collection": "Explore our collection to discover Bengal's heroes",
         "featured_heroes_subtitle": "Prominent figures in Bengal's history",
         "explore_by_era_subtitle": "Discover heroes from different periods",
+        "bengali_calendar_title": "Bengali Calendar",
+        "bengali_calendar_subtitle": "Today in the Bengali calendar",
         "war_title": "Bengal Faces War",
         "war_subtitle": "Political movements & historical upheavals",
         "war_explore": "Explore All War & Movements",
@@ -151,7 +153,9 @@
         "unfavorite": "Remove from favorites",
         "view_details": "View Details",
         "born_abbr": "b.",
-        "died_abbr": "d."
+        "died_abbr": "d.",
+        "gregorian_date": "Gregorian Date",
+        "day_name": "Day"
     },
     "timeline": {
         "empire": "Empire",
@@ -186,5 +190,7 @@
         "significance": "Historical Significance",
         "timeline_significance": "Bengal's timeline is not just a chronicle of events, but a reflection of human endeavor, resilience, and progress. Each era contributed unique elements to Bengal's identity, from the philosophical contributions of ancient kingdoms to the scientific and literary renaissance of the 19th and 20th centuries. Understanding this timeline helps us appreciate the complexity and continuity of Bengal's civilization.",
         "travelers_significance": "The accounts of travelers provide us with a window into Bengal's past from an external perspective. These narratives challenge our understanding of history and validate Bengal's role as a major civilization. They remind us that Bengal was not isolated, but was an integral part of global exchange, influencing and being influenced by cultures across Asia and Europe."
-    }
+    },
+    "gregorian_date": "Gregorian Date",
+    "day_name": "Day"
 }
