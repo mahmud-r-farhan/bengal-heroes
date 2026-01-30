@@ -290,6 +290,21 @@
         "image_asset": "assets/images/events/soviet_recognition.png"
     },
     {
+        "id": "event_041",
+        "date": "2025-12-18",
+        "title": {
+            "en": "Martyrdom of Sharif Osman Hadi",
+            "bn": "শহীদ শরীফ ওসমান হাদির শাহাদাত"
+        },
+        "description": {
+            "en": "Sharif Osman Hadi, a prominent leader of the July Revolution and spokesperson for Inqilab Mancha, passed away in Singapore after being shot in Dhaka on December 12. His death sparked nationwide protests and a day of state mourning.",
+            "bn": "জুলাই বিপ্লবের অন্যতম নেতা এবং ইনকিলাব মঞ্চের মুখপাত্র শরীফ ওসমান হাদি ১২ ডিসেম্বর ঢাকায় গুলিবিদ্ধ হওয়ার পর সিঙ্গাপুরে চিকিৎসাধীন অবস্থায় মৃত্যুবরণ করেন। তাঁর মৃত্যুতে দেশব্যাপী প্রতিবাদ ও রাষ্ট্রীয় শোক পালিত হয়। "
+        },
+        "era_id": "post_liberation",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/osman_hadi_2025.png"
+    },
+    {
         "id": "event_021",
         "date": "2024-08-05",
         "title": {
@@ -980,5 +995,266 @@
         "era_id": "liberation_1971",
         "category_id": "war_movement",
         "image_asset": "assets/images/events/1964_riots.png"
+    },
+    {
+        "id": "event_075",
+        "date": "1342-01-01",
+        "title": {
+            "en": "Rise of Shamsuddin Ilyas Shah",
+            "bn": "শামসুদ্দিন ইলিয়াস শাহের উত্থান"
+        },
+        "description": {
+            "en": "Shamsuddin Ilyas Shah became the first Sultan of a unified Bengal, founding the Ilyas Shahi dynasty and establishing the title of 'Shah-i-Bangali'.",
+            "bn": "শামসুদ্দিন ইলিয়াস শাহ একীভূত বাংলার প্রথম সুলতান হন, ইলিয়াস শাহী রাজবংশ প্রতিষ্ঠা করেন এবং 'শাহ-ই-বাঙালি' উপাধি গ্রহণ করেন।"
+        },
+        "era_id": "bengal_sultanate",
+        "category_id": "ruler",
+        "image_asset": "assets/images/events/ilyas_shah_rise.png"
+    },
+    {
+        "id": "event_076",
+        "date": "2025-12-20",
+        "title": {
+            "en": "State Funeral of Shaheed Sharif Osman Hadi",
+            "bn": "শহীদ শরীফ ওসমান হাদির রাষ্ট্রীয় জানাজা"
+        },
+        "description": {
+            "en": "Following his martyrdom, a historic funeral was held at the South Plaza of the National Parliament. Attended by millions of mourners and top government officials, it became one of the largest gatherings in the nation's history, symbolizing a unified stand against fascism.",
+            "bn": "তাঁর শাহাদাতের পর জাতীয় সংসদের দক্ষিণ প্লাজায় এক ঐতিহাসিক জানাজা অনুষ্ঠিত হয়। লাখো জনতা এবং সরকারের শীর্ষ কর্মকর্তাদের অংশগ্রহণে এটি দেশের ইতিহাসের অন্যতম বৃহত্তম সমাবেশে পরিণত হয়, যা ফ্যাসিবাদের বিরুদ্ধে ঐক্যবদ্ধ অবস্থানের প্রতীক হয়ে দাঁড়ায়।"
+        },
+        "era_id": "post_liberation",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/osman_hadi_janaza.png"
+    },
+    {
+        "id": "event_077",
+        "date": "2025-12-12",
+        "title": {
+            "en": "Assassination Attempt on Sharif Osman Hadi",
+            "bn": "শরীফ ওসমান হাদির ওপর সন্ত্রাসী হামলা"
+        },
+        "description": {
+            "en": "Sharif Osman Hadi, the spokesperson of Inqilab Mancha, was shot in the head by assailants on a motorcycle in Dhaka's Purana Paltan area. The attack occurred a day after the election schedule was announced, sparking immediate nationwide tension.",
+            "bn": "ইনকিলাব মঞ্চের মুখপাত্র শরীফ ওসমান হাদি ঢাকার পুরানা পল্টনে মোটরসাইকেল আরোহী সন্ত্রাসীদের গুলিতে গুরুতর আহত হন। নির্বাচনের তফসিল ঘোষণার পরদিন এই হামলার ঘটনায় দেশজুড়ে তীব্র উত্তেজনা সৃষ্টি হয়।"
+        },
+        "era_id": "post_liberation",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/osman_hadi_incident.png"
+    },
+    {
+        "id": "event_078",
+        "date": "1538-04-06",
+        "title": {
+            "en": "Fall of Gaur to Sher Shah Suri",
+            "bn": "শেরশাহ সুরির গৌড় বিজয়"
+        },
+        "description": {
+            "en": "Sher Shah Suri defeated the last Sultan of the Husain Shahi dynasty, capturing Gaur and establishing the Sur Empire's control over Bengal.",
+            "bn": "শেরশাহ সুরি হোসেন শাহী রাজবংশের শেষ সুলতানকে পরাজিত করেন, গৌড় দখল করেন এবং বাংলার উপর সুর সাম্রাজ্যের নিয়ন্ত্রণ প্রতিষ্ঠা করেন।"
+        },
+        "era_id": "bengal_sultanate",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/gaur_fall.png"
+    },
+    {
+        "id": "event_079",
+        "date": "1576-07-12",
+        "title": {
+            "en": "Battle of Rajmahal",
+            "bn": "রাজমহলের যুদ্ধ"
+        },
+        "description": {
+            "en": "The final battle between the Mughal Empire and the Karrani dynasty of Bengal. Daud Khan Karrani was defeated and executed, ending independent Sultanate rule.",
+            "bn": "মুঘল সাম্রাজ্য এবং বাংলার কররানী রাজবংশের মধ্যে চূড়ান্ত যুদ্ধ। দাউদ খান কররানী পরাজিত ও মৃত্যুদণ্ডে দণ্ডিত হন, যা স্বাধীন সুলতানি শাসনের অবসান ঘটায়।"
+        },
+        "era_id": "mughal_period",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/rajmahal_battle.png"
+    },
+    {
+        "id": "event_080",
+        "date": "1990-11-27",
+        "title": {
+            "en": "Martyrdom of Dr. Shamsul Alam Khan Milan",
+            "bn": "ডাঃ শামসুল আলম খান মিলনের শাহাদাত"
+        },
+        "description": {
+            "en": "Dr. Milan, the Joint Secretary of the Bangladesh Medical Association, was shot dead by pro-government gunmen near the TSC of Dhaka University. His sacrifice united all political parties and led to the final mass upsurge that ousted the military dictator.",
+            "bn": "বাংলাদেশ মেডিকেল অ্যাসোসিয়েশনের তৎকালীন যুগ্ম সম্পাদক ডাঃ মিলন ঢাকা বিশ্ববিদ্যালয়ের টিএসসি সংলগ্ন এলাকায় সরকারি মদদপুষ্ট সন্ত্রাসীদের গুলিতে নিহত হন। তাঁর এই আত্মত্যাগ সকল রাজনৈতিক দলকে ঐক্যবদ্ধ করে এবং সামরিক স্বৈরশাসকের পতনের চূড়ান্ত গণঅভ্যুত্থান ত্বরান্বিত করে।"
+        },
+        "era_id": "post_liberation",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/dr_milan.png"
+    },
+    {
+        "id": "event_081",
+        "date": "1666-01-01",
+        "title": {
+            "en": "Conquest of Chittagong by Shaista Khan",
+            "bn": "শায়েস্তা খানের চট্টগ্রাম বিজয়"
+        },
+        "description": {
+            "en": "Shaista Khan's forces captured Chittagong from the Arakanese, ridding the region of Portuguese pirates and renaming the city Islamabad.",
+            "bn": "শায়েস্তা খানের বাহিনী আরাকানিদের কাছ থেকে চট্টগ্রাম দখল করে, অঞ্চলটিকে পর্তুগিজ জলদস্যুমুক্ত করে এবং শহরের নাম পরিবর্তন করে ইসলামাবাদ রাখে।"
+        },
+        "era_id": "mughal_period",
+        "category_id": "military_leader",
+        "image_asset": "assets/images/events/chittagong_conquest.png"
+    },
+    {
+        "id": "event_082",
+        "date": "1770-01-01",
+        "title": {
+            "en": "Great Bengal Famine (Chhiattarer Manwantar)",
+            "bn": "ছিয়াত্তরের মন্বন্তর"
+        },
+        "description": {
+            "en": "A catastrophic famine that killed an estimated one-third of the population of Bengal, largely exacerbated by the policies of the East India Company.",
+            "bn": "একটি বিপর্যয়কর দুর্ভিক্ষ যা বাংলার আনুমানিক এক-তৃতীয়াংশ মানুষকে হত্যা করেছিল, যা মূলত ইস্ট ইন্ডিয়া কোম্পানির নীতির কারণে ভয়াবহ রূপ নিয়েছিল।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/great_famine_1770.png"
+    },
+    {
+        "id": "event_083",
+        "date": "1763-01-01",
+        "title": {
+            "en": "Sanyasi and Fakir Rebellion Starts",
+            "bn": "সন্ন্যাসী ও ফকির বিদ্রোহের সূচনা"
+        },
+        "description": {
+            "en": "Monks and fakirs, along with displaced peasants, began a long-running armed struggle against the British East India Company's taxation and restrictions.",
+            "bn": "সন্ন্যাসী ও ফকিররা, বাস্তুচ্যুত কৃষকদের সাথে নিয়ে, ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির করারোপ এবং বিধিনিষেধের বিরুদ্ধে এক দীর্ঘ সশস্ত্র সংগ্রাম শুরু করেন।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "activist",
+        "image_asset": "assets/images/events/sanyasi_rebellion.png"
+    },
+    {
+        "id": "event_084",
+        "date": "1831-10-01",
+        "title": {
+            "en": "Construction of the Bamboo Fort",
+            "bn": "বাঁশের কেল্লা নির্মাণ"
+        },
+        "description": {
+            "en": "Titumir built his legendary Bamboo Fort (Basher Kella) in Narkelberiya as a center for resistance against British indigo planters and zamindars.",
+            "bn": "তিতুমীর ব্রিটিশ নীলকর এবং জমিদারদের বিরুদ্ধে প্রতিরোধের কেন্দ্র হিসেবে নারকেলবেড়িয়ায় তাঁর কিংবদন্তি বাঁশের কেল্লা নির্মাণ করেন।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "revolutionary",
+        "related_hero_ids": [
+            "titumir"
+        ],
+        "image_asset": "assets/images/events/bamboo_fort_const.png"
+    },
+    {
+        "id": "event_085",
+        "date": "1855-06-30",
+        "title": {
+            "en": "Santal Rebellion (Santal Hul)",
+            "bn": "সাঁওতাল বিদ্রোহ"
+        },
+        "description": {
+            "en": "The Santal people rose in a major rebellion against the British colonial authority and the oppressive zamindari system in Bengal and Bihar.",
+            "bn": "সাঁওতালরা ব্রিটিশ ঔপনিবেশিক কর্তৃপক্ষ এবং বাংলার ও বিহারের অত্যাচারী জমিদারী ব্যবস্থার বিরুদ্ধে এক বিশাল বিদ্রোহে গর্জে ওঠে।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "activist",
+        "image_asset": "assets/images/events/santal_rebellion.png"
+    },
+    {
+        "id": "event_086",
+        "date": "1946-09-01",
+        "title": {
+            "en": "Tebhaga Movement",
+            "bn": "তেভাগা আন্দোলন"
+        },
+        "description": {
+            "en": "A militant campaign by sharecroppers (bargadars) in Bengal demanding two-thirds of the harvest for themselves, led by the Kisan Sabha.",
+            "bn": "কিষাণ সভার নেতৃত্বে বাংলার ভাগচাষীদের এক শক্তিশালী আন্দোলন, যেখানে তারা ফসলের দুই-তৃতীয়াংশ নিজেদের জন্য দাবি করেছিল।"
+        },
+        "era_id": "british_resistance",
+        "category_id": "activist",
+        "image_asset": "assets/images/events/tebhaga_movement.png"
+    },
+    {
+        "id": "event_087",
+        "date": "1954-03-10",
+        "title": {
+            "en": "United Front Election Victory",
+            "bn": "যুক্তফ্রন্টের নির্বাচনী বিজয়"
+        },
+        "description": {
+            "en": "The United Front coalition won a landslide victory in the East Bengal legislative elections, dealing a massive blow to the ruling Muslim League.",
+            "bn": "পূর্ববঙ্গীয় বিধানসভা নির্বাচনে যুক্তফ্রন্ট জোট ভূমিধস বিজয় অর্জন করে, যা ক্ষমতাসীন মুসলিম লীগের জন্য এক বিশাল ধাক্কা ছিল।"
+        },
+        "era_id": "language_movement",
+        "category_id": "politician",
+        "image_asset": "assets/images/events/united_front_victory.png"
+    },
+    {
+        "id": "event_088",
+        "date": "1971-04-17",
+        "title": {
+            "en": "Formation of Mujibnagar Government",
+            "bn": "মুজিবনগর সরকার গঠন"
+        },
+        "description": {
+            "en": "The provisional government of Bangladesh was formally inaugurated at Baidyanathtala (now Mujibnagar), providing legal framework for the war.",
+            "bn": "বৈদ্যনাথতলার আমবাগানে (বর্তমান মুজিবনগর) বাংলাদেশের অস্থায়ী সরকার অনুষ্ঠানিকভাবে শপথ গ্রহণ করে, যা যুদ্ধের জন্য আইনি কাঠামো প্রদান করে।"
+        },
+        "era_id": "liberation_1971",
+        "category_id": "statesman",
+        "image_asset": "assets/images/events/mujibnagar_govt.png"
+    },
+    {
+        "id": "event_089",
+        "date": "1997-12-02",
+        "title": {
+            "en": "Chittagong Hill Tracts Peace Accord",
+            "bn": "পার্বত্য চট্টগ্রাম শান্তি চুক্তি"
+        },
+        "description": {
+            "en": "A political agreement between the Government of Bangladesh and the Parbatya Chattagram Jana Samhati Samiti to end decades of conflict in the region.",
+            "bn": "অঞ্চলটিতে কয়েক দশকের সংঘাতের অবসানে বাংলাদেশ সরকার এবং পার্বত্য চট্টগ্রাম জনসংহতি সমিতির মধ্যে একটি রাজনৈতিক চুক্তি স্বাক্ষরিত হয়।"
+        },
+        "era_id": "post_liberation",
+        "category_id": "statesman",
+        "image_asset": "assets/images/events/cht_peace_accord.png"
+    },
+    {
+        "id": "event_090",
+        "date": "2024-07-18",
+        "title": {
+            "en": "Complete Shutdown and Escalation",
+            "bn": "কমপ্লিট শাটডাউন এবং তীব্রতা বৃদ্ধি"
+        },
+        "description": {
+            "en": "The student-led quota reform movement announced a 'Complete Shutdown' across Bangladesh, leading to massive clashes and internet blackouts.",
+            "bn": "ছাত্র-নেতৃত্বাধীন কোটা সংস্কার আন্দোলন সারাদেশে 'কমপ্লিট শাটডাউন' ঘোষণা করে, যা বিশাল সংঘর্ষ এবং ইন্টারনেট ব্ল্যাকআউটের দিকে নিয়ে যায়।"
+        },
+        "era_id": "july_revolution_2024",
+        "category_id": "student_movement",
+        "image_asset": "assets/images/events/complete_shutdown.png"
+    },
+    {
+        "id": "event_091",
+        "date": "2024-08-08",
+        "title": {
+            "en": "Formation of Interim Government",
+            "bn": "অন্তর্বর্তীকালীন সরকার গঠন"
+        },
+        "description": {
+            "en": "Nobel Laureate Dr. Muhammad Yunus took oath as the Chief Adviser of the interim government following the fall of the previous regime.",
+            "bn": "পূর্ববর্তী শাসনের পতনের পর নোবেল বিজয়ী ড. মুহাম্মদ ইউনূস অন্তর্বর্তীকালীন সরকারের প্রধান উপদেষ্টা হিসেবে শপথ গ্রহণ করেন।"
+        },
+        "era_id": "july_revolution_2024",
+        "category_id": "statesman",
+        "related_hero_ids": [
+            "muhammadyunus"
+        ],
+        "image_asset": "assets/images/events/interim_govt_oath.png"
     }
 ]
