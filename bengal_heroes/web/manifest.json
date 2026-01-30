@@ -1,11 +1,11 @@
 {
-    "name": "bengal_heroes",
-    "short_name": "bengal_heroes",
+    "name": "Bengal Heroes",
+    "short_name": "Bengal Heroes",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Bengal Heroes - A tribute to the legends of Bengal",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

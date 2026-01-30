@@ -1,6 +1,5 @@
 /// Bengali Date Model
 /// Represents a date in the Bengali (Bangla) calendar system
-
 class BengaliDate {
   final int bengaliDayInt;
   final int bengaliMonth;

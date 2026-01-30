@@ -19,7 +19,6 @@ class BengaliCalendarSection extends StatefulWidget {
 
 class _BengaliCalendarSectionState extends State<BengaliCalendarSection> {
   late BengaliDate _bengaliDate;
-  late DateTime _lastUpdateDate;
   late Timer _midnightTimer;
 
   @override
@@ -38,7 +37,6 @@ class _BengaliCalendarSectionState extends State<BengaliCalendarSection> {
   void _updateBengaliDate() {
     setState(() {
       _bengaliDate = BengaliCalendarUtils.now();
-      _lastUpdateDate = DateTime.now();
     });
   }
 
