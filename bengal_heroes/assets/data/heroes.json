@@ -184,13 +184,14 @@
     "importance": 3,
     "related_hero_ids": [
       "sheikhmujib",
-      "tajuddinahmed"
+      "tajuddinahmed",
+      "ziaurrahman"
     ],
     "content": {
       "en": {
         "name": "Khondaker Mostaq Ahmad",
         "short_bio": "A founding member of the Awami League and Foreign Minister of the Mujibnagar Government, who later became the President following the 1975 coup.",
-        "full_biography": "Khondaker Mostaq Ahmad was a key political figure during the liberation era. As the Foreign Minister of the provisional government in 1971, he notably oversaw the diplomatic stance of the emerging nation, including the decision where Bangladesh **officially rejected recognition from Israel** to maintain solidarity with the Arab world.\n\nHowever, his legacy is deeply stained by his role in the post-independence era. Following the assassination of Sheikh Mujibur Rahman on August 15, 1975, he seized the presidency. He is widely condemned for issuing the Indemnity Ordinance to protect the assassins and for his proximity to the 1975 Jail Killings of four national leaders.",
+        "full_biography": "Khondaker Mostaq Ahmad was a key political figure during the liberation era. As the Foreign Minister of the provisional government in 1971, he notably oversaw the diplomatic stance of the emerging nation, including the decision where Bangladesh officially rejected recognition from Israel to maintain solidarity with the Arab world.\n\nHowever, his legacy is deeply stained by his role in the post-independence era. Following the assassination of Sheikh Mujibur Rahman on August 15, 1975, he seized the presidency. He is widely condemned for issuing the Indemnity Ordinance to protect the assassins and for his proximity to the 1975 Jail Killings of four national leaders.",
         "quote": "The sun of a new hope has risen.",
         "birth_place": "Daudkandi, Comilla, Bengal",
         "achievements": "Minister of Foreign Affairs (1971) • Officially rejected recognition from Israel • Former President (Controversial)"
@@ -1186,8 +1187,8 @@
     "era": "modern_era",
     "category": [
       "war_of_independence",
-      "liberation_movement",
-      "armed_conflict"
+      "genocide",
+      "resistance_movement"
     ],
     "images": [
       "assets/images/liberation_war_1971.jpeg"
@@ -1208,20 +1209,20 @@
     ],
     "content": {
       "en": {
-        "name": "Bangladesh Liberation War 1971",
-        "short_bio": "A revolutionary independence war that led to the birth of the sovereign nation of Bangladesh, ending decades of exploitation and a brutal genocide by West Pakistan.",
-        "full_biography": "The Bangladesh Liberation War began on March 26, 1971, following the Pakistani military's 'Operation Searchlight,' a genocidal crackdown on the Bengali population of East Pakistan. Bangabandhu Sheikh Mujibur Rahman declared independence in the early hours of March 26. The war was fought between the Mukti Bahini (Freedom Fighters), consisting of Bengali military personnel and civilians, and the Pakistan Armed Forces.\n\nOver nine months, the Mukti Bahini engaged in guerrilla warfare with the support of India. The conflict saw extreme atrocities, including the killing of an estimated 3 million people and the displacement of 10 million refugees. The war reached its climax in December 1971 when the Indian Armed Forces joined the Mukti Bahini, leading to the total defeat of the Pakistani army.\n\nOn December 16, 1971, General Niazi signed the Instrument of Surrender at the Ramna Race Course in Dhaka. This victory marked the official end of the war and the emergence of Bangladesh as an independent, secular, and democratic state.",
-        "quote": "Our struggle is for our freedom, our struggle is for our independence.",
-        "birth_place": "Bangladesh (formerly East Pakistan)",
-        "achievements": "Birth of the sovereign People's Republic of Bangladesh • End of Pakistani colonial exploitation and military rule • Recognition of Bengali as a state language and cultural identity • Establishment of a secular democratic constitution • Defeat of one of the largest military forces in a conventional surrender since WWII • Preservation of Bengali heritage and national dignity"
+        "name": "The Great Liberation War of 1971",
+        "short_bio": "A heroic struggle for self-determination where the people of Bangladesh rose against the systematic genocide and colonial oppression of the West Pakistani regime to reclaim their dignity and land.",
+        "full_biography": "The war was ignited on March 26, 1971, as a defiant response to 'Operation Searchlight'—a cold-blooded genocidal campaign launched by the West Pakistani military. Following own country's historic call for independence, the Mukti Bahini, a brave force of students, farmers, and soldiers, stood against a heavily armed aggressor. \n\nFor nine months, the soil of this land was soaked in the blood of 3 million martyrs. The occupation forces, aided by local collaborators (Razakars), unleashed unprecedented brutality, targeting intellectuals and innocent civilians. However, the spirit of resistance remained unbroken. With the strategic support of India, the joint forces forced a historic surrender on December 16, 1971. We bow our heads in eternal respect to the martyrs and the valiant freedom fighters who gifted us a sovereign map.",
+        "quote": "The history of Bengal is a history of the continuous sacrifice of lives.",
+        "birth_place": "Bangladesh",
+        "achievements": "Liberation from the brutal tyranny of West Pakistan • Eternal honor to the 0.3 million martyrs and countless veterans • Dismantling the oppressive Razakar-backed regime • The rise of a sovereign nation built on the pillars of justice and sacrifice • Global recognition of Bengali resilience and identity"
       },
       "bn": {
-        "name": "বাংলাদেশের মুক্তিযুদ্ধ ১৯৭১",
-        "short_bio": "একটি বিপ্লবী স্বাধীনতা যুদ্ধ যা সার্বভৌম বাংলাদেশ রাষ্ট্রের জন্ম দেয় এবং পশ্চিম পাকিস্তানের কয়েক দশকের শোষণ ও নৃশংস গণহত্যার অবসান ঘটায়।",
-        "full_biography": "১৯৭১ সালের ২৬শে মার্চ পশ্চিম পাকিস্তানি বাহিনীর 'অপারেশন সার্চলাইট' নামক বর্বরোচিত গণহত্যার প্রতিক্রিয়ায় বাংলাদেশের মুক্তিযুদ্ধ শুরু হয়। ২৬শে মার্চের প্রথম প্রহরে বঙ্গবন্ধু শেখ মুজিবুর রহমান স্বাধীনতার ঘোষণা দেন। এই যুদ্ধ মূলত বাঙালি সামরিক সদস্য ও সাধারণ জনগণের সমন্বয়ে গঠিত 'মুক্তিবাহিনী' এবং পাকিস্তান সশস্ত্র বাহিনীর মধ্যে সংঘটিত হয়।\n\nদীর্ঘ নয় মাস ধরে মুক্তিবাহিনী ভারতের সহযোগিতায় গেরিলা যুদ্ধ চালিয়ে যায়। এই যুদ্ধে প্রায় ৩০ লক্ষ মানুষ শহিদ হন এবং ১ কোটি মানুষ শরণার্থী হিসেবে আশ্রয় নিতে বাধ্য হন। ১৯৭১ সালের ডিসেম্বরে ভারতীয় সশস্ত্র বাহিনী মুক্তিবাহিনীর সাথে যোগ দিলে যুদ্ধ চূড়ান্ত রূপ নেয় এবং পাকিস্তানি বাহিনীর পরাজয় নিশ্চিত হয়।\n\n১৬ই ডিসেম্বর ১৯৭১ সালে ঢাকার রমনা রেসকোর্স ময়দানে জেনারেল নিয়াজি আত্মসমর্পণের দলিলে স্বাক্ষর করেন। এই বিজয়ের মাধ্যমে যুদ্ধের আনুষ্ঠানিক সমাপ্তি ঘটে এবং বিশ্বের মানচিত্রে একটি স্বাধীন, ধর্মনিরপেক্ষ ও গণতান্ত্রিক রাষ্ট্র হিসেবে বাংলাদেশের অভ্যুদয় ঘটে।",
-        "quote": "এবারের সংগ্রাম আমাদের মুক্তির সংগ্রাম, এবারের সংগ্রাম স্বাধীনতার সংগ্রাম।",
-        "birth_place": "বাংলাদেশ (তৎকালীন পূর্ব পাকিস্তান)",
-        "achievements": "সার্বভৌম গণপ্রজাতন্ত্রী বাংলাদেশের অভ্যুদয় • পাকিস্তানি ঔপনিবেশিক শোষণ ও সামরিক শাসনের অবসান • রাষ্ট্রভাষা হিসেবে বাংলা ও বাঙালি সংস্কৃতির স্বীকৃতি • ধর্মনিরপেক্ষ ও গণতান্ত্রিক সংবিধান প্রতিষ্ঠা • দ্বিতীয় বিশ্বযুদ্ধের পর বৃহত্তম সামরিক আত্মসমর্পণের মাধ্যমে বিজয় অর্জন • বাঙালি ঐতিহ্য ও জাতীয় মর্যাদা রক্ষা"
+        "name": "১৯৭১ সালের মহান মুক্তিযুদ্ধ",
+        "short_bio": "একটি মহাকাব্যিক লড়াই, যেখানে পশ্চিম পাকিস্তানি শোষকগোষ্ঠী ও তাদের এদেশীয় দোসর রাজাকারদের বর্বরোচিত গণহত্যা রুখে দিয়ে বাঙালি জাতি ছিনিয়ে এনেছিল তাদের লাল-সবুজের পতাকা।",
+        "full_biography": "১৯৭১ সালের ২৫শে মার্চ কালরাতে পশ্চিম পাকিস্তানি সেনাবাহিনী ‘অপারেশন সার্চলাইট’ নামে যে নৃশংস হত্যাযজ্ঞ শুরু করে, তার প্রতিবাদে ২৬শে মার্চ সূচিত হয় আমাদের মহান মুক্তিযুদ্ধ। স্বদেশের স্বাধীনতার আহ্বানে সাড়া দিয়ে বাংলার কৃষক-শ্রমিক-ছাত্র ও আপামর জনতা ‘মুক্তিবাহিনী’ হিসেবে গড়ে তোলে দুর্ভেদ্য প্রতিরোধ। \n\nদীর্ঘ নয় মাস ধরে পাকিস্তানি হানাদার বাহিনী ও তাদের ঘৃণ্য সহযোগী রাজাকার-আলবদররা বাংলার মাটিতে চালিয়েছে ইতিহাসের জঘন্যতম গণহত্যা ও পৈশাচিক বর্বরতা। ৩০ লক্ষ শহীদের রক্ত আর অসংখ্য মা-বোনের ত্যাগের বিনিময়ে অর্জিত হয়েছে এই স্বাধীনতা। ১৯৭১ সালের ১৬ই ডিসেম্বর ঢাকার রেসকোর্স ময়দানে পরাজিত শক্তির আত্মসমর্পণের মাধ্যমে বিশ্বের মানচিত্রে অভ্যুদয় ঘটে স্বাধীন বাংলাদেশের। আমরা পরম শ্রদ্ধায় স্মরণ করি সকল শহীদ ও বীর মুক্তিযোদ্ধাদের, যাঁদের রক্তঋণে আজ আমরা স্বাধীন।",
+        "quote": "রক্ত যখন দিয়েছি, রক্ত আরো দেব, এদেশের মানুষকে মুক্ত করে ছাড়ব ইনশাআল্লাহ।",
+        "birth_place": "বাংলাদেশ",
+        "achievements": "পশ্চিম পাকিস্তানি শোষক ও বর্বর বাহিনীর পরাজয় • ৩ লক্ষ শহীদ ও বীর মুক্তিযোদ্ধাদের চিরন্তন সম্মাননা • দেশদ্রোহী রাজাকার ও আলবদর বাহিনীর পতন • আত্মত্যাগের বিনিময়ে সার্বভৌম রাষ্ট্র প্রতিষ্ঠা • বিশ্বদরবারে বীরের জাতি হিসেবে বাঙালির আত্মপরিচয় সুপ্রতিষ্ঠিত করা"
       }
     }
   },
@@ -1415,7 +1416,7 @@
     "slug": "unnamed-martyrs-1204-to-2026",
     "dates": {
       "birth": "Continuous",
-      "death": "1204-2026"
+      "death": "Continuous"
     },
     "era": "multi-era-liberation",
     "category": [
@@ -1430,8 +1431,8 @@
     "location_id": "loc_greater_bengal",
     "importance": 5,
     "related_hero_ids": [
-      "titumir",
       "bakhtiyar_khalji",
+      "titumir",
       "julyrevolution",
       "sirajuddoula",
       "haji-shariatullah",
