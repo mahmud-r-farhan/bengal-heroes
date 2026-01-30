@@ -115,5 +115,200 @@
         },
         "icon_asset": "assets/icons/cat_war_movement.svg",
         "color_hex": "#C62828"
+    },
+    {
+        "id": "politician",
+        "name": {
+            "en": "Politician",
+            "bn": "রাজনীতিবিদ"
+        },
+        "description": {
+            "en": "Leaders involved in political governance and policy-making.",
+            "bn": "যারা রাজনৈতিক শাসন এবং নীতি নির্ধারণে জড়িত।"
+        },
+        "icon_asset": "assets/icons/cat_politician.svg",
+        "color_hex": "#1976D2"
+    },
+    {
+        "id": "statesman",
+        "name": {
+            "en": "Statesman",
+            "bn": "রাষ্ট্রনায়ক"
+        },
+        "description": {
+            "en": "Distinguished political leaders who have had a broad impact on the nation.",
+            "bn": "বিশিষ্ট রাজনৈতিক নেতা যারা জাতির উপর ব্যাপক প্রভাব রেখেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_statesman.svg",
+        "color_hex": "#1565C0"
+    },
+    {
+        "id": "activist",
+        "name": {
+            "en": "Activist",
+            "bn": "কর্মী"
+        },
+        "description": {
+            "en": "Those who worked for social or political change through dedicated activism.",
+            "bn": "যারা একনিষ্ঠ আন্দোলনের মাধ্যমে সামাজিক বা রাজনৈতিক পরিবর্তনের জন্য কাজ করেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_activist.svg",
+        "color_hex": "#FBC02D"
+    },
+    {
+        "id": "military_leader",
+        "name": {
+            "en": "Military Leader",
+            "bn": "সামরিক নেতা"
+        },
+        "description": {
+            "en": "Commanders who led armed forces and tactical operations in conflicts.",
+            "bn": "যারা যুদ্ধে সশস্ত্র বাহিনী এবং কৌশলগত অভিযানের নেতৃত্ব দিয়েছেন।"
+        },
+        "icon_asset": "assets/icons/cat_military_leader.svg",
+        "color_hex": "#388E3C"
+    },
+    {
+        "id": "scholar",
+        "name": {
+            "en": "Scholar",
+            "bn": "পণ্ডিত"
+        },
+        "description": {
+            "en": "Academic experts, researchers, and linguists who contributed to knowledge.",
+            "bn": "একাডেমিক বিশেষজ্ঞ, গবেষক এবং ভাষাবিদ যারা জ্ঞানের ক্ষেত্রে অবদান রেখেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_scholar.svg",
+        "color_hex": "#0097A7"
+    },
+    {
+        "id": "reformer",
+        "name": {
+            "en": "Reformer",
+            "bn": "সংস্কারক"
+        },
+        "description": {
+            "en": "Individuals who brought significant social, cultural, or educational reforms.",
+            "bn": "যারা উল্লেখযোগ্য সামাজিক, সাংস্কৃতিক বা শিক্ষাগত সংস্কার এনেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_reformer.svg",
+        "color_hex": "#8E24AA"
+    },
+    {
+        "id": "noble",
+        "name": {
+            "en": "Noble",
+            "bn": "অভিজাত"
+        },
+        "description": {
+            "en": "Members of the aristocracy who used their influence to better society.",
+            "bn": "অভিজাত শ্রেণীর সদস্য যারা তাদের প্রভাবকে সমাজের মঙ্গলে ব্যবহার করেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_noble.svg",
+        "color_hex": "#6A1B9A"
+    },
+    {
+        "id": "sufi_saint",
+        "name": {
+            "en": "Sufi Saint",
+            "bn": "সুফি সাধক"
+        },
+        "description": {
+            "en": "Spiritual leaders who spread peace, Islam, and spirituality in the region.",
+            "bn": "আধ্যাত্মিক নেতা যারা এই অঞ্চলে শান্তি, ইসলাম এবং আধ্যাত্মিকতা প্রচার করেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_sufi.svg",
+        "color_hex": "#2E7D32"
+    },
+    {
+        "id": "conqueror",
+        "name": {
+            "en": "Conqueror",
+            "bn": "বিজয়ী"
+        },
+        "description": {
+            "en": "Military figures who established new administrations through conquest.",
+            "bn": "সামরিক ব্যক্তিত্ব যারা বিজয়ের মাধ্যমে নতুন প্রশাসনিক ব্যবস্থা প্রতিষ্ঠা করেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_conqueror.svg",
+        "color_hex": "#BF360C"
+    },
+    {
+        "id": "language_movement",
+        "name": {
+            "en": "Language Movement",
+            "bn": "ভাষা আন্দোলন"
+        },
+        "description": {
+            "en": "Events and figures central to the 1952 Bengali Language Movement.",
+            "bn": "১৯৫২ সালের বাংলা ভাষা আন্দোলনের মূল ঘটনা এবং ব্যক্তিত্ব।"
+        },
+        "icon_asset": "assets/icons/cat_language.svg",
+        "color_hex": "#AD1457"
+    },
+    {
+        "id": "revolution",
+        "name": {
+            "en": "Revolution",
+            "bn": "বিপ্লব"
+        },
+        "description": {
+            "en": "Major mass uprisings and revolutionary movements that changed history.",
+            "bn": "প্রধান গণঅভ্যুত্থান এবং বিপ্লবী আন্দোলন যা ইতিহাস পরিবর্তন করেছে।"
+        },
+        "icon_asset": "assets/icons/cat_revolution.svg",
+        "color_hex": "#C62828"
+    },
+    {
+        "id": "military",
+        "name": {
+            "en": "Military",
+            "bn": "সামরিক"
+        },
+        "description": {
+            "en": "Figures associated with the armed forces and defense.",
+            "bn": "সশস্ত্র বাহিনী এবং প্রতিরক্ষার সাথে যুক্ত ব্যক্তিত্ব।"
+        },
+        "icon_asset": "assets/icons/cat_military.svg",
+        "color_hex": "#2E7D32"
+    },
+    {
+        "id": "pilot",
+        "name": {
+            "en": "Pilot",
+            "bn": "বৈমানিক"
+        },
+        "description": {
+            "en": "Brave aviators and pilots who served in different air forces.",
+            "bn": "সাহসী বিমানচালক এবং বৈমানিক যারা বিভিন্ন বিমান বাহিনীতে কাজ করেছেন।"
+        },
+        "icon_asset": "assets/icons/cat_pilot.svg",
+        "color_hex": "#0288D1"
+    },
+    {
+        "id": "liberation_movement",
+        "name": {
+            "en": "Liberation Movement",
+            "bn": "মুক্তি আন্দোলন"
+        },
+        "description": {
+            "en": "Leaders and events focused on the liberation of the motherland.",
+            "bn": "মাতৃভূমিকে মুক্ত করার লক্ষ্যে কাজ করা নেতা এবং ঘটনা।"
+        },
+        "icon_asset": "assets/icons/cat_liberation.svg",
+        "color_hex": "#D32F2F"
+    },
+    {
+        "id": "student_movement",
+        "name": {
+            "en": "Student Movement",
+            "bn": "ছাত্র আন্দোলন"
+        },
+        "description": {
+            "en": "Protests and revolutions led by the student community for justice.",
+            "bn": "ন্যায়বিচারের দাবিতে ছাত্র সম্প্রদায়ের নেতৃত্বে পরিচালিত প্রতিবাদ ও বিপ্লব।"
+        },
+        "icon_asset": "assets/icons/cat_student.svg",
+        "color_hex": "#FF9800"
     }
 ]

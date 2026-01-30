@@ -348,5 +348,165 @@
         "region": "Savar, Bangladesh",
         "latitude": 23.917,
         "longitude": 90.255
+    },
+    {
+        "id": "loc_bhola",
+        "name": {
+            "en": "Bhola",
+            "bn": "ভোলা"
+        },
+        "region": "Barisal Division, Bangladesh",
+        "latitude": 22.6868,
+        "longitude": 90.6406
+    },
+    {
+        "id": "loc_dhaka",
+        "name": {
+            "en": "Dhaka",
+            "bn": "ঢাকা"
+        },
+        "region": "Dhaka Division, Bangladesh",
+        "latitude": 23.8103,
+        "longitude": 90.4125
+    },
+    {
+        "id": "loc_jhenaidah",
+        "name": {
+            "en": "Jhenaidah",
+            "bn": "ঝিনাইদহ"
+        },
+        "region": "Khulna Division, Bangladesh",
+        "latitude": 23.5424,
+        "longitude": 89.1729
+    },
+    {
+        "id": "loc_barisal",
+        "name": {
+            "en": "Barisal",
+            "bn": "বরিশাল"
+        },
+        "region": "Barisal Division, Bangladesh",
+        "latitude": 22.701,
+        "longitude": 90.3537
+    },
+    {
+        "id": "loc_narail",
+        "name": {
+            "en": "Narail",
+            "bn": "নড়াইল"
+        },
+        "region": "Khulna Division, Bangladesh",
+        "latitude": 23.1725,
+        "longitude": 89.5126
+    },
+    {
+        "id": "loc_bogra",
+        "name": {
+            "en": "Bogra",
+            "bn": "বগুড়া"
+        },
+        "region": "Rajshahi Division, Bangladesh",
+        "latitude": 24.8481,
+        "longitude": 89.373
+    },
+    {
+        "id": "loc_midnapore",
+        "name": {
+            "en": "Midnapore",
+            "bn": "মেদিনীপুর"
+        },
+        "region": "Paschim Medinipur, West Bengal",
+        "latitude": 22.4257,
+        "longitude": 87.3199
+    },
+    {
+        "id": "loc_jhalokati",
+        "name": {
+            "en": "Jhalokati",
+            "bn": "ঝালকাঠি"
+        },
+        "region": "Barisal Division, Bangladesh",
+        "latitude": 22.6406,
+        "longitude": 90.1989
+    },
+    {
+        "id": "loc_sirajganj",
+        "name": {
+            "en": "Sirajganj",
+            "bn": "সিরাজগঞ্জ"
+        },
+        "region": "Rajshahi Division, Bangladesh",
+        "latitude": 24.4577,
+        "longitude": 89.7083
+    },
+    {
+        "id": "loc_pabna",
+        "name": {
+            "en": "Pabna",
+            "bn": "পাবনা"
+        },
+        "region": "Rajshahi Division, Bangladesh",
+        "latitude": 24.0071,
+        "longitude": 89.2367
+    },
+    {
+        "id": "loc_cuttack",
+        "name": {
+            "en": "Cuttack",
+            "bn": "কটক"
+        },
+        "region": "Odisha, India",
+        "latitude": 20.4625,
+        "longitude": 85.8793
+    },
+    {
+        "id": "loc_south_24_parganas",
+        "name": {
+            "en": "South 24 Parganas",
+            "bn": "দক্ষিণ ২৪ পরগনা"
+        },
+        "region": "West Bengal, India",
+        "latitude": 22.14,
+        "longitude": 88.35
+    },
+    {
+        "id": "loc_paschim_medinipur",
+        "name": {
+            "en": "Paschim Medinipur",
+            "bn": "পশ্চিম মেদিনীপুর"
+        },
+        "region": "West Bengal, India",
+        "latitude": 22.42,
+        "longitude": 87.32
+    },
+    {
+        "id": "loc_bangladesh",
+        "name": {
+            "en": "Bangladesh",
+            "bn": "বাংলাদেশ"
+        },
+        "region": "South Asia",
+        "latitude": 23.685,
+        "longitude": 90.3563
+    },
+    {
+        "id": "loc_gaur",
+        "name": {
+            "en": "Gaur",
+            "bn": "গৌড়"
+        },
+        "region": "Malda, West Bengal",
+        "latitude": 24.87,
+        "longitude": 88.13
+    },
+    {
+        "id": "loc_sylhet",
+        "name": {
+            "en": "Sylhet",
+            "bn": "সিলেট"
+        },
+        "region": "Sylhet Division, Bangladesh",
+        "latitude": 24.8949,
+        "longitude": 91.8687
     }
 ]
