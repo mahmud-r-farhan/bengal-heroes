@@ -17,6 +17,9 @@
     ],
     "location_id": "loc_narkelberiya",
     "importance": 5,
+    "related_hero_ids": [
+      "haji-shariatullah"
+    ],
     "content": {
       "en": {
         "name": "Titumir",
@@ -33,6 +36,46 @@
         "quote": "আমরা অত্যাচারের কাছে মাথা নত করব না। আমাদের বাঁশের কেল্লা ভেঙে যেতে পারে, কিন্তু প্রতিরোধের চেতনা চিরকাল বেঁচে থাকবে।",
         "birth_place": "চাঁদপুর, বারাসাত, বেঙ্গল",
         "achievements": "কিংবদন্তি বাঁশের কেল্লা নির্মাণ • ব্রিটিশ বিরোধী কৃষক বিদ্রোহের নেতৃত্ব • হিন্দু-মুসলিম কৃষকদের ঐক্যবদ্ধ করেন • ঔপনিবেশিক বিরোধী প্রতিরোধের প্রতীক"
+      }
+    }
+  },
+  {
+    "id": "haji-shariatullah",
+    "slug": "haji-shariatullah",
+    "dates": {
+      "birth": "1781-00-00",
+      "death": "1840-00-00"
+    },
+    "era": "british_rule",
+    "category": [
+      "revolutionary",
+      "reformer",
+      "social_movement"
+    ],
+    "images": [
+      "assets/images/heroes/shariatullah.jpg"
+    ],
+    "location_id": "loc_faridpur",
+    "importance": 5,
+    "related_hero_ids": [
+      "titumir"
+    ],
+    "content": {
+      "en": {
+        "name": "Haji Shariatullah",
+        "short_bio": "Haji Shariatullah was a prominent Islamic scholar and the founder of the Faraizi Movement, which aimed at religious reform and protecting the rights of oppressed peasants in Bengal.",
+        "full_biography": "Haji Shariatullah was born in 1781 in Bahadurpur, Faridpur. After spending about 20 years in Mecca and gaining profound knowledge of Islam, he returned to Bengal and initiated the Faraizi Movement.\n\nHis movement was not only religious but also a social uprising against the exploitation of British indigo planters and oppressive landlords (Zamindars). He urged the Muslims to return to the fundamental duties (Faraiz) of Islam. Under his leadership, the deprived peasants of East Bengal found a voice to stand against social injustice. After his death, his son Dudu Mian led the movement into a more organized agrarian revolt.",
+        "quote": "The land belongs to God, and no one has the right to collect taxes unless they provide for the welfare of the people.",
+        "birth_place": "Faridpur, Bengal",
+        "achievements": "Founder of the Faraizi Movement • Leader of the peasant uprising against Zamindars • Prominent social and religious reformer"
+      },
+      "bn": {
+        "name": "হাজী শরীয়তুল্লাহ",
+        "short_bio": "হাজী শরীয়তুল্লাহ ছিলেন একজন বিশিষ্ট ইসলামী পন্ডিত এবং ফরায়েজী আন্দোলনের প্রতিষ্ঠাতা, যার লক্ষ্য ছিল ধর্মীয় সংস্কার এবং বাংলার শোষিত কৃষকদের অধিকার রক্ষা করা।",
+        "full_biography": "হাজী শরীয়তুল্লাহ ১৭৮১ সালে ফরিদপুরের বাহাদুরপুরে জন্মগ্রহণ করেন। মক্কায় দীর্ঘ ২০ বছর অবস্থান করে ইসলামের গভীর জ্ঞান অর্জন শেষে তিনি বাংলায় ফিরে আসেন এবং 'ফরায়েজী আন্দোলন' শুরু করেন।\n\nতাঁর এই আন্দোলন কেবল ধর্মীয় সংস্কারেই সীমাবদ্ধ ছিল না, বরং এটি ছিল ব্রিটিশ নীলকর এবং অত্যাচারী জমিদারদের শোষণের বিরুদ্ধে একটি সামাজিক বিদ্রোহ। তিনি মুসলমানদের ইসলামের মৌলিক অবশ্য পালনীয় কর্তব্য বা 'ফরায়েজ' পালনের ডাক দেন। তাঁর নেতৃত্বে পূর্ব বাংলার বঞ্চিত কৃষকরা সামাজিক অন্যায়ের বিরুদ্ধে রুখে দাঁড়ানোর সাহস পায়। তাঁর মৃত্যুর পর তাঁর পুত্র দুদু মিয়া এই আন্দোলনকে আরও সংগঠিত কৃষক বিদ্রোহে রূপান্তর করেন।",
+        "quote": "জমির মালিক আল্লাহ, আর শোষণের উদ্দেশ্যে কর আদায় করার অধিকার কারও নেই।",
+        "birth_place": "ফরিদপুর, বেঙ্গল",
+        "achievements": "ফরায়েজী আন্দোলনের প্রতিষ্ঠাতা • জমিদার ও নীলকর বিরোধী কৃষক আন্দোলনের নেতা • বিশিষ্ট সমাজ ও ধর্ম সংস্কারক"
       }
     }
   },
@@ -55,8 +98,11 @@
     "location_id": "loc_tungipara",
     "importance": 5,
     "related_hero_ids": [
-      "hero_004",
-      "hero_005"
+      "mostaqahmad",
+      "tajuddinahmed",
+      "ziaurrahman",
+      "liberationwar1971",
+      "language_movement"
     ],
     "content": {
       "en": {
@@ -74,6 +120,88 @@
         "quote": "এবারের সংগ্রাম আমাদের মুক্তির সংগ্রাম, এবারের সংগ্রাম স্বাধীনতার সংগ্রাম।",
         "birth_place": "টুঙ্গিপাড়া, গোপালগঞ্জ, বেঙ্গল",
         "achievements": "বাংলাদেশের জাতির পিতা • ছয় দফা আন্দোলনের নেতৃত্ব • ঐতিহাসিক ৭ই মার্চের ভাষণ • বাংলাদেশের প্রথম রাষ্ট্রপতি ও প্রধানমন্ত্রী"
+      }
+    }
+  },
+  {
+    "id": "tajuddinahmed",
+    "slug": "tajuddin-ahmed",
+    "dates": {
+      "birth": "1925-07-23",
+      "death": "1975-11-03"
+    },
+    "era": "liberation_1971",
+    "category": [
+      "revolutionary",
+      "statesman",
+      "war_movement"
+    ],
+    "images": [
+      "assets/images/heroes/tajuddin.jpg"
+    ],
+    "location_id": "loc_kapasia",
+    "importance": 5,
+    "related_hero_ids": [
+      "sheikhmujib",
+      "ziaurrahman",
+      "mostaqahmad"
+    ],
+    "content": {
+      "en": {
+        "name": "Tajuddin Ahmad",
+        "short_bio": "Tajuddin Ahmad was a statesman and freedom fighter who served as the first Prime Minister of Bangladesh and led the wartime provisional government in 1971.",
+        "full_biography": "Tajuddin Ahmad was born on July 23, 1925, in Kapasia, Gazipur. He was a brilliant strategist and one of the key architects of the independence of Bangladesh.\n\nA close confidant of Sheikh Mujibur Rahman, Tajuddin served as the General Secretary of the Awami League during the late 1960s and early 1970s. He played a vital role in organizing the non-cooperation movement.\n\nFollowing the crackdown on March 25, 1971, he crossed into India and formed the Mujibnagar Government. As the first Prime Minister of Bangladesh, he efficiently managed the liberation war, coordinated with international allies, and oversaw the administration of the guerrilla resistance while Bangabandhu was imprisoned.\n\nAfter independence, he served as the Minister of Finance and Planning. Known for his integrity and administrative genius, he resigned from the cabinet in 1974 due to ideological differences. He was brutally assassinated in Dhaka Central Jail on November 3, 1975, along with three other national leaders.",
+        "quote": "If we cannot provide food and security to the people, this independence will be meaningless.",
+        "birth_place": "Kapasia, Gazipur, Bengal",
+        "achievements": "First Prime Minister of Bangladesh • Prime Architect of the Mujibnagar Government • Key Organizer of the Liberation War • Led the wartime diplomatic efforts"
+      },
+      "bn": {
+        "name": "তাজউদ্দীন আহমদ",
+        "short_bio": "তাজউদ্দীন আহমদ ছিলেন একজন প্রাজ্ঞ রাজনীতিবিদ এবং স্বাধীনতা সংগ্রামী যিনি বাংলাদেশের প্রথম প্রধানমন্ত্রী হিসেবে ১৯৭১ সালের প্রবাসী সরকারে নেতৃত্ব দিয়েছিলেন।",
+        "full_biography": "তাজউদ্দীন আহমদ ১৯২৫ সালের ২৩ জুলাই গাজীপুরের কাপাসিয়ায় জন্মগ্রহণ করেন। তিনি ছিলেন একাধারে একজন দক্ষ সংগঠক এবং বাংলাদেশের স্বাধীনতার অন্যতম প্রধান কারিগর।\n\nবঙ্গবন্ধু শেখ মুজিবুর রহমানের ঘনিষ্ঠ সহযোগী হিসেবে তিনি ষাটের দশকের শেষভাগ এবং সত্তরের দশকের শুরুতে আওয়ামী লীগের সাধারণ সম্পাদকের দায়িত্ব পালন করেন। অসহযোগ আন্দোলন সংগঠিত করার ক্ষেত্রে তিনি গুরুত্বপূর্ণ ভূমিকা রাখেন।\n\n১৯৭১ সালের ২৫শে মার্চ কালরাত্রির পর তিনি ভারতে পাড়ি জমান এবং মুজিবনগর সরকার গঠন করেন। বাংলাদেশের প্রথম প্রধানমন্ত্রী হিসেবে তিনি অত্যন্ত দক্ষতার সাথে মুক্তিযুদ্ধ পরিচালনা করেন, আন্তর্জাতিক সমর্থন আদায় করেন এবং বঙ্গবন্ধুর অনুপস্থিতিতে গেরিলা যুদ্ধের প্রশাসনিক দিকগুলো দেখাশোনা করেন।\n\nস্বাধীনতার পর তিনি অর্থ ও পরিকল্পনা মন্ত্রী হিসেবে দায়িত্ব পালন করেন। তাঁর সততা এবং প্রশাসনিক দক্ষতার জন্য তিনি কিংবদন্তি হয়ে আছেন। ১৯৭৫ সালের ৩রা নভেম্বর ঢাকা কেন্দ্রীয় কারাগারে আরও তিন জাতীয় নেতার সাথে তাঁকে নির্মমভাবে হত্যা করা হয়।",
+        "quote": "মানুষ যদি পেট ভরে খেতে না পায় এবং নিরাপত্তা না পায়, তবে এই স্বাধীনতা অর্থহীন হয়ে পড়বে।",
+        "birth_place": "কাপাসিয়া, গাজীপুর, বেঙ্গল",
+        "achievements": "বাংলাদেশের প্রথম প্রধানমন্ত্রী • মুজিবনগর সরকারের প্রধান রূপকার • মুক্তিযুদ্ধকালীন সফল সংগঠক ও পরিচালক • স্বাধীন বাংলাদেশের প্রথম অর্থমন্ত্রী"
+      }
+    }
+  },
+  {
+    "id": "mostaqahmad",
+    "slug": "khondaker-mostaq-ahmad",
+    "dates": {
+      "birth": "1918-00-00",
+      "death": "1996-03-05"
+    },
+    "era": "liberation_1971",
+    "category": [
+      "politician",
+      "controversial_figure"
+    ],
+    "images": [
+      "assets/images/heroes/mostaq.jpg"
+    ],
+    "location_id": "loc_daudkandi",
+    "importance": 3,
+    "related_hero_ids": [
+      "sheikhmujib",
+      "tajuddinahmed"
+    ],
+    "content": {
+      "en": {
+        "name": "Khondaker Mostaq Ahmad",
+        "short_bio": "A founding member of the Awami League and Foreign Minister of the Mujibnagar Government, who later became the President following the 1975 coup.",
+        "full_biography": "Khondaker Mostaq Ahmad was a key political figure during the liberation era. As the Foreign Minister of the provisional government in 1971, he notably oversaw the diplomatic stance of the emerging nation, including the decision where Bangladesh **officially rejected recognition from Israel** to maintain solidarity with the Arab world.\n\nHowever, his legacy is deeply stained by his role in the post-independence era. Following the assassination of Sheikh Mujibur Rahman on August 15, 1975, he seized the presidency. He is widely condemned for issuing the Indemnity Ordinance to protect the assassins and for his proximity to the 1975 Jail Killings of four national leaders.",
+        "quote": "The sun of a new hope has risen.",
+        "birth_place": "Daudkandi, Comilla, Bengal",
+        "achievements": "Minister of Foreign Affairs (1971) • Officially rejected recognition from Israel • Former President (Controversial)"
+      },
+      "bn": {
+        "name": "খন্দকার মোশতাক আহমদ",
+        "short_bio": "আওয়ামী লীগের প্রতিষ্ঠাতা সদস্য এবং মুজিবনগর সরকারের পররাষ্ট্রমন্ত্রী, যিনি ১৯৭৫ সালের অভ্যুত্থানের পর রাষ্ট্রপতির পদ গ্রহণ করেন।",
+        "full_biography": "খন্দকার মোশতাক আহমদ ছিলেন বাংলাদেশের রাজনৈতিক ইতিহাসের এক বিতর্কিত ব্যক্তিত্ব। ১৯৭১ সালে মুজিবনগর সরকারের পররাষ্ট্রমন্ত্রী হিসেবে তিনি নতুন রাষ্ট্রের কূটনৈতিক অবস্থান তদারকি করেন। সেই সময় আরব বিশ্বের সাথে সংহতি বজায় রাখতে বাংলাদেশ **আনুষ্ঠানিকভাবে ইসরায়েলের স্বীকৃতি প্রত্যাখ্যান করে**, যা তাঁর মেয়াদে অন্যতম উল্লেখযোগ্য কূটনৈতিক সিদ্ধান্ত ছিল।\n\nতবে স্বাধীনতার পর ১৯৭৫ সালের ১৫ আগস্ট বঙ্গবন্ধু শেখ মুজিবুর রহমান হত্যাকাণ্ডের পর রাষ্ট্রপতির দায়িত্ব গ্রহণ করায় তিনি চরমভাবে সমালোচিত হন। তিনি খুনিদের রক্ষা করতে 'ইনডেমনিটি অধ্যাদেশ' জারি করেন এবং ৩রা নভেম্বর জেল হত্যার সময়ও রাষ্ট্রীয় ক্ষমতায় ছিলেন।",
+        "quote": "এক নতুন আশার সূর্য উদিত হয়েছে।",
+        "birth_place": "দাউদকান্দি, কুমিল্লা, বেঙ্গল",
+        "achievements": "পররাষ্ট্রমন্ত্রী (১৯৭১) • আনুষ্ঠানিকভাবে ইসরায়েলের স্বীকৃতি প্রত্যাখ্যান • সাবেক রাষ্ট্রপতি (বিতর্কিত)"
       }
     }
   },
@@ -132,6 +260,9 @@
     ],
     "location_id": "loc_faridpur",
     "importance": 5,
+    "related_hero_ids": [
+      "kazinazrul"
+    ],
     "content": {
       "en": {
         "name": "Jasimuddin",
@@ -222,6 +353,43 @@
         "quote": "যতদিন আমি বেঁচে আছি, বাংলা বিদেশি আধিপত্য থেকে মুক্ত থাকবে।",
         "birth_place": "সরাইল, ব্রাহ্মণবাড়িয়া, বেঙ্গল",
         "achievements": "বারো ভূঁইয়াদের নেতা • সফলভাবে মুঘল সাম্রাজ্যকে প্রতিরোধ • নৌযুদ্ধের দক্ষ • বাঙালি স্বাধীনতার প্রতীক"
+      }
+    }
+  },
+  {
+    "id": "sirajuddoula",
+    "slug": "siraj-ud-daulah",
+    "dates": {
+      "birth": "1733-01-01",
+      "death": "1757-07-02"
+    },
+    "era": "nawab_era",
+    "category": [
+      "ruler",
+      "soldier",
+      "martyr"
+    ],
+    "images": [
+      "assets/images/heroes/siraj_ud_daulah.jpg"
+    ],
+    "location_id": "loc_murshidabad",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Siraj ud-Daulah",
+        "short_bio": "Mirza Muhammad Siraj ud-Daulah was the last independent Nawab of Bengal, whose defeat at the Battle of Plassey marked the beginning of British colonial rule in South Asia.",
+        "full_biography": "Siraj ud-Daulah was born in 1733 and succeeded his maternal grandfather, Nawab Alivardi Khan, to the throne of Bengal in 1756 at the age of 23. His short reign was marked by intense conflict with the British East India Company.\n\nHe was a staunch opponent of the British, who were misusing their trading privileges and fortifying Calcutta without his permission. In 1756, he successfully captured Fort William and drove the British out of Calcutta.\n\nHowever, internal conspiracies led by his commander-in-chief, Mir Jafar, and wealthy bankers like the Jagat Seths, weakened his position. This culminated in the fateful Battle of Plassey on June 23, 1757.\n\nDespite having a much larger army, Siraj ud-Daulah was betrayed on the battlefield by Mir Jafar's faction. He was forced to flee but was later captured and executed in Murshidabad on July 2, 1757.\n\nHis fall paved the way for the British East India Company to take control of Bengal and eventually the entire Indian subcontinent. Today, he is remembered as a tragic hero and a symbol of resistance against colonial aggression.",
+        "quote": "If the British are not driven out of Bengal, they will eventually consume the whole of India.",
+        "birth_place": "Murshidabad, Bengal",
+        "achievements": "Last independent Nawab of Bengal • Captured Fort William in Calcutta • Fought the British at the Battle of Plassey • Symbol of anti-colonial resistance"
+      },
+      "bn": {
+        "name": "নবাব সিরাজউদ্দৌলা",
+        "short_bio": "মির্জা মুহাম্মদ সিরাজউদ্দৌলা ছিলেন বাংলার শেষ স্বাধীন নবাব, যাঁর পলাশীর যুদ্ধে পরাজয় দক্ষিণ এশিয়ায় ব্রিটিশ ঔপনিবেশিক শাসনের সূচনা করেছিল।",
+        "full_biography": "সিরাজউদ্দৌলা ১৭৩৩ সালে জন্মগ্রহণ করেন এবং ১৭৫৬ সালে মাত্র ২৩ বছর বয়সে তাঁর মাতামহ নবাব আলীবর্দী খাঁর স্থলাভিষিক্ত হয়ে বাংলার সিংহাসনে আরোহণ করেন। তাঁর সংক্ষিপ্ত শাসনকাল ছিল ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির সাথে তীব্র দ্বন্দ্বে ভরপুর।\n\nব্রিটিশরা তাদের বাণিজ্যিক সুযোগ-সুবিধার অপব্যবহার করায় এবং তাঁর অনুমতি ছাড়াই কলকাতায় দুর্গ নির্মাণ করায় তিনি তাদের কট্টর বিরোধী ছিলেন। ১৭৫৬ সালে তিনি সফলভাবে ফোর্ট উইলিয়াম দখল করেন এবং ব্রিটিশদের কলকাতা থেকে বিতাড়িত করেন।\n\nতবে তাঁর প্রধান সেনাপতি মীর জাফর এবং জগৎ শেঠদের মতো প্রভাবশালী মহলের অভ্যন্তরীণ ষড়যন্ত্র তাঁর অবস্থানকে দুর্বল করে দেয়। এর ফলে ১৭৫৭ সালের ২৩ জুন ঐতিহাসিক পলাশীর যুদ্ধ সংঘটিত হয়।\n\nবিশাল সেনাবাহিনী থাকা সত্ত্বেও মীর জাফরের বিশ্বাসঘাতকতায় নবাব পরাজিত হন। পরবর্তীতে তাঁকে বন্দি করা হয় এবং ১৭৫৭ সালের ২ জুলাই মুর্শিদাবাদে তাঁকে হত্যা করা হয়।\n\nতাঁর পতন বাংলার তথা পুরো ভারতবর্ষের স্বাধীনতার সূর্য অস্তমিত করে এবং ব্রিটিশ শাসনের পথ প্রশস্ত করে। বর্তমানে তিনি ঔপনিবেশিক আগ্রাসনের বিরুদ্ধে প্রতিরোধের এক প্রতীক ও ট্র্যাজিক হিরো হিসেবে সমাদৃত।",
+        "quote": "ব্রিটিশদের যদি বাংলা থেকে বিতাড়িত করা না হয়, তবে তারা একদিন পুরো ভারতবর্ষ দখল করে নেবে।",
+        "birth_place": "মুর্শিদাবাদ, বেঙ্গল",
+        "achievements": "বাংলার শেষ স্বাধীন নবাব • কলকাতায় ফোর্ট উইলিয়াম বিজয় • পলাশীর যুদ্ধে ব্রিটিশদের বিরুদ্ধে লড়াই • ব্রিটিশ বিরোধী প্রতিরোধের প্রতীক"
       }
     }
   },
@@ -522,6 +690,51 @@
     }
   },
   {
+    "id": "jagatjyoti-das",
+    "slug": "jagatjyoti-das",
+    "dates": {
+      "birth": "1949-04-26",
+      "death": "1971-11-16"
+    },
+    "era": "liberation_1971",
+    "category": [
+      "martyr",
+      "guerrilla_leader",
+      "war_movement"
+    ],
+    "images": [
+      "assets/images/heroes/jagatjyoti.jpg"
+    ],
+    "location_id": "loc_habiganj",
+    "importance": 5,
+    "related_hero_ids": [
+      "bir-shreshtha-ruhul-amin",
+      "tajuddinahmed",
+      "birnur",
+      "birmohiuddin",
+      "birmotiur",
+      "birrouf"
+    ],
+    "content": {
+      "en": {
+        "name": "Jagatjyoti Das",
+        "short_bio": "Jagatjyoti Das, popularly known as the leader of the 'Das Party', was a legendary guerrilla commander in the Haor region who was posthumously awarded Bir Bikram for his supreme bravery.",
+        "full_biography": "Jagatjyoti Das was born in 1949 in Ajmiriganj, Habiganj. A student of Sunamganj Government College, he joined the Liberation War of 1971 with immense courage. He formed an elite guerrilla unit known as the 'Das Party' which operated in the vast Haor areas of Sunamganj, Habiganj, and Netrokona.\n\nHis tactical brilliance and fearless attacks made him a nightmare for the Pakistani military. He even declared a part of the Haor region as 'Independent' during the war. On November 16, 1971, during a fierce encounter at Khajurbari in Sunamganj, his team was surrounded by a large number of Pakistani troops and Rajakars. \n\nDespite being heavily outnumbered, Jagatjyoti fought until his last breath. He was martyred after a bullet hit his eye. His death was a significant loss to the guerrilla resistance. In recognition of his heroic sacrifice, the Government of Bangladesh awarded him 'Bir Bikram', the third-highest gallantry award.",
+        "quote": "If I die, thousands of Jyotis will be born from my blood to free this land.",
+        "birth_place": "Ajmiriganj, Habiganj, Sylhet",
+        "achievements": "Bir Bikram - third highest gallantry award • Commander of the famous 'Das Party' • Liberated vast Haor regions • Legendary guerrilla strategist"
+      },
+      "bn": {
+        "name": "জগৎজ্যোতি দাস",
+        "short_bio": "কিংবদন্তি গেরিলা দল 'দাস পার্টি'র অধিনায়ক জগৎজ্যোতি দাস ছিলেন হাওর অঞ্চলের ত্রাস, যাঁকে তাঁর বীরত্বের জন্য মরণোত্তর 'বীর বিক্রম' উপাধিতে ভূষিত করা হয়।",
+        "full_biography": "জগৎজ্যোতি দাস ১৯৪৯ সালে হবিগঞ্জের আজমিরীগঞ্জে জন্মগ্রহণ করেন। সুনামগঞ্জ সরকারি কলেজের এই ছাত্র ১৯৭১ সালে মহান মুক্তিযুদ্ধে অসীম সাহসের সাথে ঝাঁপিয়ে পড়েন। তিনি 'দাস পার্টি' নামক একটি দুর্ধর্ষ গেরিলা দল গঠন করেন যা সুনামগঞ্জ, হবিগঞ্জ ও নেত্রকোনার হাওর অঞ্চলে অপারেশন পরিচালনা করত।\n\nতাঁর রণকৌশল ও অতর্কিত আক্রমণের কারণে পাকিস্তানি বাহিনী হাওর অঞ্চলে তটস্থ থাকত। যুদ্ধের সময় তিনি হাওরের একটি বিশাল অংশকে 'মুক্তাঞ্চল' হিসেবে ঘোষণা করেছিলেন। ১৯৭১ সালের ১৬ নভেম্বর সুনামগঞ্জের খাজুরবাড়িতে এক ভয়াবহ সম্মুখযুদ্ধে তাঁর দল পাকিস্তানি বাহিনী ও রাজাকারদের দ্বারা অবরুদ্ধ হয়।\n\nঅসম যুদ্ধ জেনেও জগৎজ্যোতি পিছু হটেননি। শেষ গুলি থাকা পর্যন্ত তিনি লড়ে যান এবং একটি গুলি তাঁর চোখে বিদ্ধ হলে তিনি শাহাদাত বরণ করেন। তাঁর এই আত্মত্যাগের স্বীকৃতিস্বরূপ বাংলাদেশ সরকার তাঁকে 'বীর বিক্রম' খেতাবে ভূষিত করে। রেডিও তেহরান তাঁকে 'বাংলার মহানায়ক' হিসেবে আখ্যায়িত করেছিল।",
+        "quote": "আমি মরে গেলে আমার রক্ত থেকে হাজারো জ্যোতি জন্ম নেবে এই দেশকে মুক্ত করার জন্য।",
+        "birth_place": "আজমিরীগঞ্জ, হবিগঞ্জ, সিলেট",
+        "achievements": "বীর বিক্রম - তৃতীয় সর্বোচ্চ বীরত্ব পদক • বিখ্যাত 'দাস পার্টি'র অধিনায়ক • হাওর অঞ্চলের মুক্তাঞ্চল গড়ে তোলা • কিংবদন্তি গেরিলা কৌশলবিদ"
+      }
+    }
+  },
+  {
     "id": "ziaurrahman",
     "slug": "ziaur-rahman",
     "dates": {
@@ -756,6 +969,9 @@
     ],
     "location_id": "loc_cuttack",
     "importance": 5,
+    "related_hero_ids": [
+      "cr-das"
+    ],
     "content": {
       "en": {
         "name": "Subhas Chandra Bose",
@@ -772,6 +988,46 @@
         "quote": "তোমরা আমাকে রক্ত দাও, আমি তোমাদের স্বাধীনতা দেবো।",
         "birth_place": "কটক, পুরী জেলা, ওড়িশা, ভারত",
         "achievements": "ভারতীয় জাতীয় কংগ্রেসের সভাপতি (১৯৩৮-১৯৩৯, ১৯৩৯-১৯৪১) • কলকাতার মেয়র (১৯৩০-১৯৩১) • আজাদ হিন্দ ফৌজের সেনাপ্রধান (১৯৪৩-১৯৪৫) • আজাদ হিন্দ সরকারের প্রধান • ফরোয়ার্ড ব্লকের সভাপতি"
+      }
+    }
+  },
+  {
+    "id": "cr-das",
+    "slug": "chittaranjan-das",
+    "dates": {
+      "birth": "1870-11-05",
+      "death": "1925-06-16"
+    },
+    "era": "british_rule",
+    "category": [
+      "revolutionary",
+      "lawyer",
+      "politician"
+    ],
+    "images": [
+      "assets/images/heroes/chittaranjan-das.jpg"
+    ],
+    "location_id": "loc_bikrampur",
+    "importance": 5,
+    "related_hero_ids": [
+      "netaji_subhas"
+    ],
+    "content": {
+      "en": {
+        "name": "Chittaranjan Das",
+        "short_bio": "Chittaranjan Das, popularly known as Deshbandhu (Friend of the Nation), was a legendary lawyer, a leading figure in the Indian Independence Movement, and the founder of the Swaraj Party.",
+        "full_biography": "Chittaranjan Das was born on November 5, 1870. He was a brilliant lawyer who gained fame for successfully defending Aurobindo Ghosh in the Alipore Bomb Case (1908). He later gave up his lucrative legal practice to join the Non-Cooperation Movement led by Mahatma Gandhi.\n\nHe was a staunch advocate of Hindu-Muslim unity and played a crucial role in the Bengal Pact of 1923. In 1923, along with Motilal Nehru, he founded the Swaraj Party to fight for self-rule from within the legislative councils. He also served as the first Mayor of Calcutta Corporation. His selfless sacrifice of his entire property for the service of the nation earned him the title 'Deshbandhu'.",
+        "quote": "If the country is to be saved, it can only be saved by the youth of the country.",
+        "birth_place": "Bikrampur, Bengal (now Bangladesh)",
+        "achievements": "Founder of the Swaraj Party • First Mayor of Calcutta • Defended Aurobindo Ghosh in Alipore Bomb Case • Proponent of Hindu-Muslim Unity"
+      },
+      "bn": {
+        "name": "চিত্তরঞ্জন দাস",
+        "short_bio": "চিত্তরঞ্জন দাস, যিনি 'দেশবন্ধু' নামে পরিচিত, ছিলেন একজন কিংবদন্তি আইনজীবী, ভারতীয় স্বাধীনতা আন্দোলনের অন্যতম প্রধান নেতা এবং স্বরাজ পার্টির প্রতিষ্ঠাতা।",
+        "full_biography": "১৮৭০ সালের ৫ নভেম্বর চিত্তরঞ্জন দাস জন্মগ্রহণ করেন। তিনি একজন অত্যন্ত মেধাবী আইনজীবী ছিলেন এবং ১৯০৮ সালে আলিপুর বোমা মামলায় অরবিন্দ ঘোষের পক্ষ সমর্থন করে আইনি লড়াইয়ে জয়ী হয়ে খ্যাতি অর্জন করেন। পরবর্তীতে তিনি মহাত্মা গান্ধীর অসহযোগ আন্দোলনে যোগ দিতে তাঁর বিলাসবহুল আইনি পেশা ত্যাগ করেন।\n\nতিনি হিন্দু-মুসলিম ঐক্যের প্রবল সমর্থক ছিলেন এবং ১৯২৩ সালের 'বেঙ্গল প্যাক্ট'-এ গুরুত্বপূর্ণ ভূমিকা পালন করেন। ১৯২৩ সালে মতিলাল নেহরুর সাথে মিলে তিনি 'স্বরাজ পার্টি' গঠন করেন। তিনি কলকাতা কর্পোরেশনের প্রথম মেয়র হিসেবেও দায়িত্ব পালন করেন। দেশের সেবায় নিজের সমস্ত সম্পত্তি দান করে দেওয়ার কারণে জনগণ তাঁকে ভালোবেসে 'দেশবন্ধু' উপাধিতে ভূষিত করে।",
+        "quote": "দেশকে যদি বাঁচাতে হয়, তবে দেশের যুব সমাজকেই তা করতে হবে।",
+        "birth_place": "বিক্রমপুর, বেঙ্গল (বর্তমান বাংলাদেশ)",
+        "achievements": "স্বরাজ পার্টির প্রতিষ্ঠাতা • কলকাতা কর্পোরেশনের প্রথম মেয়র • আলিপুর বোমা মামলার সফল আইনজীবী • হিন্দু-মুসলিম ঐক্যের অগ্রদূত"
       }
     }
   },
@@ -938,11 +1194,23 @@
     ],
     "location_id": "loc_bangladesh",
     "importance": 5,
+    "related_hero_ids": [
+      "sheikhmujib",
+      "tajuddinahmed",
+      "ziaurrahman",
+      "birmohiuddin",
+      "birmotiur",
+      "birnur",
+      "birrouf",
+      "cr-das",
+      "mostaq",
+      "tajuddin"
+    ],
     "content": {
       "en": {
         "name": "Bangladesh Liberation War 1971",
         "short_bio": "A revolutionary independence war that led to the birth of the sovereign nation of Bangladesh, ending decades of exploitation and a brutal genocide by West Pakistan.",
-        "full_biography": "The Bangladesh Liberation War began on March 26, 1971, following the Pakistani military's 'Operation Searchlight,' a genocidal crackdown on the Bengali population of East Pakistan. Bangabandhu Sheikh Mujibur Rahman declared independence in the early hours of March 26. The war was fought between the Mukti Bahini (Freedom Fighters), consisting of Bengali military personnel and civilians, and the Pakistan Armed Forces.\n\nOver nine months, the Mukti Bahini engaged in guerrilla warfare with the support of India. The conflict saw extreme atrocities, including the killing of an estimated 3 million people and the displacement of 10 million refugees. The war reached its climax in December 1971 when the Indian Armed Forces joined the Mukti Bahini, leading to the total defeat of the Pakistani army.\n\nOn December 16, 1971, General Niazi signed the Instrument of Surrender at the Ramna Racecourse in Dhaka. This victory marked the official end of the war and the emergence of Bangladesh as an independent, secular, and democratic state.",
+        "full_biography": "The Bangladesh Liberation War began on March 26, 1971, following the Pakistani military's 'Operation Searchlight,' a genocidal crackdown on the Bengali population of East Pakistan. Bangabandhu Sheikh Mujibur Rahman declared independence in the early hours of March 26. The war was fought between the Mukti Bahini (Freedom Fighters), consisting of Bengali military personnel and civilians, and the Pakistan Armed Forces.\n\nOver nine months, the Mukti Bahini engaged in guerrilla warfare with the support of India. The conflict saw extreme atrocities, including the killing of an estimated 3 million people and the displacement of 10 million refugees. The war reached its climax in December 1971 when the Indian Armed Forces joined the Mukti Bahini, leading to the total defeat of the Pakistani army.\n\nOn December 16, 1971, General Niazi signed the Instrument of Surrender at the Ramna Race Course in Dhaka. This victory marked the official end of the war and the emergence of Bangladesh as an independent, secular, and democratic state.",
         "quote": "Our struggle is for our freedom, our struggle is for our independence.",
         "birth_place": "Bangladesh (formerly East Pakistan)",
         "achievements": "Birth of the sovereign People's Republic of Bangladesh • End of Pakistani colonial exploitation and military rule • Recognition of Bengali as a state language and cultural identity • Establishment of a secular democratic constitution • Defeat of one of the largest military forces in a conventional surrender since WWII • Preservation of Bengali heritage and national dignity"
@@ -1139,6 +1407,54 @@
         "quote": "মানুষের জন্য নির্মাণ করাই হলো স্রষ্টার সন্তুষ্টির পথ।",
         "birth_place": "অজানা (সম্ভবত মধ্য এশিয়া বা দিল্লি)",
         "achievements": "খলিফাতাবাদ (বাগেরহাট) নগর প্রতিষ্ঠা • ষাট গম্বুজ মসজিদ নির্মাণ (ইউনেস্কো সাইট) • বিশাল দিঘি খনন ও সুপেয় পানির ব্যবস্থা • সুন্দরবন অঞ্চলে যাতায়াত ও অবকাঠামো উন্নয়ন"
+      }
+    }
+  },
+  {
+    "id": "eternal-unknown-heroes",
+    "slug": "unnamed-martyrs-1204-to-2026",
+    "dates": {
+      "birth": "Continuous",
+      "death": "1204-2026"
+    },
+    "era": "multi-era-liberation",
+    "category": [
+      "martyr",
+      "revolutionary",
+      "unsung_hero",
+      "freedom_fighter"
+    ],
+    "images": [
+      "assets/map/sultanate_map.png"
+    ],
+    "location_id": "loc_greater_bengal",
+    "importance": 5,
+    "related_hero_ids": [
+      "titumir",
+      "bakhtiyar_khalji",
+      "julyrevolution",
+      "sirajuddoula",
+      "haji-shariatullah",
+      "liberationwar1971",
+      "language_movement",
+      "netaji_subhas"
+    ],
+    "content": {
+      "en": {
+        "name": "The Eternal Unnamed Heroes",
+        "short_bio": "A collective tribute to the countless souls who fought and perished for the sovereignty, dignity, and freedom of Bengal from 1204 to 2026.",
+        "full_biography": "The history of Bengal is a saga of continuous resistance. Since 1204, through the periods of colonial rule, the language movement, the Great Liberation War of 1971, and the democratic uprisings of the 21st century (including 2024-2026), millions of common people have stood against oppression.\n\nThis entry honors the nameless peasants of the Fakir-Sannyasi rebellion, the forgotten soldiers of the Sepoy Mutiny, the students who faced bullets in 1952 and 1971, and the brave hearts who sacrificed their lives in the recent movements for justice and reform up to 2026. Many were buried in mass graves, many vanished in the tides of history, and many were intentionally erased from records. This is for the ones who gave their today for our tomorrow, whose names we may never know, but whose legacy flows in the veins of this delta.",
+        "quote": "Names are temporary, but the spirit of resistance is eternal.",
+        "birth_place": "The Delta of Bengal",
+        "achievements": "Defending the soil for 800+ years • Unbroken spirit of resistance • Foundation of the nation's independence and justice"
+      },
+      "bn": {
+        "name": "অবিনশ্বর অজ্ঞাতনামা বীর",
+        "short_bio": "১২০৪ থেকে ২০২৬ সাল পর্যন্ত বাংলার সার্বভৌমত্ব, মর্যাদা এবং স্বাধীনতার জন্য লড়াই করে প্রাণ বিসর্জন দেওয়া অগণিত মানুষের প্রতি এক সামষ্টিক শ্রদ্ধাঞ্জলি।",
+        "full_biography": "বাংলার ইতিহাস মূলত এক অবিরাম প্রতিরোধের ইতিহাস। ১২০৪ সালে বখতিয়ার খলজীর আগমনের পর থেকে সুলতানি আমল, ব্রিটিশ ঔপনিবেশিক শাসন, ৫২-র ভাষা আন্দোলন, ৭১-এর মহান মুক্তিযুদ্ধ এবং সবশেষে একবিংশ শতাব্দীর গণতান্ত্রিক ও সংস্কারমূলক গণ-অভ্যুত্থান (২০২৪-২০২৬) পর্যন্ত—অগণিত সাধারণ মানুষ অন্যায়ের বিরুদ্ধে বুক পেতে দিয়েছেন।\n\nএই ডাটাটি উৎসর্গ করা হলো ফকির-সন্ন্যাসী বিদ্রোহের সেই নামহীন কৃষকদের, সিপাহি বিদ্রোহের বিস্মৃত সৈনিকদের, ৫২ ও ৭১-এ রাজপথ কাঁপানো সেই ছাত্রদের এবং ২০২৪-২৬ এর সাম্প্রতিক আন্দোলনে ন্যায়বিচারের দাবিতে জীবন দেওয়া সেই নির্ভীক প্রাণদের জন্য। অনেককে গণকবরে সমাহিত করা হয়েছে, অনেকে ইতিহাসের চোরাবালিতে হারিয়ে গেছেন, আবার অনেকের নাম নথিপত্র থেকে উদ্দেশ্যমূলকভাবে মুছে ফেলা হয়েছে। এই শ্রদ্ধাঞ্জলি তাঁদের জন্য, যাঁরা আমাদের আগামীর জন্য নিজের বর্তমানকে বিসর্জন দিয়েছেন। তাঁদের নাম আমাদের জানা নেই ঠিকই, কিন্তু এই বদ্বীপের প্রতিটি ধূলিকণা তাঁদের বীরত্বের সাক্ষী।",
+        "quote": "নাম মুছে যায়, কিন্তু প্রতিরোধের চেতনা অবিনশ্বর।",
+        "birth_place": "বাংলা বদ্বীপের প্রতিটি প্রান্ত",
+        "achievements": "৮০০ বছরেরও বেশি সময় ধরে জন্মভূমি রক্ষা • অন্যায়ের বিরুদ্ধে অবিরাম প্রতিরোধ • একটি স্বাধীন ও ন্যায়ভিত্তিক রাষ্ট্রের ভিত্তি স্থাপন"
       }
     }
   }
