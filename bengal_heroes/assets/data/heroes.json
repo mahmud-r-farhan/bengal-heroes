@@ -115,6 +115,43 @@
     }
   },
   {
+    "id": "jasimuddin",
+    "slug": "jasim-uddin",
+    "dates": {
+      "birth": "1903-01-01",
+      "death": "1976-03-14"
+    },
+    "era": "british_raj",
+    "category": [
+      "poet",
+      "folklorist",
+      "intellectual"
+    ],
+    "images": [
+      "assets/images/heroes/jasimuddin.jpg"
+    ],
+    "location_id": "loc_faridpur",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Jasimuddin",
+        "short_bio": "Jasimuddin, widely known as Palli Kobi (The Rural Poet), was a celebrated Bengali poet and folklorist famous for depicting the simple beauty and struggles of rural Bengal life.",
+        "full_biography": "Jasimuddin was born on January 1, 1903, in the village of Tambulkhana in Faridpur district. He is one of the most beloved figures in Bengali literature for his unique ability to capture the essence of the countryside.\n\nHis literary career began early; while still a student at Calcutta University, his poem 'Kabar' (The Grave) was included in the school curriculum, a rare feat for a living poet at the time.\n\nHis masterpiece, 'Nakshi Kanthar Math' (The Field of the Embroidered Quilt), published in 1929, is considered one of the finest examples of pastoral poetry in world literature and has been translated into multiple languages.\n\nJasimuddin worked extensively as a folklorist, collecting thousands of folk songs and myths, which deeply influenced his writing style. He served as a faculty member at the University of Dhaka and later worked for the government's department of information and broadcasting.\n\nHis work is characterized by its simple language, rhythmic flow, and deep empathy for the rural population of Bengal. He was awarded the Ekushey Padak and the Independence Day Award for his monumental contributions to literature.\n\nHe passed away on March 14, 1976, in Dhaka and was buried in his village in Faridpur, as he had wished in his famous poem 'Kabar'.",
+        "quote": "এইখানে তোর দাদির কবর ডালিম গাছের তলে, তিরিশ বছর ভিজায়ে রেখেছি দুই নয়নের জলে। (Here lies your grandmother's grave under the pomegranate tree, for thirty years I have kept it moist with the tears of my two eyes.)",
+        "birth_place": "Tambulkhana, Faridpur, Bangladesh",
+        "achievements": "Recipient of the Independence Day Award • Author of 'Nakshi Kanthar Math' • Collected over 10,000 folk songs • Known as the 'Rural Poet' of Bengal • Awarded the Ekushey Padak"
+      },
+      "bn": {
+        "name": "জসীমউদ্দীন",
+        "short_bio": "জসীমউদ্দীন, যিনি 'পল্লীকবি' হিসেবে পরিচিত, ছিলেন একজন প্রখ্যাত বাঙালি কবি ও লোকসাহিত্যিক। তিনি গ্রামীণ বাংলার সাধারণ মানুষের জীবন, প্রকৃতি এবং সুখ-দুঃখের নিখুঁত চিত্রায়নের জন্য স্মরণীয়।",
+        "full_biography": "জসীমউদ্দীন ১৯০৩ সালের ১ জানুয়ারি ফরিদপুর জেলার তাম্বুলখানা গ্রামে জন্মগ্রহণ করেন। গ্রামীণ জীবনের রূপ ও রসকে সাহিত্যের প্রধান উপজীব্য করে তোলার জন্য তিনি 'পল্লীকবি' উপাধিতে ভূষিত হন।\n\nতাঁর সাহিত্যিক জীবন শুরু হয় ছাত্রাবস্থায়। কলকাতা বিশ্ববিদ্যালয়ে পড়ার সময় তাঁর বিখ্যাত 'কবর' কবিতাটি প্রবেশিকা পরীক্ষার পাঠ্যবইয়ে অন্তর্ভুক্ত হয়, যা সে সময়ের একজন জীবন্ত কবির জন্য ছিল এক বিরল সম্মান।\n\n১৯২৯ সালে প্রকাশিত তাঁর অমর সৃষ্টি 'নকশী কাঁথার মাঠ' কাব্যগ্রন্থটি বিশ্বসাহিত্যের অন্যতম সেরা আখ্যানকাব্য হিসেবে বিবেচিত এবং এটি বহু ভাষায় অনূদিত হয়েছে।\n\nজসীমউদ্দীন দীর্ঘকাল লোকসংগীত ও লোকগাথা সংগ্রহের কাজ করেছেন। তিনি ঢাকা বিশ্ববিদ্যালয়ে শিক্ষকতা করেন এবং পরে সরকারের তথ্য ও প্রচার বিভাগে কাজ করেন।\n\nসহজ সরল ভাষা ও ছন্দ তাঁর কবিতার প্রধান বৈশিষ্ট্য। তিনি একুশে পদক ও স্বাধীনতা পদকসহ অসংখ্য পুরস্কারে ভূষিত হন।\n\n১৯৭৬ সালের ১৪ মার্চ ঢাকায় তিনি মৃত্যুবরণ করেন। তাঁর ইচ্ছা অনুযায়ী তাঁকে ফরিদপুরের অম্বিকাপুরে দাদির কবরের পাশে ডালিম গাছের নিচে দাফন করা হয়।",
+        "quote": "এইখানে তোর দাদির কবর ডালিম গাছের তলে, তিরিশ বছর ভিজায়ে রেখেছি দুই নয়নের জলে।",
+        "birth_place": "তাম্বুলখানা, ফরিদপুর, বাংলাদেশ",
+        "achievements": "স্বাধীনতা পদক বিজয়ী • 'নকশী কাঁথার মাঠ' এর রচয়িতা • ১০,০০০-এর বেশি লোকসংগীত সংগ্রহ • বাংলার 'পল্লীকবি' হিসেবে স্বীকৃত • একুশে পদক প্রাপ্ত"
+      }
+    }
+  },
+  {
     "id": "rabindranath",
     "slug": "rabindranath-tagore",
     "dates": {
