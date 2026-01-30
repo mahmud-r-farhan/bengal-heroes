@@ -995,6 +995,43 @@
     }
   },
   {
+    "id": "bakhtiyar_khalji",
+    "slug": "bakhtiyar-khalji",
+    "dates": {
+      "birth": "Unknown",
+      "death": "1206-08-15"
+    },
+    "era": "early_sultanate_period",
+    "category": [
+      "conqueror",
+      "liberator",
+      "founder_of_muslim_rule"
+    ],
+    "images": [
+      "assets/images/heroes/conqueror_steed.jpg"
+    ],
+    "location_id": "loc_gaur",
+    "importance": 5,
+    "content": {
+      "en": {
+        "name": "Ikhtiyar al-Din Muhammad Bakhtiyar Khalji",
+        "short_bio": "The visionary military leader who established Muslim rule in Bengal in 1204. He brought an end to oppressive regimes, fostering an era of peace, justice, and the flourishing of the Bengali language.",
+        "full_biography": "In 1204, Bakhtiyar Khalji led a small but swift expedition to Nadia, marking the beginning of a new era in Bengal. His victory over the Sena dynasty ended the era of social hierarchy and religious oppression, establishing a reign based on justice.\n\nUnder his patronage and the subsequent Sultanate, the Bengali language, which was previously suppressed by orthodox elites, began to flourish. He established mosques, madrasas, and khanqahs, transforming Bengal into a center of learning and trade. His governance laid the foundation for a distinct Bengali-Islamic identity that protected the common people and local culture.",
+        "quote": "Victory belongs to those who possess courage and a sense of justice.",
+        "birth_place": "Garmsir, Afghanistan",
+        "achievements": "Conquest of Bengal (1204) • Established the first Muslim administration in Bengal • Patronized local culture and language • Ended social discrimination of the previous era"
+      },
+      "bn": {
+        "name": "ইখতিয়ার উদ্দিন মুহাম্মদ বিন বখতিয়ার খিলজি",
+        "short_bio": "একজন দূরদর্শী সামরিক নেতা যিনি ১২০৪ সালে বাংলায় মুসলিম শাসনের সূচনা করেন। তিনি অত্যাচারী শাসনের অবসান ঘটিয়ে শান্তি, ন্যায়বিচার এবং বাংলা ভাষার বিকাশের এক নতুন যুগের সূচনা করেছিলেন।",
+        "full_biography": "১২০৪ সালে বখতিয়ার খিলজি এক দুঃসাহসিক অভিযানের মাধ্যমে নদীয়া জয় করেন, যা বাংলার ইতিহাসে এক নতুন অধ্যায়ের সূচনা করে। তাঁর এই বিজয় তৎকালীন উগ্র বর্ণবাদী ও অত্যাচারী সেন শাসনের অবসান ঘটায় এবং সাধারণ মানুষের জন্য ন্যায়বিচারের দ্বার উন্মুক্ত করে।\n\nতৎকালীন উগ্র পণ্ডিত ও কট্টরপন্থী পন্ডিতদের দ্বারা বাংলা ভাষা যখন অবদমিত ছিল, বখতিয়ার খিলজির প্রতিষ্ঠিত শাসনব্যবস্থায় তা প্রাণ ফিরে পায়। তিনি অসংখ্য মসজিদ, মাদ্রাসা ও খানকাহ প্রতিষ্ঠা করেন, যা বাংলাকে শিক্ষা ও সংস্কৃতির কেন্দ্রে পরিণত করে। তাঁর শাসন আমল থেকেই সাধারণ মানুষের ভাষা ও সংস্কৃতি রাষ্ট্রীয় ও সামাজিক গুরুত্ব পেতে শুরু করে, যা আধুনিক বাংলার ভিত্তি স্থাপন করেছিল।",
+        "quote": "সাহস আর ন্যায়বোধ যাদের সাথী, বিজয় তাদেরই পদচুম্বন করে।",
+        "birth_place": "গরমশির, আফগানিস্তান",
+        "achievements": "বাংলা বিজয় (১২০৪) • বাংলায় প্রথম মুসলিম প্রশাসনিক ব্যবস্থা প্রতিষ্ঠা • স্থানীয় সংস্কৃতি ও ভাষার বিকাশে পথপ্রদর্শক • তৎকালীন সামাজিক বৈষম্য ও নিপীড়নের অবসান"
+      }
+    }
+  },
+  {
     "id": "shah_jalal",
     "slug": "shah-jalal",
     "dates": {
