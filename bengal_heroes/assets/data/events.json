@@ -290,7 +290,7 @@
         "image_asset": "assets/images/events/soviet_recognition.png"
     },
     {
-        "id": "event_041",
+        "id": "event_020",
         "date": "2025-12-18",
         "title": {
             "en": "Martyrdom of Sharif Osman Hadi",
@@ -1256,5 +1256,20 @@
             "muhammadyunus"
         ],
         "image_asset": "assets/images/events/interim_govt_oath.png"
+    },
+    {
+        "id": "event_042",
+        "date": "2019-10-07",
+        "title": {
+            "en": "Martyrdom of Abrar Fahad",
+            "bn": "শহীদ আবরার ফাহাদের শাহাদাত"
+        },
+        "description": {
+            "en": "Abrar Fahad, a second-year student of BUET, was brutally murdered by Chhatra League members in Sher-e-Bangla Hall after his Facebook post criticizing some bilateral agreements with India. His death triggered massive nationwide protests demanding justice and campus safety.",
+            "bn": "ভারত-বাংলাদেশ দ্বিপাক্ষিক চুক্তির সমালোচনা করে ফেসবুকে স্ট্যাটাস দেওয়ার জেরে বুয়েটের শেরে বাংলা হলে ছাত্রলীগের নেতাকর্মীদের হাতে নৃশংসভাবে নিহত হন দ্বিতীয় বর্ষের শিক্ষার্থী আবরার ফাহাদ। তাঁর এই মৃত্যু নিরাপদ ক্যাম্পাসের দাবিতে দেশব্যাপী ব্যাপক ছাত্র আন্দোলন ও প্রতিবাদের জন্ম দেয়।"
+        },
+        "era_id": "post_liberation",
+        "category_id": "war_movement",
+        "image_asset": "assets/images/events/abrar_fahad_2019.png"
     }
 ]

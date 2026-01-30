@@ -449,6 +449,22 @@
       "icon": "groups_2"
     },
     {
+      "id": "1826_yandabo",
+      "year": 1826,
+      "period": "1824-1826",
+      "title": {
+        "en": "Treaty of Yandabo and Arakan Annexation",
+        "bn": "ইয়ান্দাবু সন্ধি ও আরাকান অন্তর্ভুক্তি"
+      },
+      "description": {
+        "en": "The First Anglo-Burmese War (1824-1826) concluded with the Treaty of Yandabo on February 24, 1826. Under this treaty, the Kingdom of Burma was forced to cede Arakan and Tenasserim to the British East India Company. Following the annexation, Arakan was administratively incorporated into the Bengal Presidency, meaning it was governed from Kolkata as part of Bengal. This marked a significant shift where Arakan, after being occupied by Burma in 1784, came under British-Indian administration, fostering deep economic and social ties with Bengal for several decades.",
+        "bn": "প্রথম ইংরেজ-বার্মা যুদ্ধের (১৮২৪-১৮২৬) অবসান ঘটে ১৮২৬ সালের ২৪ ফেব্রুয়ারি স্বাক্ষরিত 'ইয়ান্দাবু সন্ধি'র মাধ্যমে। এই চুক্তির শর্ত অনুযায়ী, বার্মার রাজা আরাকান (বর্তমান রাখাইন) এবং তেনাসারিম অঞ্চল ব্রিটিশদের হাতে ছেড়ে দিতে বাধ্য হন। যুদ্ধের পর ব্রিটিশরা আরাকানকে প্রশাসনিকভাবে 'বেঙ্গল প্রেসিডেন্সি' বা বাংলা শাসনের অন্তর্ভুক্ত করে, যার ফলে দীর্ঘ সময় আরাকান কলকাতা থেকে শাসিত হতো। ১৭৮৪ সালে বার্মিজদের দ্বারা অধিকৃত হওয়ার পর, এই যুদ্ধের মাধ্যমেই আরাকান পুনরায় বাংলার প্রশাসনিক কাঠামোর সাথে যুক্ত হয় এবং এই অঞ্চলের অর্থনীতি ও সংস্কৃতিতে গভীর প্রভাব ফেলে।"
+      },
+      "category": "revolution",
+      "significance": "high",
+      "icon": "account_balance"
+    },
+    {
       "id": "1829_bengal_renaissance",
       "year": 1829,
       "period": "1829-1900",
