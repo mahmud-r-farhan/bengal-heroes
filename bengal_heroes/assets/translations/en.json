@@ -80,7 +80,20 @@
         "features_list": "• No ads - Pure educational focus\n• Offline-first - Works without internet\n• Bilingual - English & Bengali support",
         "version": "Version",
         "privacy_coming_soon": "Privacy Policy coming soon!",
-        "terms_coming_soon": "Terms of Service coming soon!"
+        "terms_coming_soon": "Terms of Service coming soon!",
+        "privacy": {
+            "title": "Privacy Policy",
+            "introduction": "Introduction",
+            "introduction_desc": "At Bengal Heroes, we are committed to providing an educational experience about the history of Bengal. This Privacy Policy explains how we handle data within our application.",
+            "data_collection": "Data Collection",
+            "data_collection_desc": "Bengal Heroes is an offline-first educational application. We do not collect personal information from our users. All historical data displayed in the app has been gathered from public internet sources, including but not limited to Banglapedia and historical archives.",
+            "accuracy": "Information Accuracy",
+            "accuracy_desc": "While we strive for historical accuracy, we acknowledge that history can be complex and sometimes debated. If you find any factual errors or have concerns about the content provided, please reach out to us. We are committed to maintaining the integrity of the information presented.",
+            "contributions": "Contributions",
+            "contributions_desc": "We welcome contributions from the community. If you have historical data, images, or stories that you believe should be included in Bengal Heroes, please contact us for possible inclusion in future updates.",
+            "contact": "Contact Us",
+            "contact_desc": "For corrections, data contributions, or any questions regarding this privacy policy, please contact us through our official channels."
+        }
     },
     "intro": {
         "skip": "Skip",
