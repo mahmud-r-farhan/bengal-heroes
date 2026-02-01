@@ -152,10 +152,10 @@ class HeroRepository {
 
   // ============ SEARCH ============
 
-  /// Fuzzy search heroes
+  /// Fuzzy search heroes - searches in BOTH English and Bengali content
+  /// to allow users to search in either language regardless of app language setting
   Future<List<SearchResult>> searchHeroes(
     String query, {
-    String locale = 'en',
     int limit = 20,
   }) async {
     if (query.trim().isEmpty) return [];
@@ -170,43 +170,50 @@ class HeroRepository {
       threshold: 0.4,
     );
 
+    // Define locales to search in
+    const locales = ['en', 'bn'];
+
     for (final hero in heroes) {
-      final content = hero.getContent(locale);
       double bestScore = 0;
       String matchedField = '';
 
-      // Search in name (highest weight)
-      final nameFuzzy = Fuzzy([content.name], options: options);
-      final nameResults = nameFuzzy.search(query);
-      if (nameResults.isNotEmpty) {
-        final score = (1 - nameResults.first.score) * 1.0; // Weight: 1.0
-        if (score > bestScore) {
-          bestScore = score;
-          matchedField = 'name';
-        }
-      }
+      // Search in both English and Bengali content
+      for (final locale in locales) {
+        final content = hero.getContent(locale);
 
-      // Search in short bio
-      final bioFuzzy = Fuzzy([content.shortBio], options: options);
-      final bioResults = bioFuzzy.search(query);
-      if (bioResults.isNotEmpty) {
-        final score = (1 - bioResults.first.score) * 0.6; // Weight: 0.6
-        if (score > bestScore) {
-          bestScore = score;
-          matchedField = 'bio';
-        }
-      }
-
-      // Search in era name
-      final era = await _dataSource.getEraById(hero.eraId);
-      if (era != null) {
-        final eraFuzzy = Fuzzy([era.getName(locale)], options: options);
-        final eraResults = eraFuzzy.search(query);
-        if (eraResults.isNotEmpty) {
-          final score = (1 - eraResults.first.score) * 0.5; // Weight: 0.5
+        // Search in name (highest weight)
+        final nameFuzzy = Fuzzy([content.name], options: options);
+        final nameResults = nameFuzzy.search(query);
+        if (nameResults.isNotEmpty) {
+          final score = (1 - nameResults.first.score) * 1.0; // Weight: 1.0
           if (score > bestScore) {
             bestScore = score;
-            matchedField = 'era';
+            matchedField = 'name';
+          }
+        }
+
+        // Search in short bio
+        final bioFuzzy = Fuzzy([content.shortBio], options: options);
+        final bioResults = bioFuzzy.search(query);
+        if (bioResults.isNotEmpty) {
+          final score = (1 - bioResults.first.score) * 0.6; // Weight: 0.6
+          if (score > bestScore) {
+            bestScore = score;
+            matchedField = 'bio';
+          }
+        }
+
+        // Search in era name (search both locales for era as well)
+        final era = await _dataSource.getEraById(hero.eraId);
+        if (era != null) {
+          final eraFuzzy = Fuzzy([era.getName(locale)], options: options);
+          final eraResults = eraFuzzy.search(query);
+          if (eraResults.isNotEmpty) {
+            final score = (1 - eraResults.first.score) * 0.5; // Weight: 0.5
+            if (score > bestScore) {
+              bestScore = score;
+              matchedField = 'era';
+            }
           }
         }
       }

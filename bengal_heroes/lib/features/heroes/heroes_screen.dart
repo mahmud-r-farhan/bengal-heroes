@@ -28,7 +28,7 @@ class _HeroesScreenState extends ConsumerState<HeroesScreen> {
   final ScrollController _scrollController = ScrollController();
   int _currentPage = 0;
   final List<models.Hero> _loadedHeroes = [];
-  bool _isLoadingMore = false;
+  bool _isLoadingMore = true; // Start with loading state
   bool _hasMoreData = true;
 
   @override
@@ -37,7 +37,8 @@ class _HeroesScreenState extends ConsumerState<HeroesScreen> {
     _scrollController.addListener(_onScroll);
     
     // Set initial filter if era or category provided
-    WidgetsBinding.instance.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      // Set the filter first
       if (widget.eraId != null) {
         ref.read(heroFilterProvider.notifier).state = HeroFilter(
           eraIds: [widget.eraId!],
@@ -47,6 +48,8 @@ class _HeroesScreenState extends ConsumerState<HeroesScreen> {
           categoryIds: [widget.categoryId!],
         );
       }
+      // Small delay to ensure state propagation
+      await Future.delayed(const Duration(milliseconds: 50));
       _loadHeroes();
     });
   }
