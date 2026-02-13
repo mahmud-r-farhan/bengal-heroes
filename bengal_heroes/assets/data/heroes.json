@@ -46,7 +46,7 @@
       "birth": "1781-00-00",
       "death": "1840-00-00"
     },
-    "era": "british_rule",
+    "era": "british_raj",
     "category": [
       "revolutionary",
       "reformer",
@@ -373,7 +373,7 @@
       "birth": "1733-01-01",
       "death": "1757-07-02"
     },
-    "era": "nawab_era",
+    "era": "mughal",
     "category": [
       "ruler",
       "soldier",
@@ -797,7 +797,7 @@
       "birth": "1892-09-08",
       "death": "1963-12-05"
     },
-    "era": "partition_era",
+    "era": "language_movement",
     "category": [
       "politician",
       "statesman"
@@ -833,7 +833,7 @@
       "birth": "1873-10-26",
       "death": "1962-04-27"
     },
-    "era": "partition_era",
+    "era": "language_movement",
     "category": [
       "politician",
       "statesman"
@@ -869,7 +869,7 @@
       "birth": "1880-12-12",
       "death": "1976-11-17"
     },
-    "era": "post_partition",
+    "era": "language_movement",
     "category": [
       "politician",
       "activist"
@@ -905,7 +905,7 @@
       "birth": "1871-06-07",
       "death": "1915-01-16"
     },
-    "era": "colonial_era",
+    "era": "british_raj",
     "category": [
       "noble",
       "politician"
@@ -941,7 +941,7 @@
       "birth": "1941-09-11",
       "death": "2020-06-14"
     },
-    "era": "modern_era",
+    "era": "liberation_1971",
     "category": [
       "military",
       "pilot",
@@ -984,7 +984,7 @@
       "birth": "1897-01-23",
       "death": "1945-08-18"
     },
-    "era": "independence_movement",
+    "era": "british_resistance",
     "category": [
       "nationalist",
       "military_leader"
@@ -1023,7 +1023,7 @@
       "birth": "1870-11-05",
       "death": "1925-06-16"
     },
-    "era": "british_rule",
+    "era": "british_resistance",
     "category": [
       "revolutionary",
       "lawyer",
@@ -1063,7 +1063,7 @@
       "birth": "1858-11-30",
       "death": "1937-11-23"
     },
-    "era": "bengal_renaissance",
+    "era": "british_raj",
     "category": [
       "scientist",
       "polymath"
@@ -1099,7 +1099,7 @@
       "birth": "1885-07-10",
       "death": "1969-07-13"
     },
-    "era": "bengal_renaissance",
+    "era": "language_movement",
     "category": [
       "linguist",
       "educationist"
@@ -1135,7 +1135,7 @@
       "birth": "1820-09-26",
       "death": "1891-07-29"
     },
-    "era": "bengal_renaissance",
+    "era": "british_raj",
     "category": [
       "reformer",
       "educationist"
@@ -1171,7 +1171,7 @@
       "birth": "1948-01-01",
       "death": "1952-02-21"
     },
-    "era": "post_partition",
+    "era": "language_movement",
     "category": [
       "language_movement",
       "protest",
@@ -1217,7 +1217,7 @@
       "birth": "1971-03-26",
       "death": "1971-12-16"
     },
-    "era": "modern_era",
+    "era": "liberation_1971",
     "category": [
       "war_of_independence",
       "genocide",
@@ -1271,7 +1271,7 @@
       "birth": "2024-06-05",
       "death": "2024-08-05"
     },
-    "era": "modern_era",
+    "era": "july_revolution_2024",
     "category": [
       "revolution",
       "student_movement",
@@ -1316,7 +1316,7 @@
       "birth": "Unknown",
       "death": "1045-01-01"
     },
-    "era": "medieval_bengal",
+    "era": "sultanate",
     "category": [
       "sufi_saint",
       "missionary",
@@ -1359,7 +1359,7 @@
       "birth": "Unknown",
       "death": "1206-08-15"
     },
-    "era": "early_sultanate_period",
+    "era": "sultanate",
     "category": [
       "conqueror",
       "liberator",
@@ -1402,7 +1402,7 @@
       "birth": "1271-05-25",
       "death": "1346-03-15"
     },
-    "era": "sultanate_period",
+    "era": "sultanate",
     "category": [
       "sufi_saint",
       "spiritual_leader",
@@ -1445,7 +1445,7 @@
       "birth": "1369-01-01",
       "death": "1459-10-25"
     },
-    "era": "sultanate_period",
+    "era": "sultanate",
     "category": [
       "warrior_saint",
       "architect",
@@ -1489,7 +1489,7 @@
       "birth": "Continuous",
       "death": "Continuous"
     },
-    "era": "multi-era-liberation",
+    "era": "liberation_1971",
     "category": [
       "martyr",
       "revolutionary",
