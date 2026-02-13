@@ -304,12 +304,11 @@ class SettingsScreen extends ConsumerWidget {
               width: 48,
               height: 48,
               decoration: BoxDecoration(
-                gradient: AppColors.goldGradient,
                 borderRadius: BorderRadius.circular(12),
               ),
-              child: const Icon(
-                Icons.shield_outlined,
-                color: Colors.white,
+              child: Image.asset(
+                'assets/logo/logo_v1.png',
+                fit: BoxFit.contain,
               ),
             ),
             const SizedBox(width: 12),
@@ -358,14 +357,6 @@ class SettingsScreen extends ConsumerWidget {
             width: 64,
             height: 64,
             decoration: BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-                colors: [
-                  AppColors.primaryGold,
-                  AppColors.primaryMaroon,
-                ],
-              ),
               borderRadius: BorderRadius.circular(16),
               boxShadow: [
                 BoxShadow(
@@ -375,10 +366,9 @@ class SettingsScreen extends ConsumerWidget {
                 ),
               ],
             ),
-            child: const Icon(
-              Icons.shield_outlined,
-              color: Colors.white,
-              size: 32,
+            child: Image.asset(
+              'assets/logo/logo_v2.png',
+              fit: BoxFit.contain,
             ),
           ),
           const SizedBox(height: 16),
@@ -397,7 +387,7 @@ class SettingsScreen extends ConsumerWidget {
           ),
           const SizedBox(height: 8),
           Text(
-            'Mahmud Rahman',
+            'Bengal Bytes',
             style: theme.textTheme.bodySmall?.copyWith(
               color: theme.colorScheme.onSurfaceVariant,
             ),

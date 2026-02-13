@@ -62,6 +62,7 @@ flutter:
     - assets/data/
     - assets/translations/
     - assets/icons/
+    - assets/logo/
   
   # fonts:
   #   - family: Hind Siliguri

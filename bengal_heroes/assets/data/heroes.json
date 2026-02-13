@@ -301,6 +301,15 @@
     ],
     "location_id": "loc_jorasanko",
     "importance": 5,
+    "related_hero_ids": [
+      "chandravidyasagar",
+      "jagadishbose",
+      "kazinazrul",
+      "jasimuddin",
+      "subhasbose",
+      "cr-das",
+      "muhammadshahidullah"
+    ],
     "content": {
       "en": {
         "name": "Rabindranath Tagore",
@@ -753,6 +762,15 @@
     ],
     "location_id": "loc_bogra",
     "importance": 5,
+    "related_hero_ids": [
+      "sheikhmujib",
+      "tajuddinahmed",
+      "mostaqahmad",
+      "liberationwar1971",
+      "jagatjyoti-das",
+      "bengalilanguagemovement",
+      "saifulazam"
+    ],
     "content": {
       "en": {
         "name": "Ziaur Rahman",
@@ -934,6 +952,12 @@
     ],
     "location_id": "loc_pabna",
     "importance": 4,
+    "related_hero_ids": [
+      "ziaurrahman",
+      "sheikhmujib",
+      "liberationwar1971",
+      "julyrevolution"
+    ],
     "content": {
       "en": {
         "name": "Saiful Azam",
@@ -1158,6 +1182,15 @@
     ],
     "location_id": "loc_dhaka",
     "importance": 5,
+    "related_hero_ids": [
+      "muhammadshahidullah",
+      "sheikhmujib",
+      "hamidkhan",
+      "huseynshaheed",
+      "fazlulhuq",
+      "liberationwar1971",
+      "tajuddinahmed"
+    ],
     "content": {
       "en": {
         "name": "Bengali Language Movement",
@@ -1199,13 +1232,18 @@
       "sheikhmujib",
       "tajuddinahmed",
       "ziaurrahman",
+      "mostaqahmad",
       "birmohiuddin",
       "birmotiur",
       "birnur",
       "birrouf",
-      "cr-das",
-      "mostaq",
-      "tajuddin"
+      "birkamal",
+      "birhamidur",
+      "birruhul",
+      "jagatjyoti-das",
+      "bengalilanguagemovement",
+      "hamidkhan",
+      "huseynshaheed"
     ],
     "content": {
       "en": {
@@ -1244,6 +1282,14 @@
     ],
     "location_id": "loc_dhaka",
     "importance": 5,
+    "related_hero_ids": [
+      "bengalilanguagemovement",
+      "liberationwar1971",
+      "sheikhmujib",
+      "eternal-unknown-heroes",
+      "saifulazam",
+      "ziaurrahman"
+    ],
     "content": {
       "en": {
         "name": "July Revolution 2024",
@@ -1281,6 +1327,12 @@
     ],
     "location_id": "loc_mahasthangarh",
     "importance": 5,
+    "related_hero_ids": [
+      "shah_jalal",
+      "khan_jahan_ali",
+      "bakhtiyar_khalji",
+      "eternal-unknown-heroes"
+    ],
     "content": {
       "en": {
         "name": "Shah Sultan Balkhi Mahisawar",
@@ -1318,6 +1370,12 @@
     ],
     "location_id": "loc_gaur",
     "importance": 5,
+    "related_hero_ids": [
+      "shah_jalal",
+      "khan_jahan_ali",
+      "isakhan",
+      "eternal-unknown-heroes"
+    ],
     "content": {
       "en": {
         "name": "Ikhtiyar al-Din Muhammad Bakhtiyar Khalji",
@@ -1355,6 +1413,12 @@
     ],
     "location_id": "loc_sylhet",
     "importance": 5,
+    "related_hero_ids": [
+      "khan_jahan_ali",
+      "bakhtiyar_khalji",
+      "sultan_balkhi",
+      "eternal-unknown-heroes"
+    ],
     "content": {
       "en": {
         "name": "Hazrat Shah Jalal",
@@ -1392,6 +1456,13 @@
     ],
     "location_id": "loc_bagerhat",
     "importance": 5,
+    "related_hero_ids": [
+      "shah_jalal",
+      "bakhtiyar_khalji",
+      "isakhan",
+      "sultan_balkhi",
+      "eternal-unknown-heroes"
+    ],
     "content": {
       "en": {
         "name": "Khan Jahan Ali",
@@ -1432,13 +1503,18 @@
     "importance": 5,
     "related_hero_ids": [
       "bakhtiyar_khalji",
-      "titumir",
-      "julyrevolution",
+      "khan_jahan_ali",
+      "shah_jalal",
+      "sultan_balkhi",
       "sirajuddoula",
+      "titumir",
       "haji-shariatullah",
+      "suryasen",
+      "subhasbose",
+      "cr-das",
       "liberationwar1971",
-      "language_movement",
-      "netaji_subhas"
+      "bengalilanguagemovement",
+      "julyrevolution"
     ],
     "content": {
       "en": {
