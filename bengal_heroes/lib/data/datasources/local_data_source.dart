@@ -162,6 +162,16 @@ class LocalDataSource {
     }
   }
 
+  /// Get location by ID
+  Future<Location?> getLocationById(String id) async {
+    final locations = await loadLocations();
+    try {
+      return locations.firstWhere((l) => l.id == id);
+    } catch (_) {
+      return null;
+    }
+  }
+
   /// Get heroes by era ID
   Future<List<Hero>> getHeroesByEra(String eraId) async {
     final heroes = await loadHeroes();

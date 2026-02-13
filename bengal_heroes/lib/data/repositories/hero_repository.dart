@@ -216,6 +216,22 @@ class HeroRepository {
             }
           }
         }
+
+        // Search in location name (if hero has a location)
+        if (hero.locationId != null) {
+          final location = await _dataSource.getLocationById(hero.locationId!);
+          if (location != null) {
+            final locationFuzzy = Fuzzy([location.getName(locale)], options: options);
+            final locationResults = locationFuzzy.search(query);
+            if (locationResults.isNotEmpty) {
+              final score = (1 - locationResults.first.score) * 0.7; // Weight: 0.7
+              if (score > bestScore) {
+                bestScore = score;
+                matchedField = 'location';
+              }
+            }
+          }
+        }
       }
 
       // Add to results if score is above threshold

@@ -178,15 +178,15 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
 
           // Search suggestions
           Text(
-            'Popular Searches',
+            'Suggested Searches',
             style: theme.textTheme.titleMedium?.copyWith(
               fontWeight: FontWeight.w600,
             ),
           ),
           const SizedBox(height: 12),
-          _buildSearchSuggestionItem(context, 'Titumir', Icons.trending_up),
-          _buildSearchSuggestionItem(context, 'Begum Rokeya', Icons.trending_up),
-          _buildSearchSuggestionItem(context, 'Martyrs', Icons.category),
+          _buildSearchSuggestionItem(context, 'Titumir ', Icons.trending_up),
+          _buildSearchSuggestionItem(context, 'Muhammad Bakhtiyar Khalji', Icons.trending_up),
+          _buildSearchSuggestionItem(context, 'Bengal', Icons.category),
           _buildSearchSuggestionItem(context, 'Liberation War', Icons.history),
           _buildSearchSuggestionItem(context, 'Language Movement', Icons.event),
 
@@ -330,7 +330,7 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                     ),
                     const SizedBox(width: 16),
 
-                    // Info
+                    // Info with location support
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -392,6 +392,8 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
         return AppColors.secondaryOlive;
       case 'era':
         return AppColors.secondaryNavy;
+      case 'location':
+        return Colors.green;
       default:
         return AppColors.primaryGold;
     }

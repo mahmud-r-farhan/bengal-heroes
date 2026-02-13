@@ -21,6 +21,7 @@ class HeroFilterSheet extends ConsumerStatefulWidget {
 class _HeroFilterSheetState extends ConsumerState<HeroFilterSheet> {
   late Set<String> _selectedEras;
   late Set<String> _selectedCategories;
+  late String? _selectedLocation;
 
   @override
   void initState() {
@@ -28,12 +29,14 @@ class _HeroFilterSheetState extends ConsumerState<HeroFilterSheet> {
     final currentFilter = ref.read(heroFilterProvider);
     _selectedEras = Set.from(currentFilter.eraIds ?? []);
     _selectedCategories = Set.from(currentFilter.categoryIds ?? []);
+    _selectedLocation = currentFilter.locationId;
   }
 
   void _applyFilter() {
     ref.read(heroFilterProvider.notifier).state = HeroFilter(
       eraIds: _selectedEras.isEmpty ? null : _selectedEras.toList(),
       categoryIds: _selectedCategories.isEmpty ? null : _selectedCategories.toList(),
+      locationId: _selectedLocation,
     );
     widget.onFilterApplied();
     Navigator.pop(context);
@@ -43,6 +46,7 @@ class _HeroFilterSheetState extends ConsumerState<HeroFilterSheet> {
     setState(() {
       _selectedEras.clear();
       _selectedCategories.clear();
+      _selectedLocation = null;
     });
   }
 
@@ -52,7 +56,8 @@ class _HeroFilterSheetState extends ConsumerState<HeroFilterSheet> {
     final locale = Localizations.localeOf(context).languageCode;
     final eras = ref.watch(allErasProvider);
     final categories = ref.watch(allCategoriesProvider);
-    final hasSelection = _selectedEras.isNotEmpty || _selectedCategories.isNotEmpty;
+    final locations = ref.watch(allLocationsProvider);
+    final hasSelection = _selectedEras.isNotEmpty || _selectedCategories.isNotEmpty || _selectedLocation != null;
 
     return Container(
       decoration: BoxDecoration(
@@ -177,6 +182,56 @@ class _HeroFilterSheetState extends ConsumerState<HeroFilterSheet> {
                         error: (_, _) => const Text('Error loading categories'),
                       ),
 
+                      const SizedBox(height: 24),
+
+                      // Location filters
+                      Text(
+                        'Location',
+                        style: theme.textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      locations.when(
+                        data: (locationList) {
+                          if (locationList.isEmpty) {
+                            return const Text('No locations available');
+                          }
+                          return DropdownButton<String?>(
+                            value: _selectedLocation,
+                            isExpanded: true,
+                            hint: const Text('Select a location...'),
+                            underline: Container(
+                              height: 1,
+                              color: theme.colorScheme.outline.withValues(alpha: 0.2),
+                            ),
+                            items: [
+                              DropdownMenuItem<String?>(
+                                value: null,
+                                child: const Text('All Locations'),
+                              ),
+                              ...locationList.map((location) {
+                                return DropdownMenuItem<String?>(
+                                  value: location.id,
+                                  child: Text(
+                                    location.getName(locale),
+                                    maxLines: 1,
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
+                                );
+                              }).toList(),
+                            ],
+                            onChanged: (value) {
+                              setState(() {
+                                _selectedLocation = value;
+                              });
+                            },
+                          );
+                        },
+                        loading: () => const CircularProgressIndicator(),
+                        error: (_, _) => const Text('Error loading locations'),
+                      ),
+
                       const SizedBox(height: 32),
                     ],
                   ),
@@ -205,7 +260,7 @@ class _HeroFilterSheetState extends ConsumerState<HeroFilterSheet> {
                       ),
                       child: Text(
                         hasSelection
-                            ? 'Apply Filters (${_selectedEras.length + _selectedCategories.length})'
+                            ? 'Apply Filters (${_selectedEras.length + _selectedCategories.length + (_selectedLocation != null ? 1 : 0)})'
                             : 'Show All Heroes',
                       ),
                     ),

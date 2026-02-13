@@ -28,7 +28,7 @@ class _HeroesScreenState extends ConsumerState<HeroesScreen> {
   final ScrollController _scrollController = ScrollController();
   int _currentPage = 0;
   final List<models.Hero> _loadedHeroes = [];
-  bool _isLoadingMore = true; // Start with loading state
+  bool _isLoadingMore = false; // Start with false so initial load can execute
   bool _hasMoreData = true;
 
   @override
