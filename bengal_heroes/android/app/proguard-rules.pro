@@ -1,29 +1,60 @@
-# Add project specific ProGuard rules here.
-# By default, the flags in this file are appended to flags specified
-# in the Android SDK directory proguard-android.txt file.
+# Bengal Heroes App - Production ProGuard Rules
+# ==============================================
+# Optimization for Google Play Store Release Build
+# These rules ensure proper obfuscation while maintaining app functionality
 
-# Flutter wrapper
+# ============= Flutter & Dart Configuration =============
 -keep class io.flutter.app.** { *; }
 -keep class io.flutter.plugin.**  { *; }
 -keep class io.flutter.util.**  { *; }
 -keep class io.flutter.view.**  { *; }
 -keep class io.flutter.**  { *; }
 -keep class io.flutter.plugins.**  { *; }
+-keep class io.flutter.embedding.** { *; }
+-keep class io.flutter.embedding.engine.** { *; }
 -dontwarn io.flutter.embedding.**
 
-# Keep model classes from being obfuscated (if using JSON serialization)
+# ============= Kotlin Configuration =============
+-keep class kotlin.** { *; }
+-keep class kotlinx.** { *; }
+-keep class kotlin.Metadata { *; }
+-keepclassmembers class ** {
+    ** INSTANCE;
+}
+-dontwarn kotlin.**
+-dontwarn kotlinx.**
+
+# ============= Riverpod State Management =============
+-keep class riverpod.** { *; }
+-keep class flutter_riverpod.** { *; }
+-dontwarn riverpod.**
+-dontwarn flutter_riverpod.**
+
+# ============= Easy Localization =============
+-keep class easy_localization.** { *; }
+-keepclassmembers class ** {
+    @easy_localization.** <fields>;
+}
+
+# ============= Google Fonts =============
+-keep class com.google.fonts.** { *; }
+-dontwarn com.google.fonts.**
+
+# ============= Shared Preferences =============
+-keep class android.content.SharedPreferences { *; }
+
+# ============= Cached Network Image =============
+-keep class com.bumptech.glide.** { *; }
+-dontwarn com.bumptech.glide.**
+
+# ============= JSON Serialization =============
 -keepclassmembers class * {
     @com.google.gson.annotations.SerializedName <fields>;
 }
+-keep class com.google.gson.** { *; }
+-dontwarn com.google.gson.**
 
-# Keep Kotlin metadata
--keep class kotlin.Metadata { *; }
--dontwarn kotlin.**
-
-# Google Fonts
--keep class com.google.fonts.** { *; }
-
-# Disable excessive logging in release
+# ============= Remove Excessive Logging in Release =============
 -assumenosideeffects class android.util.Log {
     public static boolean isLoggable(java.lang.String, int);
     public static int v(...);
@@ -32,9 +63,20 @@
     public static int d(...);
 }
 
-# Remove debug information
--dontobfuscate
+# ============= Keep Custom Classes =============
+# Keep model and data classes
+-keep class com.bengalbytes.** { *; }
+-keepclassmembers class com.bengalbytes.** {
+  *;
+}
 
-# Don't warn about missing classes that aren't used
+# ============= General Optimization Flags =============
+-verbose
+-optimizationpasses 5
+-dontshrink
+-optimizations !code/simplification/cast,!field/*,!class/merging/*
+
+# ============= Suppress Warnings =============
 -dontnote **
 -dontwarn **
+-ignorewarnings

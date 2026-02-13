@@ -2,7 +2,10 @@
     <application
         android:label="Bengal Heroes"
         android:name="${applicationName}"
-        android:icon="@mipmap/launcher_icon">
+        android:icon="@mipmap/launcher_icon"
+        android:allowBackup="false"
+        android:usesCleartextTraffic="false"
+        android:requestLegacyExternalStorage="false">
         <activity
             android:name=".MainActivity"
             android:exported="true"

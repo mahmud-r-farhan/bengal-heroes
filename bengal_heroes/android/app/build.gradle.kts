@@ -30,6 +30,29 @@ android {
         versionName = flutter.versionName
     }
 
+    signingConfigs {
+        create("release") {
+            // Configure keystore properties from local.properties
+            // Path: ~/.android/debug.keystore (for testing) or your production keystore
+            // Use production keystore path for Google Play Store
+            val keystorePath = System.getenv("KEYSTORE_PATH") ?: "${System.getProperty("user.home")}/.android/debug.keystore"
+            val keystorePassword = System.getenv("KEYSTORE_PASSWORD") ?: "android"
+            val keyAlias = System.getenv("KEY_ALIAS") ?: "androiddebugkey"
+            val keyPassword = System.getenv("KEY_PASSWORD") ?: "android"
+            
+            storeFile = File(keystorePath)
+            storePassword = keystorePassword
+            keyAlias = keyAlias
+            keyPassword = keyPassword
+        }
+        getByName("debug") {
+            storeFile = file("debug.jks")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+    }
+
     buildTypes {
         release {
             // Enable code shrinking and optimization using R8
@@ -41,14 +64,18 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            // Production signing configuration for Google Play Store
+            signingConfig = signingConfigs.getByName("release")
+            
+            // Disable debug logging in release builds
+            buildConfigField("boolean", "DEBUG_MODE", "false")
         }
         debug {
             // Disable shrinking for debug builds for faster build times
             isMinifyEnabled = false
             isShrinkResources = false
+            // Enable debug features for development
+            buildConfigField("boolean", "DEBUG_MODE", "true")
         }
     }
 
