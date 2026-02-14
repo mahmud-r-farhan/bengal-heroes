@@ -71,12 +71,11 @@
 }
 
 # ============= General Optimization Flags =============
--verbose
 -optimizationpasses 5
--dontshrink
 -optimizations !code/simplification/cast,!field/*,!class/merging/*
+-allowaccessmodification
+-repackageclasses ''
 
 # ============= Suppress Warnings =============
 -dontnote **
--dontwarn **
 -ignorewarnings

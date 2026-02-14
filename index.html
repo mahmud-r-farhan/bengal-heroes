@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy & Terms of Service | Bengal Heroes — Bengal Bytes</title>
+    <meta name="description" content="Official Privacy Policy and Terms of Service for Bengal Heroes, an offline-first educational mobile application celebrating Bengali historical figures.">
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Privacy Policy & Terms | Bengal Heroes">
+    <meta property="og:description" content="Legal documentation for the Bengal Heroes educational app by Bengal Bytes.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bengalbytes.com/bengal-heroes-privacy">
+    <meta property="og:image" content="https://bengalbytes.com/assets/og-image.jpg">
+
+    <style>
+        :root {
+            --paper:      #fdfcf7;       /* warm off-white / old paper */
+            --ink:        #0a192f;       /* deep navy / almost black */
+            --accent:     #c9a96e;       /* old gold / heritage accent */
+            --emphasis:   #5c1f2e;       /* muted burgundy for warnings/links */
+            --border:     #d4c9b0;       /* aged parchment border */
+            --light-text: #5c6673;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background: var(--paper);
+            color: var(--ink);
+            line-height: 1.72;
+            font-size: 1.05rem;
+        }
+
+        header {
+            background: var(--ink);
+            color: white;
+            text-align: center;
+            padding: 5rem 1.5rem 4rem;
+            border-bottom: 1px solid var(--accent);
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 3.2rem;
+            font-weight: 700;
+            letter-spacing: -0.04em;
+            margin-bottom: 0.6rem;
+        }
+
+        header .subtitle {
+            font-size: 1.35rem;
+            opacity: 0.9;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: -3.5rem auto 4rem;
+            background: white;
+            padding: 3.8rem 2.8rem 4rem;
+            border: 1px solid var(--border);
+            box-shadow: 0 6px 28px rgba(0,0,0,0.08);
+            position: relative;
+        }
+
+        .container::before {
+            content: "Bengal Heroes";
+            position: absolute;
+            top: -1.1rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            padding: 0 1.4rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--accent);
+            font-weight: 600;
+            letter-spacing: 0.06em;
+        }
+
+        .last-updated {
+            display: block;
+            text-align: center;
+            font-style: italic;
+            color: var(--light-text);
+            margin: 1.8rem 0 2.8rem;
+            font-size: 0.98rem;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 2.1rem;
+            color: var(--ink);
+            margin: 3.2rem 0 1.4rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+            position: relative;
+        }
+
+        h2::after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 80px;
+            height: 2px;
+            background: var(--accent);
+        }
+
+        h3 {
+            font-size: 1.45rem;
+            color: var(--emphasis);
+            margin: 2.4rem 0 1rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1.4rem;
+            font-size: 1.05rem;
+        }
+
+        ul, ol {
+            margin: 1.2rem 0 1.8rem 2rem;
+        }
+
+        li {
+            margin-bottom: 0.8rem;
+        }
+
+        strong {
+            color: var(--ink);
+            font-weight: 600;
+        }
+
+        a {
+            color: var(--emphasis);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(92,31,46,0.3);
+            transition: all 0.2s;
+        }
+
+        a:hover {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+
+        .info-box, .warning-box {
+            padding: 1.6rem 1.8rem;
+            margin: 2rem 0;
+            border-left: 4px solid;
+            background: rgba(201,169,110,0.06);
+            border-radius: 3px;
+        }
+
+        .info-box {
+            border-left-color: var(--accent);
+        }
+
+        .warning-box {
+            border-left-color: var(--emphasis);
+            background: rgba(92,31,46,0.04);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.8rem 0;
+            font-size: 0.98rem;
+        }
+
+        th, td {
+            padding: 0.9rem 1.1rem;
+            border: 1px solid var(--border);
+            text-align: left;
+        }
+
+        th {
+            background: var(--ink);
+            color: white;
+            font-weight: 600;
+        }
+
+        .toc {
+            background: rgba(201,169,110,0.04);
+            padding: 1.8rem 2rem;
+            margin: 2.5rem 0;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+        }
+
+        .toc h3 {
+            color: var(--ink);
+            margin-bottom: 1.2rem;
+        }
+
+        .toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .toc li {
+            margin: 0.7rem 0;
+        }
+
+        .toc a {
+            color: var(--emphasis);
+        }
+
+        .contact-box {
+            background: rgba(201,169,110,0.05);
+            padding: 2.2rem;
+            margin: 3.5rem 0 2rem;
+            border: 1px solid var(--border);
+            border-left: 5px solid var(--accent);
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 1.5rem 4rem;
+            color: var(--light-text);
+            font-size: 0.92rem;
+            border-top: 1px solid var(--border);
+        }
+
+        footer a {
+            color: var(--emphasis);
+        }
+
+        @media (max-width: 768px) {
+            header { padding: 4rem 1rem 3rem; }
+            header h1 { font-size: 2.6rem; }
+            .container { margin: -2.5rem 1rem 3rem; padding: 2.5rem 1.6rem; }
+            h2 { font-size: 1.9rem; }
+        }
+    </style>
+
+    <!-- Optional: Load Playfair Display for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Bengal Heroes</h1>
+    <p class="subtitle">Privacy Policy & Terms of Service</p>
+</header>
+
+<div class="container">
+
+    <p class="last-updated">Last Updated: February 14, 2026</p>
+
+    <div class="toc">
+        <h3>Table of Contents</h3>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#information-collection">Information We Collect & Use</a></li>
+            <li><a href="#log-data">Log Data</a></li>
+            <li><a href="#data-retention">Data Retention & Your Rights</a></li>
+            <li><a href="#children-privacy">Children's Privacy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#changes">Changes to These Policies</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Welcome to <strong>Bengal Heroes</strong>, a free, offline-first educational mobile application crafted by <strong>Bengal Bytes</strong> to honor and preserve the legacy of Bengal's greatest historical figures — freedom fighters, intellectuals, poets, rulers, and leaders.</p>
+        <p>This application is offered solely for educational purposes and operates without advertisements, subscriptions, or in-app purchases. By using Bengal Heroes, you accept the practices described in this Privacy Policy and agree to comply with the Terms of Service outlined herein.</p>
+
+        <div class="info-box">
+            <strong>Core Principles</strong><br>
+            • <strong>No Personal Data Required</strong> — No email, name, phone, or account creation needed<br>
+            • <strong>No Permissions Required</strong> — App requests no special device permissions<br>
+            • <strong>Offline-First Design</strong> — All core features work completely offline<br>
+            • <strong>No Advertising</strong> — Zero ads, tracking, or commercial data collection<br>
+            • <strong>Free Forever</strong> — No in-app purchases, subscriptions, or paid features<br>
+            • <strong>No Data Selling</strong> — Your usage data is never sold or shared
+        </div>
+    </section>
+
+    <section id="privacy">
+        <h2>Privacy Policy</h2>
+
+        <h3 id="information-collection">Information We Collect & Use</h3>
+        
+        <div class="info-box">
+            <strong>No Personal Information Required</strong><br>
+            Bengal Heroes requires <strong>ZERO personal information</strong> to download, install, or use. No email address, name, phone number, location, or account credentials are ever requested or collected.
+        </div>
+
+        <p>The app collects only minimal technical data required for core functionality. <strong>The vast majority of your data never leaves your device.</strong></p>
+        
+        <h4>What Data Is Stored Locally on Your Device</h4>
+        <ul>
+            <li><strong>App Preferences</strong> — Language selection (English/Bengali), theme preference, font size</li>
+            <li><strong>Saved Favorites</strong> — Your bookmarked heroes (stored in device's encrypted storage)</li>
+            <li><strong>Search History</strong> — Local search queries (never transmitted)</li>
+            <li><strong>Cached Content</strong> — Downloaded images and biographical data for offline access</li>
+        </ul>
+
+        <h4>What Optional Data May Be Collected</h4>
+        <p>Bengal Heroes may collect <strong>anonymized, non-personal</strong> technical information to improve performance and stability:</p>
+        <ul>
+            <li><strong>Anonymous Crash Reports</strong> — App errors (no personal identifiers attached)</li>
+            <li><strong>Performance Metrics</strong> — Feature usage frequencies, app response times</li>
+            <li><strong>Device Compatibility</strong> — Device model, OS version, screen size (for optimization)</li>
+        </ul>
+
+        <p><strong>None of this data is linked to your identity, stored on remote servers for extended periods, or used for marketing.</strong> We use this information exclusively to maintain stability, fix bugs, and improve performance.</p>
+
+        <h4>App Permissions: What We Request (and What We Don't)</h4>
+        <ul>
+            <li>✓ <strong>INTERNET (Optional)</strong> — Used only for optional features in future updates</li>
+            <li>✗ <strong>NO location access</strong></li>
+            <li>✗ <strong>NO contacts or calendar access</strong></li>
+            <li>✗ <strong>NO camera or microphone</strong></li>
+            <li>✗ <strong>NO SMS or call logs</strong></li>
+            <li>✗ <strong>NO account credentials or sign-in</strong></li>
+        </ul>
+
+        <h3 id="log-data">Log Data & Third-Party Services</h3>
+        <p>Bengal Heroes uses minimal third-party integrations, all from trusted providers:</p>
+        
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Purpose</th>
+                <th>Data Collected</th>
+                <th>Privacy Policy</th>
+            </tr>
+            <tr>
+                <td><strong>Google Play Services</strong></td>
+                <td>Optional crash reporting & app distribution</td>
+                <td>Device model, OS, anonymized error logs</td>
+                <td><a href="https://policies.google.com/privacy" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><strong>Flutter & Dart Runtime</strong></td>
+                <td>App framework (no external data collection)</td>
+                <td>None sent to external servers</td>
+                <td><a href="https://flutter.dev/redirect" target="_blank">View</a></td>
+            </tr>
+            <tr>
+                <td><strong>SharedPreferences</strong></td>
+                <td>Local device storage (encrypted by Android/iOS)</td>
+                <td>Only your app preferences & favorites (local)</td>
+                <td>N/A — Device-level encryption</td>
+            </tr>
+        </table>
+
+        <div class="warning-box">
+            <strong>Important:</strong> We do not integrate Facebook, TikTok, Instagram, or any social media SDKs. We do not track users across apps or the web.
+        </div>
+
+        <h3 id="data-retention">Data Retention & Your Rights</h3>
+        <div class="warning-box">
+            <strong>Most data never leaves your device.</strong> Favorites, preferences, and cached content are stored locally in encrypted storage managed by your operating system.
+        </div>
+
+        <h4>On Your Device</h4>
+        <p><strong>Uninstalling the app automatically removes all local data</strong> including favorites, preferences, search history, and cached content. You can also clear app data manually through your device settings.</p>
+
+        <h4>Data We Store on Our Servers</h4>
+        <p>Bengal Bytes stores minimal data on secure servers, limited to:</p>
+        <ul>
+            <li><strong>Support Communications</strong> — If you email us, we retain your message for 60 days after resolution, then auto-delete</li>
+            <li><strong>Anonymized Analytics</strong> — Aggregate feature usage (not linked to individuals), retained for 90 days</li>
+            <li><strong>Error Logs</strong> — Crash reports (anonymized), retained for 30 days for debugging</li>
+        </ul>
+
+        <h4>Your Data Rights (GDPR/CCPA Compliance)</h4>
+        <ul>
+            <li><strong>Right to Access:</strong> Request what data we have on you</li>
+            <li><strong>Right to Deletion:</strong> Request removal of any data you've provided</li>
+            <li><strong>Right to Portability:</strong> Request your data in standard format</li>
+            <li><strong>Right to Opt-Out:</strong> Disable crash reporting any time in app settings</li>
+        </ul>
+        <p>Submit requests via email to <a href="mailto:support@bengalbytes.com">support@bengalbytes.com</a> with subject "Data Request". We respond within 30 days.</p>
+
+        <h3 id="children-privacy">Children's Privacy (COPPA Compliance)</h3>
+        <p>Bengal Heroes is specifically designed to be safe for all ages, including children under 13. The app is an ideal learning tool for students in schools and home education.</p>
+        
+        <div class="info-box">
+            <strong>Child Safety Commitments:</strong><br>
+            • No personal information collection from anyone, including minors<br>
+            • No account, login, or email required<br>
+            • No external web browsing or links to inappropriate content<br>
+            • No collection of children's data for behavioral tracking<br>
+            • Historical content reviewed for educational appropriateness<br>
+            • Compliant with Children's Online Privacy Protection Act (COPPA)
+        </div>
+
+        <p>We do not knowingly collect personal information from children under 13. If we become aware of personal data from children, we will delete it immediately (within 24 hours).</p>
+        <p><strong>For Parents/Guardians:</strong> Bengal Heroes contains no ads, no in-app purchases, and no external tracking. It is completely safe for children to use independently or under supervision.</p>
+    </section>
+
+    <section id="terms">
+        <h2>Terms of Service</h2>
+        <p>By downloading, installing, or using Bengal Heroes, you agree to these Terms of Service. If you do not agree, you must uninstall the app.</p>
+
+        <h3>Age of Consent & Eligibility</h3>
+        <p>Bengal Heroes is intended for all ages, including users under 13. Parents/guardians of children under 13 are encouraged to review this privacy policy. No age verification is required.</p>
+
+        <h3>License & Intellectual Property</h3>
+        <p>The app's design, user interface, source code, and compiling of historical content are copyright © 2026 Bengal Bytes. All rights reserved.</p>
+        
+        <h4>What You Can Do</h4>
+        <ul>
+            <li>Use the app for personal, educational, and non-commercial purposes</li>
+            <li>Share screenshots and historical information for educational projects</li>
+            <li>Recommend the app to friends, family, and schools</li>
+            <li>Use historical facts (public domain) in research and presentations</li>
+        </ul>
+        
+        <h4>What You Cannot Do</h4>
+        <ul>
+            <li>Reverse-engineer, decompile, or modify the app's code</li>
+            <li>Copy or redistribute the entire app</li>
+            <li>Remove copyright or proprietary notices</li>
+            <li>Use content commercially without permission</li>
+            <li>Claim authorship of historical content or translations</li>
+        </ul>
+
+        <h3>Content Accuracy & Sources</h3>
+        <p>Bengal Heroes uses historical information compiled from academic sources, historical records, and scholarly research. However:</p>
+        <ul>
+            <li>Historical records may have incomplete or conflicting information</li>
+            <li>Some biographical details may be estimates based on historical sources</li>
+            <li>We are not responsible for inaccuracies in source materials</li>
+            <li>We welcome corrections and verification requests</li>
+        </ul>
+
+        <h3>Acceptable Use Policy</h3>
+        <p>You agree to use Bengal Heroes solely for lawful, educational purposes. You will not:</p>
+        <ul>
+            <li>Attempt to hack, crack, or bypass security features</li>
+            <li>Use the app for illegal activities or intentions</li>
+            <li>Disrupt or interfere with servers or app functionality</li>
+            <li>Transmit viruses, malware, or harmful code</li>
+            <li>Harass others or post hateful content (if community features exist)</li>
+            <li>Exploit bugs or vulnerabilities</li>
+        </ul>
+        <p><strong>Violation may result in immediate termination of your access.</strong></p>
+
+        <h3>Warranty Disclaimer</h3>
+        <div class="warning-box">
+            <strong>THE APP IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.</strong> Bengal Bytes makes no warranties regarding accuracy, completeness, timeliness, or fitness for a particular purpose. Use at your own risk.
+        </div>
+
+        <h3>Limitation of Liability</h3>
+        <p>To the extent permitted by law, Bengal Bytes is not liable for:</p>
+        <ul>
+            <li>Any loss of data, app crashes, or service interruptions</li>
+            <li>Indirect, incidental, special, or consequential damages</li>
+            <li>Cost of replacement services or products</li>
+            <li>Third-party claims arising from your use</li>
+            <li>Device damage or data loss (you are responsible for backups)</li>
+        </ul>
+        <p><strong>Your sole remedy is to uninstall the app.</strong></p>
+
+        <h3>Connectivity & Data Charges</h3>
+        <p>Bengal Heroes works offline for core functionality. Optional internet features require connectivity. <strong>You are responsible for any data charges from your service provider.</strong> We do not reimburse data costs.</p>
+
+        <h3>Governing Law & Jurisdiction</h3>
+        <p>These terms are governed by the laws of India. Any legal action shall be brought exclusively in courts in India.</p>
+
+        <h3 id="changes">Changes to These Terms & Privacy Policy</h3>
+        <p>We may update these policies occasionally to reflect changes in technology, legal requirements, or app features. Your continued use after updates constitutes acceptance.</p>
+        <p><strong>Significant changes will be notified via:</strong></p>
+        <ul>
+            <li>In-app notifications for major policy updates</li>
+            <li>Updates to this page</li>
+            <li>Version notes in app changelogs</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <div class="contact-box">
+            <h3>Contact Us</h3>
+            <p>For questions, support, or data deletion requests:</p>
+            <p><strong>Email:</strong> <a href="mailto:support@bengalbytes.com">support@bengalbytes.com</a></p>
+            <p><strong>Website:</strong> <a href="https://bengalbytes.com" target="_blank">bengalbytes.com</a></p>
+            <p>We aim to respond within 48 hours.</p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 Bengal Bytes. All Rights Reserved.</p>
+    <p>Bengal Heroes — Preserving the Legacy of Bengal</p>
+</footer>
+
+</body>
+</html>
