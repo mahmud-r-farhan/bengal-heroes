@@ -219,7 +219,7 @@ class _HeroFilterSheetState extends ConsumerState<HeroFilterSheet> {
                                     overflow: TextOverflow.ellipsis,
                                   ),
                                 );
-                              }).toList(),
+                              }),
                             ],
                             onChanged: (value) {
                               setState(() {

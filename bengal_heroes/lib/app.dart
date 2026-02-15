@@ -12,25 +12,49 @@ class BengalHeroesApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final router = ref.watch(appRouterProvider);
-    final themeMode = ref.watch(themeModeProvider);
+    try {
+      final router = ref.watch(appRouterProvider);
+      final themeMode = ref.watch(themeModeProvider);
 
-    return MaterialApp.router(
-      title: 'Bengal Heroes',
-      debugShowCheckedModeBanner: false,
-      
-      // Localization
-      localizationsDelegates: context.localizationDelegates,
-      supportedLocales: context.supportedLocales,
-      locale: context.locale,
-      
-      // Theme
-      theme: AppTheme.lightTheme,
-      darkTheme: AppTheme.darkTheme,
-      themeMode: themeMode,
-      
-      // Router
-      routerConfig: router,
-    );
+      return MaterialApp.router(
+        title: 'Bengal Heroes',
+        debugShowCheckedModeBanner: false,
+        
+        // Localization
+        localizationsDelegates: context.localizationDelegates,
+        supportedLocales: context.supportedLocales,
+        locale: context.locale,
+        
+        // Theme
+        theme: AppTheme.lightTheme,
+        darkTheme: AppTheme.darkTheme,
+        themeMode: themeMode,
+        
+        // Router
+        routerConfig: router,
+      );
+    } catch (e, stackTrace) {
+      debugPrint('Error in app build: $e');
+      debugPrintStack(stackTrace: stackTrace);
+      return MaterialApp(
+        home: Scaffold(
+          body: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Icon(Icons.error, size: 64, color: Colors.red),
+                const SizedBox(height: 16),
+                const Text('App Build Error'),
+                const SizedBox(height: 8),
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Text(e.toString(), textAlign: TextAlign.center),
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
   }
 }

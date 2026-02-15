@@ -1,10 +1,10 @@
 name: bengal_heroes
 description: "Bengal Heroes - Discover the legendary freedom fighters, intellectuals, and heroes of Bengal. Learn about their remarkable contributions to India's independence and cultural renaissance."
 publish_to: 'none'
-version: 1.0.0+1
+version: 2.0.0+2
 
 # Set 'publish_to' to 'none' ensures this package cannot be published to pub.dev.
-# This is the first production release - Version 1.0.0, Build 1
+# Version 2.0.0 - Bug fixes and improvements. Build 2
 
 environment:
   sdk: ^3.10.4
@@ -53,13 +53,13 @@ dev_dependencies:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/logo/logo_v3.jpg"
+  image_path: "assets/logo/logo_v2.png"
   adaptive_icon_background: "#1a1f2e"
-  adaptive_icon_foreground: "assets/logo/logo_v3.jpg"
+  adaptive_icon_foreground: "assets/logo/logo_v2.png"
   min_sdk_android: 21
   web:
     generate: true
-    image_path: "assets/logo/logo_v3.jpg"
+    image_path: "assets/logo/logo_v2.png"
 
 flutter:
   uses-material-design: true

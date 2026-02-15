@@ -6,37 +6,48 @@ import '../../core/constants/app_constants.dart';
 
 /// Provider for SharedPreferences instance
 final sharedPreferencesProvider = Provider<SharedPreferences>((ref) {
-  throw UnimplementedError('SharedPreferences not initialized');
+  throw UnimplementedError(
+      'SharedPreferences not initialized - ensure it is provided in main()');
 });
 
 /// Provider for theme mode
 final themeModeProvider =
     StateNotifierProvider<ThemeModeNotifier, ThemeMode>((ref) {
-  return ThemeModeNotifier();
+  final prefs = ref.watch(sharedPreferencesProvider);
+  return ThemeModeNotifier(prefs);
 });
 
 /// Theme mode state notifier
 class ThemeModeNotifier extends StateNotifier<ThemeMode> {
-  ThemeModeNotifier() : super(ThemeMode.system) {
+  final SharedPreferences _prefs;
+
+  ThemeModeNotifier(this._prefs) : super(ThemeMode.system) {
     _loadThemeMode();
   }
 
-  Future<void> _loadThemeMode() async {
+  void _loadThemeMode() {
     try {
-      final prefs = await SharedPreferences.getInstance();
-      final themeModeIndex = prefs.getInt(AppConstants.keyThemeMode);
-      if (themeModeIndex != null) {
+      final themeModeIndex = _prefs.getInt(AppConstants.keyThemeMode);
+      if (themeModeIndex != null && 
+          themeModeIndex >= 0 && 
+          themeModeIndex < ThemeMode.values.length) {
         state = ThemeMode.values[themeModeIndex];
+      } else {
+        state = ThemeMode.system;
       }
-    } catch (_) {}
+    } catch (e) {
+      debugPrint('Error loading theme mode: $e');
+      state = ThemeMode.system;
+    }
   }
 
   Future<void> setThemeMode(ThemeMode mode) async {
     state = mode;
     try {
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.setInt(AppConstants.keyThemeMode, mode.index);
-    } catch (_) {}
+      await _prefs.setInt(AppConstants.keyThemeMode, mode.index);
+    } catch (e) {
+      debugPrint('Error setting theme mode: $e');
+    }
   }
 
   void toggleTheme() {
@@ -49,84 +60,112 @@ class ThemeModeNotifier extends StateNotifier<ThemeMode> {
 }
 
 /// Provider for first launch state
-final isFirstLaunchProvider = StateNotifierProvider<IsFirstLaunchNotifier, bool>((ref) {
-  return IsFirstLaunchNotifier();
+final isFirstLaunchProvider =
+    StateNotifierProvider<IsFirstLaunchNotifier, bool>((ref) {
+  final prefs = ref.watch(sharedPreferencesProvider);
+  return IsFirstLaunchNotifier(prefs);
 });
 
 /// First launch state notifier
 class IsFirstLaunchNotifier extends StateNotifier<bool> {
-  IsFirstLaunchNotifier() : super(true) {
+  final SharedPreferences _prefs;
+
+  IsFirstLaunchNotifier(this._prefs) : super(true) {
     _loadFirstLaunchState();
   }
 
-  Future<void> _loadFirstLaunchState() async {
+  void _loadFirstLaunchState() {
     try {
-      final prefs = await SharedPreferences.getInstance();
-      final isFirstLaunch = prefs.getBool(AppConstants.keyIsFirstLaunch) ?? true;
-      state = isFirstLaunch;
-    } catch (_) {}
+      final isFirstLaunch = _prefs.getBool(AppConstants.keyIsFirstLaunch);
+      if (isFirstLaunch != null) {
+        state = isFirstLaunch;
+      } else {
+        // Default to true on first installation
+        state = true;
+        debugPrint('First launch state not found, defaulting to true');
+      }
+    } catch (e) {
+      debugPrint('Error loading first launch state: $e');
+      state = true; // Default to true on error
+    }
   }
 
   Future<void> setFirstLaunchComplete() async {
     state = false;
     try {
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.setBool(AppConstants.keyIsFirstLaunch, false);
-    } catch (_) {}
+      await _prefs.setBool(AppConstants.keyIsFirstLaunch, false);
+    } catch (e) {
+      debugPrint('Error setting first launch: $e');
+    }
   }
 }
 
 /// Provider for selected locale
 final selectedLocaleProvider =
     StateNotifierProvider<SelectedLocaleNotifier, Locale>((ref) {
-  return SelectedLocaleNotifier();
+  final prefs = ref.watch(sharedPreferencesProvider);
+  return SelectedLocaleNotifier(prefs);
 });
 
 /// Selected locale state notifier
 class SelectedLocaleNotifier extends StateNotifier<Locale> {
-  SelectedLocaleNotifier() : super(AppConstants.defaultLocale) {
+  final SharedPreferences _prefs;
+
+  SelectedLocaleNotifier(this._prefs) : super(AppConstants.defaultLocale) {
     _loadLocale();
   }
 
-  Future<void> _loadLocale() async {
+  void _loadLocale() {
     try {
-      final prefs = await SharedPreferences.getInstance();
-      final localeCode = prefs.getString(AppConstants.keySelectedLocale);
-      if (localeCode != null) {
+      final localeCode = _prefs.getString(AppConstants.keySelectedLocale);
+      if (localeCode != null && localeCode.isNotEmpty) {
         state = Locale(localeCode);
+      } else {
+        state = AppConstants.defaultLocale;
       }
-    } catch (_) {}
+    } catch (e) {
+      debugPrint('Error loading locale: $e');
+      state = AppConstants.defaultLocale;
+    }
   }
 
   Future<void> setLocale(Locale locale) async {
     state = locale;
     try {
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.setString(AppConstants.keySelectedLocale, locale.languageCode);
-    } catch (_) {}
+      await _prefs.setString(AppConstants.keySelectedLocale, locale.languageCode);
+    } catch (e) {
+      debugPrint('Error setting locale: $e');
+    }
   }
 }
 
 /// Provider for favorite heroes
 final favoriteHeroesProvider =
     StateNotifierProvider<FavoriteHeroesNotifier, Set<String>>((ref) {
-  return FavoriteHeroesNotifier();
+  final prefs = ref.watch(sharedPreferencesProvider);
+  return FavoriteHeroesNotifier(prefs);
 });
 
 /// Favorite heroes state notifier
 class FavoriteHeroesNotifier extends StateNotifier<Set<String>> {
-  FavoriteHeroesNotifier() : super({}) {
+  final SharedPreferences _prefs;
+
+  FavoriteHeroesNotifier(this._prefs) : super(<String>{}) {
     _loadFavorites();
   }
 
-  Future<void> _loadFavorites() async {
+  void _loadFavorites() {
     try {
-      final prefs = await SharedPreferences.getInstance();
-      final favorites = prefs.getStringList(AppConstants.keyFavoriteHeroes);
+      final favorites = _prefs.getStringList(AppConstants.keyFavoriteHeroes);
       if (favorites != null) {
-        state = favorites.toSet();
+        state = Set<String>.from(favorites);
+      } else {
+        state = <String>{};
       }
-    } catch (_) {}
+    } catch (e) {
+      debugPrint('Error loading favorites: $e');
+      state = <String>{};
+    }
   }
 
   Future<void> toggleFavorite(String heroId) async {
@@ -139,10 +178,12 @@ class FavoriteHeroesNotifier extends StateNotifier<Set<String>> {
     state = newFavorites;
     
     try {
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.setStringList(AppConstants.keyFavoriteHeroes, newFavorites.toList());
-    } catch (_) {}
+      await _prefs.setStringList(AppConstants.keyFavoriteHeroes, newFavorites.toList());
+    } catch (e) {
+      debugPrint('Error toggling favorite: $e');
+    }
   }
 
   bool isFavorite(String heroId) => state.contains(heroId);
 }
+

@@ -307,7 +307,7 @@ class SettingsScreen extends ConsumerWidget {
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Image.asset(
-                'assets/logo/logo_v1.png',
+                'assets/logo/logo_v2.png',
                 fit: BoxFit.contain,
               ),
             ),

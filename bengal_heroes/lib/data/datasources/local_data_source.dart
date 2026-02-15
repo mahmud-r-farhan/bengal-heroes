@@ -21,15 +21,20 @@ class LocalDataSource {
 
   /// Load all data from assets
   Future<void> loadAllData() async {
-    await Future.wait([
-      loadHeroes(),
-      loadEras(),
-      loadCategories(),
-      loadEvents(),
-      loadLocations(),
-      loadTimelineEvents(),
-      loadTravelers(),
-    ]);
+    try {
+      await Future.wait([
+        loadHeroes(),
+        loadEras(),
+        loadCategories(),
+        loadEvents(),
+        loadLocations(),
+        loadTimelineEvents(),
+        loadTravelers(),
+      ]);
+    } catch (e) {
+      // Log error but don't crash - individual loaders have fallbacks
+      print('Error loading all data: $e');
+    }
   }
 
   /// Load heroes from JSON
@@ -45,7 +50,8 @@ class LocalDataSource {
           .toList();
       return _heroes!;
     } catch (e) {
-      // Error loading heroes
+      print('Error loading heroes from ${AppConstants.heroesDataFile}: $e');
+      _heroes = [];
       return [];
     }
   }
@@ -63,7 +69,8 @@ class LocalDataSource {
       _eras!.sort((a, b) => a.sortOrder.compareTo(b.sortOrder));
       return _eras!;
     } catch (e) {
-      // Error loading eras
+      print('Error loading eras from ${AppConstants.erasDataFile}: $e');
+      _eras = [];
       return [];
     }
   }
@@ -81,7 +88,8 @@ class LocalDataSource {
           .toList();
       return _categories!;
     } catch (e) {
-      // Error loading categories
+      print('Error loading categories from ${AppConstants.categoriesDataFile}: $e');
+      _categories = [];
       return [];
     }
   }
@@ -99,7 +107,8 @@ class LocalDataSource {
           .toList();
       return _events!;
     } catch (e) {
-      // Error loading events
+      print('Error loading events from ${AppConstants.eventsDataFile}: $e');
+      _events = [];
       return [];
     }
   }
@@ -117,7 +126,8 @@ class LocalDataSource {
           .toList();
       return _locations!;
     } catch (e) {
-      // Error loading locations
+      print('Error loading locations from ${AppConstants.locationsDataFile}: $e');
+      _locations = [];
       return [];
     }
   }
@@ -206,13 +216,14 @@ class LocalDataSource {
       final Map<String, dynamic> jsonMap =
           json.decode(jsonString) as Map<String, dynamic>;
       final List<dynamic> events =
-          jsonMap['timeline_events'] as List<dynamic>;
+          jsonMap['timeline_events'] as List<dynamic>? ?? [];
       _timelineEvents = events
           .map((e) => TimelineEvent.fromJson(e as Map<String, dynamic>))
           .toList();
       return _timelineEvents!;
     } catch (e) {
-      // Error loading timeline events
+      print('Error loading timeline events: $e');
+      _timelineEvents = [];
       return [];
     }
   }
@@ -232,13 +243,14 @@ class LocalDataSource {
       final Map<String, dynamic> jsonMap =
           json.decode(jsonString) as Map<String, dynamic>;
       final List<dynamic> events =
-          jsonMap['timeline_events'] as List<dynamic>;
+          jsonMap['timeline_events'] as List<dynamic>? ?? [];
       _travelerEvents = events
           .map((e) => TimelineEvent.fromJson(e as Map<String, dynamic>))
           .toList();
       return _travelerEvents!;
     } catch (e) {
-      // Error loading traveler events
+      print('Error loading traveler events from ${AppConstants.travelersDataFile}: $e');
+      _travelerEvents = [];
       return [];
     }
   }
@@ -259,4 +271,5 @@ class LocalDataSource {
     _travelerEvents = null;
   }
 }
+
 

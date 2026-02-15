@@ -4,16 +4,12 @@ import java.io.FileInputStream
 plugins {
     id("com.android.application")
     id("kotlin-android")
-    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
 }
 
-// Load key.properties for release signing
+// Load key.properties only for release builds
 val keystoreProperties = Properties()
 val keystorePropertiesFile = rootProject.file("key.properties")
-if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(FileInputStream(keystorePropertiesFile))
-}
 
 android {
     namespace = "com.bengalbytes.bengalheroes"
@@ -39,53 +35,62 @@ android {
         versionName = flutter.versionName
     }
 
+    // Only configure signing for release if keystore exists
     signingConfigs {
+        getByName("debug") {
+            // Use default debug keystore
+        }
+        
         if (keystorePropertiesFile.exists()) {
-            create("release") {
-                keyAlias = keystoreProperties["keyAlias"] as String
-                keyPassword = keystoreProperties["keyPassword"] as String
-                storeFile = file(keystoreProperties["storeFile"] as String)
-                storePassword = keystoreProperties["storePassword"] as String
+            try {
+                keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+                create("release") {
+                    keyAlias = keystoreProperties["keyAlias"] as String
+                    keyPassword = keystoreProperties["keyPassword"] as String
+                    storeFile = file(keystoreProperties["storeFile"] as String)
+                    storePassword = keystoreProperties["storePassword"] as String
+                }
+            } catch (e: Exception) {
+                println("⚠️  Could not load release signing config: ${e.message}")
             }
         }
     }
 
     buildTypes {
         release {
-            // Enable code shrinking and optimization using R8
+            // Release: Apply code shrinking with safe rules
             isMinifyEnabled = true
-            // Enable resource shrinking to remove unused resources
-            isShrinkResources = true
-            // ProGuard rules for optimization
+            isShrinkResources = false
+            // Use basic proguard rules, not aggressive optimization
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
+                getDefaultProguardFile("proguard-android.txt"),
                 "proguard-rules.pro"
             )
-            // Use release signing if key.properties exists, otherwise use debug
-            if (keystorePropertiesFile.exists()) {
+            
+            // Use release signing if available
+            if (keystorePropertiesFile.exists() && signingConfigs.findByName("release") != null) {
                 signingConfig = signingConfigs.getByName("release")
             } else {
                 signingConfig = signingConfigs.getByName("debug")
             }
-
-            // Optimize for release
-            ndk {
-                debugSymbolLevel = "FULL"
-            }
         }
+        
         debug {
-            // Use default debug signing (no custom debug.jks needed)
+            // Debug build: Absolutely NO minification, NO optimization, NO anything
             isMinifyEnabled = false
             isShrinkResources = false
+            
+            // Ensure no ProGuard rules are applied
+            // Don't call proguardFiles at all for debug
+            
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
 
-    // Enable build cache for faster builds
     buildFeatures {
         buildConfig = true
     }
 
-    // Bundle configuration for Play Store
     bundle {
         language {
             enableSplit = true
