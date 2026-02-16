@@ -410,6 +410,88 @@
     }
   },
   {
+  "id": "murshidqulikhan",
+  "slug": "murshid-quli-khan",
+  "dates": {
+    "birth": "1660-01-01",
+    "death": "1727-06-30"
+  },
+  "era": "mughal",
+  "category": [
+    "nawab",
+    "ruler",
+    "administrator"
+  ],
+  "images": [
+    "assets/images/heroes/murshid_quli_khan.jpg"
+  ],
+  "location_id": "loc_murshidabad",
+  "importance": 5,
+  "related_hero_ids": [
+    "alivardikhan",
+    "sirajuddoula"
+  ],
+  "content": {
+    "en": {
+      "name": "Murshid Quli Khan",
+      "short_bio": "The first Nawab of Bengal and the founder of the Nasiri dynasty. He was a brilliant administrator who made Bengal the wealthiest province of the Mughal Empire.",
+      "full_biography": "Murshid Quli Khan, born in the Deccan (circa 1660), rose from a humble background to become the Diwan and later the first independent Nawab of Bengal. He was appointed by Emperor Aurangzeb to manage the finances of Bengal, where he introduced the 'Malguzari' system, which revolutionized revenue collection. In 1704, he shifted the capital from Dhaka to Murshidabad (then Mukshusabad), naming it after himself. Under his rule, Bengal saw unprecedented economic growth and became a global hub for trade, especially in silk and textiles. He was known for his strict administration, personal piety, and for providing justice to common citizens. He built the famous Katra Masjid in Murshidabad, where he is buried. His reign marked the beginning of an era of semi-independent Nawabs who ruled Bengal until the British intervention.",
+      "quote": "The prosperity of a state lies in the honesty of its treasury and the discipline of its administration.",
+      "birth_place": "Deccan, Mughal India",
+      "achievements": "First independent Nawab of Bengal • Established Murshidabad as the capital • Introduced the Malguzari revenue system • Successfully protected Bengal from the early Maratha incursions • Maintained a surplus treasury even during the Mughal decline"
+    },
+    "bn": {
+      "name": "মুর্শিদ কুলি খাঁ",
+      "short_bio": "বাংলার প্রথম নবাব এবং নাসিরি রাজবংশের প্রতিষ্ঠাতা। তিনি একজন দক্ষ প্রশাসক ছিলেন যিনি বাংলাকে মোগল সাম্রাজ্যের সবচেয়ে সমৃদ্ধ প্রদেশে পরিণত করেছিলেন।",
+      "full_biography": "দাক্ষিণাত্যে জন্মগ্রহণকারী (আনুমানিক ১৬৬০) মুর্শিদ কুলি খাঁ একজন সাধারণ কর্মচারী থেকে নিজের মেধা ও দক্ষতায় বাংলার দেওয়ান এবং পরবর্তীতে প্রথম স্বাধীন নবাব হন। সম্রাট আওরঙ্গজেব তাকে বাংলার রাজস্ব ব্যবস্থাপনার দায়িত্ব দেন, যেখানে তিনি 'মালগুজারি' ব্যবস্থা প্রবর্তন করেন যা রাজস্ব আদায়ে বিপ্লব ঘটিয়েছিল। ১৭০৪ সালে তিনি প্রশাসনিক কারণে রাজধানী ঢাকা থেকে স্থানান্তরিত করে মুকসুদাবাদে নিয়ে যান এবং নিজের নামানুসারে এর নামকরণ করেন 'মুর্শিদাবাদ'। তাঁর শাসনামলে বাংলা অভূতপূর্ব অর্থনৈতিক সমৃদ্ধি অর্জন করে এবং রেশম ও বস্ত্র বাণিজ্যের বিশ্বকেন্দ্রে পরিণত হয়। তিনি তাঁর কঠোর প্রশাসন, ব্যক্তিগত ধর্মপরায়ণতা এবং সাধারণ মানুষের প্রতি ন্যায়বিচারের জন্য পরিচিত ছিলেন। মুর্শিদাবাদে তিনি বিখ্যাত কাটরা মসজিদ নির্মাণ করেন, যেখানে তাঁর সমাধি অবস্থিত। তাঁর মাধ্যমেই বাংলায় নবাবী আমলের সূচনা হয় যা ব্রিটিশদের আগমনের পূর্ব পর্যন্ত স্থায়ী ছিল।",
+      "quote": "রাষ্ট্রের সমৃদ্ধি নির্ভর করে তার কোষাগারের সততা এবং প্রশাসনের শৃঙ্খলার ওপর।",
+      "birth_place": "দাক্ষিণাত্য, মোগল ভারত",
+      "achievements": "বাংলার প্রথম স্বাধীন নবাব • মুর্শিদাবাদকে রাজধানী হিসেবে প্রতিষ্ঠা • মালগুজারি রাজস্ব ব্যবস্থা প্রবর্তন • মোগল সাম্রাজ্যের পতনের যুগেও বাংলার অর্থনীতিকে শক্তিশালী রাখা • বিখ্যাত কাটরা মসজিদ নির্মাণ"
+    }
+  }
+},
+{
+  "id": "alivardikhan",
+  "slug": "alivardi-khan",
+  "dates": {
+    "birth": "1671-05-10",
+    "death": "1756-04-09"
+  },
+  "era": "nawab_era",
+  "category": [
+    "nawab",
+    "ruler",
+    "military_leader"
+  ],
+  "images": [
+    "assets/images/heroes/alivardi_khan.jpg"
+  ],
+  "location_id": "loc_murshidabad",
+  "importance": 5,
+  "related_hero_ids": [
+    "murshidqulikhan",
+    "sirajuddaula"
+  ],
+  "content": {
+    "en": {
+      "name": "Alivardi Khan",
+      "short_bio": "The Nawab of Bengal, Bihar, and Odisha (1740–1756), renowned for his strategic military brilliance and for successfully defending Bengal against repeated Maratha invasions for over a decade.",
+      "full_biography": "Alivardi Khan was one of the most capable Nawabs of Bengal. He rose to power through military service and became the Nawab in 1740 after defeating Sarfaraz Khan. His reign was defined by his relentless struggle against the Maratha Empire's cavalry, known as the 'Bargis,' who raided Bengal repeatedly. For eleven years, he led his army personally to defend the frontier, eventually forcing the Marathas to a peace treaty in 1751. Unlike many Mughal governors of his time, he maintained a strong, independent stance and kept the European trading companies, including the British East India Company, under strict control. He was a patron of art and culture and maintained a stable economy despite the constant wars. He was the maternal grandfather of Nawab Siraj ud-Daulah and passed away in 1756, leaving behind a legacy of resilience.",
+      "quote": "A ruler's primary duty is to safeguard his people from external predators, even if it takes a lifetime of struggle.",
+      "birth_place": "Deccan, Mughal India",
+      "achievements": "Successfully repelled Maratha 'Bargi' invasions for 11 years • Restored political stability in Bengal, Bihar, and Odisha • Kept European colonial powers under strict administrative control • Maintained relative independence from the declining Mughal Empire"
+    },
+    "bn": {
+      "name": "নবাব আলীবর্দী খাঁ",
+      "short_bio": "বাংলা, বিহার ও ওড়িশার নবাব (১৭৪০–১৭৫৬)। তিনি তাঁর অসামান্য সামরিক দক্ষতা এবং টানা এক দশকেরও বেশি সময় ধরে মারাঠা (বর্গী) আক্রমণ প্রতিহত করার জন্য ইতিহাসে বিখ্যাত।",
+      "full_biography": "আলীবর্দী খাঁ ছিলেন বাংলার অন্যতম শ্রেষ্ঠ ও দূরদর্শী নবাব। তিনি নিজের যোগ্যতায় উচ্চপদে আসীন হন এবং ১৭৪০ সালে সরফরাজ খাঁকে পরাজিত করে ক্ষমতা লাভ করেন। তাঁর শাসনকাল ছিল মূলত মারাঠা শক্তির (বর্গী নামে পরিচিত) বিরুদ্ধে নিরন্তর যুদ্ধের ইতিহাস। টানা ১১ বছর তিনি ব্যক্তিগতভাবে যুদ্ধক্ষেত্রে নেতৃত্ব দিয়ে বর্গীদের হঠিয়ে দেন এবং ১৭৫১ সালে তাদের সাথে একটি সম্মানজনক শান্তি চুক্তি করেন। আলীবর্দী খাঁ তৎকালীন ইউরোপীয় বণিক কোম্পানিগুলোকে, বিশেষ করে ব্রিটিশদের অত্যন্ত কড়া নিয়ন্ত্রণে রাখতেন এবং তাদের কোনো সামরিক দুর্গ নির্মাণ করতে দেননি। যুদ্ধের ভয়াবহতা সত্ত্বেও তিনি বাংলার অর্থনীতি ও স্থিতিশীলতা বজায় রাখতে সক্ষম হন। তিনি নবাব সিরাজউদ্দৌলার মাতামহ ছিলেন। ১৭৫৬ সালে তাঁর মৃত্যুর পর বাংলার আকাশে দুর্যোগের মেঘ ঘনীভূত হতে শুরু করে।",
+      "quote": "একজন শাসকের প্রধান কর্তব্য হলো বহিঃশত্রুর হাত থেকে নিজের প্রজাদের রক্ষা করা, এমনকি যদি তা করতে সারা জীবন লড়াই করতে হয়।",
+      "birth_place": "দাক্ষিণাত্য, মোগল ভারত",
+      "achievements": "টানা ১১ বছর সফলভাবে মারাঠা বা 'বর্গী' আক্রমণ প্রতিহত করা • বাংলা, বিহার ও ওড়িশায় রাজনৈতিক স্থিতিশীলতা ফিরিয়ে আনা • ইউরোপীয় বণিকদের ঔপনিবেশিক উচ্চাকাঙ্ক্ষা কঠোরভাবে দমন করা • পতনোন্মুখ মোগল সাম্রাজ্যের অধীনে থেকেও বাংলার স্বায়ত্তশাসন বজায় রাখা"
+    }
+  }
+},
+  {
     "id": "suryasen",
     "slug": "surya-sen",
     "dates": {
@@ -426,7 +508,7 @@
       "assets/images/heroes/surya_sen.jfif"
     ],
     "location_id": "loc_chittagong",
-    "importance": 3,
+    "importance": 2,
     "content": {
       "en": {
         "name": "Surya Sen",
