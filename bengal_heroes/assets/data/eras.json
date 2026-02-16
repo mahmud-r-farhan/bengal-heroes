@@ -110,5 +110,37 @@
         "icon_asset": "assets/icons/era_july_24.svg",
         "color_hex": "#D50000",
         "sort_order": 7
+    },
+    {
+        "id": "anti_autocracy_movement",
+        "name": {
+            "en": "Anti-Autocracy Movement",
+            "bn": "স্বৈরাচার বিরোধী আন্দোলন"
+        },
+        "description": {
+            "en": "The movement against the autocratic regime of Sheikh Hasina, which led to the fall of her government in 2024.",
+            "bn": "শেখ হাসিনার স্বৈরাচারী শাসনের বিরুদ্ধে আন্দোলন, যা ২০২৪ সালে তার সরকারের পতন ঘটায়।"
+        },
+        "start_year": "2024",
+        "end_year": "2024",
+        "icon_asset": "assets/icons/era_anti_autocracy.svg",
+        "color_hex": "#D50000",
+        "sort_order": 8
+    },
+    {
+        "id": "resistance_against_hegemony",
+        "name": {
+            "en": "Resistance Against Hegemony",
+            "bn": "আধিপত্যবাদ বিরোধী প্রতিরোধ"
+        },
+        "description": {
+            "en": "The movement against the hegemonic regime of Sheikh Hasina, which led to the fall of her government in 2024.",
+            "bn": "শেখ হাসিনার আধিপত্যবাদী শাসনের বিরুদ্ধে আন্দোলন, যা ২০২৪ সালে তার সরকারের পতন ঘটায়।"
+        },
+        "start_year": "2024",
+        "end_year": "2024",
+        "icon_asset": "assets/icons/era_resistance_against_hegemony.svg",
+        "color_hex": "#D50000",
+        "sort_order": 9
     }
 ]

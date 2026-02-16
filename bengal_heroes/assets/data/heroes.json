@@ -791,93 +791,93 @@
     }
   },
   {
-  "id": "magosmani",
-  "slug": "mag-osmani",
-  "dates": {
-    "birth": "1918-09-01",
-    "death": "1984-02-16"
-  },
-  "era": "liberation_1971",
-  "category": [
-    "military_leader",
-    "politician",
-    "independence_figure"
-  ],
-  "images": [
-    "assets/images/heroes/mag_osmani.jpg"
-  ],
-  "location_id": "loc_sylhet",
-  "importance": 5,
-  "related_hero_ids": [
-    "sheikhmujib",
-    "tajuddinahmed",
-    "ziaurrahman",
-    "khaledmosharraf",
-    "liberationwar1971"
-  ],
-  "content": {
-    "en": {
-      "name": "General M. A. G. Osmani",
-      "short_bio": "Affectionately known as 'Bongobir', General Muhammad Ataul Gani Osmani was a distinguished military leader who served as the Supreme Commander of the Mukti Bahini (Bangladesh Forces) during the historic 1971 Bangladesh Liberation War.",
-      "full_biography": "Born on 1 September 1918 in Sunamganj, Assam Province (now in Bangladesh), Muhammad Ataul Gani Osmani had a highly distinguished military career. Educated at Aligarh Muslim University, he joined the British Indian Army in 1939, fighting in World War II. Following the partition of India in 1947, he joined the Pakistan Army, where he became renowned for his unwavering defense of Bengali soldiers' rights, eventually retiring as a Colonel in 1967.\n\nEntering the political arena, he joined the Awami League and was elected to the National Assembly in 1970. Upon the outbreak of the Bangladesh Liberation War in 1971, the Mujibnagar Government appointed Osmani as the Commander-in-Chief of the Bangladesh Forces. His brilliant military acumen—specifically dividing the country into eleven sectors and orchestrating a formidable guerrilla warfare campaign—was pivotal in accelerating the defeat of the Pakistani occupation forces. After independence, he was promoted to the rank of General and served as a cabinet minister. However, demonstrating his staunch commitment to democracy, he resigned from the parliament and cabinet in 1975 to protest the establishment of the one-party BAKSAL system. He later founded the Jatiya Janata Party and contested in presidential elections. A true embodiment of strict discipline, integrity, and profound patriotism, General Osmani breathed his last on 16 February 1984 in London.",
-      "quote": "I am a soldier, and I shall remain a soldier serving my country until my last breath.",
-      "birth_place": "Sunamganj, British India",
-      "achievements": "Served as the Supreme Commander (Commander-in-Chief) of the Mukti Bahini during the 1971 Liberation War • Strategically divided Bangladesh into 11 sectors to conduct a highly effective guerrilla war • Became the first General of the independent Bangladesh Army • Served as a Cabinet Minister in the post-independence government • Awarded the honorary title of 'Bongobir' (Hero of Bengal) for his unparalleled patriotic contributions"
+    "id": "magosmani",
+    "slug": "mag-osmani",
+    "dates": {
+      "birth": "1918-09-01",
+      "death": "1984-02-16"
     },
-    "bn": {
-      "name": "জেনারেল এম. এ. জি. ওসমানী",
-      "short_bio": "'বঙ্গবীর' খ্যাত জেনারেল মুহাম্মদ আতাউল গণি ওসমানী ছিলেন একজন প্রখ্যাত সামরিক ব্যক্তিত্ব, যিনি ১৯৭১ সালের মহান মুক্তিযুদ্ধে বাংলাদেশ সশস্ত্র বাহিনীর (মুক্তিবাহিনীর) সর্বাধিনায়ক হিসেবে ঐতিহাসিক দায়িত্ব পালন করেন।",
-      "full_biography": "১৯১৮ সালের ১ সেপ্টেম্বর ব্রিটিশ ভারতের আসাম প্রদেশের সুনামগঞ্জে (বর্তমান বাংলাদেশ) মুহাম্মদ আতাউল গণি ওসমানীর জন্ম। আলিগড় মুসলিম বিশ্ববিদ্যালয়ে শিক্ষাগ্রহণের পর ১৯৩৯ সালে তিনি ব্রিটিশ ভারতীয় সেনাবাহিনীতে যোগদান করেন এবং দ্বিতীয় বিশ্বযুদ্ধে অংশগ্রহণ করেন। ১৯৪৭ সালে দেশভাগের পর তিনি পাকিস্তান সেনাবাহিনীতে যোগ দেন। সেখানে তিনি বাঙালি সৈনিকদের অধিকার আদায়ে অত্যন্ত সোচ্চার ছিলেন এবং ১৯৬৭ সালে কর্নেল পদে অবসর গ্রহণ করেন।\n\nপরবর্তীতে তিনি আওয়ামী লীগে যোগ দেন এবং ১৯৭০ সালের নির্বাচনে জাতীয় পরিষদের সদস্য নির্বাচিত হন। ১৯৭১ সালে মুক্তিযুদ্ধ শুরু হলে স্বাধীন বাংলাদেশের প্রথম সরকার (মুজিবনগর সরকার) তাঁকে মুক্তিবাহিনীর সর্বাধিনায়ক (কমান্ডার-ইন-চিফ) হিসেবে নিয়োগ দেয়। তাঁর সুদক্ষ সামরিক রণকৌশল, যুদ্ধ পরিচালনার সুবিধার্থে বাংলাদেশকে ১১টি সেক্টরে বিভক্ত করা এবং দেশব্যাপী গেরিলা যুদ্ধের সুনিপুণ পরিচালনার ফলেই পাকিস্তানি হানাদার বাহিনীর পরাজয় ত্বরান্বিত হয়। স্বাধীনতার পর তাঁকে স্বাধীন দেশের প্রথম জেনারেল পদে উন্নীত করা হয় এবং তিনি বঙ্গবন্ধু শেখ মুজিবুর রহমানের মন্ত্রিসভায় গুরুত্বপূর্ণ দায়িত্ব পালন করেন। তবে গণতান্ত্রিক মূল্যবোধের প্রতি অবিচল থেকে, ১৯৭৫ সালে একদলীয় বাকশাল ব্যবস্থা প্রবর্তনের প্রতিবাদে তিনি সংসদ ও মন্ত্রিসভা থেকে পদত্যাগ করেন। পরবর্তীতে তিনি 'জাতীয় জনতা পার্টি' গঠন করেন এবং রাষ্ট্রপতি নির্বাচনে প্রতিদ্বন্দ্বিতা করেন। কঠোর নিয়মানুবর্তিতা, সততা ও অগাধ দেশপ্রেমের মূর্ত প্রতীক এই মহান সেনাপতি ১৯৮৪ সালের ১৬ ফেব্রুয়ারি লন্ডনে মৃত্যুবরণ করেন।",
-      "quote": "আমি একজন সৈনিক, জীবনের শেষ নিশ্বাস পর্যন্ত আমি আমার দেশের জন্যই কাজ করে যাব।",
-      "birth_place": "সুনামগঞ্জ, ব্রিটিশ ভারত",
-      "achievements": "১৯৭১ সালের মহান মুক্তিযুদ্ধে মুক্তিবাহিনীর সর্বাধিনায়ক হিসেবে ঐতিহাসিক দায়িত্ব পালন • যুদ্ধ পরিচালনার সুবিধার্থে বাংলাদেশকে ১১টি সেক্টরে বিভক্ত করা এবং সুদক্ষ গেরিলা যুদ্ধ পরিচালনা • স্বাধীন বাংলাদেশ সেনাবাহিনীর প্রথম জেনারেল পদে পদোন্নতি লাভ • স্বাধীন বাংলাদেশের প্রথম মন্ত্রিসভার সদস্য হিসেবে দায়িত্ব পালন • মুক্তিযুদ্ধে অসামান্য অবদানের স্বীকৃতিস্বরূপ 'বঙ্গবীর' উপাধিতে ভূষিত"
+    "era": "liberation_1971",
+    "category": [
+      "military_leader",
+      "politician",
+      "independence_figure"
+    ],
+    "images": [
+      "assets/images/heroes/mag_osmani.jpg"
+    ],
+    "location_id": "loc_sylhet",
+    "importance": 5,
+    "related_hero_ids": [
+      "sheikhmujib",
+      "tajuddinahmed",
+      "ziaurrahman",
+      "khaledmosharraf",
+      "liberationwar1971"
+    ],
+    "content": {
+      "en": {
+        "name": "General M. A. G. Osmani",
+        "short_bio": "Affectionately known as 'Bongobir', General Muhammad Ataul Gani Osmani was a distinguished military leader who served as the Supreme Commander of the Mukti Bahini (Bangladesh Forces) during the historic 1971 Bangladesh Liberation War.",
+        "full_biography": "Born on 1 September 1918 in Sunamganj, Assam Province (now in Bangladesh), Muhammad Ataul Gani Osmani had a highly distinguished military career. Educated at Aligarh Muslim University, he joined the British Indian Army in 1939, fighting in World War II. Following the partition of India in 1947, he joined the Pakistan Army, where he became renowned for his unwavering defense of Bengali soldiers' rights, eventually retiring as a Colonel in 1967.\n\nEntering the political arena, he joined the Awami League and was elected to the National Assembly in 1970. Upon the outbreak of the Bangladesh Liberation War in 1971, the Mujibnagar Government appointed Osmani as the Commander-in-Chief of the Bangladesh Forces. His brilliant military acumen—specifically dividing the country into eleven sectors and orchestrating a formidable guerrilla warfare campaign—was pivotal in accelerating the defeat of the Pakistani occupation forces. After independence, he was promoted to the rank of General and served as a cabinet minister. However, demonstrating his staunch commitment to democracy, he resigned from the parliament and cabinet in 1975 to protest the establishment of the one-party BAKSAL system. He later founded the Jatiya Janata Party and contested in presidential elections. A true embodiment of strict discipline, integrity, and profound patriotism, General Osmani breathed his last on 16 February 1984 in London.",
+        "quote": "I am a soldier, and I shall remain a soldier serving my country until my last breath.",
+        "birth_place": "Sunamganj, British India",
+        "achievements": "Served as the Supreme Commander (Commander-in-Chief) of the Mukti Bahini during the 1971 Liberation War • Strategically divided Bangladesh into 11 sectors to conduct a highly effective guerrilla war • Became the first General of the independent Bangladesh Army • Served as a Cabinet Minister in the post-independence government • Awarded the honorary title of 'Bongobir' (Hero of Bengal) for his unparalleled patriotic contributions"
+      },
+      "bn": {
+        "name": "জেনারেল এম. এ. জি. ওসমানী",
+        "short_bio": "'বঙ্গবীর' খ্যাত জেনারেল মুহাম্মদ আতাউল গণি ওসমানী ছিলেন একজন প্রখ্যাত সামরিক ব্যক্তিত্ব, যিনি ১৯৭১ সালের মহান মুক্তিযুদ্ধে বাংলাদেশ সশস্ত্র বাহিনীর (মুক্তিবাহিনীর) সর্বাধিনায়ক হিসেবে ঐতিহাসিক দায়িত্ব পালন করেন।",
+        "full_biography": "১৯১৮ সালের ১ সেপ্টেম্বর ব্রিটিশ ভারতের আসাম প্রদেশের সুনামগঞ্জে (বর্তমান বাংলাদেশ) মুহাম্মদ আতাউল গণি ওসমানীর জন্ম। আলিগড় মুসলিম বিশ্ববিদ্যালয়ে শিক্ষাগ্রহণের পর ১৯৩৯ সালে তিনি ব্রিটিশ ভারতীয় সেনাবাহিনীতে যোগদান করেন এবং দ্বিতীয় বিশ্বযুদ্ধে অংশগ্রহণ করেন। ১৯৪৭ সালে দেশভাগের পর তিনি পাকিস্তান সেনাবাহিনীতে যোগ দেন। সেখানে তিনি বাঙালি সৈনিকদের অধিকার আদায়ে অত্যন্ত সোচ্চার ছিলেন এবং ১৯৬৭ সালে কর্নেল পদে অবসর গ্রহণ করেন।\n\nপরবর্তীতে তিনি আওয়ামী লীগে যোগ দেন এবং ১৯৭০ সালের নির্বাচনে জাতীয় পরিষদের সদস্য নির্বাচিত হন। ১৯৭১ সালে মুক্তিযুদ্ধ শুরু হলে স্বাধীন বাংলাদেশের প্রথম সরকার (মুজিবনগর সরকার) তাঁকে মুক্তিবাহিনীর সর্বাধিনায়ক (কমান্ডার-ইন-চিফ) হিসেবে নিয়োগ দেয়। তাঁর সুদক্ষ সামরিক রণকৌশল, যুদ্ধ পরিচালনার সুবিধার্থে বাংলাদেশকে ১১টি সেক্টরে বিভক্ত করা এবং দেশব্যাপী গেরিলা যুদ্ধের সুনিপুণ পরিচালনার ফলেই পাকিস্তানি হানাদার বাহিনীর পরাজয় ত্বরান্বিত হয়। স্বাধীনতার পর তাঁকে স্বাধীন দেশের প্রথম জেনারেল পদে উন্নীত করা হয় এবং তিনি বঙ্গবন্ধু শেখ মুজিবুর রহমানের মন্ত্রিসভায় গুরুত্বপূর্ণ দায়িত্ব পালন করেন। তবে গণতান্ত্রিক মূল্যবোধের প্রতি অবিচল থেকে, ১৯৭৫ সালে একদলীয় বাকশাল ব্যবস্থা প্রবর্তনের প্রতিবাদে তিনি সংসদ ও মন্ত্রিসভা থেকে পদত্যাগ করেন। পরবর্তীতে তিনি 'জাতীয় জনতা পার্টি' গঠন করেন এবং রাষ্ট্রপতি নির্বাচনে প্রতিদ্বন্দ্বিতা করেন। কঠোর নিয়মানুবর্তিতা, সততা ও অগাধ দেশপ্রেমের মূর্ত প্রতীক এই মহান সেনাপতি ১৯৮৪ সালের ১৬ ফেব্রুয়ারি লন্ডনে মৃত্যুবরণ করেন।",
+        "quote": "আমি একজন সৈনিক, জীবনের শেষ নিশ্বাস পর্যন্ত আমি আমার দেশের জন্যই কাজ করে যাব।",
+        "birth_place": "সুনামগঞ্জ, ব্রিটিশ ভারত",
+        "achievements": "১৯৭১ সালের মহান মুক্তিযুদ্ধে মুক্তিবাহিনীর সর্বাধিনায়ক হিসেবে ঐতিহাসিক দায়িত্ব পালন • যুদ্ধ পরিচালনার সুবিধার্থে বাংলাদেশকে ১১টি সেক্টরে বিভক্ত করা এবং সুদক্ষ গেরিলা যুদ্ধ পরিচালনা • স্বাধীন বাংলাদেশ সেনাবাহিনীর প্রথম জেনারেল পদে পদোন্নতি লাভ • স্বাধীন বাংলাদেশের প্রথম মন্ত্রিসভার সদস্য হিসেবে দায়িত্ব পালন • মুক্তিযুদ্ধে অসামান্য অবদানের স্বীকৃতিস্বরূপ 'বঙ্গবীর' উপাধিতে ভূষিত"
+      }
     }
-  }
-},
-{
-  "id": "khaledmosharraf",
-  "slug": "khaled-mosharraf",
-  "dates": {
-    "birth": "1937-11-09",
-    "death": "1975-11-07"
   },
-  "era": "liberation_1971",
-  "category": [
-    "military_leader",
-    "independence_figure"
-  ],
-  "images": [
-    "assets/images/heroes/khaled_mosharraf.jpg"
-  ],
-  "location_id": "loc_jamalpur",
-  "importance": 5,
-  "related_hero_ids": [
-    "magosmani",
-    "ziaurrahman",
-    "shafaatjamil",
-    "ataher",
-    "liberationwar1971"
-  ],
-  "content": {
-    "en": {
-      "name": "Major General Khaled Mosharraf",
-      "short_bio": "Major General Khaled Mosharraf, Bir Uttom, was a valiant Bangladeshi military officer who served as the Commander of Sector 2 and 'K-Force' during the 1971 Liberation War, and later played a pivotal but tragic role in the November 1975 military coups.",
-      "full_biography": "Born on November 9, 1937, in Islampur, Jamalpur, Khaled Mosharraf graduated from the Pakistan Military Academy and joined the Pakistan Army. When the Liberation War broke out in 1971, he defected from the 4th East Bengal Regiment in Comilla and joined the Mukti Bahini. As the Commander of Sector 2 and the 'K-Force' brigade, his tactical brilliance in guerrilla warfare, especially around the Dhaka and Comilla regions, severely crippled the Pakistani occupation forces. He was critically injured by a bullet to his head during a frontline battle in October 1971 but survived after receiving extensive treatment. In recognition of his extraordinary bravery, he was awarded the 'Bir Uttom' gallantry award.\n\nAfter independence, Mosharraf served as the Chief of General Staff (CGS) of the Bangladesh Army. Following the tragic assassination of Sheikh Mujibur Rahman in August 1975, the military's chain of command collapsed. To restore discipline, Mosharraf led a bloodless military coup on November 3, 1975, detaining the then-Army Chief Ziaur Rahman and assuming the role of Chief of Army Staff. However, his tenure lasted only four days. On November 7, 1975, during a violent counter-coup (the 'Sepoy Mutiny') instigated by soldiers under the influence of Colonel Abu Taher and the JSD, Khaled Mosharraf and several of his close associates were tragically assassinated at the Sher-e-Bangla Nagar cantonment. He remains one of the most brilliant military strategists and a tragic hero in the history of Bangladesh.",
-      "quote": "His military career constantly reflected a singular principle: 'As a soldier, my primary duty is to protect the sovereignty of my country and strictly uphold the military chain of command.'",
-      "birth_place": "Islampur, Jamalpur, British India",
-      "achievements": "Commanded Sector 2 and the K-Force brigade during the 1971 Liberation War • Masterminded highly successful and destructive guerrilla operations around the Dhaka and Comilla regions • Awarded the Bir Uttom (the second-highest military award) for his frontline gallantry • Served as the Chief of General Staff and briefly as the Chief of Army Staff of the Bangladesh Army"
+  {
+    "id": "khaledmosharraf",
+    "slug": "khaled-mosharraf",
+    "dates": {
+      "birth": "1937-11-09",
+      "death": "1975-11-07"
     },
-    "bn": {
-      "name": "মেজর জেনারেল খালেদ মোশাররফ",
-      "short_bio": "মেজর জেনারেল খালেদ মোশাররফ, বীর উত্তম, ছিলেন একজন অকুতোভয় সামরিক কর্মকর্তা। তিনি ১৯৭১ সালের মুক্তিযুদ্ধে ২নং সেক্টর ও 'কে-ফোর্স'-এর অধিনায়ক হিসেবে বীরত্বপূর্ণ অবদান রাখেন এবং ১৯৭৫ সালের নভেম্বরের সেনা অভ্যুত্থানে এক ঐতিহাসিক ও ট্র্যাজিক ভূমিকা পালন করেন।",
-      "full_biography": "১৯৩৭ সালের ৯ নভেম্বর জামালপুর জেলার ইসলামপুরে খালেদ মোশাররফের জন্ম। পাকিস্তান মিলিটারি একাডেমি থেকে স্নাতক সম্পন্ন করার পর তিনি পাকিস্তান সেনাবাহিনীতে যোগ দেন। ১৯৭১ সালে মুক্তিযুদ্ধ শুরু হলে তিনি কুমিল্লায় অবস্থিত ৪র্থ ইস্ট বেঙ্গল রেজিমেন্ট থেকে বিদ্রোহ করেন এবং মুক্তিযুদ্ধে ঝাঁপিয়ে পড়েন। মুক্তিযুদ্ধের ২নং সেক্টর এবং 'কে-ফোর্স' (K-Force)-এর অধিনায়ক হিসেবে তিনি ঢাকা ও কুমিল্লা অঞ্চলে পাকিস্তানি বাহিনীর বিরুদ্ধে এক ভয়াবহ ও সফল গেরিলা যুদ্ধ পরিচালনা করেন, যা ঢাকাকে কার্যত অবরুদ্ধ করে ফেলেছিল। ১৯৭১ সালের অক্টোবরে সম্মুখ সমরে তিনি মাথায় গুলিবিদ্ধ হয়ে মারাত্মকভাবে আহত হন, তবে ভারতে দীর্ঘ চিকিৎসার পর সুস্থ হয়ে ওঠেন। মুক্তিযুদ্ধে অসামান্য বীরত্বের জন্য তাঁকে 'বীর উত্তম' খেতাবে ভূষিত করা হয়।\n\nস্বাধীনতার পর তিনি বাংলাদেশ সেনাবাহিনীর চিফ অব জেনারেল স্টাফ (CGS) হিসেবে দায়িত্ব গ্রহণ করেন। ১৯৭৫ সালের ১৫ আগস্ট শেখ মুজিবুর রহমানের হত্যাকাণ্ডের পর, সেনাবাহিনীতে চেইন অব কমান্ড বা শৃঙ্খলার চরম অবনতি ঘটে। চেইন অব কমান্ড ফিরিয়ে আনার লক্ষ্যে ৩ নভেম্বর ১৯৭৫ সালে তিনি একটি রক্তপাতহীন সামরিক অভ্যুত্থানের নেতৃত্ব দেন এবং তৎকালীন সেনাপ্রধান জিয়াউর রহমানকে গৃহবন্দী করে নিজেই সেনাপ্রধানের দায়িত্ব নেন। কিন্তু তাঁর এই দায়িত্বকাল মাত্র চার দিন স্থায়ী হয়েছিল। ৭ নভেম্বর কর্নেল আবু তাহের ও জাসদের প্ররোচনায় সংঘটিত সিপাহী-জনতার বিপ্লবের (পাল্টা অভ্যুত্থান) সময় শেরে বাংলা নগর সেনানিবাসে খালেদ মোশাররফ এবং তাঁর কয়েকজন ঘনিষ্ঠ সহযোদ্ধাকে অত্যন্ত মর্মান্তিকভাবে হত্যা করা হয়। বাংলাদেশের ইতিহাসে তিনি একজন অত্যন্ত মেধাবী সামরিক কৌশলবিদ ও এক ট্র্যাজিক নায়ক হিসেবে চিরস্মরণীয় হয়ে আছেন।",
-      "quote": "তার সামরিক জীবনে একটি নীতিই সর্বদা প্রতিফলিত হয়েছে— 'একজন সৈনিক হিসেবে দেশের সার্বভৌমত্ব রক্ষা এবং চেইন অব কমান্ড সমুন্নত রাখাই আমার প্রধান কর্তব্য।' ",
-      "birth_place": "ইসলামপুর, জামালপুর, ব্রিটিশ ভারত",
-      "achievements": "১৯৭১ সালের মুক্তিযুদ্ধে ২নং সেক্টর এবং 'কে-ফোর্স'-এর অধিনায়ক হিসেবে দায়িত্ব পালন • ঢাকা ও কুমিল্লা অঞ্চলে সফল ও ধ্বংসাত্মক গেরিলা যুদ্ধের রণকৌশল প্রণয়ন • মুক্তিযুদ্ধে সম্মুখ সমরে অসাধারণ বীরত্বের জন্য 'বীর উত্তম' খেতাবে ভূষিত • বাংলাদেশ সেনাবাহিনীর চিফ অব জেনারেল স্টাফ (CGS) এবং স্বল্পকালীন সেনাপ্রধান হিসেবে দায়িত্ব পালন"
+    "era": "liberation_1971",
+    "category": [
+      "military_leader",
+      "independence_figure"
+    ],
+    "images": [
+      "assets/images/heroes/khaled_mosharraf.jpg"
+    ],
+    "location_id": "loc_jamalpur",
+    "importance": 5,
+    "related_hero_ids": [
+      "magosmani",
+      "ziaurrahman",
+      "shafaatjamil",
+      "ataher",
+      "liberationwar1971"
+    ],
+    "content": {
+      "en": {
+        "name": "Major General Khaled Mosharraf",
+        "short_bio": "Major General Khaled Mosharraf, Bir Uttom, was a valiant Bangladeshi military officer who served as the Commander of Sector 2 and 'K-Force' during the 1971 Liberation War, and later played a pivotal but tragic role in the November 1975 military coups.",
+        "full_biography": "Born on November 9, 1937, in Islampur, Jamalpur, Khaled Mosharraf graduated from the Pakistan Military Academy and joined the Pakistan Army. When the Liberation War broke out in 1971, he defected from the 4th East Bengal Regiment in Comilla and joined the Mukti Bahini. As the Commander of Sector 2 and the 'K-Force' brigade, his tactical brilliance in guerrilla warfare, especially around the Dhaka and Comilla regions, severely crippled the Pakistani occupation forces. He was critically injured by a bullet to his head during a frontline battle in October 1971 but survived after receiving extensive treatment. In recognition of his extraordinary bravery, he was awarded the 'Bir Uttom' gallantry award.\n\nAfter independence, Mosharraf served as the Chief of General Staff (CGS) of the Bangladesh Army. Following the tragic assassination of Sheikh Mujibur Rahman in August 1975, the military's chain of command collapsed. To restore discipline, Mosharraf led a bloodless military coup on November 3, 1975, detaining the then-Army Chief Ziaur Rahman and assuming the role of Chief of Army Staff. However, his tenure lasted only four days. On November 7, 1975, during a violent counter-coup (the 'Sepoy Mutiny') instigated by soldiers under the influence of Colonel Abu Taher and the JSD, Khaled Mosharraf and several of his close associates were tragically assassinated at the Sher-e-Bangla Nagar cantonment. He remains one of the most brilliant military strategists and a tragic hero in the history of Bangladesh.",
+        "quote": "His military career constantly reflected a singular principle: 'As a soldier, my primary duty is to protect the sovereignty of my country and strictly uphold the military chain of command.'",
+        "birth_place": "Islampur, Jamalpur, British India",
+        "achievements": "Commanded Sector 2 and the K-Force brigade during the 1971 Liberation War • Masterminded highly successful and destructive guerrilla operations around the Dhaka and Comilla regions • Awarded the Bir Uttom (the second-highest military award) for his frontline gallantry • Served as the Chief of General Staff and briefly as the Chief of Army Staff of the Bangladesh Army"
+      },
+      "bn": {
+        "name": "মেজর জেনারেল খালেদ মোশাররফ",
+        "short_bio": "মেজর জেনারেল খালেদ মোশাররফ, বীর উত্তম, ছিলেন একজন অকুতোভয় সামরিক কর্মকর্তা। তিনি ১৯৭১ সালের মুক্তিযুদ্ধে ২নং সেক্টর ও 'কে-ফোর্স'-এর অধিনায়ক হিসেবে বীরত্বপূর্ণ অবদান রাখেন এবং ১৯৭৫ সালের নভেম্বরের সেনা অভ্যুত্থানে এক ঐতিহাসিক ও ট্র্যাজিক ভূমিকা পালন করেন।",
+        "full_biography": "১৯৩৭ সালের ৯ নভেম্বর জামালপুর জেলার ইসলামপুরে খালেদ মোশাররফের জন্ম। পাকিস্তান মিলিটারি একাডেমি থেকে স্নাতক সম্পন্ন করার পর তিনি পাকিস্তান সেনাবাহিনীতে যোগ দেন। ১৯৭১ সালে মুক্তিযুদ্ধ শুরু হলে তিনি কুমিল্লায় অবস্থিত ৪র্থ ইস্ট বেঙ্গল রেজিমেন্ট থেকে বিদ্রোহ করেন এবং মুক্তিযুদ্ধে ঝাঁপিয়ে পড়েন। মুক্তিযুদ্ধের ২নং সেক্টর এবং 'কে-ফোর্স' (K-Force)-এর অধিনায়ক হিসেবে তিনি ঢাকা ও কুমিল্লা অঞ্চলে পাকিস্তানি বাহিনীর বিরুদ্ধে এক ভয়াবহ ও সফল গেরিলা যুদ্ধ পরিচালনা করেন, যা ঢাকাকে কার্যত অবরুদ্ধ করে ফেলেছিল। ১৯৭১ সালের অক্টোবরে সম্মুখ সমরে তিনি মাথায় গুলিবিদ্ধ হয়ে মারাত্মকভাবে আহত হন, তবে ভারতে দীর্ঘ চিকিৎসার পর সুস্থ হয়ে ওঠেন। মুক্তিযুদ্ধে অসামান্য বীরত্বের জন্য তাঁকে 'বীর উত্তম' খেতাবে ভূষিত করা হয়।\n\nস্বাধীনতার পর তিনি বাংলাদেশ সেনাবাহিনীর চিফ অব জেনারেল স্টাফ (CGS) হিসেবে দায়িত্ব গ্রহণ করেন। ১৯৭৫ সালের ১৫ আগস্ট শেখ মুজিবুর রহমানের হত্যাকাণ্ডের পর, সেনাবাহিনীতে চেইন অব কমান্ড বা শৃঙ্খলার চরম অবনতি ঘটে। চেইন অব কমান্ড ফিরিয়ে আনার লক্ষ্যে ৩ নভেম্বর ১৯৭৫ সালে তিনি একটি রক্তপাতহীন সামরিক অভ্যুত্থানের নেতৃত্ব দেন এবং তৎকালীন সেনাপ্রধান জিয়াউর রহমানকে গৃহবন্দী করে নিজেই সেনাপ্রধানের দায়িত্ব নেন। কিন্তু তাঁর এই দায়িত্বকাল মাত্র চার দিন স্থায়ী হয়েছিল। ৭ নভেম্বর কর্নেল আবু তাহের ও জাসদের প্ররোচনায় সংঘটিত সিপাহী-জনতার বিপ্লবের (পাল্টা অভ্যুত্থান) সময় শেরে বাংলা নগর সেনানিবাসে খালেদ মোশাররফ এবং তাঁর কয়েকজন ঘনিষ্ঠ সহযোদ্ধাকে অত্যন্ত মর্মান্তিকভাবে হত্যা করা হয়। বাংলাদেশের ইতিহাসে তিনি একজন অত্যন্ত মেধাবী সামরিক কৌশলবিদ ও এক ট্র্যাজিক নায়ক হিসেবে চিরস্মরণীয় হয়ে আছেন।",
+        "quote": "তার সামরিক জীবনে একটি নীতিই সর্বদা প্রতিফলিত হয়েছে— 'একজন সৈনিক হিসেবে দেশের সার্বভৌমত্ব রক্ষা এবং চেইন অব কমান্ড সমুন্নত রাখাই আমার প্রধান কর্তব্য।' ",
+        "birth_place": "ইসলামপুর, জামালপুর, ব্রিটিশ ভারত",
+        "achievements": "১৯৭১ সালের মুক্তিযুদ্ধে ২নং সেক্টর এবং 'কে-ফোর্স'-এর অধিনায়ক হিসেবে দায়িত্ব পালন • ঢাকা ও কুমিল্লা অঞ্চলে সফল ও ধ্বংসাত্মক গেরিলা যুদ্ধের রণকৌশল প্রণয়ন • মুক্তিযুদ্ধে সম্মুখ সমরে অসাধারণ বীরত্বের জন্য 'বীর উত্তম' খেতাবে ভূষিত • বাংলাদেশ সেনাবাহিনীর চিফ অব জেনারেল স্টাফ (CGS) এবং স্বল্পকালীন সেনাপ্রধান হিসেবে দায়িত্ব পালন"
+      }
     }
-  }
-},
-{
+  },
+  {
     "id": "ataher",
     "slug": "abu-taher",
     "dates": {
@@ -1022,8 +1022,7 @@
     "importance": 5,
     "related_hero_ids": [
       "khaledmosharraf",
-      "najmulhuda",
-      "crackplatoon"
+      "najmulhuda"
     ],
     "content": {
       "en": {
@@ -1045,174 +1044,174 @@
     }
   },
   {
-  "id": "kmshafiullah",
-  "slug": "k-m-shafiullah",
-  "dates": {
-    "birth": "1934-09-02",
-    "death": null
-  },
-  "era": "liberation_1971",
-  "category": [
-    "military_leader",
-    "independence_figure",
-    "diplomat"
-  ],
-  "images": [
-    "assets/images/heroes/km_shafiullah.jpg"
-  ],
-  "location_id": "loc_narayanganj",
-  "importance": 5,
-  "related_hero_ids": [
-    "sheikhmujib",
-    "magosmani",
-    "ziaurrahman",
-    "khaledmosharraf"
-  ],
-  "content": {
-    "en": {
-      "name": "Major General K. M. Shafiullah",
-      "short_bio": "Major General Kazi Md. Shafiullah, Bir Uttom, was the Commander of Sector 3 and 'S-Force' during the 1971 Liberation War, and later served as the first regular Chief of Army Staff of independent Bangladesh.",
-      "full_biography": "Born in 1934 in Rupganj, Narayanganj, K. M. Shafiullah was commissioned in the Pakistan Army in 1955. During the 1971 Liberation War, he was one of the first officers to revolt, leading the 2nd East Bengal Regiment. He was appointed Commander of Sector 3 and later the leader of the 'S-Force' brigade. His leadership in the Sylhet and Brahmanbaria regions was crucial in the final push towards Dhaka. After independence, in April 1972, he was appointed the Chief of Army Staff by the Sheikh Mujibur Rahman government. However, his tenure as Army Chief was marked by extreme challenges, including the rise of the Jatiya Rakkhi Bahini and internal military tensions. During the tragic assassination of Sheikh Mujibur Rahman on August 15, 1975, his role and the army's perceived inaction became a subject of historical debate (often referred to as the 'blunted' leadership). He was removed from the post of Army Chief shortly after and later served his country as a diplomat and a Member of Parliament.",
-      "quote": "In the face of crisis, a commander's greatest challenge is balancing the discipline of the ranks with the demands of the political reality.",
-      "birth_place": "Rupganj, Narayanganj, British India",
-      "achievements": "Served as the Commander of Sector 3 and the S-Force brigade in 1971 • First regular Chief of Army Staff of the Bangladesh Army (1972–1975) • Awarded the Bir Uttom for his extraordinary gallantry in the Liberation War • Served as an Ambassador to multiple countries and as a Member of Parliament"
+    "id": "kmshafiullah",
+    "slug": "k-m-shafiullah",
+    "dates": {
+      "birth": "1934-09-02",
+      "death": "Unknown"
     },
-    "bn": {
-      "name": "মেজর জেনারেল কে. এম. শফিউল্লাহ",
-      "short_bio": "মেজর জেনারেল কাজী মো. শফিউল্লাহ, বীর উত্তম, ছিলেন ১৯৭১ সালের মুক্তিযুদ্ধের ৩নং সেক্টর ও 'এস-ফোর্স'-এর অধিনায়ক এবং স্বাধীন বাংলাদেশের প্রথম নিয়মিত সেনাপ্রধান।",
-      "full_biography": "১৯৩৪ সালে নারায়ণগঞ্জের রূপগঞ্জে জন্মগ্রহণকারী কে. এম. শফিউল্লাহ ১৯৫৫ সালে পাকিস্তান সেনাবাহিনীতে কমিশন লাভ করেন। ১৯৭১ সালে মুক্তিযুদ্ধ শুরু হলে তিনি ২য় ইস্ট বেঙ্গল রেজিমেন্টের পক্ষ থেকে বিদ্রোহ ঘোষণা করেন। তিনি প্রথমে ৩নং সেক্টরের এবং পরবর্তীতে 'এস-ফোর্স' ব্রিগেডের অধিনায়ক হিসেবে দায়িত্ব পালন করেন। সিলেট ও ব্রাহ্মণবাড়িয়া অঞ্চলে তাঁর পরিচালিত সামরিক অভিযানগুলো ঢাকার চূড়ান্ত বিজয়ে গুরুত্বপূর্ণ ভূমিকা রাখে। স্বাধীনতার পর ১৯৭২ সালের এপ্রিলে বঙ্গবন্ধু সরকার তাঁকে সেনাবাহিনী প্রধান হিসেবে নিযুক্ত করে। তবে তাঁর সেনাপ্রধানের দায়িত্বকাল ছিল অত্যন্ত চ্যালেঞ্জিং; বিশেষ করে জাতীয় রক্ষীবাহিনীর উত্থান এবং সেনাবাহিনীর ভেতরের বিশৃঙ্খলা সামাল দেওয়া। ১৯৭৫ সালের ১৫ আগস্ট বঙ্গবন্ধু শেখ মুজিবুর রহমানের হত্যাকাণ্ডের সময় তাঁর ভূমিকা এবং সেনাবাহিনীর তৎকালীন অবস্থান নিয়ে ইতিহাসে অনেক বিতর্ক ও বিশ্লেষণ রয়েছে (যাকে অনেকে 'ভোঁতা' বা 'নিষ্প্রভ' নেতৃত্ব হিসেবে অভিহিত করেন)। এরপর তাঁকে সেনাপ্রধানের পদ থেকে সরিয়ে দেওয়া হয়। পরবর্তীতে তিনি বিভিন্ন দেশে বাংলাদেশের রাষ্ট্রদূত এবং সংসদ সদস্য হিসেবে দায়িত্ব পালন করেন।",
-      "quote": "সংকটের সময়ে একজন কমান্ডারের সবচেয়ে বড় চ্যালেঞ্জ হলো রাজনৈতিক বাস্তবতার সাথে সামরিক বাহিনীর শৃঙ্খলার ভারসাম্য বজায় রাখা।",
-      "birth_place": "রূপগঞ্জ, নারায়ণগঞ্জ, ব্রিটিশ ভারত",
-      "achievements": "১৯৭১ সালের মুক্তিযুদ্ধে ৩নং সেক্টর এবং 'এস-ফোর্স'-এর অধিনায়ক হিসেবে দায়িত্ব পালন • স্বাধীন বাংলাদেশ সেনাবাহিনীর প্রথম নিয়মিত সেনাপ্রধান (১৯৭২–১৯৭৫) • মুক্তিযুদ্ধে অসামান্য বীরত্বের জন্য 'বীর উত্তম' খেতাবে ভূষিত • সফলভাবে রাষ্ট্রদূতের দায়িত্ব পালন ও জাতীয় সংসদ সদস্য হিসেবে সেবা প্রদান"
+    "era": "liberation_1971",
+    "category": [
+      "military_leader",
+      "independence_figure",
+      "diplomat"
+    ],
+    "images": [
+      "assets/images/heroes/km_shafiullah.jpg"
+    ],
+    "location_id": "loc_narayanganj",
+    "importance": 5,
+    "related_hero_ids": [
+      "sheikhmujib",
+      "magosmani",
+      "ziaurrahman",
+      "khaledmosharraf"
+    ],
+    "content": {
+      "en": {
+        "name": "Major General K. M. Shafiullah",
+        "short_bio": "Major General Kazi Md. Shafiullah, Bir Uttom, was the Commander of Sector 3 and 'S-Force' during the 1971 Liberation War, and later served as the first regular Chief of Army Staff of independent Bangladesh.",
+        "full_biography": "Born in 1934 in Rupganj, Narayanganj, K. M. Shafiullah was commissioned in the Pakistan Army in 1955. During the 1971 Liberation War, he was one of the first officers to revolt, leading the 2nd East Bengal Regiment. He was appointed Commander of Sector 3 and later the leader of the 'S-Force' brigade. His leadership in the Sylhet and Brahmanbaria regions was crucial in the final push towards Dhaka. After independence, in April 1972, he was appointed the Chief of Army Staff by the Sheikh Mujibur Rahman government. However, his tenure as Army Chief was marked by extreme challenges, including the rise of the Jatiya Rakkhi Bahini and internal military tensions. During the tragic assassination of Sheikh Mujibur Rahman on August 15, 1975, his role and the army's perceived inaction became a subject of historical debate (often referred to as the 'blunted' leadership). He was removed from the post of Army Chief shortly after and later served his country as a diplomat and a Member of Parliament.",
+        "quote": "In the face of crisis, a commander's greatest challenge is balancing the discipline of the ranks with the demands of the political reality.",
+        "birth_place": "Rupganj, Narayanganj, British India",
+        "achievements": "Served as the Commander of Sector 3 and the S-Force brigade in 1971 • First regular Chief of Army Staff of the Bangladesh Army (1972–1975) • Awarded the Bir Uttom for his extraordinary gallantry in the Liberation War • Served as an Ambassador to multiple countries and as a Member of Parliament"
+      },
+      "bn": {
+        "name": "মেজর জেনারেল কে. এম. শফিউল্লাহ",
+        "short_bio": "মেজর জেনারেল কাজী মো. শফিউল্লাহ, বীর উত্তম, ছিলেন ১৯৭১ সালের মুক্তিযুদ্ধের ৩নং সেক্টর ও 'এস-ফোর্স'-এর অধিনায়ক এবং স্বাধীন বাংলাদেশের প্রথম নিয়মিত সেনাপ্রধান।",
+        "full_biography": "১৯৩৪ সালে নারায়ণগঞ্জের রূপগঞ্জে জন্মগ্রহণকারী কে. এম. শফিউল্লাহ ১৯৫৫ সালে পাকিস্তান সেনাবাহিনীতে কমিশন লাভ করেন। ১৯৭১ সালে মুক্তিযুদ্ধ শুরু হলে তিনি ২য় ইস্ট বেঙ্গল রেজিমেন্টের পক্ষ থেকে বিদ্রোহ ঘোষণা করেন। তিনি প্রথমে ৩নং সেক্টরের এবং পরবর্তীতে 'এস-ফোর্স' ব্রিগেডের অধিনায়ক হিসেবে দায়িত্ব পালন করেন। সিলেট ও ব্রাহ্মণবাড়িয়া অঞ্চলে তাঁর পরিচালিত সামরিক অভিযানগুলো ঢাকার চূড়ান্ত বিজয়ে গুরুত্বপূর্ণ ভূমিকা রাখে। স্বাধীনতার পর ১৯৭২ সালের এপ্রিলে বঙ্গবন্ধু সরকার তাঁকে সেনাবাহিনী প্রধান হিসেবে নিযুক্ত করে। তবে তাঁর সেনাপ্রধানের দায়িত্বকাল ছিল অত্যন্ত চ্যালেঞ্জিং; বিশেষ করে জাতীয় রক্ষীবাহিনীর উত্থান এবং সেনাবাহিনীর ভেতরের বিশৃঙ্খলা সামাল দেওয়া। ১৯৭৫ সালের ১৫ আগস্ট বঙ্গবন্ধু শেখ মুজিবুর রহমানের হত্যাকাণ্ডের সময় তাঁর ভূমিকা এবং সেনাবাহিনীর তৎকালীন অবস্থান নিয়ে ইতিহাসে অনেক বিতর্ক ও বিশ্লেষণ রয়েছে (যাকে অনেকে 'ভোঁতা' বা 'নিষ্প্রভ' নেতৃত্ব হিসেবে অভিহিত করেন)। এরপর তাঁকে সেনাপ্রধানের পদ থেকে সরিয়ে দেওয়া হয়। পরবর্তীতে তিনি বিভিন্ন দেশে বাংলাদেশের রাষ্ট্রদূত এবং সংসদ সদস্য হিসেবে দায়িত্ব পালন করেন।",
+        "quote": "সংকটের সময়ে একজন কমান্ডারের সবচেয়ে বড় চ্যালেঞ্জ হলো রাজনৈতিক বাস্তবতার সাথে সামরিক বাহিনীর শৃঙ্খলার ভারসাম্য বজায় রাখা।",
+        "birth_place": "রূপগঞ্জ, নারায়ণগঞ্জ, ব্রিটিশ ভারত",
+        "achievements": "১৯৭১ সালের মুক্তিযুদ্ধে ৩নং সেক্টর এবং 'এস-ফোর্স'-এর অধিনায়ক হিসেবে দায়িত্ব পালন • স্বাধীন বাংলাদেশ সেনাবাহিনীর প্রথম নিয়মিত সেনাপ্রধান (১৯৭২–১৯৭৫) • মুক্তিযুদ্ধে অসামান্য বীরত্বের জন্য 'বীর উত্তম' খেতাবে ভূষিত • সফলভাবে রাষ্ট্রদূতের দায়িত্ব পালন ও জাতীয় সংসদ সদস্য হিসেবে সেবা প্রদান"
+      }
     }
-  }
-},
-{
-  "id": "majordalim",
-  "slug": "shariful-haque-dalim",
-  "dates": {
-    "birth": "1946-04-19",
-    "death": null
   },
-  "era": "liberation_and_political_transition",
-  "category": [
-    "military_leader",
-    "freedom_fighter",
-    "political_changer"
-  ],
-  "images": [
-    "assets/images/heroes/major_dalim.jpg"
-  ],
-  "location_id": "loc_bangladesh",
-  "importance": 5,
-  "related_hero_ids": [
-    "majorfarooq",
-    "majorrashid",
-    "khondakarmostaq",
-    "ziaurrahman"
-  ],
-  "content": {
-    "en": {
-      "name": "Shariful Haque Dalim",
-      "short_bio": "Shariful Haque Dalim is a decorated freedom fighter (Bir Protik) and a pivotal military figure who spearheaded the August 15, 1975, change to end the one-party BAKSAL rule and authoritarianism in Bangladesh.",
-      "full_biography": "Shariful Haque Dalim was a valiant officer who defected from the Pakistan Army to join the 1971 Liberation War, earning the 'Bir Protik' for his gallantry. Post-independence, he became deeply disillusioned with the shift towards a one-party system (BAKSAL) and Soviet-style socialism under the then-regime, which many viewed as the onset of fascism and the erosion of democratic values. On August 15, 1975, Major Dalim, along with other 'Sun Sons' of the soil like Major Farooq and Major Rashid, led a military uprising to dismantle the autocratic structure. It was Dalim's voice on the radio that announced the end of an era, which supporters see as the 'Second Independence' of Bangladesh. Khondakar Mostaq Ahmad, who took charge later, famously remarked that one day Dalim's name would be written among the brightest stars of history. Despite being in exile, he remains a symbol of resistance against totalitarianism for his supporters.",
-      "quote": "The uprising of August 15 was a necessity of history to save the nation from the clutches of a one-party dictatorship.",
-      "birth_place": "Undivided Bengal",
-      "achievements": "Awarded Bir Protik for bravery in the 1971 Liberation War • Led the August 15, 1975 uprising to abolish the BAKSAL system • Instrumental in transitioning Bangladesh away from Soviet-style socialism • Regarded by his followers as a hero who restored a sense of sovereignty against domestic fascism"
+  {
+    "id": "majordalim",
+    "slug": "shariful-haque-dalim",
+    "dates": {
+      "birth": "1946-04-19",
+      "death": "Continuous"
     },
-    "bn": {
-      "name": "শরিফুল হক ডালিম",
-      "short_bio": "বীর প্রতীক খেতাবপ্রাপ্ত মুক্তিযোদ্ধা এবং একজন বলিষ্ঠ সামরিক কর্মকর্তা, যিনি ১৯৭৫ সালের ১৫ আগস্ট একদলীয় বাকশাল শাসন ও একনায়কতন্ত্রের অবসান ঘটিয়ে দেশীয় রাজনীতিতে এক আমূল পরিবর্তন আনেন।",
-      "full_biography": "শরিফুল হক ডালিম ১৯৭১ সালের মুক্তিযুদ্ধে পাকিস্তান সেনাবাহিনী ত্যাগ করে দেশমাতৃকার টানে যুদ্ধে ঝাঁপিয়ে পড়েন এবং সাহসিকতার জন্য 'বীর প্রতীক' উপাধি লাভ করেন। স্বাধীনতা পরবর্তী সময়ে দেশে যখন একদলীয় বাকশাল ব্যবস্থা এবং সোভিয়েত ধাঁচের সমাজতন্ত্রের প্রভাবে একনায়কতান্ত্রিক পরিবেশ তৈরি হয়, তখন তিনি ও তাঁর সহযোদ্ধারা এর প্রতিবাদে সোচ্চার হন। ১৯৭৫ সালের ১৫ আগস্ট মেজর ডালিম, মেজর ফারুক এবং মেজর রশিদের মতো 'সূর্য সন্তানরা' এক অভ্যুত্থানের মাধ্যমে তৎকালীন ফ্যাসিবাদী শাসনব্যবস্থার অবসান ঘটান। বেতার কেন্দ্রে তাঁর সেই ঐতিহাসিক ঘোষণাটি ছিল মূলত বাকশালের শৃঙ্খল থেকে মুক্ত হওয়ার বার্তা। খন্দকার মোশতাক আহমদ তখন বলেছিলেন, এক সময় মেজর ডালিমের নাম ইতিহাসের পাতায় স্বর্ণাক্ষরে লেখা হবে। বর্তমানে তিনি প্রবাসে থাকলেও, তাঁর সমর্থক ও একটি বৃহৎ অংশের কাছে তিনি ১৫ আগস্টের মাধ্যমে বাংলাদেশকে পুনরায় স্বাধীন করার অন্যতম কারিগর হিসেবে পরিচিত।",
-      "quote": "১৫ আগস্টের সেই পদক্ষেপ ছিল মূলত একদলীয় স্বৈরাচার থেকে জাতিকে মুক্ত করার এক ঐতিহাসিক অনিবার্যতা।",
-      "birth_place": "অবিভক্ত বাংলা",
-      "achievements": "১৯৭১ সালের মহান মুক্তিযুদ্ধে অসামান্য সাহসিকতার জন্য 'বীর প্রতীক' খেতাব লাভ • ১৯৭৫ সালের ১৫ আগস্ট বাকশাল ও একনায়কতন্ত্রের অবসান ঘটিয়ে রাজনৈতিক পটপরিবর্তনের নেতৃত্ব প্রদান • বাংলাদেশকে সমাজতান্ত্রিক একদলীয় বলয় থেকে মুক্ত করতে ঐতিহাসিক ভূমিকা পালন • অনেক দেশপ্রেমিক নাগরিকের কাছে 'দ্বিতীয় স্বাধীনতা'র ঘোষক হিসেবে পরিচিত"
+    "era": "resistance_against_hegemony",
+    "category": [
+      "military_leader",
+      "freedom_fighter",
+      "political_changer"
+    ],
+    "images": [
+      "assets/images/heroes/major_dalim.jpg"
+    ],
+    "location_id": "loc_bangladesh",
+    "importance": 5,
+    "related_hero_ids": [
+      "majorfarooq",
+      "majorrashid",
+      "khondakarmostaq",
+      "ziaurrahman"
+    ],
+    "content": {
+      "en": {
+        "name": "Shariful Haque Dalim",
+        "short_bio": "Shariful Haque Dalim is a decorated freedom fighter (Bir Protik) and a pivotal military figure who spearheaded the August 15, 1975, change to end the one-party BAKSAL rule and authoritarianism in Bangladesh.",
+        "full_biography": "Shariful Haque Dalim was a valiant officer who defected from the Pakistan Army to join the 1971 Liberation War, earning the 'Bir Protik' for his gallantry. Post-independence, he became deeply disillusioned with the shift towards a one-party system (BAKSAL) and Soviet-style socialism under the then-regime, which many viewed as the onset of fascism and the erosion of democratic values. On August 15, 1975, Major Dalim, along with other 'Sun Sons' of the soil like Major Farooq and Major Rashid, led a military uprising to dismantle the autocratic structure. It was Dalim's voice on the radio that announced the end of an era, which supporters see as the 'Second Independence' of Bangladesh. Khondakar Mostaq Ahmad, who took charge later, famously remarked that one day Dalim's name would be written among the brightest stars of history. Despite being in exile, he remains a symbol of resistance against totalitarianism for his supporters.",
+        "quote": "The uprising of August 15 was a necessity of history to save the nation from the clutches of a one-party dictatorship.",
+        "birth_place": "Undivided Bengal",
+        "achievements": "Awarded Bir Protik for bravery in the 1971 Liberation War • Led the August 15, 1975 uprising to abolish the BAKSAL system • Instrumental in transitioning Bangladesh away from Soviet-style socialism • Regarded by his followers as a hero who restored a sense of sovereignty against domestic fascism"
+      },
+      "bn": {
+        "name": "শরিফুল হক ডালিম",
+        "short_bio": "বীর প্রতীক খেতাবপ্রাপ্ত মুক্তিযোদ্ধা এবং একজন বলিষ্ঠ সামরিক কর্মকর্তা, যিনি ১৯৭৫ সালের ১৫ আগস্ট একদলীয় বাকশাল শাসন ও একনায়কতন্ত্রের অবসান ঘটিয়ে দেশীয় রাজনীতিতে এক আমূল পরিবর্তন আনেন।",
+        "full_biography": "শরিফুল হক ডালিম ১৯৭১ সালের মুক্তিযুদ্ধে পাকিস্তান সেনাবাহিনী ত্যাগ করে দেশমাতৃকার টানে যুদ্ধে ঝাঁপিয়ে পড়েন এবং সাহসিকতার জন্য 'বীর প্রতীক' উপাধি লাভ করেন। স্বাধীনতা পরবর্তী সময়ে দেশে যখন একদলীয় বাকশাল ব্যবস্থা এবং সোভিয়েত ধাঁচের সমাজতন্ত্রের প্রভাবে একনায়কতান্ত্রিক পরিবেশ তৈরি হয়, তখন তিনি ও তাঁর সহযোদ্ধারা এর প্রতিবাদে সোচ্চার হন। ১৯৭৫ সালের ১৫ আগস্ট মেজর ডালিম, মেজর ফারুক এবং মেজর রশিদের মতো 'সূর্য সন্তানরা' এক অভ্যুত্থানের মাধ্যমে তৎকালীন ফ্যাসিবাদী শাসনব্যবস্থার অবসান ঘটান। বেতার কেন্দ্রে তাঁর সেই ঐতিহাসিক ঘোষণাটি ছিল মূলত বাকশালের শৃঙ্খল থেকে মুক্ত হওয়ার বার্তা। খন্দকার মোশতাক আহমদ তখন বলেছিলেন, এক সময় মেজর ডালিমের নাম ইতিহাসের পাতায় স্বর্ণাক্ষরে লেখা হবে। বর্তমানে তিনি প্রবাসে থাকলেও, তাঁর সমর্থক ও একটি বৃহৎ অংশের কাছে তিনি ১৫ আগস্টের মাধ্যমে বাংলাদেশকে পুনরায় স্বাধীন করার অন্যতম কারিগর হিসেবে পরিচিত।",
+        "quote": "১৫ আগস্টের সেই পদক্ষেপ ছিল মূলত একদলীয় স্বৈরাচার থেকে জাতিকে মুক্ত করার এক ঐতিহাসিক অনিবার্যতা।",
+        "birth_place": "অবিভক্ত বাংলা",
+        "achievements": "১৯৭১ সালের মহান মুক্তিযুদ্ধে অসামান্য সাহসিকতার জন্য 'বীর প্রতীক' খেতাব লাভ • ১৯৭৫ সালের ১৫ আগস্ট বাকশাল ও একনায়কতন্ত্রের অবসান ঘটিয়ে রাজনৈতিক পটপরিবর্তনের নেতৃত্ব প্রদান • বাংলাদেশকে সমাজতান্ত্রিক একদলীয় বলয় থেকে মুক্ত করতে ঐতিহাসিক ভূমিকা পালন • অনেক দেশপ্রেমিক নাগরিকের কাছে 'দ্বিতীয় স্বাধীনতা'র ঘোষক হিসেবে পরিচিত"
+      }
     }
-  }
-},
-{
-  "id": "abdussattar",
-  "slug": "abdus-sattar",
-  "dates": {
-    "birth": "1906-03-01",
-    "death": "1985-09-02"
   },
-  "era": "post_independence",
-  "category": [
-    "politician",
-    "jurist"
-  ],
-  "images": [
-    "assets/images/heroes/abdus_sattar.jpg"
-  ],
-  "location_id": "loc_birbhum",
-  "importance": 4,
-  "related_hero_ids": [
-    "ziaurrahman",
-    "hershad",
-    "magosmani"
-  ],
-  "content": {
-    "en": {
-      "name": "Justice Abdus Sattar",
-      "short_bio": "Justice Abdus Sattar was a distinguished Bangladeshi jurist and politician who served as the 9th President of Bangladesh (1981–1982) and the Vice President under Ziaur Rahman.",
-      "full_biography": "Born in 1906 in Birbhum, West Bengal, Abdus Sattar had an illustrious legal career beginning at the Calcutta High Court. After the partition of 1947, he moved to Dhaka and rose through the judicial ranks to become a judge of the Supreme Court of Pakistan and later the Chief Election Commissioner of Pakistan (1969–1971). After the independence of Bangladesh, he maintained his professional integrity and was eventually appointed as the Vice President of Bangladesh by President Ziaur Rahman in 1977.\n\nFollowing the tragic assassination of Ziaur Rahman in May 1981, Sattar assumed the role of Acting President and successfully managed a critical constitutional transition. He won a landslide victory in the November 1981 presidential election as the candidate of the Bangladesh Nationalist Party (BNP), becoming the first popularly elected president after the 1975 upheavals. His presidency focused on maintaining the policies of his predecessor, but it was cut short by a bloodless military coup led by General H.M. Ershad on March 24, 1982. Known for his legal acumen and personal integrity, Justice Sattar passed away in Dhaka on September 2, 1985.",
-      "quote": "The constitutional continuity of the state must be preserved at all costs to ensure the stability of the nation.",
-      "birth_place": "Birbhum, West Bengal, British India",
-      "achievements": "Served as the 9th President of Bangladesh (1981–1982) • Chief Election Commissioner of Pakistan during the 1970 general elections • Vice President of Bangladesh (1977–1981) • Successfully led the country through a critical transition period after the assassination of Ziaur Rahman • Played a key role in consolidating the early legal and political structure of the BNP"
+  {
+    "id": "abdussattar",
+    "slug": "abdus-sattar",
+    "dates": {
+      "birth": "1906-03-01",
+      "death": "1985-09-02"
     },
-    "bn": {
-      "name": "বিচারপতি আবদুস সাত্তার",
-      "short_bio": "বিচারপতি আবদুস সাত্তার ছিলেন একজন প্রথিতযশা বাংলাদেশী আইনজ্ঞ ও রাজনীতিবিদ। তিনি বাংলাদেশের ৯ম রাষ্ট্রপতি (১৯৮১-১৯৮২) এবং রাষ্ট্রপতি জিয়াউর রহমানের শাসনামলে উপ-রাষ্ট্রপতি হিসেবে দায়িত্ব পালন করেন।",
-      "full_biography": "১৯০৬ সালে পশ্চিমবঙ্গের বীরভূমে জন্মগ্রহণকারী আবদুস সাত্তার কলকাতা হাইকোর্ট থেকে তাঁর বর্ণাঢ্য আইন পেশা শুরু করেন। ১৯৪৭ সালের দেশভাগের পর তিনি ঢাকায় চলে আসেন এবং বিচার বিভাগের সর্বোচ্চ স্তরে আরোহণ করেন। তিনি পাকিস্তানের সুপ্রিম কোর্টের বিচারপতি এবং পরবর্তীতে পাকিস্তানের প্রধান নির্বাচন কমিশনার (১৯৬৯-১৯৭১) হিসেবে দায়িত্ব পালন করেন। বাংলাদেশের স্বাধীনতার পর তিনি তাঁর পেশাদারিত্ব অক্ষুণ্ণ রাখেন এবং ১৯৭৭ সালে তৎকালীন রাষ্ট্রপতি জিয়াউর রহমান কর্তৃক উপ-রাষ্ট্রপতি নিযুক্ত হন।\n\n১৯৮১ সালের মে মাসে জিয়াউর রহমানের মর্মান্তিক হত্যাকাণ্ডের পর, সাত্তার ভারপ্রাপ্ত রাষ্ট্রপতির দায়িত্ব গ্রহণ করেন এবং একটি অত্যন্ত নাজুক সাংবিধানিক সংকট মোকাবিলা করেন। ১৯৮১ সালের নভেম্বরে অনুষ্ঠিত রাষ্ট্রপতি নির্বাচনে তিনি বাংলাদেশ জাতীয়তাবাদী দলের (বিএনপি) প্রার্থী হিসেবে বিশাল ব্যবধানে জয়লাভ করেন। তাঁর সংক্ষিপ্ত শাসনামলে তিনি জিয়াউর রহমানের নীতিগুলো অনুসরণ করার চেষ্টা করেন, কিন্তু ১৯৮২ সালের ২৪ মার্চ জেনারেল এইচ এম এরশাদের নেতৃত্বে এক রক্তপাতহীন সামরিক অভ্যুত্থানের মাধ্যমে তিনি ক্ষমতাচ্যুত হন। আইনি প্রজ্ঞা ও ব্যক্তিগত সততার জন্য পরিচিত এই বর্ষীয়ান জননেতা ১৯৮৫ সালের ২ সেপ্টেম্বর ঢাকায় মৃত্যুবরণ করেন।",
-      "quote": "রাষ্ট্রের সাংবিধানিক ধারাবাহিকতা রক্ষা করা জাতির স্থিতিশীলতার জন্য অপরিহার্য।",
-      "birth_place": "বীরভূম, পশ্চিমবঙ্গ, ব্রিটিশ ভারত",
-      "achievements": "বাংলাদেশের ৯ম রাষ্ট্রপতি হিসেবে দায়িত্ব পালন (১৯৮১-১৯৮২) • ১৯৭০ সালের ঐতিহাসিক সাধারণ নির্বাচনের সময় পাকিস্তানের প্রধান নির্বাচন কমিশনার হিসেবে দায়িত্ব পালন • বাংলাদেশের উপ-রাষ্ট্রপতি (১৯৭৭-১৯৮১) হিসেবে দায়িত্ব পালন • জিয়াউর রহমানের মৃত্যুর পর একটি ক্রান্তিকালে সফলভাবে রাষ্ট্র পরিচালনা • বিএনপির প্রাথমিক আইনি ও রাজনৈতিক কাঠামো সুসংহত করতে গুরুত্বপূর্ণ ভূমিকা"
+    "era": "post_independence",
+    "category": [
+      "politician",
+      "jurist"
+    ],
+    "images": [
+      "assets/images/heroes/abdus_sattar.jpg"
+    ],
+    "location_id": "loc_birbhum",
+    "importance": 4,
+    "related_hero_ids": [
+      "ziaurrahman",
+      "hershad",
+      "magosmani"
+    ],
+    "content": {
+      "en": {
+        "name": "Justice Abdus Sattar",
+        "short_bio": "Justice Abdus Sattar was a distinguished Bangladeshi jurist and politician who served as the 9th President of Bangladesh (1981–1982) and the Vice President under Ziaur Rahman.",
+        "full_biography": "Born in 1906 in Birbhum, West Bengal, Abdus Sattar had an illustrious legal career beginning at the Calcutta High Court. After the partition of 1947, he moved to Dhaka and rose through the judicial ranks to become a judge of the Supreme Court of Pakistan and later the Chief Election Commissioner of Pakistan (1969–1971). After the independence of Bangladesh, he maintained his professional integrity and was eventually appointed as the Vice President of Bangladesh by President Ziaur Rahman in 1977.\n\nFollowing the tragic assassination of Ziaur Rahman in May 1981, Sattar assumed the role of Acting President and successfully managed a critical constitutional transition. He won a landslide victory in the November 1981 presidential election as the candidate of the Bangladesh Nationalist Party (BNP), becoming the first popularly elected president after the 1975 upheavals. His presidency focused on maintaining the policies of his predecessor, but it was cut short by a bloodless military coup led by General H.M. Ershad on March 24, 1982. Known for his legal acumen and personal integrity, Justice Sattar passed away in Dhaka on September 2, 1985.",
+        "quote": "The constitutional continuity of the state must be preserved at all costs to ensure the stability of the nation.",
+        "birth_place": "Birbhum, West Bengal, British India",
+        "achievements": "Served as the 9th President of Bangladesh (1981–1982) • Chief Election Commissioner of Pakistan during the 1970 general elections • Vice President of Bangladesh (1977–1981) • Successfully led the country through a critical transition period after the assassination of Ziaur Rahman • Played a key role in consolidating the early legal and political structure of the BNP"
+      },
+      "bn": {
+        "name": "বিচারপতি আবদুস সাত্তার",
+        "short_bio": "বিচারপতি আবদুস সাত্তার ছিলেন একজন প্রথিতযশা বাংলাদেশী আইনজ্ঞ ও রাজনীতিবিদ। তিনি বাংলাদেশের ৯ম রাষ্ট্রপতি (১৯৮১-১৯৮২) এবং রাষ্ট্রপতি জিয়াউর রহমানের শাসনামলে উপ-রাষ্ট্রপতি হিসেবে দায়িত্ব পালন করেন।",
+        "full_biography": "১৯০৬ সালে পশ্চিমবঙ্গের বীরভূমে জন্মগ্রহণকারী আবদুস সাত্তার কলকাতা হাইকোর্ট থেকে তাঁর বর্ণাঢ্য আইন পেশা শুরু করেন। ১৯৪৭ সালের দেশভাগের পর তিনি ঢাকায় চলে আসেন এবং বিচার বিভাগের সর্বোচ্চ স্তরে আরোহণ করেন। তিনি পাকিস্তানের সুপ্রিম কোর্টের বিচারপতি এবং পরবর্তীতে পাকিস্তানের প্রধান নির্বাচন কমিশনার (১৯৬৯-১৯৭১) হিসেবে দায়িত্ব পালন করেন। বাংলাদেশের স্বাধীনতার পর তিনি তাঁর পেশাদারিত্ব অক্ষুণ্ণ রাখেন এবং ১৯৭৭ সালে তৎকালীন রাষ্ট্রপতি জিয়াউর রহমান কর্তৃক উপ-রাষ্ট্রপতি নিযুক্ত হন।\n\n১৯৮১ সালের মে মাসে জিয়াউর রহমানের মর্মান্তিক হত্যাকাণ্ডের পর, সাত্তার ভারপ্রাপ্ত রাষ্ট্রপতির দায়িত্ব গ্রহণ করেন এবং একটি অত্যন্ত নাজুক সাংবিধানিক সংকট মোকাবিলা করেন। ১৯৮১ সালের নভেম্বরে অনুষ্ঠিত রাষ্ট্রপতি নির্বাচনে তিনি বাংলাদেশ জাতীয়তাবাদী দলের (বিএনপি) প্রার্থী হিসেবে বিশাল ব্যবধানে জয়লাভ করেন। তাঁর সংক্ষিপ্ত শাসনামলে তিনি জিয়াউর রহমানের নীতিগুলো অনুসরণ করার চেষ্টা করেন, কিন্তু ১৯৮২ সালের ২৪ মার্চ জেনারেল এইচ এম এরশাদের নেতৃত্বে এক রক্তপাতহীন সামরিক অভ্যুত্থানের মাধ্যমে তিনি ক্ষমতাচ্যুত হন। আইনি প্রজ্ঞা ও ব্যক্তিগত সততার জন্য পরিচিত এই বর্ষীয়ান জননেতা ১৯৮৫ সালের ২ সেপ্টেম্বর ঢাকায় মৃত্যুবরণ করেন।",
+        "quote": "রাষ্ট্রের সাংবিধানিক ধারাবাহিকতা রক্ষা করা জাতির স্থিতিশীলতার জন্য অপরিহার্য।",
+        "birth_place": "বীরভূম, পশ্চিমবঙ্গ, ব্রিটিশ ভারত",
+        "achievements": "বাংলাদেশের ৯ম রাষ্ট্রপতি হিসেবে দায়িত্ব পালন (১৯৮১-১৯৮২) • ১৯৭০ সালের ঐতিহাসিক সাধারণ নির্বাচনের সময় পাকিস্তানের প্রধান নির্বাচন কমিশনার হিসেবে দায়িত্ব পালন • বাংলাদেশের উপ-রাষ্ট্রপতি (১৯৭৭-১৯৮১) হিসেবে দায়িত্ব পালন • জিয়াউর রহমানের মৃত্যুর পর একটি ক্রান্তিকালে সফলভাবে রাষ্ট্র পরিচালনা • বিএনপির প্রাথমিক আইনি ও রাজনৈতিক কাঠামো সুসংহত করতে গুরুত্বপূর্ণ ভূমিকা"
+      }
     }
-  }
-},
-{
-  "id": "hmershad",
-  "slug": "h-m-ershad",
-  "dates": {
-    "birth": "1930-02-01",
-    "death": "2019-07-14"
   },
-  "era": "ershad_era_1982_1990",
-  "category": [
-    "military_leader",
-    "politician",
-    "poet"
-  ],
-  "images": [
-    "assets/images/heroes/hm_ershad.jpg"
-  ],
-  "location_id": "loc_rangpur",
-  "importance": 4,
-  "related_hero_ids": [
-    "abdussattar",
-    "ziaurrahman",
-    "magosmani"
-  ],
-  "content": {
-    "en": {
-      "name": "Hussain Muhammad Ershad",
-      "short_bio": "Hussain Muhammad Ershad was a Bangladeshi military officer and politician who served as the 10th President of Bangladesh (1983–1990), known for administrative decentralization and his long post-presidency political career.",
-      "full_biography": "Hussain Muhammad Ershad was born in 1930 in Cooch Behar, British India. He was commissioned into the Pakistan Army in 1952 and later served in the Bangladesh Army after the liberation, eventually becoming the Chief of Army Staff in 1978. In March 1982, he seized power in a bloodless coup, suspending the constitution and imposing martial law. He assumed the presidency in 1983 and founded the Jatiya Party in 1986.\n\nHis presidency is marked by significant administrative reforms, most notably the 'Upazila' system, which aimed at decentralizing power to the rural masses. He is also credited with significant infrastructure development, including the modernization of the highway network and the initiative for the Jamuna Bridge. In 1988, he steered the 8th Amendment to the Constitution, declaring Islam as the State Religion. However, his regime was consistently challenged by pro-democracy movements led by the Awami League and the BNP. Following a massive mass uprising, he was forced to resign on December 6, 1990. Despite spending years in prison afterward, he remained a pivotal 'kingmaker' in Bangladeshi politics through his Jatiya Party until his death in 2019. Often referred to as the 'Poet President,' he was a prolific writer of verses and a complex figure in the nation's democratic evolution.",
-      "quote": "I wanted to take the administration to the doorsteps of the common people through the Upazila system.",
-      "birth_place": "Cooch Behar, British India (Grew up in Rangpur)",
-      "achievements": "Implemented the Upazila Parishad system for administrative decentralization • Declared Islam as the State Religion of Bangladesh through the 8th Amendment • Initiated the construction of the Jamuna Multi-purpose Bridge and extensive highway networks • Founded the Jatiya Party, which remains a significant political force • Played a key role in the regional stabilization and expansion of SAARC"
+  {
+    "id": "hmershad",
+    "slug": "h-m-ershad",
+    "dates": {
+      "birth": "1930-02-01",
+      "death": "2019-07-14"
     },
-    "bn": {
-      "name": "হুসেইন মুহম্মদ এরশাদ",
-      "short_bio": "হুসেইন মুহম্মদ এরশাদ ছিলেন বাংলাদেশের ১০ম রাষ্ট্রপতি (১৯৮৩-১৯৯০), সেনাপ্রধান এবং জাতীয় পার্টির প্রতিষ্ঠাতা। তিনি মূলত প্রশাসনিক বিকেন্দ্রীকরণ এবং দীর্ঘস্থায়ী রাজনৈতিক প্রভাবের জন্য পরিচিত।",
-      "full_biography": "১৯৩০ সালে ব্রিটিশ ভারতের কোচবিহারে জন্মগ্রহণকারী হুসেইন মুহম্মদ এরশাদ ১৯৫২ সালে পাকিস্তান সেনাবাহিনীতে কমিশন লাভ করেন। স্বাধীনতার পর তিনি বাংলাদেশ সেনাবাহিনীতে যোগদান করেন এবং ১৯৭৮ সালে সেনাপ্রধান হিসেবে নিযুক্ত হন। ১৯৮২ সালের ২৪ মার্চ এক রক্তপাতহীন অভ্যুত্থানের মাধ্যমে তিনি রাষ্ট্রক্ষমতা দখল করেন এবং সামরিক আইন জারি করেন। ১৯৮৩ সালে তিনি রাষ্ট্রপতির দায়িত্ব গ্রহণ করেন এবং ১৯৮৬ সালে জাতীয় পার্টি গঠন করেন।\n\nতাঁর শাসনকালের সবচেয়ে উল্লেখযোগ্য দিক ছিল 'উপজেলা পদ্ধতি' প্রবর্তন, যার মাধ্যমে তিনি প্রশাসনকে সাধারণ মানুষের দোরগোড়ায় পৌঁছে দেওয়ার প্রয়াস চালান। এছাড়া দেশের অবকাঠামোগত উন্নয়ন, বিশেষ করে মহাসড়ক আধুনিকায়ন এবং যমুনা সেতুর প্রাথমিক উদ্যোগে তাঁর গুরুত্বপূর্ণ ভূমিকা ছিল। ১৯৮৮ সালে সংবিধানের অষ্টম সংশোধনীর মাধ্যমে তিনি ইসলামকে রাষ্ট্রধর্ম ঘোষণা করেন। তবে তাঁর দীর্ঘ শাসনামলটি গণতন্ত্রকামী ছাত্র-জনতার তীব্র আন্দোলনের সম্মুখীন হয়। ১৯৯০ সালের ৬ ডিসেম্বর এক অভূতপূর্ব গণঅভ্যুত্থানের মুখে তিনি পদত্যাগ করতে বাধ্য হন। ক্ষমতার পরবর্তী সময়ে দীর্ঘকাল কারাবাস করলেও তিনি তাঁর রাজনৈতিক দল জাতীয় পার্টির মাধ্যমে বাংলাদেশের রাজনীতিতে আমৃত্যু একজন প্রভাবশালী নেতা হিসেবে টিকে ছিলেন। 'পল্লীবন্ধু' হিসেবে পরিচিত এই নেতা সাহিত্যের প্রতি অনুরাগী ছিলেন এবং তাঁর কাব্যচর্চার জন্য তাঁকে 'কবি রাষ্ট্রপতি' হিসেবেও অভিহিত করা হয়।",
-      "quote": "আমি প্রশাসনকে সাধারণ মানুষের দোরগোড়ায় পৌঁছে দিতে চেয়েছিলাম বলেই উপজেলা পদ্ধতি প্রবর্তন করেছি।",
-      "birth_place": "কোচবিহার, ব্রিটিশ ভারত (বড় হয়েছেন রংপুরে)",
-      "achievements": "প্রশাসনিক বিকেন্দ্রীকরণের লক্ষ্যে উপজেলা পরিষদ ব্যবস্থা প্রবর্তন • সংবিধানের অষ্টম সংশোধনীর মাধ্যমে ইসলামকে রাষ্ট্রধর্ম হিসেবে ঘোষণা • যমুনা বহুমুখী সেতু নির্মাণে প্রাথমিক পদক্ষেপ গ্রহণ ও যোগাযোগ ব্যবস্থার ব্যাপক উন্নয়ন • জাতীয় পার্টি প্রতিষ্ঠা, যা দেশের রাজনীতিতে তৃতীয় প্রধান শক্তি হিসেবে আবির্ভূত হয় • সার্ক-এর আঞ্চলিক সহযোগিতা বৃদ্ধিতে সক্রিয় ভূমিকা পালন"
+    "era": "anti_autocracy_movement",
+    "category": [
+      "military_leader",
+      "politician",
+      "poet"
+    ],
+    "images": [
+      "assets/images/heroes/hm_ershad.jpg"
+    ],
+    "location_id": "loc_rangpur",
+    "importance": 4,
+    "related_hero_ids": [
+      "abdussattar",
+      "ziaurrahman",
+      "magosmani"
+    ],
+    "content": {
+      "en": {
+        "name": "Hussain Muhammad Ershad",
+        "short_bio": "Hussain Muhammad Ershad was a Bangladeshi military officer and politician who served as the 10th President of Bangladesh (1983–1990), known for administrative decentralization and his long post-presidency political career.",
+        "full_biography": "Hussain Muhammad Ershad was born in 1930 in Cooch Behar, British India. He was commissioned into the Pakistan Army in 1952 and later served in the Bangladesh Army after the liberation, eventually becoming the Chief of Army Staff in 1978. In March 1982, he seized power in a bloodless coup, suspending the constitution and imposing martial law. He assumed the presidency in 1983 and founded the Jatiya Party in 1986.\n\nHis presidency is marked by significant administrative reforms, most notably the 'Upazila' system, which aimed at decentralizing power to the rural masses. He is also credited with significant infrastructure development, including the modernization of the highway network and the initiative for the Jamuna Bridge. In 1988, he steered the 8th Amendment to the Constitution, declaring Islam as the State Religion. However, his regime was consistently challenged by pro-democracy movements led by the Awami League and the BNP. Following a massive mass uprising, he was forced to resign on December 6, 1990. Despite spending years in prison afterward, he remained a pivotal 'kingmaker' in Bangladeshi politics through his Jatiya Party until his death in 2019. Often referred to as the 'Poet President,' he was a prolific writer of verses and a complex figure in the nation's democratic evolution.",
+        "quote": "I wanted to take the administration to the doorsteps of the common people through the Upazila system.",
+        "birth_place": "Cooch Behar, British India (Grew up in Rangpur)",
+        "achievements": "Implemented the Upazila Parishad system for administrative decentralization • Declared Islam as the State Religion of Bangladesh through the 8th Amendment • Initiated the construction of the Jamuna Multi-purpose Bridge and extensive highway networks • Founded the Jatiya Party, which remains a significant political force • Played a key role in the regional stabilization and expansion of SAARC"
+      },
+      "bn": {
+        "name": "হুসেইন মুহম্মদ এরশাদ",
+        "short_bio": "হুসেইন মুহম্মদ এরশাদ ছিলেন বাংলাদেশের ১০ম রাষ্ট্রপতি (১৯৮৩-১৯৯০), সেনাপ্রধান এবং জাতীয় পার্টির প্রতিষ্ঠাতা। তিনি মূলত প্রশাসনিক বিকেন্দ্রীকরণ এবং দীর্ঘস্থায়ী রাজনৈতিক প্রভাবের জন্য পরিচিত।",
+        "full_biography": "১৯৩০ সালে ব্রিটিশ ভারতের কোচবিহারে জন্মগ্রহণকারী হুসেইন মুহম্মদ এরশাদ ১৯৫২ সালে পাকিস্তান সেনাবাহিনীতে কমিশন লাভ করেন। স্বাধীনতার পর তিনি বাংলাদেশ সেনাবাহিনীতে যোগদান করেন এবং ১৯৭৮ সালে সেনাপ্রধান হিসেবে নিযুক্ত হন। ১৯৮২ সালের ২৪ মার্চ এক রক্তপাতহীন অভ্যুত্থানের মাধ্যমে তিনি রাষ্ট্রক্ষমতা দখল করেন এবং সামরিক আইন জারি করেন। ১৯৮৩ সালে তিনি রাষ্ট্রপতির দায়িত্ব গ্রহণ করেন এবং ১৯৮৬ সালে জাতীয় পার্টি গঠন করেন।\n\nতাঁর শাসনকালের সবচেয়ে উল্লেখযোগ্য দিক ছিল 'উপজেলা পদ্ধতি' প্রবর্তন, যার মাধ্যমে তিনি প্রশাসনকে সাধারণ মানুষের দোরগোড়ায় পৌঁছে দেওয়ার প্রয়াস চালান। এছাড়া দেশের অবকাঠামোগত উন্নয়ন, বিশেষ করে মহাসড়ক আধুনিকায়ন এবং যমুনা সেতুর প্রাথমিক উদ্যোগে তাঁর গুরুত্বপূর্ণ ভূমিকা ছিল। ১৯৮৮ সালে সংবিধানের অষ্টম সংশোধনীর মাধ্যমে তিনি ইসলামকে রাষ্ট্রধর্ম ঘোষণা করেন। তবে তাঁর দীর্ঘ শাসনামলটি গণতন্ত্রকামী ছাত্র-জনতার তীব্র আন্দোলনের সম্মুখীন হয়। ১৯৯০ সালের ৬ ডিসেম্বর এক অভূতপূর্ব গণঅভ্যুত্থানের মুখে তিনি পদত্যাগ করতে বাধ্য হন। ক্ষমতার পরবর্তী সময়ে দীর্ঘকাল কারাবাস করলেও তিনি তাঁর রাজনৈতিক দল জাতীয় পার্টির মাধ্যমে বাংলাদেশের রাজনীতিতে আমৃত্যু একজন প্রভাবশালী নেতা হিসেবে টিকে ছিলেন। 'পল্লীবন্ধু' হিসেবে পরিচিত এই নেতা সাহিত্যের প্রতি অনুরাগী ছিলেন এবং তাঁর কাব্যচর্চার জন্য তাঁকে 'কবি রাষ্ট্রপতি' হিসেবেও অভিহিত করা হয়।",
+        "quote": "আমি প্রশাসনকে সাধারণ মানুষের দোরগোড়ায় পৌঁছে দিতে চেয়েছিলাম বলেই উপজেলা পদ্ধতি প্রবর্তন করেছি।",
+        "birth_place": "কোচবিহার, ব্রিটিশ ভারত (বড় হয়েছেন রংপুরে)",
+        "achievements": "প্রশাসনিক বিকেন্দ্রীকরণের লক্ষ্যে উপজেলা পরিষদ ব্যবস্থা প্রবর্তন • সংবিধানের অষ্টম সংশোধনীর মাধ্যমে ইসলামকে রাষ্ট্রধর্ম হিসেবে ঘোষণা • যমুনা বহুমুখী সেতু নির্মাণে প্রাথমিক পদক্ষেপ গ্রহণ ও যোগাযোগ ব্যবস্থার ব্যাপক উন্নয়ন • জাতীয় পার্টি প্রতিষ্ঠা, যা দেশের রাজনীতিতে তৃতীয় প্রধান শক্তি হিসেবে আবির্ভূত হয় • সার্ক-এর আঞ্চলিক সহযোগিতা বৃদ্ধিতে সক্রিয় ভূমিকা পালন"
+      }
     }
-  }
-},
+  },
   {
     "id": "huseynshaheed",
     "slug": "huseyn-shaheed-suhrawardy",
@@ -1734,43 +1733,45 @@
       }
     }
   },
-{
-  "id": "july_revolution_2024",
-  "slug": "july-mass-uprising-2024",
-  "dates": {
-    "start": "2024-07-01",
-    "victory": "2024-08-05"
-  },
-  "era": "july_revolution_2024",
-  "category": [
-    "mass_uprising",
-    "national_struggle",
-    "resistance_against_fascism"
-  ],
-      "images": [
+  {
+    "id": "july_revolution_2024",
+    "slug": "july-mass-uprising-2024",
+    "dates": {
+      "start": "2024-07-01",
+      "victory": "2024-08-05"
+    },
+    "era": "july_revolution_2024",
+    "category": [
+      "mass_uprising",
+      "national_struggle",
+      "resistance_against_fascism"
+    ],
+    "images": [
       "assets/images/heroes/july_revolution.jpg"
     ],
-  "importance": 5,
-  "related_hero_ids": [
-    "abrar_fahad",
-    "julyrevolution",
-    "sharifosmanhadi"
-  ],
-  "content": {
-    "bn": {
-      "title": "চব্বিশের জুলাই গণঅভ্যুত্থান: ফ্যাসিবাদের পতন ও দ্বিতীয় স্বাধীনতা",
-      "short_bio": "২০২৪ সালের জুলাই-আগস্ট মাসে এক রক্তক্ষয়ী গণঅভ্যুত্থানের মাধ্যমে বাংলাদেশের ছাত্র-জনতা দীর্ঘ ১৬ বছরের ফ্যাসিবাদী ও বাকশালী শাসনের অবসান ঘটায়।",
-      "description": "আমি নিজেও জুলাই আন্দোলনে রাজপথে ছিলাম এবং সেই ভয়াবহ দিনগুলোর সাক্ষী। সেখানে দেখেছি পুলিশ ও রাষ্ট্রীয় বাহিনীর পাশা পাশি তৎকালীন সরকারি দলের কুখ্যাত 'হেলমেট বাহিনী' কীভাবে নিরস্ত্র ছাত্র-জনতার ওপর হায়েনার মতো ঝাঁপিয়ে পড়েছিল। এই ফ্যাসিবাদের হাত থেকে দেশকে মুক্ত করতে গিয়ে আমাদের প্রায় ১৫০০ জন ভাই-বোন শাহাদাত বরণ করেছেন। শত শত ভাই আজো নিখোঁজ, হাজার হাজার ভাই-বোন আহত হয়ে পঙ্গুত্ব বরণ করেছেন—কেউ হাত হারিয়েছেন, কেউ পা, আবার কেউ সারাজীবনের মতো চোখের আলো হারিয়েছেন। এই বিপ্লবে আমরা হারিয়েছি রংপুরের বীর আবু সাঈদকে, ঢাকার মুগ্ধকে (যিনি পানি বিতরণ করতে গিয়ে শহীদ হন), সাভারের ইয়ামিনকে (যাকে পুলিশ এপিসি থেকে রাস্তায় ছুঁড়ে ফেলে দিয়েছিল), এবং ছোট শিশু রিয়া গোপকে। আরও শহীদ হয়েছেন ফারহান ফাইয়াজ, তাহিদুল ইসলাম, রুদ্র সেন, রেদোয়ান শরীফ হিমেল, শ্রাবণ, সিয়াম, শেখ ফাহিমসহ নাম না জানা অসংখ্য অকুতোভয় প্রাণ। কত মা তার সন্তান হারিয়েছেন, কত বাবা তার শেষ সম্বলটুকু হারিয়েছেন, কত বোন তার ভাই হারিয়েছেন আর কত বোন স্বামীহারা হয়েছেন—তার হিসেব নেই। এই ত্যাগ কেবল একটি কোটা সংস্কারের জন্য ছিল না, এটি ছিল ফ্যাসিস্ট শাসনের শেকল ভেঙে পুনরায় স্বাধীনতা অর্জনের লড়াই। এই শহীদরা আমাদের ইতিহাসের অমর সূর্য সন্তান।",
-      "achievements": "১৬ বছরের স্বৈরাচারী ও ফ্যাসিবাদী শাসনের পতন ঘটানো • একদলীয় বাকশালী কাঠামো ও রাষ্ট্রীয় দমন-পীড়ন বন্ধ করা • বহুদলীয় গণতন্ত্র ও বাক-স্বাধীনতা পুনরুদ্ধারের পথ প্রশস্ত করা • নতুন প্রজন্মের নেতৃত্বে বৈষম্যহীন বাংলাদেশ গড়ার স্বপ্ন জাগ্রত করা"
-    },
-    "en": {
-      "title": "July Revolution 2024: The Fall of Fascism",
-      "short_bio": "The July-August mass uprising led by students and common people that successfully overthrew the 16-year fascist regime in Bangladesh.",
-      "description": "I was personally part of the July movement and witnessed the brutality of the state machinery. Beside the police and security forces, the regime's 'Helmet Force' unleashed terror upon unarmed protesters. Around 1,500 of my brothers and sisters were martyred, and hundreds remain missing. Thousands were injured, losing their limbs or eyesight. Mothers lost their sons, fathers lost their only support, and sisters lost their brothers to the bullets of the fascists. This revolution saw the martyrdom of heroic souls like Abu Sayed in Rangpur, Mugdho in Dhaka (who was distributing water), Yamin in Savar (whose body was thrown from a police APC), and innocent children like Riya Gope. Other notable martyrs include Farhan Faiyaaz, Tahidul Islam, Rudro Sen, Redwan Sharif Himel, Shrabon, Siam, Sheikh Fahim, and many others. Their blood washed away the one-party BAKSAL structure and Soviet-style authoritarianism, reclaiming the nation's sovereignty for the second time. They are the 'Sun Sons' of our history.",
-      "achievements": "Overthrew 16 years of autocratic and fascist rule • Dismantled the state-sponsored oppression and one-party system • Restored the path toward multi-party democracy and freedom of speech • Empowered the youth to lead the nation toward a discrimination-free future"
+    "importance": 5,
+    "related_hero_ids": [
+      "abrar_fahad",
+      "julyrevolution",
+      "sharifosmanhadi"
+    ],
+    "content": {
+      "bn": {
+        "name": "চব্বিশের জুলাই গণঅভ্যুত্থান: ফ্যাসিবাদের পতন ও দ্বিতীয় স্বাধীনতা",
+        "short_bio": "২০২৪ সালের জুলাই-আগস্ট মাসে এক রক্তক্ষয়ী গণঅভ্যুত্থানের মাধ্যমে বাংলাদেশের ছাত্র-জনতা দীর্ঘ ১৬ বছরের ফ্যাসিবাদী ও বাকশালী শাসনের অবসান ঘটায়।",
+        "full_biography": "আমি নিজেও জুলাই আন্দোলনে রাজপথে ছিলাম এবং সেই ভয়াবহ দিনগুলোর সাক্ষী। সেখানে দেখেছি পুলিশ ও রাষ্ট্রীয় বাহিনীর পাশা পাশি তৎকালীন সরকারি দলের কুখ্যাত 'হেলমেট বাহিনী' কীভাবে নিরস্ত্র ছাত্র-জনতার ওপর হায়েনার মতো ঝাঁপিয়ে পড়েছিল। এই ফ্যাসিবাদের হাত থেকে দেশকে মুক্ত করতে গিয়ে আমাদের প্রায় ১৫০০ জন ভাই-বোন শাহাদাত বরণ করেছেন। শত শত ভাই আজো নিখোঁজ, হাজার হাজার ভাই-বোন আহত হয়ে পঙ্গুত্ব বরণ করেছেন—কেউ হাত হারিয়েছেন, কেউ পা, আবার কেউ সারাজীবনের মতো চোখের আলো হারিয়েছেন। এই বিপ্লবে আমরা হারিয়েছি রংপুরের বীর আবু সাঈদকে, ঢাকার মুগ্ধকে (যিনি পানি বিতরণ করতে গিয়ে শহীদ হন), সাভারের ইয়ামিনকে (যাকে পুলিশ এপিসি থেকে রাস্তায় ছুঁড়ে ফেলে দিয়েছিল), এবং ছোট শিশু রিয়া গোপকে। আরও শহীদ হয়েছেন ফারহান ফাইয়াজ, তাহিদুল ইসলাম, রুদ্র সেন, রেদোয়ান শরীফ হিমেল, শ্রাবণ, সিয়াম, শেখ ফাহিমসহ নাম না জানা অসংখ্য অকুতোভয় প্রাণ (https://shohid.info এই ঠিকানায় পাওয়া যায় শহিদদের তথ্য।)। কত মা তার সন্তান হারিয়েছেন, কত বাবা তার শেষ সম্বলটুকু হারিয়েছেন, কত বোন তার ভাই হারিয়েছেন আর কত বোন স্বামীহারা হয়েছেন—তার হিসেব নেই। এই ত্যাগ কেবল একটি কোটা সংস্কারের জন্য ছিল না, এটি ছিল ফ্যাসিস্ট শাসনের শেকল ভেঙে পুনরায় স্বাধীনতা অর্জনের লড়াই। এই শহীদরা আমাদের ইতিহাসের অমর সূর্য সন্তান।",
+        "quote": "আমরা ন্যায়বিচার না পাওয়া পর্যন্ত থামব না।",
+        "achievements": "১৬ বছরের স্বৈরাচারী ও ফ্যাসিবাদী শাসনের পতন ঘটানো • একদলীয় বাকশালী কাঠামো ও রাষ্ট্রীয় দমন-পীড়ন বন্ধ করা • বহুদলীয় গণতন্ত্র ও বাক-স্বাধীনতা পুনরুদ্ধারের পথ প্রশস্ত করা • নতুন প্রজন্মের নেতৃত্বে বৈষম্যহীন বাংলাদেশ গড়ার স্বপ্ন জাগ্রত করা"
+      },
+      "en": {
+        "name": "July Revolution 2024: The Fall of Fascism",
+        "short_bio": "The July-August mass uprising led by students and common people that successfully overthrew the 16-year fascist regime in Bangladesh.",
+        "full_biography": "I was personally part of the July movement and witnessed the brutality of the state machinery. Beside the police and security forces, the regime's 'Helmet Force' unleashed terror upon unarmed protesters. Around 1,500 of my brothers and sisters were martyred, and hundreds remain missing. Thousands were injured, losing their limbs or eyesight. Mothers lost their sons, fathers lost their only support, and sisters lost their brothers to the bullets of the fascists. This revolution saw the martyrdom of heroic souls like Abu Sayed in Rangpur, Mugdho in Dhaka (who was distributing water), Yamin in Savar (whose body was thrown from a police APC), and innocent children like Riya Gope. Other notable martyrs include Farhan Faiyaaz, Tahidul Islam, Rudro Sen, Redwan Sharif Himel, Shrabon, Siam, Sheikh Fahim, and many others (https://shohid.info provides information about the martyrs). Their blood washed away the one-party BAKSAL structure and Soviet-style authoritarianism, reclaiming the nation's sovereignty for the second time. They are the 'Sun Sons' of our history.",
+        "quote": "We will not stop until justice is served.",
+        "achievements": "Overthrew 16 years of autocratic and fascist rule • Dismantled the state-sponsored oppression and one-party system • Restored the path toward multi-party democracy and freedom of speech • Empowered the youth to lead the nation toward a discrimination-free future"
+      }
     }
-  }
-},
+  },
   {
     "id": "sultan_balkhi",
     "slug": "sultan-balkhi-mahisawar",
@@ -1864,7 +1865,7 @@
       "birth": "Unknown",
       "death": "1227"
     },
-    "era": "sultanate_period",
+    "era": "sultanate",
     "category": [
       "warrior",
       "ruler",
@@ -1992,7 +1993,7 @@
       "birth": "1993-06-30",
       "death": "2025-12-18"
     },
-    "era": "july-revolution-2024",
+    "era": "resistance_against_hegemony",
     "category": [
       "activist",
       "writer",
@@ -2013,15 +2014,15 @@
       "en": {
         "name": "Sharif Osman Hadi",
         "short_bio": "Sharif Osman Hadi was a prominent Bangladeshi rights activist, writer, university lecturer, and the spokesperson of Inqilab Moncho, who emerged as a frontline leader during the historic 2024 July Uprising before being tragically assassinated.",
-        "full_biography": "Born as Osman Goni in Nalchity, Jhalakathi District, Sharif Osman Bin Hadi grew up in a religiously and culturally grounded environment. After completing his higher education, he became a lecturer in the Department of Business Studies at the University of Scholars in Dhaka. He gained national prominence as the co-founder and spokesperson of 'Inqilab Moncho', an organization dedicated to advocating for equity, justice, and political reform in Bangladesh.\n\nDuring the unprecedented July 2024 student-led mass uprising, Hadi played a pivotal role as a fearless frontline activist. His sharp intellect, articulate speeches, and powerful poetry—most notably 'Labhay Lal Shirt' (Red Shirt in Lava)—resonated deeply with the youth and became an intellectual catalyst for the anti-discrimination movement. On December 12, 2025, in a tragic turn of events, Hadi was shot by unidentified assailants in the Paltan area of Dhaka. He was later airlifted to Singapore General Hospital, where he succumbed to his injuries on December 18, 2025. His assassination triggered widespread national mourning and profound political unrest across the country. He is remembered by the masses as an indomitable voice for freedom and systemic reform in contemporary Bangladesh.",
+        "full_biography": "Born as Osman Goni in Nalchity, Jhalakathi District, Sharif Osman Bin Hadi grew up in a religiously and culturally grounded environment. After completing his higher education, he became a lecturer in the Department of Business Studies at the University of Scholars in Dhaka. He gained national prominence as the co-founder and spokesperson of 'Inqilab Moncho', an organization dedicated to advocating for equity, justice, and political reform in Bangladesh.\n\nDuring the unprecedented July 2024 student-led mass uprising, Hadi played a pivotal role as a fearless frontline activist. His sharp intellect, articulate speeches, and powerful poetry—most notably 'Labhay Lal Shirt' (Red Shirt in Lava)—resonated deeply with the youth and became an intellectual catalyst for the anti-discrimination movement. He was also the nominated candidate for the Dhaka 8 constituency in the post-revolution national elections. On December 12, 2025, in a tragic turn of events, Hadi was shot by unidentified assailants in the Paltan area of Dhaka. He was later airlifted to Singapore General Hospital, where he succumbed to his injuries on December 18, 2025. His assassination triggered widespread national mourning and profound political unrest across the country. Millions of people attended his funeral prayer. He is remembered by the masses as an indomitable voice for freedom and systemic reform in contemporary Bangladesh.",
         "quote": "A 'July Joddha' (July Warrior) cannot be defined by a mere name or identity; it is an ideology of sacrifice.",
         "birth_place": "Nalchity, Jhalokathi, Bangladesh",
         "achievements": "Emerged as a frontline intellectual and activist during the 2024 July Uprising • Co-founded and served as the spokesperson for 'Inqilab Moncho' • Inspired a generation through impactful literary works and poetry like 'Labhay Lal Shirt' • Posthumously honored with a national day of mourning for his sacrifice"
       },
       "bn": {
         "name": "শরিফ উসমান হাদি",
-        "short_bio": "শরিফ উসমান হাদি ছিলেন একজন বিশিষ্ট বাংলাদেশী অধিকারকর্মী, লেখক এবং বিশ্ববিদ্যালয়ের শিক্ষক। ইনকিলাব মঞ্চের মুখপাত্র হিসেবে তিনি ২০২৪ সালের জুলাই গণঅভ্যুত্থানের অন্যতম নির্ভীক সম্মুখসারির যোদ্ধা হিসেবে আবির্ভূত হন।",
-        "full_biography": "ঝালকাঠি জেলার নলছিটিতে জন্মগ্রহণ করা শরিফ উসমান বিন হাদি (যার প্রকৃত নাম ছিল ওসমান গনি) একটি ধর্মীয় ও সাংস্কৃতিক পরিমণ্ডলে বেড়ে ওঠেন। ঢাকা থেকে উচ্চশিক্ষা শেষে তিনি ঢাকার ইউনিভার্সিটি অব স্কলার্স-এ ব্যবসায় শিক্ষা বিভাগে শিক্ষকতা শুরু করেন। পরবর্তীতে তিনি 'ইনকিলাব মঞ্চ' নামক একটি সংগঠনের সহ-প্রতিষ্ঠাতা ও মুখপাত্র হিসেবে জাতীয় পর্যায়ে ব্যাপক পরিচিতি লাভ করেন।\n\n২০২৪ সালের জুলাই মাসে সংঘটিত ঐতিহাসিক ছাত্র-জনতার গণঅভ্যুত্থানে তিনি একজন অকুতোভয় সম্মুখসারির যোদ্ধা ও বুদ্ধিবৃত্তিক নেতা হিসেবে অসামান্য ভূমিকা পালন করেন। তার ক্ষুরধার বক্তব্য এবং 'লাভায় লাল শার্ট' এর মতো প্রতিবাদী কবিতা তরুণ প্রজন্মের মাঝে গভীর আলোড়ন সৃষ্টি করে এবং বৈষম্যবিরোধী আন্দোলনকে ত্বরান্বিত করে। ২০২৫ সালের ১২ ডিসেম্বর ঢাকার পল্টন এলাকায় দুর্বৃত্তদের অতর্কিত গুলিতে তিনি গুরুতর আহত হন। উন্নত চিকিৎসার জন্য তাকে সিঙ্গাপুরে নেওয়া হলেও ১৮ ডিসেম্বর তিনি মৃত্যুবরণ করেন। তার এই মর্মান্তিক হত্যাকাণ্ডে দেশজুড়ে তীব্র ক্ষোভ ও শোকের ছায়া নেমে আসে এবং রাষ্ট্রীয়ভাবে শোক পালন করা হয়। তিনি বাংলাদেশের মুক্তিকামী জনতার কাছে এক অমর প্রতিবাদী কণ্ঠস্বর হিসেবে চিরস্মরণীয় হয়ে থাকবেন।",
+        "short_bio": "ভারতীয় আগ্রাসন ও আধিপত্যের বিরুদ্ধে শরিফ উসমান হাদি ছিলেন একজন যোদ্ধা, লেখক এবং বিশ্ববিদ্যালয়ের শিক্ষক। ইনকিলাব মঞ্চের মুখপাত্র হিসেবে তিনি ২০২৪ সালের জুলাই গণঅভ্যুত্থানের অন্যতম নির্ভীক সম্মুখসারির যোদ্ধা হিসেবে আবির্ভূত হন।",
+        "full_biography": "ঝালকাঠি জেলার নলছিটিতে জন্মগ্রহণ করা শরিফ উসমান বিন হাদি (যার প্রকৃত নাম ছিল ওসমান গনি) একটি ধর্মীয় ও সাংস্কৃতিক পরিমণ্ডলে বেড়ে ওঠেন। ঢাকা থেকে উচ্চশিক্ষা শেষে তিনি ঢাকার ইউনিভার্সিটি অব স্কলার্স-এ ব্যবসায় শিক্ষা বিভাগে শিক্ষকতা শুরু করেন। পরবর্তীতে তিনি 'ইনকিলাব মঞ্চ' নামক একটি সংগঠনের সহ-প্রতিষ্ঠাতা ও মুখপাত্র হিসেবে জাতীয় পর্যায়ে ব্যাপক পরিচিতি লাভ করেন।\n\n২০২৪ সালের জুলাই মাসে সংঘটিত ঐতিহাসিক ছাত্র-জনতার গণঅভ্যুত্থানে তিনি একজন অকুতোভয় সম্মুখসারির যোদ্ধা ও বুদ্ধিবৃত্তিক নেতা হিসেবে অসামান্য ভূমিকা পালন করেন। তার ক্ষুরধার বক্তব্য এবং 'লাভায় লাল শার্ট' এর মতো প্রতিবাদী কবিতা তরুণ প্রজন্মের মাঝে গভীর আলোড়ন সৃষ্টি করে এবং বৈষম্যবিরোধী আন্দোলনকে ত্বরান্বিত করে। জুলাই বিপ্লব পরবর্তী বাংলাদেশে, তিনি জাতীয় সংসদ নির্বাচনে ঢাকা ৮ আসনের মনোনীত প্রার্থী ছিলেন। ২০২৫ সালের ১২ ডিসেম্বর ঢাকার পল্টন এলাকায় দুর্বৃত্তদের অতর্কিত গুলিতে তিনি গুরুতর আহত হন। উন্নত চিকিৎসার জন্য তাকে সিঙ্গাপুরে নেওয়া হলেও ১৮ ডিসেম্বর তিনি মৃত্যুবরণ করেন। তার এই মর্মান্তিক হত্যাকাণ্ডে দেশজুড়ে তীব্র ক্ষোভ ও শোকের ছায়া নেমে আসে এবং রাষ্ট্রীয়ভাবে শোক পালন করা হয়। তার জানাযায় লক্ষ-লক্ষ মানুষের ঢল নেমে এসেছিল। তিনি বাংলাদেশের মুক্তিকামী জনতার কাছে এক অমর প্রতিবাদী কণ্ঠস্বর হিসেবে চিরস্মরণীয় হয়ে থাকবেন।",
         "quote": "'জুলাই যোদ্ধা' কারও নাম-পরিচয় হতে পারে না, এটি একটি ত্যাগের আদর্শ।",
         "birth_place": "নলছিটি, ঝালকাঠি, বাংলাদেশ",
         "achievements": "২০২৪ সালের জুলাই গণঅভ্যুত্থানে সম্মুখসারির যোদ্ধা ও বুদ্ধিবৃত্তিক নেতা হিসেবে ঐতিহাসিক ভূমিকা পালন • 'ইনকিলাব মঞ্চ' এর সহ-প্রতিষ্ঠাতা ও মুখপাত্র হিসেবে দায়িত্ব পালন • ক্ষুরধার লেখনী ও কবিতার মাধ্যমে তারুণ্যকে উজ্জীবিত করা • আত্মত্যাগের স্বীকৃতিস্বরূপ রাষ্ট্রীয়ভাবে শোক পালন ও সম্মাননা লাভ"
@@ -2029,47 +2030,47 @@
     }
   },
   {
-  "id": "abrarfahad",
-  "slug": "abrar-fahad",
-  "dates": {
-    "birth": "1998-05-13",
-    "death": "2019-10-07"
-  },
-  "era": "resistance_against_hegemony",
-  "category": [
-    "student_leader",
-    "martyr",
-    "sovereignty_icon"
-  ],
-  "images": [
-    "assets/images/heroes/abrar_fahad.jpg"
-  ],
-  "location_id": "loc_kushtia",
-  "importance": 5,
-  "related_hero_ids": [
-    "julyrevolution",
-    "sharifosmanhadi",
-    "july_martyrs_2024"
-  ],
-  "content": {
-    "en": {
-      "name": "Abrar Fahad",
-      "short_bio": "Abrar Fahad was a brilliant student of BUET who became a symbol of national sovereignty and resistance against student-wing fascism after being brutally murdered for his social media post regarding national interests.",
-      "full_biography": "Abrar Fahad, a second-year student of Electrical and Electronic Engineering at BUET, was a voice for Bangladesh's sovereignty. In October 2019, he posted a critique on Facebook regarding lopsided treaties with a neighboring country. For this act of patriotism, he was torturously killed by the then-ruling party's student wing members inside his dormitory. His martyrdom ignited a flame of resistance against campus fascism and set the stage for the broader democratic movements that followed. To many, Abrar is the 'First Martyr' of the long struggle against the fascist regime that eventually fell in 2024.",
-      "quote": "If we remain silent about our sovereignty today, there will be no one left to speak for us tomorrow.",
-      "birth_place": "Kushtia, Bangladesh",
-      "achievements": "Became the face of resistance against campus-based political fascism • Inspired a nationwide movement for student rights and national dignity • His sacrifice paved the way for the eventual mass uprising of 2024"
+    "id": "abrarfahad",
+    "slug": "abrar-fahad",
+    "dates": {
+      "birth": "1998-05-13",
+      "death": "2019-10-07"
     },
-    "bn": {
-      "name": "আবরার ফাহাদ",
-      "short_bio": "বুয়েটের মেধাবী ছাত্র আবরার ফাহাদ ছিলেন জাতীয় সার্বভৌমত্বের অতন্দ্র প্রহরী। দেশের স্বার্থ রক্ষায় সোশ্যাল মিডিয়ায় মতপ্রকাশের অপরাধে ফ্যাসিবাদী ছাত্র সংগঠনের হাতে নির্মমভাবে শহীদ হয়ে তিনি প্রতিবাদের মূর্ত প্রতীকে পরিণত হন।",
-      "full_biography": "আবরার ফাহাদ ১৯৯৮ সালে কুষ্টিয়ায় জন্মগ্রহণ করেন। তিনি বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয়ের (বুয়েট) ইইই বিভাগের দ্বিতীয় বর্ষের ছাত্র ছিলেন। ২০১৯ সালের অক্টোবরে প্রতিবেশী দেশের সাথে বাংলাদেশের স্বার্থবিরোধী চুক্তির সমালোচনা করে ফেসবুকে একটি স্ট্যাটাস দেওয়ার জেরে তৎকালীন ক্ষমতাসীন দলের ছাত্র সংগঠনের ক্যাডাররা তাঁকে দীর্ঘ সময় ধরে নির্যাতন করে হত্যা করে। আবরারের এই আত্মত্যাগ ক্যাম্পাসে দলীয় লেজুড়বৃত্তিক রাজনীতির অবসান এবং দীর্ঘদিনের চেপে বসা ফ্যাসিবাদী শাসনের বিরুদ্ধে লড়াইয়ের নতুন অনুপ্রেরণা হয়ে দাঁড়ায়। ২০২৪-এর ছাত্র-জনতার বিজয়ের মূলে আবরারের সেই প্রতিবাদী চেতনা এক গভীর ভূমিকা পালন করেছে।",
-      "quote": "দেশপ্রেমিক হওয়ার মূল্য যদি হয় মৃত্যু, তবে সেই মৃত্যুই আমার সার্থকতা।",
-      "birth_place": "কুষ্টিয়া, বাংলাদেশ",
-      "achievements": "ক্যাম্পাসভিত্তিক রাজনৈতিক ফ্যাসিবাদের বিরুদ্ধে গণপ্রতিরোধের সূচনা • জাতীয় সার্বভৌমত্ব রক্ষার লড়াইয়ে তরুণ প্রজন্মের আইকন হিসেবে স্বীকৃতি • তাঁর শাহাদাত ২০২৪-এর বৃহত্তর ছাত্র-জনতার বিপ্লবের ভিত্তিপ্রস্তর স্থাপন করে"
+    "era": "resistance_against_hegemony",
+    "category": [
+      "student_leader",
+      "martyr",
+      "sovereignty_icon"
+    ],
+    "images": [
+      "assets/images/heroes/abrar_fahad.jpg"
+    ],
+    "location_id": "loc_kushtia",
+    "importance": 5,
+    "related_hero_ids": [
+      "julyrevolution",
+      "sharifosmanhadi",
+      "july_martyrs_2024"
+    ],
+    "content": {
+      "en": {
+        "name": "Abrar Fahad",
+        "short_bio": "One of the martyrs of the movement against Indian aggression and hegemony, Abrar Fahad was a brilliant student of BUET and a vigilant guardian of national sovereignty. He became a living symbol of resistance after being brutally murdered by the student wing of the then-ruling party for expressing his views on national interests on social media.",
+        "full_biography": "Abrar Fahad, a second-year student of Electrical and Electronic Engineering at BUET, was a voice for Bangladesh's sovereignty. In October 2019, he posted a critique on Facebook regarding lopsided treaties with a neighboring country. For this act of patriotism, he was torturously killed by the then-ruling party's student wing members inside his dormitory. His martyrdom ignited a flame of resistance against campus fascism and set the stage for the broader democratic movements that followed. To many, Abrar is the 'First Martyr' of the long struggle against the fascist regime that eventually fell in 2024.",
+        "quote": "If we remain silent about our sovereignty today, there will be no one left to speak for us tomorrow.",
+        "birth_place": "Kushtia, Bangladesh",
+        "achievements": "Became the face of resistance against campus-based political fascism • Inspired a nationwide movement for student rights and national dignity • His sacrifice paved the way for the eventual mass uprising of 2024"
+      },
+      "bn": {
+        "name": "আবরার ফাহাদ",
+        "short_bio": "ভারতীর আগ্রাসন ও আধিপত্যবাদ বিরোধী আন্দোলনের অন্যতম শহীদ, বুয়েটের মেধাবী ছাত্র আবরার ফাহাদ ছিলেন জাতীয় সার্বভৌমত্বের অতন্দ্র প্রহরী। দেশের স্বার্থ রক্ষায় সোশ্যাল মিডিয়ায় মতপ্রকাশের অপরাধে ফ্যাসিবাদী ছাত্র সংগঠনের হাতে নির্মমভাবে শহীদ হয়ে তিনি প্রতিবাদের মূর্ত প্রতীকে পরিণত হন।",
+        "full_biography": "আবরার ফাহাদ ১৯৯৮ সালে কুষ্টিয়ায় জন্মগ্রহণ করেন। তিনি বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয়ের (বুয়েট) ইইই বিভাগের দ্বিতীয় বর্ষের ছাত্র ছিলেন। ২০১৯ সালের অক্টোবরে প্রতিবেশী দেশের সাথে বাংলাদেশের স্বার্থবিরোধী চুক্তির সমালোচনা করে ফেসবুকে একটি স্ট্যাটাস দেওয়ার জেরে তৎকালীন ক্ষমতাসীন দলের ছাত্র সংগঠনের ক্যাডাররা তাঁকে দীর্ঘ সময় ধরে নির্যাতন করে হত্যা করে। আবরারের এই আত্মত্যাগ ক্যাম্পাসে দলীয় লেজুড়বৃত্তিক রাজনীতির অবসান এবং দীর্ঘদিনের চেপে বসা ফ্যাসিবাদী শাসনের বিরুদ্ধে লড়াইয়ের নতুন অনুপ্রেরণা হয়ে দাঁড়ায়। ২০২৪-এর ছাত্র-জনতার বিজয়ের মূলে আবরারের সেই প্রতিবাদী চেতনা এক গভীর ভূমিকা পালন করেছে।",
+        "quote": "দেশপ্রেমিক হওয়ার মূল্য যদি হয় মৃত্যু, তবে সেই মৃত্যুই আমার সার্থকতা।",
+        "birth_place": "কুষ্টিয়া, বাংলাদেশ",
+        "achievements": "ক্যাম্পাসভিত্তিক রাজনৈতিক ফ্যাসিবাদের বিরুদ্ধে গণপ্রতিরোধের সূচনা • জাতীয় সার্বভৌমত্ব রক্ষার লড়াইয়ে তরুণ প্রজন্মের আইকন হিসেবে স্বীকৃতি • তাঁর শাহাদাত ২০২৪-এর বৃহত্তর ছাত্র-জনতার বিপ্লবের ভিত্তিপ্রস্তর স্থাপন করে"
+      }
     }
-  }
-},
+  },
   {
     "id": "rajabalikhan",
     "slug": "habildar-rajab-ali",
@@ -2119,12 +2120,12 @@
       "birth": "Continuous",
       "death": "Continuous"
     },
-    "era": "liberation_1971",
+    "era": "resistance_against_hegemony",
     "category": [
       "martyr",
       "revolutionary",
-      "unsung_hero",
-      "freedom_fighter"
+      "liberationwar_1971",
+      "july_revolution"
     ],
     "images": [
       "assets/map/sultanate_map.png"
