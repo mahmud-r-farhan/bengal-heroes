@@ -224,6 +224,12 @@
     ],
     "location_id": "loc_churulia",
     "importance": 5,
+    "related_hero_ids": [
+      "jagadishbose",
+      "muhammadshahidullah",
+      "chandravidyasagar",
+      "sheikhmujib"
+    ],
     "content": {
       "en": {
         "name": "Kazi Nazrul Islam",
@@ -462,7 +468,7 @@
       "en": {
         "name": "Bir Shreshtha Ruhul Amin",
         "short_bio": "Bir Shreshtha Ruhul Amin was a naval commando who heroically died fighting Pakistani forces during the Liberation War of 1971, earning the highest gallantry award of Bangladesh.",
-        "full_biography": "Muhammad Ruhul Amin was born on June 1, 1935, in Bagpara village, Begumganj, Noakhali. He joined the Pakistan Navy in 1953 as an ordinary seaman and rose through the ranks through his dedication and skill.\n\nWhen the Liberation War began in March 1971, Ruhul Amin was serving on the PNS Sylhet. Along with other Bengali sailors, he defected to join the Mukti Bahini (Liberation Forces). He became the captain of the gunboat 'Palash' in the Bangladesh Navy.\n\nOn December 10, 1971, Ruhul Amin led an attack on Pakistani naval vessels in the Mongla port area. During the battle, his boat 'Palash' was hit by Pakistani fire. Despite sustaining injuries, he continued to fight.\n\nWhen his boat was sinking, he swam to shore but was captured by the Razakars (collaborators). Even while facing death, he refused to reveal information about the Mukti Bahini. He was brutally tortured and killed.\n\nAfter independence, Muhammad Ruhul Amin was posthumously awarded 'Bir Shreshtha' (Most Valiant Hero), the highest gallantry award of Bangladesh, for his exceptional bravery and sacrifice.",
+        "full_biography": "Muhammad Ruhul Amin was born on June 1, 1935, in Bagpara village, Begumganj, Noakhali. He joined the Pakistan Navy in 1953 as an ordinary seaman and rose through the ranks through his dedication and skill.\n\nWhen the Liberation War began in March 1971, Ruhul Amin was serving on the PNS Sylhet. Along with other Bengali sailors, he defected to join the Mukti Bahini (Liberation Forces). He became the captain of the gunboat 'Palash' in the Bangladesh Navy.\n\nOn December 10, 1971, Ruhul Amin led an attack on Pakistani naval vessels in the Mongla port area. Bir Shrestha Ruhul Amin was martyred in an Indian Air Force attack.\n\nAfter independence, Muhammad Ruhul Amin was posthumously awarded 'Bir Shreshtha' (Most Valiant Hero), the highest gallantry award of Bangladesh, for his exceptional bravery and sacrifice.",
         "quote": "দেশের জন্য প্রাণ দিতে আমি প্রস্তুত। (I am ready to give my life for my country. )",
         "birth_place": "Bagpara, Begumganj, Noakhali",
         "achievements": "Bir Shreshtha - highest gallantry award • Naval commando • Led attack on Pakistani vessels • Made ultimate sacrifice for Bangladesh"
@@ -470,7 +476,7 @@
       "bn": {
         "name": "বীরশ্রেষ্ঠ রুহুল আমিন",
         "short_bio": "বীরশ্রেষ্ঠ রুহুল আমিন ছিলেন একজন নৌ কমান্ডো যিনি ১৯৭১ সালে মুক্তিযুদ্ধে পাকিস্তানি বাহিনীর বিরুদ্ধে লড়াই করে বীরত্বের সাথে শহীদ হন এবং বাংলাদেশের সর্বোচ্চ বীরত্ব পদক অর্জন করেন।",
-        "full_biography": "মোহাম্মদ রুহুল আমিন ১৯৩৫ সালের ১ জুন নোয়াখালীর বেগমগঞ্জের বাগপাড়া গ্রামে জন্মগ্রহণ করেন। তিনি ১৯৫৩ সালে পাকিস্তান নৌবাহিনীতে সাধারণ নাবিক হিসেবে যোগ দেন এবং তাঁর নিষ্ঠা ও দক্ষতার মাধ্যমে পদোন্নতি লাভ করেন।\n\n১৯৭১ সালের মার্চে যখন মুক্তিযুদ্ধ শুরু হয়, রুহুল আমিন পিএনএস সিলেটে কর্মরত ছিলেন। অন্যান্য বাঙালি নাবিকদের সাথে তিনি মুক্তিবাহিনীতে যোগ দেন। তিনি বাংলাদেশ নৌবাহিনীর গানবোট 'পলাশ'-এর ক্যাপ্টেন হন।\n\n১০ ডিসেম্বর, ১৯৭১ সালে রুহুল আমিন মংলা বন্দর এলাকায় পাকিস্তানি নৌযানগুলোর উপর আক্রমণের নেতৃত্ব দেন। যুদ্ধের সময় তাঁর নৌকা 'পলাশ' পাকিস্তানি গুলিতে আক্রান্ত হয়। আহত হওয়া সত্ত্বেও তিনি লড়াই চালিয়ে যান।\n\nতাঁর নৌকা ডুবে যাওয়ার সময় তিনি সাঁতরে তীরে এলে রাজাকাররা তাঁকে ধরে ফেলে। মৃত্যুর মুখোমুখি হয়েও তিনি মুক্তিবাহিনী সম্পর্কে তথ্য দিতে অস্বীকার করেন। তাঁকে নির্মমভাবে অত্যাচার করে হত্যা করা হয়।\n\nস্বাধীনতার পর মোহাম্মদ রুহুল আমিনকে তাঁর অসাধারণ বীরত্ব এবং আত্মত্যাগের জন্য মরণোত্তর 'বীরশ্রেষ্ঠ' খেতাব দেওয়া হয়।",
+        "full_biography": "মোহাম্মদ রুহুল আমিন ১৯৩৫ সালের ১ জুন নোয়াখালীর বেগমগঞ্জের বাগপাড়া গ্রামে জন্মগ্রহণ করেন। তিনি ১৯৫৩ সালে পাকিস্তান নৌবাহিনীতে সাধারণ নাবিক হিসেবে যোগ দেন এবং তাঁর নিষ্ঠা ও দক্ষতার মাধ্যমে পদোন্নতি লাভ করেন।\n\n১৯৭১ সালের মার্চে যখন মুক্তিযুদ্ধ শুরু হয়, রুহুল আমিন পিএনএস সিলেটে কর্মরত ছিলেন। অন্যান্য বাঙালি নাবিকদের সাথে তিনি মুক্তিবাহিনীতে যোগ দেন। তিনি বাংলাদেশ নৌবাহিনীর গানবোট 'পলাশ'-এর ক্যাপ্টেন হন।\n\n১০ ডিসেম্বর, ১৯৭১ সালে রুহুল আমিন মংলা বন্দর এলাকায় পাকিস্তানি নৌযানগুলোর উপর আক্রমণের নেতৃত্ব দেন।\n\nবীরশ্রেষ্ঠ রুহুল আমিন ইন্ডিয়ান বিমান বাহিনীর হামলায় শহীদ হন।\n\nস্বাধীনতার পর মোহাম্মদ রুহুল আমিনকে তাঁর অসাধারণ বীরত্ব এবং আত্মত্যাগের জন্য মরণোত্তর 'বীরশ্রেষ্ঠ' খেতাব দেওয়া হয়।",
         "quote": "দেশের জন্য প্রাণ দিতে আমি প্রস্তুত।",
         "birth_place": "বাগপাড়া, বেগমগঞ্জ, নোয়াখালী",
         "achievements": "বীরশ্রেষ্ঠ - সর্বোচ্চ বীরত্ব পদক • নৌ কমান্ডো • পাকিস্তানি জাহাজে আক্রমণের নেতৃত্ব • বাংলাদেশের জন্য চূড়ান্ত আত্মত্যাগ"
@@ -1087,11 +1093,153 @@
     }
   },
   {
+  "id": "kadersiddique",
+  "slug": "abdul-kader-siddique",
+  "dates": {
+    "birth": "1947-02-18",
+    "death": "Alive"
+  },
+  "era": "liberation_1971",
+  "category": [
+    "freedom_fighter",
+    "military_leader",
+    "politician"
+  ],
+  "images": [
+    "assets/images/heroes/kader_siddique.jpg"
+  ],
+  "location_id": "loc_tangail",
+  "importance": 5,
+  "related_hero_ids": [
+    "sheikhmujib",
+    "magosmani",
+    "syednazrulislam",
+    "birmotiur",
+    "birmohiuddin",
+    "ziaurrahman",
+    "khaledmosharraf",
+    "kmshafiullah"
+  ],
+  "content": {
+    "en": {
+      "name": "Abdul Kader Siddique",
+      "short_bio": "Abdul Kader Siddique, famously known as 'Bangabir', is a prominent freedom fighter who formed and led the formidable 'Kaderia Bahini', a massive civilian guerrilla force in the Tangail region during the 1971 Liberation War.",
+      "full_biography": "Born on February 18, 1947, in Tangail, Abdul Kader Siddique became one of the most legendary guerrilla leaders of the 1971 Bangladesh Liberation War. Unlike regular military forces, he organized a massive volunteer civilian force known as the 'Kaderia Bahini', comprising over 17,000 freedom fighters. His force effectively liberated the Tangail region from Pakistani occupation forces well before the final victory and played a crucial role in facilitating the famous 'Tangail Airdrop' by allied Indian paratroopers. For his immense bravery, he was awarded the 'Bir Uttom' gallantry award and affectionately given the title 'Bangabir' (Hero of Bengal). A fiercely loyal follower of Sheikh Mujibur Rahman, Siddique was deeply affected by the assassination of Bangabandhu on August 15, 1975. Following the tragedy, he launched an armed resistance against the subsequent military governments and spent over a decade in exile in India. He returned to Bangladesh in 1990 and later entered politics, founding the political party Krishak Sramik Janata League.",
+      "quote": "We did not fight for a mere piece of land; we fought for the dignity, freedom, and the very soul of the Bengali nation.",
+      "birth_place": "Tangail, British India (now Bangladesh)",
+      "achievements": "Formed and commanded the legendary 'Kaderia Bahini' during the 1971 Liberation War • Awarded the gallantry award 'Bir Uttom' • Honored with the national title 'Bangabir' (Hero of Bengal) • Elected Member of Parliament and founder of Krishak Sramik Janata League"
+    },
+    "bn": {
+      "name": "আব্দুল কাদের সিদ্দিকী",
+      "short_bio": "আব্দুল কাদের সিদ্দিকী, যিনি 'বঙ্গবীর' নামে সর্বাধিক পরিচিত, একজন প্রখ্যাত মুক্তিযোদ্ধা। ১৯৭১ সালের মুক্তিযুদ্ধে তিনি টাঙ্গাইল অঞ্চলে 'কাদেরিয়া বাহিনী' নামক এক বিশাল বেসামরিক গেরিলা বাহিনীর নেতৃত্ব দেন।",
+      "full_biography": "১৯৪৭ সালের ১৮ ফেব্রুয়ারি টাঙ্গাইলে জন্মগ্রহণকারী আব্দুল কাদের সিদ্দিকী ১৯৭১ সালের মহান মুক্তিযুদ্ধের অন্যতম কিংবদন্তি গেরিলা নেতা। নিয়মিত সামরিক বাহিনীর বাইরে তিনি ১৭,০০০-এরও বেশি স্বেচ্ছাসেবী মুক্তিযোদ্ধার সমন্বয়ে 'কাদেরিয়া বাহিনী' গঠন করেন। তাঁর বাহিনী চূড়ান্ত বিজয়ের আগেই টাঙ্গাইল অঞ্চলকে পাকিস্তানি হানাদার বাহিনীর কবল থেকে মুক্ত করে এবং মিত্রবাহিনীর ঐতিহাসিক 'টাঙ্গাইল এয়ারড্রপ'-এ গুরুত্বপূর্ণ সহায়তা প্রদান করে। মুক্তিযুদ্ধে তাঁর অসীম সাহসিকতার জন্য তাঁকে 'বীর উত্তম' খেতাবে ভূষিত করা হয় এবং দেশবাসী তাঁকে 'বঙ্গবীর' উপাধিতে সম্মানিত করে। বঙ্গবন্ধু শেখ মুজিবুর রহমানের একনিষ্ঠ অনুসারী কাদের সিদ্দিকী ১৯৭৫ সালের ১৫ আগস্ট বঙ্গবন্ধুর নির্মম হত্যাকাণ্ডের পর তৎকালীন সামরিক সরকারের বিরুদ্ধে সশস্ত্র প্রতিরোধ গড়ে তোলেন এবং দীর্ঘ সময় ভারতে নির্বাসিত জীবন যাপন করেন। ১৯৯০ সালে তিনি দেশে ফিরে আসেন এবং পরবর্তীতে রাজনীতিতে যুক্ত হয়ে 'কৃষক শ্রমিক জনতা লীগ' নামে একটি রাজনৈতিক দল গঠন করেন।",
+      "quote": "আমরা কেবল এক টুকরো মাটির জন্য যুদ্ধ করিনি; আমরা যুদ্ধ করেছি বাঙালি জাতির মর্যাদা, স্বাধীনতা এবং আত্মার মুক্তির জন্য।",
+      "birth_place": "টাঙ্গাইল, ব্রিটিশ ভারত (বর্তমান বাংলাদেশ)",
+      "achievements": "১৯৭১ সালের মুক্তিযুদ্ধে কিংবদন্তি 'কাদেরিয়া বাহিনী' গঠন ও নেতৃত্ব প্রদান • অসামান্য বীরত্বের জন্য 'বীর উত্তম' খেতাব লাভ • 'বঙ্গবীর' উপাধিতে ভূষিত • জাতীয় সংসদ সদস্য নির্বাচিত এবং কৃষক শ্রমিক জনতা লীগের প্রতিষ্ঠাতা"
+    }
+  }
+},
+{
+  "id": "majorjalil",
+  "slug": "major-m-a-jalil",
+  "dates": {
+    "birth": "1942-02-09",
+    "death": "1989-11-19"
+  },
+  "era": "liberation_1971",
+  "category": [
+    "military_leader",
+    "freedom_fighter",
+    "politician"
+  ],
+  "images": [
+    "assets/images/heroes/major_jalil.jpg"
+  ],
+  "location_id": "loc_barishal",
+  "importance": 5,
+  "related_hero_ids": [
+    "magosmani",
+    "sheikhmujib",
+    "asmabdurrab",
+    "ziaurrahman",
+    "khaledmosharraf",
+    "kadersiddique",
+    "kmshafiullah"
+  ],
+  "content": {
+    "en": {
+      "name": "Major M. A. Jalil",
+      "short_bio": "Major Mohammad Abdul Jalil was the Commander of Sector 9 during the 1971 Liberation War. He is historically notable for his fierce protests against post-war looting by the allied Indian forces, which led to his controversial arrest, making him the first political prisoner of independent Bangladesh.",
+      "full_biography": "Born on February 9, 1942, in Barishal, Major M. A. Jalil was a valiant freedom fighter who commanded Sector 9 (covering Barishal, Patuakhali, and parts of Khulna) during the 1971 Liberation War. Following the victory on December 16, 1971, he strongly objected to and physically obstructed the looting of captured Pakistani arms, ammunition, and national wealth by factions of the allied Indian Army. Because of his uncompromising nationalist stance, he was arrested on December 31, 1971, on his way to Barishal, becoming the first political prisoner of independent Bangladesh. (Though sometimes rumored to have been 'disappeared' by foreign forces, he was actually imprisoned by the authorities and faced a military tribunal before being released). After his release, he entered politics and became the founding President of the Jatiya Samajtantrik Dal (JSD) in 1972. He remained a lifelong vocal critic of foreign hegemony and imperialism. He passed away on November 19, 1989.",
+      "quote": "Our independence is incomplete until we protect our national wealth and ensure true sovereignty, completely free from any foreign dominance.",
+      "birth_place": "Barishal, British India (now Bangladesh)",
+      "achievements": "Commander of Sector 9 during the 1971 Liberation War • Courageously stood against the looting of national wealth post-independence • First political prisoner of independent Bangladesh • Founding President of Jatiya Samajtantrik Dal (JSD) • Authored several books on the Liberation War"
+    },
+    "bn": {
+      "name": "মেজর এম. এ. জলিল",
+      "short_bio": "মেজর মোহাম্মদ আব্দুল জলিল ছিলেন ১৯৭১ সালের মুক্তিযুদ্ধে ৯নং সেক্টরের অধিনায়ক। যুদ্ধবিধ্বস্ত দেশে মিত্রবাহিনীর সম্পদ লুণ্ঠনের প্রতিবাদ করায় তাঁকে গ্রেপ্তার করা হয়, যার ফলে তিনি স্বাধীন বাংলাদেশের প্রথম রাজবন্দী হিসেবে ইতিহাসে স্থান পান।",
+      "full_biography": "১৯৪২ সালের ৯ ফেব্রুয়ারি বরিশালে জন্মগ্রহণকারী মেজর এম. এ. জলিল ছিলেন একজন অকুতোভয় বীর মুক্তিযোদ্ধা। ১৯৭১ সালের মুক্তিযুদ্ধে তিনি ৯নং সেক্টরের (বরিশাল, পটুয়াখালী এবং খুলনার একাংশ) অধিনায়ক হিসেবে দায়িত্ব পালন করেন। ১৬ ডিসেম্বরের চূড়ান্ত বিজয়ের পর, মিত্রবাহিনী বা ভারতীয় সেনাবাহিনীর কিছু অংশের দ্বারা পাকিস্তানি বাহিনীর ফেলে যাওয়া অস্ত্রশস্ত্র ও বাংলাদেশের জাতীয় সম্পদ লুণ্ঠনের তীব্র প্রতিবাদ করেন মেজর জলিল এবং তা আটকে দেন। এই আপসহীন দেশপ্রেমিক ভূমিকার কারণে ১৯৭১ সালের ৩১ ডিসেম্বর তাঁকে গ্রেপ্তার করা হয় এবং তিনি স্বাধীন বাংলাদেশের প্রথম রাজবন্দীতে পরিণত হন। (অনেকে তাঁকে ভারতীয় বাহিনী কর্তৃক গুম হওয়ার কথা বললেও, মূলত তাঁকে গ্রেপ্তার করে গোপন কারাগারে বন্দী রাখা হয়েছিল এবং সামরিক আদালতে বিচার শেষে তিনি মুক্তি পান)। মুক্তির পর ১৯৭২ সালে তিনি 'জাতীয় সমাজতান্ত্রিক দল (জাসদ)' গঠন করেন এবং এর প্রতিষ্ঠাতা সভাপতি নির্বাচিত হন। আজীবন তিনি বিদেশী আধিপত্যবাদ ও অন্যায়ের বিরুদ্ধে সোচ্চার ছিলেন। ১৯৮৯ সালের ১৯ নভেম্বর তিনি মৃত্যুবরণ করেন।",
+      "quote": "যেকোনো বিদেশী আধিপত্যমুক্ত হয়ে নিজেদের জাতীয় সম্পদ রক্ষা এবং প্রকৃত সার্বভৌমত্ব নিশ্চিত না করা পর্যন্ত আমাদের স্বাধীনতা অসম্পূর্ণ।",
+      "birth_place": "বরিশাল, ব্রিটিশ ভারত (বর্তমান বাংলাদেশ)",
+      "achievements": "১৯৭১ সালের মুক্তিযুদ্ধে ৯নং সেক্টরের অধিনায়ক হিসেবে দায়িত্ব পালন • যুদ্ধপরবর্তী সম্পদ লুণ্ঠনের বিরুদ্ধে সাহসী প্রতিবাদ • স্বাধীন দেশের প্রথম রাজবন্দী • জাতীয় সমাজতান্ত্রিক দলের (জাসদ) প্রতিষ্ঠাতা সভাপতি • মুক্তিযুদ্ধ ও রাজনীতির ওপর একাধিক গ্রন্থের রচয়িতা"
+    }
+  }
+},
+{
+  "id": "hasinurrahman",
+  "slug": "muhammad-hasinur-rahman",
+  "dates": {
+    "birth": "1954-01-01",
+    "death": "Alive"
+  },
+  "era": "liberation_1971",
+  "category": [
+    "military_leader",
+    "freedom_fighter",
+    "national_hero"
+  ],
+  "images": [
+    "assets/images/heroes/hasinur_rahman.jpg"
+  ],
+  "location_id": "loc_comilla",
+  "importance": 5,
+  "related_hero_ids": [
+    "mtaher",
+    "ziaurrahman",
+    "magosmani",
+    "kmshafiullah",
+    "shafaatjamil",
+    "khaledmosharraf",
+    "najmulhuda",
+    "julyrevolution",
+    "birkamal",
+    "hershad"
+  ],
+  "content": {
+    "en": {
+      "name": "Lt. Col. (Retd.) Muhammed Hasinur Rahman, Bir Protik",
+      "short_bio": "A valiant freedom fighter of Sector 11 and a 'Bir Protik' awardee. In his later career, he became legendary for recovering the largest hauls of illegal arms in the history of Bangladesh.",
+      "full_biography": "Lt. Col. (Retd.) Muhammed Hasinur Rahman joined the Liberation War of 1971 as a young patriot. He fought under Sector 11 (Mymensingh and Tangail region) and participated in several high-risk operations against the Pakistani occupation forces. For his extraordinary courage and contribution to the independence of Bangladesh, he was honored with the gallantry award 'Bir Protik'. Post-independence, he continued to serve the Bangladesh Army with distinction. During his tenure in the Rapid Action Battalion (RAB), he led some of the most significant anti-terrorist operations and is credited with recovering the highest volume of illegal weapons in the country's history, including the famous 10-truck arms haul case investigation and various border-area raids. In recent years, he has also been a prominent figure in discussions regarding national security and human rights.",
+      "quote": "A soldier's duty is not just to fight in the war, but to protect the sovereignty and safety of the motherland until his last breath.",
+      "birth_place": "Comilla, East Pakistan (now Bangladesh)",
+      "achievements": "Awarded the gallantry title 'Bir Protik' for his role in 1971 • Fought valiantly in Sector 11 during the Liberation War • Renowned for recovering the highest amount of illegal weapons in Bangladesh's history • Served with distinction in the Bangladesh Army and RAB"
+    },
+    "bn": {
+      "name": "লেফটেন্যান্ট কর্নেল (অব.) মুহাম্মদ হাসিনুর রহমান, বীর প্রতীক",
+      "short_bio": "১১নং সেক্টরের বীর মুক্তিযোদ্ধা এবং 'বীর প্রতীক' খেতাবপ্রাপ্ত সেনা কর্মকর্তা। পরবর্তী জীবনে তিনি বাংলাদেশের ইতিহাসে সবচেয়ে বেশি অবৈধ অস্ত্র উদ্ধারের জন্য কিংবদন্তি হয়ে ওঠেন।",
+      "full_biography": "লেফটেন্যান্ট কর্নেল (অব.) মুহাম্মদ হাসিনুর রহমান ১৯৭১ সালের মহান মুক্তিযুদ্ধে একজন তরুণ দেশপ্রেমিক হিসেবে যোগদান করেন। তিনি ১১নং সেক্টরের (ময়মনসিংহ ও টাঙ্গাইল অঞ্চল) অধীনে বিভিন্ন সম্মুখ যুদ্ধে অংশগ্রহণ করেন এবং পাকিস্তানি বাহিনীর বিরুদ্ধে সাহসী ভূমিকা পালন করেন। স্বাধীনতা যুদ্ধে তাঁর অসামান্য অবদানের স্বীকৃতিস্বরূপ সরকার তাঁকে 'বীর প্রতীক' খেতাবে ভূষিত করে। স্বাধীনতার পর তিনি বাংলাদেশ সেনাবাহিনীতে সুনামের সাথে দায়িত্ব পালন করেন। বিশেষ করে র‍্যাপিড অ্যাকশন ব্যাটালিয়নে (র‍্যাব) থাকাকালীন তিনি দেশের ইতিহাসের বৃহত্তম অবৈধ অস্ত্র উদ্ধারের অভিযানগুলোতে নেতৃত্ব দেন। চট্টগ্রামে ১০ ট্রাক অস্ত্র মামলা উন্মোচন এবং সীমান্ত এলাকায় বিভিন্ন চরমপন্থী ও সন্ত্রাসী গোষ্ঠীর কাছ থেকে বিপুল অস্ত্র উদ্ধারে তাঁর ভূমিকা অতুলনীয়। সম্প্রতি তিনি দীর্ঘ সময় নিখোঁজ বা 'আয়নাঘর'-এ বন্দী থাকার পর ফিরে এসে জাতীয় আলোচনায় পুনরায় স্থান পান।",
+      "quote": "একজন সৈনিকের দায়িত্ব কেবল যুদ্ধ করা নয়, বরং শেষ নিঃশ্বাস পর্যন্ত মাতৃভূমির সার্বভৌমত্ব এবং জনগণের জানমাল রক্ষা করা।",
+      "birth_place": "কুমিল্লা, পূর্ব পাকিস্তান (বর্তমান বাংলাদেশ)",
+      "achievements": "১৯৭১ সালের মুক্তিযুদ্ধে বীরত্বপূর্ণ অবদানের জন্য 'বীর প্রতীক' খেতাব লাভ • ১১নং সেক্টরে সম্মুখ যুদ্ধে অংশগ্রহণ • বাংলাদেশের ইতিহাসে সর্বোচ্চ পরিমাণ অবৈধ অস্ত্র উদ্ধারের কৃতিত্ব • সেনাবাহিনী ও র‍্যাবে থাকাকালীন অসংখ্য সফল কাউন্টার-টেররিজম অপারেশন পরিচালনা • দীর্ঘ সময় নিখোঁজ থাকার পর ফিরে এসে জাতীয় আলোচনায় স্থান পাওয়া"
+    }
+  }
+},
+  {
     "id": "majordalim",
     "slug": "shariful-haque-dalim",
     "dates": {
       "birth": "1946-04-19",
-      "death": "Continuous"
+      "death": "Alive"
     },
     "era": "resistance_against_hegemony",
     "category": [
@@ -1105,6 +1253,7 @@
     "location_id": "loc_bangladesh",
     "importance": 5,
     "related_hero_ids": [
+      "sheikhmujib",
       "majorfarooq",
       "majorrashid",
       "khondakarmostaq",
@@ -1234,6 +1383,11 @@
     ],
     "location_id": "loc_midnapore",
     "importance": 5,
+      "related_hero_ids": [
+      "fazlulhuq",
+      "hamidkhan",
+      "subhasbose"
+    ],
     "content": {
       "en": {
         "name": "Huseyn Shaheed Suhrawardy",
@@ -1270,6 +1424,11 @@
     ],
     "location_id": "loc_jhalokati",
     "importance": 5,
+    "related_hero_ids": [
+      "huseynshaheed",
+      "hamidkhan",
+      "subhasbose"
+    ],
     "content": {
       "en": {
         "name": "Abul Kasem Fazlul Huq",
@@ -1306,6 +1465,11 @@
     ],
     "location_id": "loc_sirajganj",
     "importance": 5,
+        "related_hero_ids": [
+      "huseynshaheed",
+      "fazlulhuq",
+      "subhasbose"
+    ],
     "content": {
       "en": {
         "name": "Abdul Hamid Khan Bhashani",
@@ -1342,6 +1506,11 @@
     ],
     "location_id": "loc_dhaka",
     "importance": 5,
+    "related_hero_ids": [
+      "sirajuddoula",
+      "isakhan",
+      "titumir"
+    ],
     "content": {
       "en": {
         "name": "Khwaja Salimullah",
@@ -1378,6 +1547,7 @@
       "assets/images/heroes/saiful_azam.jpg"
     ],
     "location_id": "loc_pabna",
+    
     "importance": 4,
     "related_hero_ids": [
       "ziaurrahman",
@@ -1422,7 +1592,10 @@
     "location_id": "loc_cuttack",
     "importance": 5,
     "related_hero_ids": [
-      "cr-das"
+      "cr-das",
+      "huseynshaheed",
+      "hamidkhan",
+      "fazlulhuq"
     ],
     "content": {
       "en": {
@@ -1462,7 +1635,10 @@
     "location_id": "loc_bikrampur",
     "importance": 5,
     "related_hero_ids": [
-      "netaji_subhas"
+      "netaji_subhas",
+      "hamidkhan",
+      "fazlulhuq",
+      "huseynshaheed"
     ],
     "content": {
       "en": {
@@ -1471,7 +1647,7 @@
         "full_biography": "Chittaranjan Das was born on November 5, 1870. He was a brilliant lawyer who gained fame for successfully defending Aurobindo Ghosh in the Alipore Bomb Case (1908). He later gave up his lucrative legal practice to join the Non-Cooperation Movement led by Mahatma Gandhi.\n\nHe was a staunch advocate of Hindu-Muslim unity and played a crucial role in the Bengal Pact of 1923. In 1923, along with Motilal Nehru, he founded the Swaraj Party to fight for self-rule from within the legislative councils. He also served as the first Mayor of Calcutta Corporation. His selfless sacrifice of his entire property for the service of the nation earned him the title 'Deshbandhu'.",
         "quote": "If the country is to be saved, it can only be saved by the youth of the country.",
         "birth_place": "Bikrampur, Bengal (now Bangladesh)",
-        "achievements": "Founder of the Swaraj Party • First Mayor of Calcutta • Defended Aurobindo Ghosh in Alipore Bomb Case • Proponent of Hindu-Muslim Unity"
+        "achievements": "Founder of the Swaraj Party • First Mayor of Calcutta • Defended Aurobindo Ghosh in Alipore Bomb Case • Advocate of Hindu-Muslim unity and key figure in the Bengal Pact of 1923"
       },
       "bn": {
         "name": "চিত্তরঞ্জন দাস",
@@ -1479,7 +1655,7 @@
         "full_biography": "১৮৭০ সালের ৫ নভেম্বর চিত্তরঞ্জন দাস জন্মগ্রহণ করেন। তিনি একজন অত্যন্ত মেধাবী আইনজীবী ছিলেন এবং ১৯০৮ সালে আলিপুর বোমা মামলায় অরবিন্দ ঘোষের পক্ষ সমর্থন করে আইনি লড়াইয়ে জয়ী হয়ে খ্যাতি অর্জন করেন। পরবর্তীতে তিনি মহাত্মা গান্ধীর অসহযোগ আন্দোলনে যোগ দিতে তাঁর বিলাসবহুল আইনি পেশা ত্যাগ করেন।\n\nতিনি হিন্দু-মুসলিম ঐক্যের প্রবল সমর্থক ছিলেন এবং ১৯২৩ সালের 'বেঙ্গল প্যাক্ট'-এ গুরুত্বপূর্ণ ভূমিকা পালন করেন। ১৯২৩ সালে মতিলাল নেহরুর সাথে মিলে তিনি 'স্বরাজ পার্টি' গঠন করেন। তিনি কলকাতা কর্পোরেশনের প্রথম মেয়র হিসেবেও দায়িত্ব পালন করেন। দেশের সেবায় নিজের সমস্ত সম্পত্তি দান করে দেওয়ার কারণে জনগণ তাঁকে ভালোবেসে 'দেশবন্ধু' উপাধিতে ভূষিত করে।",
         "quote": "দেশকে যদি বাঁচাতে হয়, তবে দেশের যুব সমাজকেই তা করতে হবে।",
         "birth_place": "বিক্রমপুর, বেঙ্গল (বর্তমান বাংলাদেশ)",
-        "achievements": "স্বরাজ পার্টির প্রতিষ্ঠাতা • কলকাতা কর্পোরেশনের প্রথম মেয়র • আলিপুর বোমা মামলার সফল আইনজীবী • হিন্দু-মুসলিম ঐক্যের অগ্রদূত"
+        "achievements": "স্বরাজ পার্টির প্রতিষ্ঠাতা • কলকাতা কর্পোরেশনের প্রথম মেয়র • আলিপুর বোমা মামলার সফল আইনজীবী • হিন্দু-মুসলিম ঐক্যের ধারক"
       }
     }
   },
@@ -1500,6 +1676,11 @@
     ],
     "location_id": "loc_mymensingh",
     "importance": 5,
+    "related_hero_ids": [
+      "muhammadshahidullah",
+      "chandravidyasagar",
+      "kazinazrul"
+    ],
     "content": {
       "en": {
         "name": "Sir Jagadish Chandra Bose",
@@ -1536,6 +1717,12 @@
     ],
     "location_id": "loc_24_parganas",
     "importance": 4,
+    "related_hero_ids": [
+      "khwajasalimuddah",
+      "chandravidyasagar",
+      "jagadishbose",
+      "kazinazrul"
+    ],
     "content": {
       "en": {
         "name": "Muhammad Shahidullah",
@@ -1572,6 +1759,11 @@
     ],
     "location_id": "loc_paschim_medinipur",
     "importance": 5,
+        "related_hero_ids": [
+      "jagadishbose",
+      "muhammadshahidullah",
+      "kazinazrul"
+    ],
     "content": {
       "en": {
         "name": "Ishwar Chandra Vidyasagar",
@@ -1883,6 +2075,7 @@
       "shah_jalal",
       "khan_jahan_ali",
       "isakhan",
+      "iwazkhalji",
       "eternal-unknown-heroes"
     ],
     "content": {
@@ -2192,6 +2385,10 @@
       "ziaurrahman",
       "huseynshaheed",
       "liberationwar1971",
+      "saifulazam",
+      "kmshafiullah",
+      "hamidkhan",
+      "sharifosmanhadi",
       "bengalilanguagemovement",
       "julyrevolution"
     ],
