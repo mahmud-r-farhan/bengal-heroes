@@ -111,7 +111,7 @@
         "full_biography": "Sheikh Mujibur Rahman was born on March 17, 1920, in Tungipara, Gopalganj. He emerged as the undisputed leader of the Bengali nationalist movement.\n\nFrom his student days, Sheikh Mujib was deeply involved in politics. He was a prominent member of the All India Muslim Students Federation and later became a founding member of the Awami League in 1949.\n\nHis historic Six-Point Movement in 1966 laid the foundation for Bengali autonomy and eventually, independence. The movement called for greater autonomy for East Pakistan, which was being systematically exploited by West Pakistan.\n\nThe 1970 general election saw the Awami League win an overwhelming majority. When the Pakistani military junta refused to transfer power, Sheikh Mujib called for non-cooperation and, on March 7, 1971, delivered his historic speech at Ramna Race Course, effectively calling for independence.\n\nFollowing his arrest, the Liberation War began. After nine months of struggle and the sacrifice of millions, Bangladesh emerged as an independent nation on December 16, 1971.\n\nAs the first President (and later Prime Minister) of Bangladesh, he worked to rebuild the war-ravaged nation. He was assassinated along with most of his family members on August 15, 1975.",
         "quote": "এবারের সংগ্রাম আমাদের মুক্তির সংগ্রাম, এবারের সংগ্রাম স্বাধীনতার সংগ্রাম। (This time the struggle is for our emancipation, this time the struggle is for independence.)",
         "birth_place": "Tungipara, Gopalganj, Bengal",
-        "achievements": "Father of the Nation of Bangladesh • Led the Six-Point Movement • Delivered historic 7th March Speech • First President & Prime Minister of Bangladesh"
+        "achievements": "Led the Six-Point Movement • Delivered historic 7th March Speech • First President & Prime Minister of Bangladesh"
       },
       "bn": {
         "name": "শেখ মুজিবুর রহমান",
@@ -1479,6 +1479,90 @@
         "quote": "মানুষের জন্য নির্মাণ করাই হলো স্রষ্টার সন্তুষ্টির পথ।",
         "birth_place": "অজানা (সম্ভবত মধ্য এশিয়া বা দিল্লি)",
         "achievements": "খলিফাতাবাদ (বাগেরহাট) নগর প্রতিষ্ঠা • ষাট গম্বুজ মসজিদ নির্মাণ (ইউনেস্কো সাইট) • বিশাল দিঘি খনন ও সুপেয় পানির ব্যবস্থা • সুন্দরবন অঞ্চলে যাতায়াত ও অবকাঠামো উন্নয়ন"
+      }
+    }
+  },
+  {
+    "id": "sharifosmanhadi",
+    "slug": "sharif-osman-hadi",
+    "dates": {
+      "birth": "1993-06-30",
+      "death": "2025-12-18"
+    },
+    "era": "july_uprising_2024",
+    "category": [
+      "activist",
+      "writer",
+      "political_figure"
+    ],
+    "images": [
+      "assets/images/heroes/sharif_osman_hadi.jpg"
+    ],
+    "location_id": "loc_jhalakathi",
+    "importance": 5,
+    "related_hero_ids": [
+      "abu_sayed",
+      "mir_mugdho",
+      "july_revolution_2024"
+    ],
+    "content": {
+      "en": {
+        "name": "Sharif Osman Hadi",
+        "short_bio": "Sharif Osman Hadi was a prominent Bangladeshi rights activist, writer, university lecturer, and the spokesperson of Inqilab Moncho, who emerged as a frontline leader during the historic 2024 July Uprising before being tragically assassinated.",
+        "full_biography": "Born as Osman Goni in Nalchity, Jhalakathi District, Sharif Osman Bin Hadi grew up in a religiously and culturally grounded environment. After completing his higher education, he became a lecturer in the Department of Business Studies at the University of Scholars in Dhaka. He gained national prominence as the co-founder and spokesperson of 'Inqilab Moncho', an organization dedicated to advocating for equity, justice, and political reform in Bangladesh.\n\nDuring the unprecedented July 2024 student-led mass uprising, Hadi played a pivotal role as a fearless frontline activist. His sharp intellect, articulate speeches, and powerful poetry—most notably 'Labhay Lal Shirt' (Red Shirt in Lava)—resonated deeply with the youth and became an intellectual catalyst for the anti-discrimination movement. On December 12, 2025, in a tragic turn of events, Hadi was shot by unidentified assailants in the Paltan area of Dhaka. He was later airlifted to Singapore General Hospital, where he succumbed to his injuries on December 18, 2025. His assassination triggered widespread national mourning and profound political unrest across the country. He is remembered by the masses as an indomitable voice for freedom and systemic reform in contemporary Bangladesh.",
+        "quote": "A 'July Joddha' (July Warrior) cannot be defined by a mere name or identity; it is an ideology of sacrifice.",
+        "birth_place": "Nalchity, Jhalokathi, Bangladesh",
+        "achievements": "Emerged as a frontline intellectual and activist during the 2024 July Uprising • Co-founded and served as the spokesperson for 'Inqilab Moncho' • Inspired a generation through impactful literary works and poetry like 'Labhay Lal Shirt' • Posthumously honored with a national day of mourning for his sacrifice"
+      },
+      "bn": {
+        "name": "শরিফ উসমান হাদি",
+        "short_bio": "শরিফ উসমান হাদি ছিলেন একজন বিশিষ্ট বাংলাদেশী অধিকারকর্মী, লেখক এবং বিশ্ববিদ্যালয়ের শিক্ষক। ইনকিলাব মঞ্চের মুখপাত্র হিসেবে তিনি ২০২৪ সালের জুলাই গণঅভ্যুত্থানের অন্যতম নির্ভীক সম্মুখসারির যোদ্ধা হিসেবে আবির্ভূত হন।",
+        "full_biography": "ঝালকাঠি জেলার নলছিটিতে জন্মগ্রহণ করা শরিফ উসমান বিন হাদি (যার প্রকৃত নাম ছিল ওসমান গনি) একটি ধর্মীয় ও সাংস্কৃতিক পরিমণ্ডলে বেড়ে ওঠেন। ঢাকা থেকে উচ্চশিক্ষা শেষে তিনি ঢাকার ইউনিভার্সিটি অব স্কলার্স-এ ব্যবসায় শিক্ষা বিভাগে শিক্ষকতা শুরু করেন। পরবর্তীতে তিনি 'ইনকিলাব মঞ্চ' নামক একটি সংগঠনের সহ-প্রতিষ্ঠাতা ও মুখপাত্র হিসেবে জাতীয় পর্যায়ে ব্যাপক পরিচিতি লাভ করেন।\n\n২০২৪ সালের জুলাই মাসে সংঘটিত ঐতিহাসিক ছাত্র-জনতার গণঅভ্যুত্থানে তিনি একজন অকুতোভয় সম্মুখসারির যোদ্ধা ও বুদ্ধিবৃত্তিক নেতা হিসেবে অসামান্য ভূমিকা পালন করেন। তার ক্ষুরধার বক্তব্য এবং 'লাভায় লাল শার্ট' এর মতো প্রতিবাদী কবিতা তরুণ প্রজন্মের মাঝে গভীর আলোড়ন সৃষ্টি করে এবং বৈষম্যবিরোধী আন্দোলনকে ত্বরান্বিত করে। ২০২৫ সালের ১২ ডিসেম্বর ঢাকার পল্টন এলাকায় দুর্বৃত্তদের অতর্কিত গুলিতে তিনি গুরুতর আহত হন। উন্নত চিকিৎসার জন্য তাকে সিঙ্গাপুরে নেওয়া হলেও ১৮ ডিসেম্বর তিনি মৃত্যুবরণ করেন। তার এই মর্মান্তিক হত্যাকাণ্ডে দেশজুড়ে তীব্র ক্ষোভ ও শোকের ছায়া নেমে আসে এবং রাষ্ট্রীয়ভাবে শোক পালন করা হয়। তিনি বাংলাদেশের মুক্তিকামী জনতার কাছে এক অমর প্রতিবাদী কণ্ঠস্বর হিসেবে চিরস্মরণীয় হয়ে থাকবেন।",
+        "quote": "'জুলাই যোদ্ধা' কারও নাম-পরিচয় হতে পারে না, এটি একটি ত্যাগের আদর্শ।",
+        "birth_place": "নলছিটি, ঝালকাঠি, বাংলাদেশ",
+        "achievements": "২০২৪ সালের জুলাই গণঅভ্যুত্থানে সম্মুখসারির যোদ্ধা ও বুদ্ধিবৃত্তিক নেতা হিসেবে ঐতিহাসিক ভূমিকা পালন • 'ইনকিলাব মঞ্চ' এর সহ-প্রতিষ্ঠাতা ও মুখপাত্র হিসেবে দায়িত্ব পালন • ক্ষুরধার লেখনী ও কবিতার মাধ্যমে তারুণ্যকে উজ্জীবিত করা • আত্মত্যাগের স্বীকৃতিস্বরূপ রাষ্ট্রীয়ভাবে শোক পালন ও সম্মাননা লাভ"
+      }
+    }
+  },
+  {
+    "id": "rajabalikhan",
+    "slug": "habildar-rajab-ali",
+    "dates": {
+      "birth": "Unknown",
+      "death": "1858-01-09"
+    },
+    "era": "british_colonial_1857",
+    "category": [
+      "military_leader",
+      "independence_figure",
+      "rebel"
+    ],
+    "images": [
+      "assets/images/heroes/habildar_rajab_ali.jpg"
+    ],
+    "location_id": "loc_chittagong",
+    "importance": 5,
+    "related_hero_ids": [
+      "titumir",
+      "mangalpande",
+      "sepoy_mutiny_1857"
+    ],
+    "content": {
+      "en": {
+        "name": "Havildar Rajab Ali Khan",
+        "short_bio": "Havildar Rajab Ali Khan was a valiant soldier in the Bengal Regiment who led the historic 1857 Sepoy Mutiny in Chittagong, temporarily liberating the region from British colonial rule.",
+        "full_biography": "Rajab Ali Khan, historically believed to be a native of Sandwip in Chittagong, joined the 34th Regiment of the Bengal Native Infantry at a young age and rose to the rank of Havildar in the 4th Company. Stationed at the Parade Ground cantonment in Chittagong, he emerged as an extraordinary revolutionary leader during the historic Sepoy Mutiny of 1857.\n\nOn the night of November 18, 1857, Havildar Rajab Ali led a rebellion of approximately 400 sepoys against the oppressive British East India Company. Under his astute command, the rebels attacked the armory, seized the treasury, freed political prisoners from the local jail, and successfully kept Chittagong entirely free from British control for about 30 hours. Realizing the strategic necessity of repositioning, he guided his forces out of Chittagong, navigating through rugged terrains towards Tripura and Sylhet. Despite severe logistical constraints and a lack of rations, Rajab Ali engaged in relentless guerrilla warfare against the heavily armed pursuing British forces. His final major confrontation took place on January 9, 1858, at Malgram in Karimganj, where his severely outnumbered and exhausted forces suffered heavy casualties. Following this defeat, Rajab Ali, along with a few surviving comrades, retreated into the dense mountainous jungles near Manipur. After this, he disappeared from historical records, yet his legacy endures as a profound symbol of anti-colonial resistance and patriotism in Bengal.",
+        "quote": "While his exact words are lost to history, Havildar Rajab Ali's actions echo the ultimate declaration: 'We shall not bow down to foreign oppressors; our fight is for the absolute liberation of our motherland.'",
+        "birth_place": "Sandwip, Chittagong, British India",
+        "achievements": "Led the Chittagong chapter of the 1857 Sepoy Mutiny against the British East India Company • Liberated Chittagong from British rule for nearly 30 hours on November 18, 1857 • Successfully raided the British armory and treasury, and freed political prisoners • Showcased extraordinary tactical leadership by guiding rebel forces through treacherous terrains while continuously fighting off British troops"
+      },
+      "bn": {
+        "name": "হাবিলদার রজব আলী খান",
+        "short_bio": "হাবিলদার রজব আলী খান ছিলেন বেঙ্গল রেজিমেন্টের একজন অকুতোভয় সৈনিক, যিনি ১৮৫৭ সালের ঐতিহাসিক সিপাহী বিদ্রোহে চট্টগ্রামে নেতৃত্ব দিয়ে সাময়িকভাবে ব্রিটিশ শাসন উৎখাত করেছিলেন।",
+        "full_biography": "হাবিলদার রজব আলী খান, যিনি ঐতিহাসিকভাবে চট্টগ্রামের সন্দ্বীপের বাসিন্দা ছিলেন বলে ধারণা করা হয়, তরুণ বয়সে ব্রিটিশ ইস্ট ইন্ডিয়া কোম্পানির ৩৪ নম্বর নেটিভ বেঙ্গল পদাতিক বাহিনীতে সিপাহী হিসেবে যোগ দেন। নিজ রণকৌশল ও যোগ্যতায় তিনি ৪ নম্বর কোম্পানির হাবিলদার পদে উন্নীত হন। চট্টগ্রামের পাহাড়তলী সংলগ্ন প্যারেড গ্রাউন্ড সেনানিবাসে অবস্থানকালে তিনি ১৮৫৭ সালের ঐতিহাসিক সিপাহী বিদ্রোহে এক অবিস্মরণীয় ও বিপ্লবী ভূমিকা পালন করেন।\n\n১৮৫৭ সালের ১৮ নভেম্বর রাতে হাবিলদার রজব আলীর সুদৃঢ় নেতৃত্বে প্রায় ৪০০ দেশীয় সিপাহী ব্রিটিশ বেনিয়াদের বিরুদ্ধে সশস্ত্র বিদ্রোহ ঘোষণা করেন। তার সুনিপুণ রণকৌশলে বিদ্রোহীরা ব্রিটিশ কারাগার ভেঙে বন্দীদের মুক্ত করেন, অস্ত্রাগার ও কোষাগার দখল করেন এবং চট্টগ্রামকে প্রায় ৩০ ঘণ্টা সম্পূর্ণ ব্রিটিশ শাসনমুক্ত রাখেন। পরবর্তীতে কৌশলগত কারণে তিনি তার বাহিনী নিয়ে ঢাকা ও সিলেটের দিকে অগ্রসর হওয়ার সিদ্ধান্ত নেন। রসদের অভাব ও দুর্গম পাহাড়ি পথ পেরিয়ে তারা ত্রিপুরা ও সিলেটের দিকে যাত্রা করেন এবং পদে পদে ব্রিটিশ বাহিনীর সাথে মরণপণ সম্মুখ সমরে লিপ্ত হন। ১৮৫৮ সালের ৯ জানুয়ারি করিমগঞ্জের মালগ্রামে ব্রিটিশ বাহিনীর সাথে এক অসম ও রক্তক্ষয়ী যুদ্ধে তার বাহিনীর ব্যাপক ক্ষয়ক্ষতি হয়। যুদ্ধে পরাজিত হওয়ার পর হাবিলদার রজব আলী তার কয়েকজন জীবিত সঙ্গীকে নিয়ে মণিপুরের গহীন জঙ্গলে আত্মগোপন করেন। এরপর ইতিহাসে তার আর কোনো সুনির্দিষ্ট খোঁজ পাওয়া যায়নি। তবে ব্রিটিশ বিরোধী স্বাধীনতা সংগ্রামে তার এই বীরত্বপূর্ণ আত্মত্যাগ ও দেশপ্রেম তাকে ইতিহাসের এক অনিবার্য ও অমর নায়কে পরিণত করেছে।",
+        "quote": "ইতিহাসের পাতায় হাবিলদার রজব আলীর সুনির্দিষ্ট কোনো উক্তি সংরক্ষিত না থাকলেও, তার কর্মই বলে দেয়- 'পরাধীনতার শৃঙ্খল ভাঙতে আত্মত্যাগই আমাদের একমাত্র পথ।' ",
+        "birth_place": "সন্দ্বীপ, চট্টগ্রাম, ব্রিটিশ ভারত",
+        "achievements": "১৮৫৭ সালের ঐতিহাসিক সিপাহী বিদ্রোহে চট্টগ্রামের সশস্ত্র অভ্যুত্থানে নেতৃত্ব প্রদান • ১৮৫৭ সালের ১৮ নভেম্বর চট্টগ্রামকে প্রায় ৩০ ঘণ্টা ব্রিটিশ শাসনমুক্ত রাখা • সফলভাবে ব্রিটিশ অস্ত্রাগার ও কোষাগার দখল এবং কারাবন্দীদের মুক্ত করা • সীমিত রসদ নিয়ে দুর্গম পাহাড়ি পথে ব্রিটিশ বাহিনীর বিরুদ্ধে দীর্ঘস্থায়ী ও অকুতোভয় গেরিলা যুদ্ধ পরিচালনা"
       }
     }
   },
