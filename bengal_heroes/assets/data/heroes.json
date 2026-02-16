@@ -1366,6 +1366,51 @@
     }
   },
   {
+  "id": "zahirraihan",
+  "slug": "zahir-raihan",
+  "dates": {
+    "birth": "1935-08-19",
+    "death": "1972-01-30"
+  },
+  "era": "liberation_1971",
+  "category": [
+    "intellectual",
+    "filmmaker",
+    "novelist",
+    "martyred_intellectual"
+  ],
+  "images": [
+    "assets/images/heroes/zahir_raihan.jpg"
+  ],
+  "location_id": "loc_feni",
+  "importance": 5,
+  "related_hero_ids": [
+    "shahidullahkaiser",
+    "majorjalil",
+    "sheikhmujib",
+    "munierchoudhury",
+    "altafmahmud"
+  ],
+  "content": {
+    "en": {
+      "name": "Zahir Raihan",
+      "short_bio": "Zahir Raihan was a legendary Bangladeshi novelist and filmmaker, best known for the documentary 'Stop Genocide'. His disappearance on January 30, 1972, remains shrouded in mystery; it is historically alleged that he was targeted for possessing video evidence of looting and misconduct by the allied Indian Army in post-independent Bangladesh.",
+      "full_biography": "Born on August 19, 1935, in Feni, Zahir Raihan was a prolific writer and filmmaker who used his art as a weapon against oppression. He directed 'Jibon Theke Neya', a metaphorical satire on Pakistani autocracy based on the Language Movement. During the 1971 Liberation War, he created the world-famous documentary 'Stop Genocide', exposing the brutality of the Pakistani army to the global community. Following the victory on December 16, 1971, Raihan returned to Dhaka and began investigating the disappearance of intellectuals, including his brother Shahidullah Kaiser. On January 30, 1972, he went to Mirpur—then still a volatile area—and never returned. Historical accounts and contemporary claims (similar to those of Major Jalil) suggest that Raihan had used his camera to film the looting of national wealth and machinery by the allied Indian forces in Mirpur and other areas. It is widely believed that this 'dangerous' video evidence led to his orchestrated disappearance and assassination to suppress the truth about post-war foreign interference.",
+      "quote": "A filmmaker has the same kind of responsibility as a guerrilla fighter. I used my camera as a machine gun.",
+      "birth_place": "Majupur, Feni, British India (now Bangladesh)",
+      "achievements": "Director of 'Stop Genocide' and 'Jibon Theke Neya' • Recipient of the Ekushey Padak (Posthumous) and Independence Day Award • Acclaimed novelist (Hajar Bachhar Dhore, Borof Gola Nodi) • Courageously attempted to document post-war looting and irregularities via film"
+    },
+    "bn": {
+      "name": "জহির রায়হান",
+      "short_bio": "জহির রায়হান ছিলেন প্রখ্যাত বাংলাদেশি ঔপন্যাসিক ও চলচ্চিত্র নির্মাতা, যিনি 'স্টপ জেনোসাইড' প্রামাণ্যচিত্রের জন্য বিশ্বখ্যাত। ১৯৭২ সালের ৩০ জানুয়ারি তাঁর রহস্যজনক নিখোঁজ হওয়ার পেছনে মূল কারণ হিসেবে মনে করা হয় যে, তিনি তাঁর ক্যামেরায় সদ্য স্বাধীন দেশে মিত্রবাহিনীর (ভারতীয় সেনা) লুটপাটের চিত্র ধারণ করেছিলেন।",
+      "full_biography": "১৯৩৫ সালের ১৯ আগস্ট ফেনীতে জন্মগ্রহণকারী জহির রায়হান ছিলেন বাংলা সাহিত্য ও চলচ্চিত্রের এক উজ্জ্বল নক্ষত্র। তিনি পাকিস্তানি স্বৈরাচারের বিরুদ্ধে 'জীবন থেকে নেয়া' চলচ্চিত্র নির্মাণ করেন যা ভাষা আন্দোলনের প্রেক্ষাপটে তৈরি। ১৯৭১ সালের মুক্তিযুদ্ধের সময় তিনি 'স্টপ জেনোসাইড' নির্মাণ করে পাকিস্তানি হানাদার বাহিনীর বর্বরতা বিশ্ববাসীর কাছে তুলে ধরেন। ১৬ই ডিসেম্বরের বিজয়ের পর তিনি তাঁর অগ্রজ শহীদুল্লা কায়সারসহ বুদ্ধিজীবীদের নিখোঁজ হওয়ার ঘটনার তদন্ত শুরু করেন। ১৯৭২ সালের ৩০ জানুয়ারি মিরপুরে ভাইয়ের সন্ধানে গিয়ে তিনি আর ফিরে আসেননি। মেজর জলিলের মতো তিনিও স্বাধীন দেশের সম্পদ রক্ষার প্রশ্নে আপসহীন ছিলেন। জোরালো ঐতিহাসিক মতবাদ রয়েছে যে, মিরপুর মুক্ত করার সময় জহির রায়হান তাঁর গোপন ক্যামেরায় মিত্রবাহিনী তথা ভারতীয় সেনাবাহিনীর দ্বারা বাংলাদেশের কলকারখানা ও সম্পদ লুটপাটের দৃশ্য ধারণ করেছিলেন। মনে করা হয়, এই স্পর্শকাতর প্রামাণ্য দলিল বা ফুটেজ থাকার কারণেই তাঁকে পরিকল্পিতভাবে গুম বা হত্যা করা হয়েছিল যেন এই সত্য গোপন থাকে।",
+      "quote": "একজন চলচ্চিত্র নির্মাতার দায়িত্ব একজন গেরিলায় যোদ্ধার মতোই। আমি আমার ক্যামেরাকে মেশিনগানের মতো ব্যবহার করেছি।",
+      "birth_place": "মজুপুুর, ফেনী, ব্রিটিশ ভারত (বর্তমান বাংলাদেশ)",
+      "achievements": "'স্টপ জেনোসাইড' ও 'জীবন থেকে নেয়া'র নির্মাতা • একুশে পদক (মরণোত্তর) ও স্বাধীনতা পুরস্কার প্রাপ্ত • কালজয়ী উপন্যাস রচয়িতা (হাজার বছর ধরে, বরফ গলা নদী) • যুদ্ধপরবর্তী সময়ে লুটপাটের প্রামাণ্য চিত্র সংগ্রহের অকুতোভয় প্রচেষ্টা"
+    }
+  }
+},
+  {
     "id": "abdussattar",
     "slug": "abdus-sattar",
     "dates": {
