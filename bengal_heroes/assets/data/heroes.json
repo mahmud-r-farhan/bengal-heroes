@@ -1734,6 +1734,43 @@
       }
     }
   },
+{
+  "id": "july_revolution_2024",
+  "slug": "july-mass-uprising-2024",
+  "dates": {
+    "start": "2024-07-01",
+    "victory": "2024-08-05"
+  },
+  "era": "july_revolution_2024",
+  "category": [
+    "mass_uprising",
+    "national_struggle",
+    "resistance_against_fascism"
+  ],
+      "images": [
+      "assets/images/heroes/july_revolution.jpg"
+    ],
+  "importance": 5,
+  "related_hero_ids": [
+    "abrar_fahad",
+    "julyrevolution",
+    "sharifosmanhadi"
+  ],
+  "content": {
+    "bn": {
+      "title": "চব্বিশের জুলাই গণঅভ্যুত্থান: ফ্যাসিবাদের পতন ও দ্বিতীয় স্বাধীনতা",
+      "short_bio": "২০২৪ সালের জুলাই-আগস্ট মাসে এক রক্তক্ষয়ী গণঅভ্যুত্থানের মাধ্যমে বাংলাদেশের ছাত্র-জনতা দীর্ঘ ১৬ বছরের ফ্যাসিবাদী ও বাকশালী শাসনের অবসান ঘটায়।",
+      "description": "আমি নিজেও জুলাই আন্দোলনে রাজপথে ছিলাম এবং সেই ভয়াবহ দিনগুলোর সাক্ষী। সেখানে দেখেছি পুলিশ ও রাষ্ট্রীয় বাহিনীর পাশা পাশি তৎকালীন সরকারি দলের কুখ্যাত 'হেলমেট বাহিনী' কীভাবে নিরস্ত্র ছাত্র-জনতার ওপর হায়েনার মতো ঝাঁপিয়ে পড়েছিল। এই ফ্যাসিবাদের হাত থেকে দেশকে মুক্ত করতে গিয়ে আমাদের প্রায় ১৫০০ জন ভাই-বোন শাহাদাত বরণ করেছেন। শত শত ভাই আজো নিখোঁজ, হাজার হাজার ভাই-বোন আহত হয়ে পঙ্গুত্ব বরণ করেছেন—কেউ হাত হারিয়েছেন, কেউ পা, আবার কেউ সারাজীবনের মতো চোখের আলো হারিয়েছেন। এই বিপ্লবে আমরা হারিয়েছি রংপুরের বীর আবু সাঈদকে, ঢাকার মুগ্ধকে (যিনি পানি বিতরণ করতে গিয়ে শহীদ হন), সাভারের ইয়ামিনকে (যাকে পুলিশ এপিসি থেকে রাস্তায় ছুঁড়ে ফেলে দিয়েছিল), এবং ছোট শিশু রিয়া গোপকে। আরও শহীদ হয়েছেন ফারহান ফাইয়াজ, তাহিদুল ইসলাম, রুদ্র সেন, রেদোয়ান শরীফ হিমেল, শ্রাবণ, সিয়াম, শেখ ফাহিমসহ নাম না জানা অসংখ্য অকুতোভয় প্রাণ। কত মা তার সন্তান হারিয়েছেন, কত বাবা তার শেষ সম্বলটুকু হারিয়েছেন, কত বোন তার ভাই হারিয়েছেন আর কত বোন স্বামীহারা হয়েছেন—তার হিসেব নেই। এই ত্যাগ কেবল একটি কোটা সংস্কারের জন্য ছিল না, এটি ছিল ফ্যাসিস্ট শাসনের শেকল ভেঙে পুনরায় স্বাধীনতা অর্জনের লড়াই। এই শহীদরা আমাদের ইতিহাসের অমর সূর্য সন্তান।",
+      "achievements": "১৬ বছরের স্বৈরাচারী ও ফ্যাসিবাদী শাসনের পতন ঘটানো • একদলীয় বাকশালী কাঠামো ও রাষ্ট্রীয় দমন-পীড়ন বন্ধ করা • বহুদলীয় গণতন্ত্র ও বাক-স্বাধীনতা পুনরুদ্ধারের পথ প্রশস্ত করা • নতুন প্রজন্মের নেতৃত্বে বৈষম্যহীন বাংলাদেশ গড়ার স্বপ্ন জাগ্রত করা"
+    },
+    "en": {
+      "title": "July Revolution 2024: The Fall of Fascism",
+      "short_bio": "The July-August mass uprising led by students and common people that successfully overthrew the 16-year fascist regime in Bangladesh.",
+      "description": "I was personally part of the July movement and witnessed the brutality of the state machinery. Beside the police and security forces, the regime's 'Helmet Force' unleashed terror upon unarmed protesters. Around 1,500 of my brothers and sisters were martyred, and hundreds remain missing. Thousands were injured, losing their limbs or eyesight. Mothers lost their sons, fathers lost their only support, and sisters lost their brothers to the bullets of the fascists. This revolution saw the martyrdom of heroic souls like Abu Sayed in Rangpur, Mugdho in Dhaka (who was distributing water), Yamin in Savar (whose body was thrown from a police APC), and innocent children like Riya Gope. Other notable martyrs include Farhan Faiyaaz, Tahidul Islam, Rudro Sen, Redwan Sharif Himel, Shrabon, Siam, Sheikh Fahim, and many others. Their blood washed away the one-party BAKSAL structure and Soviet-style authoritarianism, reclaiming the nation's sovereignty for the second time. They are the 'Sun Sons' of our history.",
+      "achievements": "Overthrew 16 years of autocratic and fascist rule • Dismantled the state-sponsored oppression and one-party system • Restored the path toward multi-party democracy and freedom of speech • Empowered the youth to lead the nation toward a discrimination-free future"
+    }
+  }
+},
   {
     "id": "sultan_balkhi",
     "slug": "sultan-balkhi-mahisawar",
@@ -1969,7 +2006,8 @@
     "related_hero_ids": [
       "abu_sayed",
       "mir_mugdho",
-      "julyrevolution"
+      "julyrevolution",
+      "july_martyrs_2024"
     ],
     "content": {
       "en": {
@@ -1990,6 +2028,48 @@
       }
     }
   },
+  {
+  "id": "abrarfahad",
+  "slug": "abrar-fahad",
+  "dates": {
+    "birth": "1998-05-13",
+    "death": "2019-10-07"
+  },
+  "era": "resistance_against_hegemony",
+  "category": [
+    "student_leader",
+    "martyr",
+    "sovereignty_icon"
+  ],
+  "images": [
+    "assets/images/heroes/abrar_fahad.jpg"
+  ],
+  "location_id": "loc_kushtia",
+  "importance": 5,
+  "related_hero_ids": [
+    "julyrevolution",
+    "sharifosmanhadi",
+    "july_martyrs_2024"
+  ],
+  "content": {
+    "en": {
+      "name": "Abrar Fahad",
+      "short_bio": "Abrar Fahad was a brilliant student of BUET who became a symbol of national sovereignty and resistance against student-wing fascism after being brutally murdered for his social media post regarding national interests.",
+      "full_biography": "Abrar Fahad, a second-year student of Electrical and Electronic Engineering at BUET, was a voice for Bangladesh's sovereignty. In October 2019, he posted a critique on Facebook regarding lopsided treaties with a neighboring country. For this act of patriotism, he was torturously killed by the then-ruling party's student wing members inside his dormitory. His martyrdom ignited a flame of resistance against campus fascism and set the stage for the broader democratic movements that followed. To many, Abrar is the 'First Martyr' of the long struggle against the fascist regime that eventually fell in 2024.",
+      "quote": "If we remain silent about our sovereignty today, there will be no one left to speak for us tomorrow.",
+      "birth_place": "Kushtia, Bangladesh",
+      "achievements": "Became the face of resistance against campus-based political fascism • Inspired a nationwide movement for student rights and national dignity • His sacrifice paved the way for the eventual mass uprising of 2024"
+    },
+    "bn": {
+      "name": "আবরার ফাহাদ",
+      "short_bio": "বুয়েটের মেধাবী ছাত্র আবরার ফাহাদ ছিলেন জাতীয় সার্বভৌমত্বের অতন্দ্র প্রহরী। দেশের স্বার্থ রক্ষায় সোশ্যাল মিডিয়ায় মতপ্রকাশের অপরাধে ফ্যাসিবাদী ছাত্র সংগঠনের হাতে নির্মমভাবে শহীদ হয়ে তিনি প্রতিবাদের মূর্ত প্রতীকে পরিণত হন।",
+      "full_biography": "আবরার ফাহাদ ১৯৯৮ সালে কুষ্টিয়ায় জন্মগ্রহণ করেন। তিনি বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয়ের (বুয়েট) ইইই বিভাগের দ্বিতীয় বর্ষের ছাত্র ছিলেন। ২০১৯ সালের অক্টোবরে প্রতিবেশী দেশের সাথে বাংলাদেশের স্বার্থবিরোধী চুক্তির সমালোচনা করে ফেসবুকে একটি স্ট্যাটাস দেওয়ার জেরে তৎকালীন ক্ষমতাসীন দলের ছাত্র সংগঠনের ক্যাডাররা তাঁকে দীর্ঘ সময় ধরে নির্যাতন করে হত্যা করে। আবরারের এই আত্মত্যাগ ক্যাম্পাসে দলীয় লেজুড়বৃত্তিক রাজনীতির অবসান এবং দীর্ঘদিনের চেপে বসা ফ্যাসিবাদী শাসনের বিরুদ্ধে লড়াইয়ের নতুন অনুপ্রেরণা হয়ে দাঁড়ায়। ২০২৪-এর ছাত্র-জনতার বিজয়ের মূলে আবরারের সেই প্রতিবাদী চেতনা এক গভীর ভূমিকা পালন করেছে।",
+      "quote": "দেশপ্রেমিক হওয়ার মূল্য যদি হয় মৃত্যু, তবে সেই মৃত্যুই আমার সার্থকতা।",
+      "birth_place": "কুষ্টিয়া, বাংলাদেশ",
+      "achievements": "ক্যাম্পাসভিত্তিক রাজনৈতিক ফ্যাসিবাদের বিরুদ্ধে গণপ্রতিরোধের সূচনা • জাতীয় সার্বভৌমত্ব রক্ষার লড়াইয়ে তরুণ প্রজন্মের আইকন হিসেবে স্বীকৃতি • তাঁর শাহাদাত ২০২৪-এর বৃহত্তর ছাত্র-জনতার বিপ্লবের ভিত্তিপ্রস্তর স্থাপন করে"
+    }
+  }
+},
   {
     "id": "rajabalikhan",
     "slug": "habildar-rajab-ali",
