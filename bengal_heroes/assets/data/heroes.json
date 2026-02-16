@@ -791,6 +791,93 @@
     }
   },
   {
+  "id": "magosmani",
+  "slug": "mag-osmani",
+  "dates": {
+    "birth": "1918-09-01",
+    "death": "1984-02-16"
+  },
+  "era": "liberation_1971",
+  "category": [
+    "military_leader",
+    "politician",
+    "independence_figure"
+  ],
+  "images": [
+    "assets/images/heroes/mag_osmani.jpg"
+  ],
+  "location_id": "loc_sylhet",
+  "importance": 5,
+  "related_hero_ids": [
+    "sheikhmujib",
+    "tajuddinahmed",
+    "ziaurrahman",
+    "khaledmosharraf",
+    "liberationwar1971"
+  ],
+  "content": {
+    "en": {
+      "name": "General M. A. G. Osmani",
+      "short_bio": "Affectionately known as 'Bongobir', General Muhammad Ataul Gani Osmani was a distinguished military leader who served as the Supreme Commander of the Mukti Bahini (Bangladesh Forces) during the historic 1971 Bangladesh Liberation War.",
+      "full_biography": "Born on 1 September 1918 in Sunamganj, Assam Province (now in Bangladesh), Muhammad Ataul Gani Osmani had a highly distinguished military career. Educated at Aligarh Muslim University, he joined the British Indian Army in 1939, fighting in World War II. Following the partition of India in 1947, he joined the Pakistan Army, where he became renowned for his unwavering defense of Bengali soldiers' rights, eventually retiring as a Colonel in 1967.\n\nEntering the political arena, he joined the Awami League and was elected to the National Assembly in 1970. Upon the outbreak of the Bangladesh Liberation War in 1971, the Mujibnagar Government appointed Osmani as the Commander-in-Chief of the Bangladesh Forces. His brilliant military acumen—specifically dividing the country into eleven sectors and orchestrating a formidable guerrilla warfare campaign—was pivotal in accelerating the defeat of the Pakistani occupation forces. After independence, he was promoted to the rank of General and served as a cabinet minister. However, demonstrating his staunch commitment to democracy, he resigned from the parliament and cabinet in 1975 to protest the establishment of the one-party BAKSAL system. He later founded the Jatiya Janata Party and contested in presidential elections. A true embodiment of strict discipline, integrity, and profound patriotism, General Osmani breathed his last on 16 February 1984 in London.",
+      "quote": "I am a soldier, and I shall remain a soldier serving my country until my last breath.",
+      "birth_place": "Sunamganj, British India",
+      "achievements": "Served as the Supreme Commander (Commander-in-Chief) of the Mukti Bahini during the 1971 Liberation War • Strategically divided Bangladesh into 11 sectors to conduct a highly effective guerrilla war • Became the first General of the independent Bangladesh Army • Served as a Cabinet Minister in the post-independence government • Awarded the honorary title of 'Bongobir' (Hero of Bengal) for his unparalleled patriotic contributions"
+    },
+    "bn": {
+      "name": "জেনারেল এম. এ. জি. ওসমানী",
+      "short_bio": "'বঙ্গবীর' খ্যাত জেনারেল মুহাম্মদ আতাউল গণি ওসমানী ছিলেন একজন প্রখ্যাত সামরিক ব্যক্তিত্ব, যিনি ১৯৭১ সালের মহান মুক্তিযুদ্ধে বাংলাদেশ সশস্ত্র বাহিনীর (মুক্তিবাহিনীর) সর্বাধিনায়ক হিসেবে ঐতিহাসিক দায়িত্ব পালন করেন।",
+      "full_biography": "১৯১৮ সালের ১ সেপ্টেম্বর ব্রিটিশ ভারতের আসাম প্রদেশের সুনামগঞ্জে (বর্তমান বাংলাদেশ) মুহাম্মদ আতাউল গণি ওসমানীর জন্ম। আলিগড় মুসলিম বিশ্ববিদ্যালয়ে শিক্ষাগ্রহণের পর ১৯৩৯ সালে তিনি ব্রিটিশ ভারতীয় সেনাবাহিনীতে যোগদান করেন এবং দ্বিতীয় বিশ্বযুদ্ধে অংশগ্রহণ করেন। ১৯৪৭ সালে দেশভাগের পর তিনি পাকিস্তান সেনাবাহিনীতে যোগ দেন। সেখানে তিনি বাঙালি সৈনিকদের অধিকার আদায়ে অত্যন্ত সোচ্চার ছিলেন এবং ১৯৬৭ সালে কর্নেল পদে অবসর গ্রহণ করেন।\n\nপরবর্তীতে তিনি আওয়ামী লীগে যোগ দেন এবং ১৯৭০ সালের নির্বাচনে জাতীয় পরিষদের সদস্য নির্বাচিত হন। ১৯৭১ সালে মুক্তিযুদ্ধ শুরু হলে স্বাধীন বাংলাদেশের প্রথম সরকার (মুজিবনগর সরকার) তাঁকে মুক্তিবাহিনীর সর্বাধিনায়ক (কমান্ডার-ইন-চিফ) হিসেবে নিয়োগ দেয়। তাঁর সুদক্ষ সামরিক রণকৌশল, যুদ্ধ পরিচালনার সুবিধার্থে বাংলাদেশকে ১১টি সেক্টরে বিভক্ত করা এবং দেশব্যাপী গেরিলা যুদ্ধের সুনিপুণ পরিচালনার ফলেই পাকিস্তানি হানাদার বাহিনীর পরাজয় ত্বরান্বিত হয়। স্বাধীনতার পর তাঁকে স্বাধীন দেশের প্রথম জেনারেল পদে উন্নীত করা হয় এবং তিনি বঙ্গবন্ধু শেখ মুজিবুর রহমানের মন্ত্রিসভায় গুরুত্বপূর্ণ দায়িত্ব পালন করেন। তবে গণতান্ত্রিক মূল্যবোধের প্রতি অবিচল থেকে, ১৯৭৫ সালে একদলীয় বাকশাল ব্যবস্থা প্রবর্তনের প্রতিবাদে তিনি সংসদ ও মন্ত্রিসভা থেকে পদত্যাগ করেন। পরবর্তীতে তিনি 'জাতীয় জনতা পার্টি' গঠন করেন এবং রাষ্ট্রপতি নির্বাচনে প্রতিদ্বন্দ্বিতা করেন। কঠোর নিয়মানুবর্তিতা, সততা ও অগাধ দেশপ্রেমের মূর্ত প্রতীক এই মহান সেনাপতি ১৯৮৪ সালের ১৬ ফেব্রুয়ারি লন্ডনে মৃত্যুবরণ করেন।",
+      "quote": "আমি একজন সৈনিক, জীবনের শেষ নিশ্বাস পর্যন্ত আমি আমার দেশের জন্যই কাজ করে যাব।",
+      "birth_place": "সুনামগঞ্জ, ব্রিটিশ ভারত",
+      "achievements": "১৯৭১ সালের মহান মুক্তিযুদ্ধে মুক্তিবাহিনীর সর্বাধিনায়ক হিসেবে ঐতিহাসিক দায়িত্ব পালন • যুদ্ধ পরিচালনার সুবিধার্থে বাংলাদেশকে ১১টি সেক্টরে বিভক্ত করা এবং সুদক্ষ গেরিলা যুদ্ধ পরিচালনা • স্বাধীন বাংলাদেশ সেনাবাহিনীর প্রথম জেনারেল পদে পদোন্নতি লাভ • স্বাধীন বাংলাদেশের প্রথম মন্ত্রিসভার সদস্য হিসেবে দায়িত্ব পালন • মুক্তিযুদ্ধে অসামান্য অবদানের স্বীকৃতিস্বরূপ 'বঙ্গবীর' উপাধিতে ভূষিত"
+    }
+  }
+},
+{
+  "id": "khaledmosharraf",
+  "slug": "khaled-mosharraf",
+  "dates": {
+    "birth": "1937-11-09",
+    "death": "1975-11-07"
+  },
+  "era": "liberation_1971",
+  "category": [
+    "military_leader",
+    "independence_figure"
+  ],
+  "images": [
+    "assets/images/heroes/khaled_mosharraf.jpg"
+  ],
+  "location_id": "loc_jamalpur",
+  "importance": 5,
+  "related_hero_ids": [
+    "magosmani",
+    "ziaurrahman",
+    "shafaatjamil",
+    "ataher",
+    "liberationwar1971"
+  ],
+  "content": {
+    "en": {
+      "name": "Major General Khaled Mosharraf",
+      "short_bio": "Major General Khaled Mosharraf, Bir Uttom, was a valiant Bangladeshi military officer who served as the Commander of Sector 2 and 'K-Force' during the 1971 Liberation War, and later played a pivotal but tragic role in the November 1975 military coups.",
+      "full_biography": "Born on November 9, 1937, in Islampur, Jamalpur, Khaled Mosharraf graduated from the Pakistan Military Academy and joined the Pakistan Army. When the Liberation War broke out in 1971, he defected from the 4th East Bengal Regiment in Comilla and joined the Mukti Bahini. As the Commander of Sector 2 and the 'K-Force' brigade, his tactical brilliance in guerrilla warfare, especially around the Dhaka and Comilla regions, severely crippled the Pakistani occupation forces. He was critically injured by a bullet to his head during a frontline battle in October 1971 but survived after receiving extensive treatment. In recognition of his extraordinary bravery, he was awarded the 'Bir Uttom' gallantry award.\n\nAfter independence, Mosharraf served as the Chief of General Staff (CGS) of the Bangladesh Army. Following the tragic assassination of Sheikh Mujibur Rahman in August 1975, the military's chain of command collapsed. To restore discipline, Mosharraf led a bloodless military coup on November 3, 1975, detaining the then-Army Chief Ziaur Rahman and assuming the role of Chief of Army Staff. However, his tenure lasted only four days. On November 7, 1975, during a violent counter-coup (the 'Sepoy Mutiny') instigated by soldiers under the influence of Colonel Abu Taher and the JSD, Khaled Mosharraf and several of his close associates were tragically assassinated at the Sher-e-Bangla Nagar cantonment. He remains one of the most brilliant military strategists and a tragic hero in the history of Bangladesh.",
+      "quote": "His military career constantly reflected a singular principle: 'As a soldier, my primary duty is to protect the sovereignty of my country and strictly uphold the military chain of command.'",
+      "birth_place": "Islampur, Jamalpur, British India",
+      "achievements": "Commanded Sector 2 and the K-Force brigade during the 1971 Liberation War • Masterminded highly successful and destructive guerrilla operations around the Dhaka and Comilla regions • Awarded the Bir Uttom (the second-highest military award) for his frontline gallantry • Served as the Chief of General Staff and briefly as the Chief of Army Staff of the Bangladesh Army"
+    },
+    "bn": {
+      "name": "মেজর জেনারেল খালেদ মোশাররফ",
+      "short_bio": "মেজর জেনারেল খালেদ মোশাররফ, বীর উত্তম, ছিলেন একজন অকুতোভয় সামরিক কর্মকর্তা। তিনি ১৯৭১ সালের মুক্তিযুদ্ধে ২নং সেক্টর ও 'কে-ফোর্স'-এর অধিনায়ক হিসেবে বীরত্বপূর্ণ অবদান রাখেন এবং ১৯৭৫ সালের নভেম্বরের সেনা অভ্যুত্থানে এক ঐতিহাসিক ও ট্র্যাজিক ভূমিকা পালন করেন।",
+      "full_biography": "১৯৩৭ সালের ৯ নভেম্বর জামালপুর জেলার ইসলামপুরে খালেদ মোশাররফের জন্ম। পাকিস্তান মিলিটারি একাডেমি থেকে স্নাতক সম্পন্ন করার পর তিনি পাকিস্তান সেনাবাহিনীতে যোগ দেন। ১৯৭১ সালে মুক্তিযুদ্ধ শুরু হলে তিনি কুমিল্লায় অবস্থিত ৪র্থ ইস্ট বেঙ্গল রেজিমেন্ট থেকে বিদ্রোহ করেন এবং মুক্তিযুদ্ধে ঝাঁপিয়ে পড়েন। মুক্তিযুদ্ধের ২নং সেক্টর এবং 'কে-ফোর্স' (K-Force)-এর অধিনায়ক হিসেবে তিনি ঢাকা ও কুমিল্লা অঞ্চলে পাকিস্তানি বাহিনীর বিরুদ্ধে এক ভয়াবহ ও সফল গেরিলা যুদ্ধ পরিচালনা করেন, যা ঢাকাকে কার্যত অবরুদ্ধ করে ফেলেছিল। ১৯৭১ সালের অক্টোবরে সম্মুখ সমরে তিনি মাথায় গুলিবিদ্ধ হয়ে মারাত্মকভাবে আহত হন, তবে ভারতে দীর্ঘ চিকিৎসার পর সুস্থ হয়ে ওঠেন। মুক্তিযুদ্ধে অসামান্য বীরত্বের জন্য তাঁকে 'বীর উত্তম' খেতাবে ভূষিত করা হয়।\n\nস্বাধীনতার পর তিনি বাংলাদেশ সেনাবাহিনীর চিফ অব জেনারেল স্টাফ (CGS) হিসেবে দায়িত্ব গ্রহণ করেন। ১৯৭৫ সালের ১৫ আগস্ট শেখ মুজিবুর রহমানের হত্যাকাণ্ডের পর, সেনাবাহিনীতে চেইন অব কমান্ড বা শৃঙ্খলার চরম অবনতি ঘটে। চেইন অব কমান্ড ফিরিয়ে আনার লক্ষ্যে ৩ নভেম্বর ১৯৭৫ সালে তিনি একটি রক্তপাতহীন সামরিক অভ্যুত্থানের নেতৃত্ব দেন এবং তৎকালীন সেনাপ্রধান জিয়াউর রহমানকে গৃহবন্দী করে নিজেই সেনাপ্রধানের দায়িত্ব নেন। কিন্তু তাঁর এই দায়িত্বকাল মাত্র চার দিন স্থায়ী হয়েছিল। ৭ নভেম্বর কর্নেল আবু তাহের ও জাসদের প্ররোচনায় সংঘটিত সিপাহী-জনতার বিপ্লবের (পাল্টা অভ্যুত্থান) সময় শেরে বাংলা নগর সেনানিবাসে খালেদ মোশাররফ এবং তাঁর কয়েকজন ঘনিষ্ঠ সহযোদ্ধাকে অত্যন্ত মর্মান্তিকভাবে হত্যা করা হয়। বাংলাদেশের ইতিহাসে তিনি একজন অত্যন্ত মেধাবী সামরিক কৌশলবিদ ও এক ট্র্যাজিক নায়ক হিসেবে চিরস্মরণীয় হয়ে আছেন।",
+      "quote": "তার সামরিক জীবনে একটি নীতিই সর্বদা প্রতিফলিত হয়েছে— 'একজন সৈনিক হিসেবে দেশের সার্বভৌমত্ব রক্ষা এবং চেইন অব কমান্ড সমুন্নত রাখাই আমার প্রধান কর্তব্য।' ",
+      "birth_place": "ইসলামপুর, জামালপুর, ব্রিটিশ ভারত",
+      "achievements": "১৯৭১ সালের মুক্তিযুদ্ধে ২নং সেক্টর এবং 'কে-ফোর্স'-এর অধিনায়ক হিসেবে দায়িত্ব পালন • ঢাকা ও কুমিল্লা অঞ্চলে সফল ও ধ্বংসাত্মক গেরিলা যুদ্ধের রণকৌশল প্রণয়ন • মুক্তিযুদ্ধে সম্মুখ সমরে অসাধারণ বীরত্বের জন্য 'বীর উত্তম' খেতাবে ভূষিত • বাংলাদেশ সেনাবাহিনীর চিফ অব জেনারেল স্টাফ (CGS) এবং স্বল্পকালীন সেনাপ্রধান হিসেবে দায়িত্ব পালন"
+    }
+  }
+},
+  {
     "id": "huseynshaheed",
     "slug": "huseyn-shaheed-suhrawardy",
     "dates": {
@@ -1283,6 +1370,7 @@
     "location_id": "loc_dhaka",
     "importance": 5,
     "related_hero_ids": [
+      "sharifosmanhadi",
       "bengalilanguagemovement",
       "liberationwar1971",
       "sheikhmujib",
@@ -1489,7 +1577,7 @@
       "birth": "1993-06-30",
       "death": "2025-12-18"
     },
-    "era": "july_uprising_2024",
+    "era": "july-revolution-2024",
     "category": [
       "activist",
       "writer",
@@ -1503,7 +1591,7 @@
     "related_hero_ids": [
       "abu_sayed",
       "mir_mugdho",
-      "july_revolution_2024"
+      "julyrevolution"
     ],
     "content": {
       "en": {
@@ -1531,7 +1619,7 @@
       "birth": "Unknown",
       "death": "1858-01-09"
     },
-    "era": "british_colonial_1857",
+    "era": "british_resistance",
     "category": [
       "military_leader",
       "independence_figure",
