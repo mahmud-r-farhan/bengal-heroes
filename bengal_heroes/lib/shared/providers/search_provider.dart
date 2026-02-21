@@ -6,7 +6,16 @@ import 'hero_provider.dart';
 /// Provider for search query
 final searchQueryProvider = StateProvider<String>((ref) => '');
 
-/// Provider for search results
+/// Provider for unified search results (heroes, timeline, travelers, events)
+final unifiedSearchResultsProvider = FutureProvider<List<BaseSearchResult>>((ref) async {
+  final query = ref.watch(searchQueryProvider);
+  if (query.trim().isEmpty) return [];
+
+  final repository = ref.watch(heroRepositoryProvider);
+  return repository.searchAll(query);
+});
+
+/// Provider for search results (legacy - heroes only)
 final searchResultsProvider = FutureProvider<List<SearchResult>>((ref) async {
   final query = ref.watch(searchQueryProvider);
   if (query.trim().isEmpty) return [];
@@ -20,7 +29,7 @@ final isSearchingProvider = Provider<bool>((ref) {
   final query = ref.watch(searchQueryProvider);
   if (query.isEmpty) return false;
   
-  final results = ref.watch(searchResultsProvider);
+  final results = ref.watch(unifiedSearchResultsProvider);
   return results.isLoading;
 });
 

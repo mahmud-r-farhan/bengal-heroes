@@ -5,6 +5,8 @@ import 'package:go_router/go_router.dart';
 
 import '../../core/router/app_routes.dart';
 import '../../core/theme/app_colors.dart';
+import '../../data/models/timeline_model.dart';
+import '../../data/repositories/hero_repository.dart';
 import '../../shared/providers/search_provider.dart';
 import '../../shared/widgets/widgets.dart';
 
@@ -53,7 +55,7 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
   Widget build(BuildContext context) {
     final locale = Localizations.localeOf(context).languageCode;
     final searchQuery = ref.watch(searchQueryProvider);
-    final searchResults = ref.watch(searchResultsProvider);
+    final searchResults = ref.watch(unifiedSearchResultsProvider);
     final isSearching = ref.watch(isSearchingProvider);
     final searchHistory = ref.watch(searchHistoryProvider);
 
@@ -91,7 +93,7 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
         controller: _searchController,
         focusNode: _focusNode,
         decoration: InputDecoration(
-          hintText: 'Search heroes...',
+          hintText: 'Search heroes, events, travelers...',
           hintStyle: TextStyle(
             color: theme.colorScheme.onSurfaceVariant.withValues(alpha: 0.6),
           ),
@@ -184,11 +186,11 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
             ),
           ),
           const SizedBox(height: 12),
-          _buildSearchSuggestionItem(context, 'Titumir ', Icons.trending_up),
-          _buildSearchSuggestionItem(context, 'Muhammad Bakhtiyar Khalji', Icons.trending_up),
-          _buildSearchSuggestionItem(context, 'Bengal', Icons.category),
-          _buildSearchSuggestionItem(context, 'Liberation War', Icons.history),
-          _buildSearchSuggestionItem(context, 'Language Movement', Icons.event),
+          _buildSearchSuggestionItem(context, 'Rammohun Roy', Icons.trending_up),
+          _buildSearchSuggestionItem(context, 'Language Movement', Icons.trending_up),
+          _buildSearchSuggestionItem(context, 'Xuanzang', Icons.category),
+          _buildSearchSuggestionItem(context, 'Bengal', Icons.history),
+          _buildSearchSuggestionItem(context, 'Independence', Icons.event),
 
           const SizedBox(height: 32),
 
@@ -221,7 +223,7 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                       ),
                       const SizedBox(height: 4),
                       Text(
-                        'You can search by name, era, or even in Bengali!',
+                        'Find heroes, timeline events, travelers, and more! Search in English or Bengali.',
                         style: theme.textTheme.bodySmall?.copyWith(
                           color: theme.colorScheme.onSurfaceVariant,
                         ),
@@ -261,12 +263,10 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
 
   Widget _buildSearchResults(
     BuildContext context,
-    AsyncValue searchResults,
+    AsyncValue<List<BaseSearchResult>> searchResults,
     bool isSearching,
     String locale,
   ) {
-    final theme = Theme.of(context);
-
     if (isSearching) {
       return const Center(
         child: CircularProgressIndicator(),
@@ -288,94 +288,8 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
           itemCount: results.length,
           itemBuilder: (context, index) {
             final result = results[index];
-            final hero = result.hero;
-            final content = hero.getContent(locale);
 
-            return GestureDetector(
-              onTap: () => context.push(AppRoutes.getHeroDetailPath(hero.id)),
-              child: Container(
-                margin: const EdgeInsets.only(bottom: 12),
-                padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  color: theme.colorScheme.surface,
-                  borderRadius: BorderRadius.circular(12),
-                  border: Border.all(
-                    color: theme.colorScheme.outline.withValues(alpha: 0.2),
-                  ),
-                ),
-                child: Row(
-                  children: [
-                    // Hero image
-                    Container(
-                      width: 60,
-                      height: 60,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8),
-                        color: AppColors.primaryMaroon.withValues(alpha: 0.1),
-                      ),
-                      clipBehavior: Clip.antiAlias,
-                      child: hero.primaryImage.isNotEmpty
-                          ? Image.asset(
-                              hero.primaryImage,
-                              fit: BoxFit.cover,
-                              errorBuilder: (_, _, _) => const Icon(
-                                Icons.person,
-                                color: AppColors.primaryMaroon,
-                              ),
-                            )
-                          : const Icon(
-                              Icons.person,
-                              color: AppColors.primaryMaroon,
-                            ),
-                    ),
-                    const SizedBox(width: 16),
-
-                    // Info with location support
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            content.name,
-                            style: theme.textTheme.titleMedium?.copyWith(
-                              fontWeight: FontWeight.w600,
-                            ),
-                          ),
-                          const SizedBox(height: 4),
-                          Text(
-                            hero.dates.lifeSpan,
-                            style: theme.textTheme.bodySmall?.copyWith(
-                              color: theme.colorScheme.onSurfaceVariant,
-                            ),
-                          ),
-                          const SizedBox(height: 4),
-                          // Match indicator
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 8,
-                              vertical: 2,
-                            ),
-                            decoration: BoxDecoration(
-                              color: _getMatchColor(result.matchedField)
-                                  .withValues(alpha: 0.1),
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                            child: Text(
-                              'Matched in ${result.matchedField}',
-                              style: theme.textTheme.labelSmall?.copyWith(
-                                color: _getMatchColor(result.matchedField),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-
-                    const Icon(Icons.chevron_right),
-                  ],
-                ),
-              ),
-            ).animate().fadeIn(delay: Duration(milliseconds: 50 * index));
+            return _buildResultTile(context, result, locale, index);
           },
         );
       },
@@ -384,11 +298,524 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
     );
   }
 
+  Widget _buildResultTile(
+    BuildContext context,
+    BaseSearchResult result,
+    String locale,
+    int index,
+  ) {
+    // Build the appropriate tile based on result type
+    switch (result.type) {
+      case SearchResultType.hero:
+        return _buildHeroResultTile(
+          context,
+          result as HeroSearchResult,
+          locale,
+          index,
+        );
+
+      case SearchResultType.timeline:
+        return _buildTimelineResultTile(
+          context,
+          result as TimelineSearchResult,
+          locale,
+          index,
+        );
+
+      case SearchResultType.traveler:
+        return _buildTravelerResultTile(
+          context,
+          result as TravelerSearchResult,
+          locale,
+          index,
+        );
+
+      case SearchResultType.event:
+        return _buildEventResultTile(
+          context,
+          result as EventSearchResult,
+          locale,
+          index,
+        );
+    }
+  }
+
+  Widget _buildHeroResultTile(
+    BuildContext context,
+    HeroSearchResult result,
+    String locale,
+    int index,
+  ) {
+    final theme = Theme.of(context);
+    final hero = result.hero;
+    final content = hero.getContent(locale);
+
+    return GestureDetector(
+      onTap: () => context.push(AppRoutes.getHeroDetailPath(hero.id)),
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 12),
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: theme.colorScheme.surface,
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(
+            color: theme.colorScheme.outline.withValues(alpha: 0.2),
+          ),
+        ),
+        child: Row(
+          children: [
+            // Hero image
+            Container(
+              width: 60,
+              height: 60,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(8),
+                color: AppColors.primaryMaroon.withValues(alpha: 0.1),
+              ),
+              clipBehavior: Clip.antiAlias,
+              child: hero.primaryImage.isNotEmpty
+                  ? Image.asset(
+                      hero.primaryImage,
+                      fit: BoxFit.cover,
+                      errorBuilder: (_, _, _) => const Icon(
+                        Icons.person,
+                        color: AppColors.primaryMaroon,
+                      ),
+                    )
+                  : const Icon(
+                      Icons.person,
+                      color: AppColors.primaryMaroon,
+                    ),
+            ),
+            const SizedBox(width: 16),
+
+            // Info
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          content.name,
+                          style: theme.textTheme.titleMedium?.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 4,
+                        ),
+                        decoration: BoxDecoration(
+                          color: AppColors.primaryMaroon.withValues(alpha: 0.1),
+                          borderRadius: BorderRadius.circular(6),
+                        ),
+                        child: Text(
+                          'Hero',
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: AppColors.primaryMaroon,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    hero.dates.lifeSpan,
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  // Match indicator
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 8,
+                      vertical: 2,
+                    ),
+                    decoration: BoxDecoration(
+                      color: _getMatchColor(result.matchedField)
+                          .withValues(alpha: 0.1),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Text(
+                      'Matched in ${result.matchedField}',
+                      style: theme.textTheme.labelSmall?.copyWith(
+                        color: _getMatchColor(result.matchedField),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+
+            const Icon(Icons.chevron_right),
+          ],
+        ),
+      ),
+    ).animate().fadeIn(delay: Duration(milliseconds: 50 * index));
+  }
+
+  Widget _buildTimelineResultTile(
+    BuildContext context,
+    TimelineSearchResult result,
+    String locale,
+    int index,
+  ) {
+    final theme = Theme.of(context);
+    final event = result.event;
+    final title = event.title.en;
+    final description = event.description.en;
+
+    return GestureDetector(
+      onTap: () {
+        context.push(
+          AppRoutes.getTimelineEventDetailPath(event.id, 'timeline'),
+          extra: event.toJson(),
+        );
+      },
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 12),
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: theme.colorScheme.surface,
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(
+            color: theme.colorScheme.outline.withValues(alpha: 0.2),
+          ),
+        ),
+        child: Row(
+          children: [
+            // Timeline icon
+            Container(
+              width: 60,
+              height: 60,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(8),
+                color: AppColors.secondaryNavy.withValues(alpha: 0.1),
+              ),
+              child: Icon(
+                Icons.timeline,
+                color: AppColors.secondaryNavy,
+                size: 32,
+              ),
+            ),
+            const SizedBox(width: 16),
+
+            // Info
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          title,
+                          style: theme.textTheme.titleMedium?.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 4,
+                        ),
+                        decoration: BoxDecoration(
+                          color: AppColors.secondaryNavy.withValues(alpha: 0.1),
+                          borderRadius: BorderRadius.circular(6),
+                        ),
+                        child: Text(
+                          'Timeline',
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: AppColors.secondaryNavy,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    'Year: ${event.year}',
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    description,
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ],
+              ),
+            ),
+
+            const Icon(Icons.chevron_right),
+          ],
+        ),
+      ),
+    ).animate().fadeIn(delay: Duration(milliseconds: 50 * index));
+  }
+
+  Widget _buildTravelerResultTile(
+    BuildContext context,
+    TravelerSearchResult result,
+    String locale,
+    int index,
+  ) {
+    final theme = Theme.of(context);
+    final traveler = result.traveler;
+    final title = traveler.title.en;
+    final description = traveler.description.en;
+    final year = traveler.year;
+
+    return GestureDetector(
+      onTap: () {
+        context.push(
+          AppRoutes.getTimelineEventDetailPath(traveler.id, 'travelers'),
+          extra: traveler.toJson(),
+        );
+      },
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 12),
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: theme.colorScheme.surface,
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(
+            color: theme.colorScheme.outline.withValues(alpha: 0.2),
+          ),
+        ),
+        child: Row(
+          children: [
+            // Traveler icon
+            Container(
+              width: 60,
+              height: 60,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(8),
+                color: Colors.orange.withValues(alpha: 0.1),
+              ),
+              child: Icon(
+                Icons.public,
+                color: Colors.orange,
+                size: 32,
+              ),
+            ),
+            const SizedBox(width: 16),
+
+            // Info
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          title,
+                          style: theme.textTheme.titleMedium?.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 4,
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.orange.withValues(alpha: 0.1),
+                          borderRadius: BorderRadius.circular(6),
+                        ),
+                        child: Text(
+                          'Traveler',
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: Colors.orange,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    'Year: $year',
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    description,
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ],
+              ),
+            ),
+
+            const Icon(Icons.chevron_right),
+          ],
+        ),
+      ),
+    ).animate().fadeIn(delay: Duration(milliseconds: 50 * index));
+  }
+
+  Widget _buildEventResultTile(
+    BuildContext context,
+    EventSearchResult result,
+    String locale,
+    int index,
+  ) {
+    final theme = Theme.of(context);
+    final event = result.event;
+    final title = event.getTitle(locale);
+    final description = event.getDescription(locale);
+    final year = event.year ?? 'Unknown';
+
+    return GestureDetector(
+      onTap: () {
+        // Convert GlobalEvent to TimelineEvent format for navigation
+        final timelineEvent = TimelineEvent(
+          id: event.id,
+          year: int.tryParse(year) ?? 0,
+          period: year,
+          title: LocalizedContent(
+            en: event.getTitle('en'),
+            bn: event.getTitle('bn'),
+          ),
+          description: LocalizedContent(
+            en: event.getDescription('en'),
+            bn: event.getDescription('bn'),
+          ),
+          category: 'event',
+          significance: 'high',
+          icon: 'event_note',
+        );
+        
+        context.push(
+          AppRoutes.getTimelineEventDetailPath(event.id, 'event'),
+          extra: timelineEvent.toJson(),
+        );
+      },
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 12),
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: theme.colorScheme.surface,
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(
+            color: theme.colorScheme.outline.withValues(alpha: 0.2),
+          ),
+        ),
+        child: Row(
+          children: [
+            // Event icon
+            Container(
+              width: 60,
+              height: 60,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(8),
+                color: Colors.teal.withValues(alpha: 0.1),
+              ),
+              child: Icon(
+                Icons.event_note,
+                color: Colors.teal,
+                size: 32,
+              ),
+            ),
+            const SizedBox(width: 16),
+
+            // Info
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          title,
+                          style: theme.textTheme.titleMedium?.copyWith(
+                            fontWeight: FontWeight.w600,
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 4,
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.teal.withValues(alpha: 0.1),
+                          borderRadius: BorderRadius.circular(6),
+                        ),
+                        child: Text(
+                          'Event',
+                          style: theme.textTheme.labelSmall?.copyWith(
+                            color: Colors.teal,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    'Year: $year',
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    description,
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ],
+              ),
+            ),
+
+            const Icon(Icons.chevron_right),
+          ],
+        ),
+      ),
+    ).animate().fadeIn(delay: Duration(milliseconds: 50 * index));
+  }
+
   Color _getMatchColor(String matchedField) {
     switch (matchedField) {
       case 'name':
+      case 'title':
         return AppColors.primaryMaroon;
       case 'bio':
+      case 'description':
         return AppColors.secondaryOlive;
       case 'era':
         return AppColors.secondaryNavy;
@@ -399,3 +826,4 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
     }
   }
 }
+

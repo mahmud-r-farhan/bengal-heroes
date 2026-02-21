@@ -25,4 +25,6 @@ class AppRoutes {
       '$heroesByCategory/$categoryId';
   static String getWarMovementsPath(String categoryId) =>
       '$warMovements/$categoryId';
+  static String getTimelineEventDetailPath(String eventId, String type) =>
+      '$timelineEventDetail/$eventId/$type';
 }

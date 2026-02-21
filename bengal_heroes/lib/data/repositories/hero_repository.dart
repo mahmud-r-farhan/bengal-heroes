@@ -33,7 +33,67 @@ class HeroFilter {
   }
 }
 
-/// Search result with score for ranking
+/// Enum for search result types
+enum SearchResultType { hero, timeline, traveler, event }
+
+/// Base search result with score for ranking
+abstract class BaseSearchResult {
+  final double score;
+  final String matchedField;
+  final SearchResultType type;
+
+  const BaseSearchResult({
+    required this.score,
+    required this.matchedField,
+    required this.type,
+  });
+}
+
+/// Hero search result
+class HeroSearchResult extends BaseSearchResult {
+  final Hero hero;
+
+  const HeroSearchResult({
+    required this.hero,
+    required double score,
+    required String matchedField,
+  }) : super(score: score, matchedField: matchedField, type: SearchResultType.hero);
+}
+
+/// Timeline event search result
+class TimelineSearchResult extends BaseSearchResult {
+  final TimelineEvent event;
+
+  const TimelineSearchResult({
+    required this.event,
+    required double score,
+    required String matchedField,
+  }) : super(score: score, matchedField: matchedField, type: SearchResultType.timeline);
+}
+
+/// Traveler search result
+class TravelerSearchResult extends BaseSearchResult {
+  final TimelineEvent traveler;
+
+  const TravelerSearchResult({
+    required this.traveler,
+    required double score,
+    required String matchedField,
+  }) : super(score: score, matchedField: matchedField, type: SearchResultType.traveler);
+}
+
+/// Global event search result
+class EventSearchResult extends BaseSearchResult {
+  final GlobalEvent event;
+
+  const EventSearchResult({
+    required this.event,
+    required double score,
+    required String matchedField,
+  }) : super(score: score, matchedField: matchedField, type: SearchResultType.event);
+}
+
+/// Legacy SearchResult for backwards compatibility
 class SearchResult {
   final Hero hero;
   final double score;
@@ -151,6 +211,218 @@ class HeroRepository {
   }
 
   // ============ SEARCH ============
+
+  /// Unified search across all data types (heroes, timeline, travelers, events)
+  /// Returns mixed results sorted by score
+  Future<List<BaseSearchResult>> searchAll(
+    String query, {
+    int limit = 30,
+  }) async {
+    if (query.trim().isEmpty) return [];
+
+    final results = <BaseSearchResult>[];
+
+    // Perform searches in parallel where possible
+    final heroResults = await searchHeroes(query, limit: limit);
+    final timelineResults = await _searchTimeline(query, limit: limit);
+    final travelerResults = await _searchTravelers(query, limit: limit);
+    final eventResults = await _searchEvents(query, limit: limit);
+
+    // Convert legacy SearchResult to new format
+    for (final heroResult in heroResults) {
+      results.add(HeroSearchResult(
+        hero: heroResult.hero,
+        score: heroResult.score,
+        matchedField: heroResult.matchedField,
+      ));
+    }
+
+    results.addAll(timelineResults);
+    results.addAll(travelerResults);
+    results.addAll(eventResults);
+
+    // Sort by score (descending) and limit
+    results.sort((a, b) => b.score.compareTo(a.score));
+    return results.take(limit).toList();
+  }
+
+  /// Search timeline events
+  Future<List<TimelineSearchResult>> _searchTimeline(
+    String query, {
+    int limit = 20,
+  }) async {
+    if (query.trim().isEmpty) return [];
+
+    final events = await _dataSource.loadTimelineEvents();
+    final results = <TimelineSearchResult>[];
+
+    final options = FuzzyOptions(
+      findAllMatches: true,
+      tokenize: true,
+      threshold: 0.4,
+    );
+
+    for (final event in events) {
+      double bestScore = 0;
+      String matchedField = '';
+
+      final title = event.title.en; // Using en is safe as LocalizedContent requires it
+      final description = event.description.en;
+
+      // Search in title (highest weight)
+      final titleFuzzy = Fuzzy([title], options: options);
+      final titleResults = titleFuzzy.search(query);
+      if (titleResults.isNotEmpty) {
+        final score = (1 - titleResults.first.score) * 1.0;
+        if (score > bestScore) {
+          bestScore = score;
+          matchedField = 'title';
+        }
+      }
+
+      // Search in description
+      final descFuzzy = Fuzzy([description], options: options);
+      final descResults = descFuzzy.search(query);
+      if (descResults.isNotEmpty) {
+        final score = (1 - descResults.first.score) * 0.6;
+        if (score > bestScore) {
+          bestScore = score;
+          matchedField = 'description';
+        }
+      }
+
+      if (bestScore > 0.3) {
+        results.add(TimelineSearchResult(
+          event: event,
+          score: bestScore,
+          matchedField: matchedField,
+        ));
+      }
+    }
+
+    results.sort((a, b) => b.score.compareTo(a.score));
+    return results.take(limit).toList();
+  }
+
+  /// Search travelers
+  Future<List<TravelerSearchResult>> _searchTravelers(
+    String query, {
+    int limit = 20,
+  }) async {
+    if (query.trim().isEmpty) return [];
+
+    final travelers = await _dataSource.loadTravelers();
+    final results = <TravelerSearchResult>[];
+
+    final options = FuzzyOptions(
+      findAllMatches: true,
+      tokenize: true,
+      threshold: 0.4,
+    );
+
+    for (final traveler in travelers) {
+      double bestScore = 0;
+      String matchedField = '';
+
+      final title = traveler.title.en;
+      final description = traveler.description.en;
+
+      // Search in title
+      final titleFuzzy = Fuzzy([title], options: options);
+      final titleResults = titleFuzzy.search(query);
+      if (titleResults.isNotEmpty) {
+        final score = (1 - titleResults.first.score) * 1.0;
+        if (score > bestScore) {
+          bestScore = score;
+          matchedField = 'title';
+        }
+      }
+
+      // Search in description
+      final descFuzzy = Fuzzy([description], options: options);
+      final descResults = descFuzzy.search(query);
+      if (descResults.isNotEmpty) {
+        final score = (1 - descResults.first.score) * 0.6;
+        if (score > bestScore) {
+          bestScore = score;
+          matchedField = 'description';
+        }
+      }
+
+      if (bestScore > 0.3) {
+        results.add(TravelerSearchResult(
+          traveler: traveler,
+          score: bestScore,
+          matchedField: matchedField,
+        ));
+      }
+    }
+
+    results.sort((a, b) => b.score.compareTo(a.score));
+    return results.take(limit).toList();
+  }
+
+  /// Search global events
+  Future<List<EventSearchResult>> _searchEvents(
+    String query, {
+    int limit = 20,
+  }) async {
+    if (query.trim().isEmpty) return [];
+
+    final events = await _dataSource.loadEvents();
+    final results = <EventSearchResult>[];
+
+    final options = FuzzyOptions(
+      findAllMatches: true,
+      tokenize: true,
+      threshold: 0.4,
+    );
+
+    const locales = ['en', 'bn'];
+
+    for (final event in events) {
+      double bestScore = 0;
+      String matchedField = '';
+
+      for (final locale in locales) {
+        final title = event.getTitle(locale);
+        final description = event.getDescription(locale);
+
+        // Search in title
+        final titleFuzzy = Fuzzy([title], options: options);
+        final titleResults = titleFuzzy.search(query);
+        if (titleResults.isNotEmpty) {
+          final score = (1 - titleResults.first.score) * 1.0;
+          if (score > bestScore) {
+            bestScore = score;
+            matchedField = 'title';
+          }
+        }
+
+        // Search in description
+        final descFuzzy = Fuzzy([description], options: options);
+        final descResults = descFuzzy.search(query);
+        if (descResults.isNotEmpty) {
+          final score = (1 - descResults.first.score) * 0.6;
+          if (score > bestScore) {
+            bestScore = score;
+            matchedField = 'description';
+          }
+        }
+      }
+
+      if (bestScore > 0.3) {
+        results.add(EventSearchResult(
+          event: event,
+          score: bestScore,
+          matchedField: matchedField,
+        ));
+      }
+    }
+
+    results.sort((a, b) => b.score.compareTo(a.score));
+    return results.take(limit).toList();
+  }
 
   /// Fuzzy search heroes - searches in BOTH English and Bengali content
   /// to allow users to search in either language regardless of app language setting
