@@ -1,10 +1,10 @@
 name: bengal_heroes
 description: "Bengal Heroes - Discover the legendary freedom fighters, intellectuals, and heroes of Bengal. Learn about their remarkable contributions to India's independence and cultural renaissance."
 publish_to: 'none'
-version: 2.0.0+2
+version: 2.0.1+3
 
 # Set 'publish_to' to 'none' ensures this package cannot be published to pub.dev.
-# Version 2.0.0 - Bug fixes and improvements. Build 2
+# Version 2.0.1 - Updates data and improvements. Build 3
 
 environment:
   sdk: ^3.10.4
