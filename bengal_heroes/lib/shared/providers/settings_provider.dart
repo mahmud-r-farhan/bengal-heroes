@@ -187,3 +187,71 @@ class FavoriteHeroesNotifier extends StateNotifier<Set<String>> {
   bool isFavorite(String heroId) => state.contains(heroId);
 }
 
+/// Provider for recently viewed heroes
+final recentlyViewedHeroesProvider =
+    StateNotifierProvider<RecentlyViewedHeroesNotifier, List<String>>((ref) {
+  final prefs = ref.watch(sharedPreferencesProvider);
+  return RecentlyViewedHeroesNotifier(prefs);
+});
+
+/// Recently viewed heroes state notifier
+class RecentlyViewedHeroesNotifier extends StateNotifier<List<String>> {
+  final SharedPreferences _prefs;
+
+  RecentlyViewedHeroesNotifier(this._prefs) : super([]) {
+    _loadRecentlyViewed();
+  }
+
+  void _loadRecentlyViewed() {
+    try {
+      final recently = _prefs.getStringList(AppConstants.keyRecentlyViewedHeroes);
+      if (recently != null) {
+        state = recently;
+      } else {
+        state = [];
+      }
+    } catch (e) {
+      debugPrint('Error loading recently viewed: $e');
+      state = [];
+    }
+  }
+
+  Future<void> addViewedHero(String heroId) async {
+    final newList = List<String>.from(state);
+    
+    // Remove if already exists to avoid duplicates
+    newList.removeWhere((id) => id == heroId);
+    
+    // Add to the beginning (most recent)
+    newList.insert(0, heroId);
+    
+    // Keep only the last N items
+    if (newList.length > AppConstants.maxRecentlyViewedCount) {
+      newList.removeRange(
+        AppConstants.maxRecentlyViewedCount,
+        newList.length,
+      );
+    }
+    
+    state = newList;
+    
+    try {
+      await _prefs.setStringList(
+        AppConstants.keyRecentlyViewedHeroes,
+        newList,
+      );
+    } catch (e) {
+      debugPrint('Error saving recently viewed: $e');
+    }
+  }
+
+  Future<void> clearRecentlyViewed() async {
+    state = [];
+    try {
+      await _prefs.remove(AppConstants.keyRecentlyViewedHeroes);
+    } catch (e) {
+      debugPrint('Error clearing recently viewed: $e');
+    }
+  }
+}
+

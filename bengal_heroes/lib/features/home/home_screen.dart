@@ -14,6 +14,7 @@ import 'widgets/featured_heroes_section.dart';
 import 'widgets/bengali_calendar_section.dart';
 import 'widgets/timeline_section.dart';
 import 'widgets/travelers_section.dart';
+import 'widgets/recent_heroes_section.dart';
 
 /// Home screen with "On This Day" and featured content
 class HomeScreen extends ConsumerWidget {
@@ -137,6 +138,14 @@ class HomeScreen extends ConsumerWidget {
 
                 // Quick Stats
                 _buildQuickStats(context, ref, locale),
+
+                const SizedBox(height: 32),
+
+                // Recently Viewed Heroes
+                const RecentHeroesSection()
+                    .animate()
+                    .fadeIn(delay: 800.ms, duration: 400.ms)
+                    .slideY(begin: 0.1, end: 0),
 
                 const SizedBox(height: 32),
               ],

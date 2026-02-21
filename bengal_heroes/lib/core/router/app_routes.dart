@@ -8,6 +8,7 @@ class AppRoutes {
   static const String heroes = '/heroes';
   static const String search = '/search';
   static const String settings = '/settings';
+  static const String savedHeroes = '/saved-heroes';
 
   // Detail routes
   static const String heroDetail = '/hero';

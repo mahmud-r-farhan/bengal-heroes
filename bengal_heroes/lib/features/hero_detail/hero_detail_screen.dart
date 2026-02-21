@@ -19,6 +19,11 @@ class HeroDetailScreen extends ConsumerWidget {
     final locale = Localizations.localeOf(context).languageCode;
     final heroAsync = ref.watch(heroByIdProvider(heroId));
 
+    // Track this hero as recently viewed
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      ref.read(recentlyViewedHeroesProvider.notifier).addViewedHero(heroId);
+    });
+
     return heroAsync.when(
       data: (hero) {
         if (hero == null) {

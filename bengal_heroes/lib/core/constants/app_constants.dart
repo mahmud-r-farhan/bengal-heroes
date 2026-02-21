@@ -6,7 +6,7 @@ class AppConstants {
 
   // App Info
   static const String appName = 'Bengal Heroes';
-  static const String appVersion = '1.0.0';
+  static const String appVersion = '2.2.1';
   static const String appDescription = 'A tribute to the legends, freedom fighters, and intellectuals of Bengal';
 
   // Supported Locales
@@ -44,6 +44,8 @@ class AppConstants {
   static const String keyThemeMode = 'theme_mode';
   static const String keySelectedLocale = 'selected_locale';
   static const String keyFavoriteHeroes = 'favorite_heroes';
+  static const String keyRecentlyViewedHeroes = 'recently_viewed_heroes';
+  static const int maxRecentlyViewedCount = 8;
 
   // Era IDs
   static const String eraSultanate = 'sultanate';

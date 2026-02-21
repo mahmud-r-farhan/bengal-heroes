@@ -9,6 +9,7 @@ import '../../features/home/home_screen.dart';
 import '../../features/intro/intro_screen.dart';
 import '../../features/search/search_screen.dart';
 import '../../features/settings/settings_screen.dart';
+import '../../features/settings/saved_heroes_screen.dart';
 import '../../features/timeline_event_detail/timeline_event_detail_screen.dart';
 import '../../shared/providers/settings_provider.dart';
 import 'app_routes.dart';
@@ -77,6 +78,16 @@ final appRouterProvider = Provider<GoRouter>((ref) {
             pageBuilder: (context, state) => NoTransitionPage(
               key: state.pageKey,
               child: const SettingsScreen(),
+            ),
+          ),
+          
+          // Saved Heroes Screen
+          GoRoute(
+            path: AppRoutes.savedHeroes,
+            name: 'savedHeroes',
+            pageBuilder: (context, state) => NoTransitionPage(
+              key: state.pageKey,
+              child: const SavedHeroesScreen(),
             ),
           ),
         ],
@@ -270,7 +281,7 @@ class MainBottomNavBar extends StatelessWidget {
 
   int _calculateSelectedIndex(BuildContext context) {
     final location = GoRouterState.of(context).uri.toString();
-    if (location.startsWith(AppRoutes.settings)) return 3;
+    if (location.startsWith(AppRoutes.settings) || location.startsWith(AppRoutes.savedHeroes)) return 3;
     if (location.startsWith(AppRoutes.search)) return 2;
     if (location.startsWith(AppRoutes.heroes)) return 1;
     if (location == AppRoutes.home) return 0;

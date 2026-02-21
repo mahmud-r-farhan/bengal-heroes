@@ -186,13 +186,14 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
             ),
           ),
           const SizedBox(height: 12),
-          _buildSearchSuggestionItem(context, 'Rammohun Roy', Icons.trending_up),
-          _buildSearchSuggestionItem(context, 'Language Movement', Icons.trending_up),
-          _buildSearchSuggestionItem(context, 'Xuanzang', Icons.category),
+          _buildSearchSuggestionItem(context, 'Ziaur Rahman', Icons.trending_up),
+          _buildSearchSuggestionItem(context, 'Siraj ud Daulah', Icons.trending_up),
+          _buildSearchSuggestionItem(context, 'Ibn Battuta', Icons.trending_up),
+          _buildSearchSuggestionItem(context, 'Liberation Movement', Icons.category),
           _buildSearchSuggestionItem(context, 'Bengal', Icons.history),
           _buildSearchSuggestionItem(context, 'Independence', Icons.event),
 
-          const SizedBox(height: 32),
+          const SizedBox(height: 28),
 
           // Tips
           Container(

@@ -1,10 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 import 'privacy_policy_screen.dart';
-
 import '../../core/constants/app_constants.dart';
+import '../../core/router/app_routes.dart';
 import '../../core/theme/app_colors.dart';
 import '../../shared/providers/settings_provider.dart';
 
@@ -28,6 +29,13 @@ class SettingsScreen extends ConsumerWidget {
           _buildSectionHeader(context, 'settings.appearance'.tr()),
           const SizedBox(height: 12),
           _buildThemeSelector(context, ref, themeMode),
+
+          const SizedBox(height: 32),
+
+          // Saved Heroes section
+          _buildSectionHeader(context, 'Saved Heroes'),
+          const SizedBox(height: 12),
+          _buildSavedHeroesButton(context, ref),
 
           const SizedBox(height: 32),
 
@@ -152,6 +160,68 @@ class SettingsScreen extends ConsumerWidget {
                     : theme.colorScheme.onSurfaceVariant,
                 fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
               ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildSavedHeroesButton(BuildContext context, WidgetRef ref) {
+    final theme = Theme.of(context);
+    final favoriteCount = ref.watch(favoriteHeroesProvider).length;
+
+    return GestureDetector(
+      onTap: () => context.go(AppRoutes.savedHeroes),
+      child: Container(
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: theme.colorScheme.surface,
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(
+            color: theme.colorScheme.outline.withValues(alpha: 0.2),
+          ),
+        ),
+        child: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: AppColors.primaryMaroon.withValues(alpha: 0.1),
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: Icon(
+                Icons.favorite,
+                color: AppColors.primaryMaroon,
+                size: 24,
+              ),
+            ),
+            const SizedBox(width: 16),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'View Saved Heroes',
+                    style: theme.textTheme.titleSmall?.copyWith(
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    favoriteCount == 0
+                        ? 'No saved heroes yet'
+                        : '$favoriteCount saved hero${favoriteCount > 1 ? 's' : ''}',
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Icon(
+              Icons.chevron_right,
+              color: theme.colorScheme.onSurfaceVariant,
             ),
           ],
         ),
