@@ -33,7 +33,7 @@ class LocalDataSource {
       ]);
     } catch (e) {
       // Log error but don't crash - individual loaders have fallbacks
-      print('Error loading all data: $e');
+     
     }
   }
 
@@ -50,7 +50,6 @@ class LocalDataSource {
           .toList();
       return _heroes!;
     } catch (e) {
-      print('Error loading heroes from ${AppConstants.heroesDataFile}: $e');
       _heroes = [];
       return [];
     }
@@ -69,7 +68,6 @@ class LocalDataSource {
       _eras!.sort((a, b) => a.sortOrder.compareTo(b.sortOrder));
       return _eras!;
     } catch (e) {
-      print('Error loading eras from ${AppConstants.erasDataFile}: $e');
       _eras = [];
       return [];
     }
@@ -88,7 +86,6 @@ class LocalDataSource {
           .toList();
       return _categories!;
     } catch (e) {
-      print('Error loading categories from ${AppConstants.categoriesDataFile}: $e');
       _categories = [];
       return [];
     }
@@ -107,7 +104,6 @@ class LocalDataSource {
           .toList();
       return _events!;
     } catch (e) {
-      print('Error loading events from ${AppConstants.eventsDataFile}: $e');
       _events = [];
       return [];
     }
@@ -126,7 +122,6 @@ class LocalDataSource {
           .toList();
       return _locations!;
     } catch (e) {
-      print('Error loading locations from ${AppConstants.locationsDataFile}: $e');
       _locations = [];
       return [];
     }
@@ -222,7 +217,6 @@ class LocalDataSource {
           .toList();
       return _timelineEvents!;
     } catch (e) {
-      print('Error loading timeline events: $e');
       _timelineEvents = [];
       return [];
     }
@@ -249,7 +243,6 @@ class LocalDataSource {
           .toList();
       return _travelerEvents!;
     } catch (e) {
-      print('Error loading traveler events from ${AppConstants.travelersDataFile}: $e');
       _travelerEvents = [];
       return [];
     }

@@ -929,6 +929,22 @@
       "icon": "how_to_vote"
     },
     {
+      "id": "2001_boraibari_border_clash",
+      "year": 2001,
+      "period": "2001",
+      "title": {
+        "en": "The Boraibari Border Clash (BDR-BSF Conflict)",
+        "bn": "বরাইবাড়ি সীমান্ত সংঘর্ষ (বিডিআর-বিএসএফ যুদ্ধ)"
+      },
+      "description": {
+        "en": "On April 18, 2001, intense clashes erupted at Boraibari in the Kurigram district of Bangladesh between the Bangladesh Rifles (BDR) and the Indian Border Security Force (BSF). This was part of the 2001 Bangladesh-India border skirmishes, sparked by disputes over enclaves and ill-defined borders. After BDR forces occupied the Indian-held village of Pyrdiwah (Padua) on April 16, BSF conducted a retaliatory incursion into Bangladeshi territory at Boraibari, approximately 200 km west. The BSF patrol of about 300 personnel was ambushed by BDR troops and local villagers, resulting in the deaths of 16 BSF jawans. Reports from Indian sources allege that the bodies were mutilated, tied to bamboo poles, and displayed publicly facing the Indian border. Three BDR soldiers were also killed in the exchanges. The incident severely strained India-Bangladesh relations, leading to mutual accusations of aggression and highlighting longstanding border issues. It remains a significant event in the history of bilateral tensions, with differing narratives: Bangladesh viewed it as defending sovereignty, while India condemned it as barbaric.",
+        "bn": "২০০১ সালের ১৮ এপ্রিল, বাংলাদেশের কুড়িগ্রাম জেলার বরাইবাড়িতে বিডিআর এবং ভারতীয় বিএসএফের মধ্যে তীব্র সংঘর্ষ শুরু হয়। এটি ২০০১ সালের বাংলাদেশ-ভারত সীমান্ত সংঘাতের অংশ, যা এনক্লেভ এবং অস্পষ্ট সীমান্ত নিয়ে বিরোধের কারণে উদ্ভূত হয়। ১৬ এপ্রিল বিডিআর বাহিনী ভারত-নিয়ন্ত্রিত পিরদিওয়াহ (পাদুয়া) গ্রাম দখল করার পর, বিএসএফ প্রায় ২০০ কিলোমিটার পশ্চিমে বরাইবাড়িতে বাংলাদেশী ভূখণ্ডে প্রতিশোধমূলক অনুপ্রবেশ চালায়। প্রায় ৩০০ জনের বিএসএফ টহল দলকে বিডিআর সৈন্য এবং স্থানীয় গ্রামবাসীরা অ্যামবুশ করে, যার ফলে ১৬ জন বিএসএফ জওয়ান নিহত হয়। ভারতীয় সূত্রের রিপোর্ট অনুসারে, দেহগুলো বিকৃত করা হয়, বাঁশের খুঁটিতে বেঁধে ভারতীয় সীমান্তমুখী করে প্রকাশ্যে প্রদর্শিত হয়। সংঘর্ষে তিনজন বিডিআর সৈন্যও নিহত হয়। এই ঘটনা ভারত-বাংলাদেশ সম্পর্কে গুরুতর চাপ সৃষ্টি করে, উভয় পক্ষ থেকে আগ্রাসনের অভিযোগ উঠে এবং দীর্ঘস্থায়ী সীমান্ত সমস্যাকে তুলে ধরে। এটি দ্বিপাক্ষিক উত্তেজনার ইতিহাসে একটি উল্লেখযোগ্য ঘটনা, যেখানে ভিন্ন ভিন্ন বর্ণনা রয়েছে: বাংলাদেশ এটিকে সার্বভৌমত্ব রক্ষার হিসেবে দেখে, যখন ভারত এটিকে নৃশংস বলে নিন্দা করে।"
+      },
+      "category": "border_clash",
+      "significance": "critical",
+      "icon": "shield_alert"
+    },
+    {
       "id": "2009_bdr_pilkhana_massacre",
       "year": 2009,
       "period": "2009",

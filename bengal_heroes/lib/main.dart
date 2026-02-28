@@ -14,22 +14,14 @@ Future<void> main() async {
 
   // Setup error handlers FIRST
   FlutterError.onError = (FlutterErrorDetails details) {
-    debugPrint('❌ Flutter Error: ${details.exception}');
-    debugPrintStack(stackTrace: details.stack);
+    FlutterError.dumpErrorToConsole(details);
   };
 
   try {
-    debugPrint('🚀 Bengal Heroes - Initialization Starting...');
     
-    // Initialize SharedPreferences FIRST - this is critical
-    debugPrint('📝 Initializing SharedPreferences...');
     final prefs = await SharedPreferences.getInstance();
-    debugPrint('✅ SharedPreferences initialized successfully');
 
-    // Initialize localization
-    debugPrint('🌍 Initializing localization...');
     await EasyLocalization.ensureInitialized();
-    debugPrint('✅ Localization initialized successfully');
 
     // Set preferred orientations
     try {
@@ -38,10 +30,8 @@ Future<void> main() async {
         DeviceOrientation.portraitUp,
         DeviceOrientation.portraitDown,
       ]);
-      debugPrint('✅ Device orientations set successfully');
     } catch (e) {
       // Some devices may not support all orientations
-      debugPrint('⚠️ Error setting orientations: $e');
     }
 
     // Set system UI overlay style
@@ -55,12 +45,9 @@ Future<void> main() async {
           systemNavigationBarIconBrightness: Brightness.dark,
         ),
       );
-      debugPrint('✅ System UI overlay style set successfully');
     } catch (e) {
-      debugPrint('⚠️ Error setting system UI overlay: $e');
+      // Some platforms may not support all UI overlay features
     }
-
-    debugPrint('🎯 All initialization steps completed. Starting app...');
     
     runApp(
       EasyLocalization(
@@ -77,7 +64,6 @@ Future<void> main() async {
       ),
     );
   } catch (e, stackTrace) {
-    debugPrint('❌ Fatal error during app initialization: $e');
     debugPrintStack(stackTrace: stackTrace);
     runApp(
       MaterialApp(

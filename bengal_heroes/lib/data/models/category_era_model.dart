@@ -54,7 +54,7 @@ class Era {
       description[locale] ?? description['en'] ?? '';
 
   /// Get period string (e.g., "1757-1947")
-  String get period => '$startYear - $endYear';
+  String get period => '$startYear $endYear';
 }
 
 /// Category model representing hero classification
