@@ -101,7 +101,7 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
           enabledBorder: InputBorder.none,
           focusedBorder: InputBorder.none,
           filled: false,
-          contentPadding: EdgeInsets.zero,
+          contentPadding: EdgeInsets.symmetric(vertical: 12, horizontal: 16),
           prefixIcon: Icon(
             Icons.search,
             color: theme.colorScheme.onSurfaceVariant,

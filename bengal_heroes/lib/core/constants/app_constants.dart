@@ -6,7 +6,7 @@ class AppConstants {
 
   // App Info
   static const String appName = 'Bengal Heroes';
-  static const String appVersion = '2.2.1';
+  static const String appVersion = '2.5.7';
   static const String appDescription = 'A tribute to the legends, freedom fighters, and intellectuals of Bengal';
 
   // Supported Locales
