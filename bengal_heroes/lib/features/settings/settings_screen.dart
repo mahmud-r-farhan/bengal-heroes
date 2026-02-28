@@ -1,3 +1,4 @@
+import 'package:bengal_heroes/features/settings/terms_service_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -354,8 +355,11 @@ class SettingsScreen extends ConsumerWidget {
             title: Text('settings.terms_of_service'.tr()),
             trailing: const Icon(Icons.chevron_right),
             onTap: () {
-              ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(content: Text('settings.terms_coming_soon'.tr())),
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const TermsOfServiceScreen(),
+                ),
               );
             },
           ),

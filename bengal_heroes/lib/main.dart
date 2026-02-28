@@ -9,79 +9,39 @@ import 'core/constants/app_constants.dart';
 import 'shared/providers/settings_provider.dart';
 
 Future<void> main() async {
-  // Ensure bindings are initialized
   WidgetsFlutterBinding.ensureInitialized();
+  await EasyLocalization.ensureInitialized();
 
-  // Setup error handlers FIRST
-  FlutterError.onError = (FlutterErrorDetails details) {
-    FlutterError.dumpErrorToConsole(details);
-  };
+  final prefs = await SharedPreferences.getInstance();
 
-  try {
-    
-    final prefs = await SharedPreferences.getInstance();
+  // Lock portrait orientation
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
 
-    await EasyLocalization.ensureInitialized();
+  // Transparent system UI
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent,
+      statusBarIconBrightness: Brightness.dark,
+      systemNavigationBarColor: Colors.transparent,
+      systemNavigationBarIconBrightness: Brightness.dark,
+    ),
+  );
 
-    // Set preferred orientations
-    try {
-      debugPrint('📱 Setting device orientations...');
-      await SystemChrome.setPreferredOrientations([
-        DeviceOrientation.portraitUp,
-        DeviceOrientation.portraitDown,
-      ]);
-    } catch (e) {
-      // Some devices may not support all orientations
-    }
-
-    // Set system UI overlay style
-    try {
-      debugPrint('🎨 Setting system UI overlay style...');
-      SystemChrome.setSystemUIOverlayStyle(
-        const SystemUiOverlayStyle(
-          statusBarColor: Colors.transparent,
-          statusBarIconBrightness: Brightness.dark,
-          systemNavigationBarColor: Colors.transparent,
-          systemNavigationBarIconBrightness: Brightness.dark,
-        ),
-      );
-    } catch (e) {
-      // Some platforms may not support all UI overlay features
-    }
-    
-    runApp(
-      EasyLocalization(
-        supportedLocales: AppConstants.supportedLocales,
-        path: AppConstants.translationsPath,
-        fallbackLocale: AppConstants.defaultLocale,
-        startLocale: AppConstants.defaultLocale,
-        child: ProviderScope(
-          overrides: [
-            sharedPreferencesProvider.overrideWithValue(prefs),
-          ],
-          child: const BengalHeroesApp(),
-        ),
+  runApp(
+    EasyLocalization(
+      supportedLocales: AppConstants.supportedLocales,
+      path: AppConstants.translationsPath,
+      fallbackLocale: AppConstants.defaultLocale,
+      startLocale: AppConstants.defaultLocale,
+      child: ProviderScope(
+        overrides: [
+          sharedPreferencesProvider.overrideWithValue(prefs),
+        ],
+        child: const BengalHeroesApp(),
       ),
-    );
-  } catch (e, stackTrace) {
-    debugPrintStack(stackTrace: stackTrace);
-    runApp(
-      MaterialApp(
-        home: Scaffold(
-          body: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                const Icon(Icons.error, size: 64, color: Colors.red),
-                const SizedBox(height: 16),
-                const Text('Initialization Error'),
-                const SizedBox(height: 8),
-                Text(e.toString(), textAlign: TextAlign.center),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
+    ),
+  );
 }

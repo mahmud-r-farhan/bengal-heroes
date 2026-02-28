@@ -1,3 +1,4 @@
+import 'dart:math';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -10,6 +11,36 @@ import '../../../shared/widgets/widgets.dart';
 /// Featured heroes section for home screen
 class FeaturedHeroesSection extends ConsumerWidget {
   const FeaturedHeroesSection({super.key});
+
+  /// Get today's date as a seed for consistent randomization throughout the day
+  static int _getDailyRandomSeed() {
+    final now = DateTime.now();
+    return now.year * 10000 + now.month * 100 + now.day;
+  }
+
+  /// Get randomly selected featured heroes that change daily
+  static List<T> _getRandomFeaturedHeroes<T>(
+    List<T> heroes,
+    int count, {
+    required bool Function(T) filter,
+  }) {
+    final random = Random(_getDailyRandomSeed());
+    
+    // Filter heroes by criteria (importance >= 4)
+    final filtered = heroes.where(filter).toList();
+    
+    // If not enough filtered heroes, add more from the full list
+    if (filtered.length < count) {
+      final remaining = heroes
+          .where((h) => !filtered.contains(h))
+          .toList();
+      filtered.addAll(remaining);
+    }
+    
+    // Shuffle with daily seed and take top count
+    filtered.shuffle(random);
+    return filtered.take(count).toList();
+  }
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -27,15 +58,12 @@ class FeaturedHeroesSection extends ConsumerWidget {
         const SizedBox(height: 8),
         heroes.when(
           data: (heroList) {
-            // Get top featured heroes (by importance)
-            final featured = heroList
-                .where((h) => (h.importance ?? 0) >= 4)
-                .take(5)
-                .toList();
-            
-            if (featured.isEmpty && heroList.isNotEmpty) {
-              featured.addAll(heroList.take(5));
-            }
+            // Get randomly selected featured heroes (changes daily)
+            final featured = _getRandomFeaturedHeroes(
+              heroList,
+              5,
+              filter: (h) => (h.importance ?? 0) >= 4,
+            );
 
             if (featured.isEmpty) {
               return const Padding(

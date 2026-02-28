@@ -32,7 +32,7 @@ class AppConstants {
   static const String travelersDataFile = 'assets/data/travelers.json';
 
   // Pagination
-  static const int pageSize = 20;
+  static const int pageSize = 25;
 
   // Animation Durations
   static const Duration shortDuration = Duration(milliseconds: 200);

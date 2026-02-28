@@ -141,6 +141,10 @@
         "explorer": "অভিযাত্রী",
         "scholar": "পণ্ডিত",
         "traveler": "পর্যটক",
+        "violence":"জুলুম",
+        "conspiracy":"ষড়যন্ত্র",
+        "clash":"সংঘর্ষ",
+        "protest":"প্রতিবাদ", 
         "history": "ইতিহাস"
     },
     "on_this_day_events": {

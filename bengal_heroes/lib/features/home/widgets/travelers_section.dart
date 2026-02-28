@@ -41,7 +41,7 @@ class TravelersSection extends ConsumerWidget {
                   // Decorative line
                   Container(
                     height: 3,
-                    width: 50,
+                    width: 320,
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         colors: [
@@ -163,7 +163,7 @@ class _TimelineVisualizationState extends State<_TimelineVisualization> {
                     children: [
                       // Timeline line
                       Positioned(
-                        top: 40,
+                        top: 20,
                         left: 0,
                         right: 0,
                         child: Container(
@@ -213,7 +213,7 @@ class _TimelineVisualizationState extends State<_TimelineVisualization> {
             child: Center(
               child: Container(
                 decoration: BoxDecoration(
-                  color: widget.theme.colorScheme.surface.withValues(alpha: 0.8),
+                  color: widget.theme.colorScheme.surface.withValues(alpha: 0.6),
                   shape: BoxShape.circle,
                   boxShadow: [
                     BoxShadow(
@@ -224,7 +224,7 @@ class _TimelineVisualizationState extends State<_TimelineVisualization> {
                 ),
                 child: IconButton(
                   onPressed: _scrollLeft,
-                  icon: const Icon(Icons.arrow_back_ios_new, size: 20),
+                  icon: const Icon(Icons.arrow_back_ios_new, size: 18),
                   color: AppColors.secondaryTeal,
                   tooltip: 'Scroll Left',
                 ),
@@ -240,7 +240,7 @@ class _TimelineVisualizationState extends State<_TimelineVisualization> {
             child: Center(
               child: Container(
                 decoration: BoxDecoration(
-                  color: widget.theme.colorScheme.surface.withValues(alpha: 0.8),
+                  color: widget.theme.colorScheme.surface.withValues(alpha: 0.6),
                   shape: BoxShape.circle,
                   boxShadow: [
                     BoxShadow(
@@ -251,7 +251,7 @@ class _TimelineVisualizationState extends State<_TimelineVisualization> {
                 ),
                 child: IconButton(
                   onPressed: _scrollRight,
-                  icon: const Icon(Icons.arrow_forward_ios, size: 20),
+                  icon: const Icon(Icons.arrow_forward_ios, size: 18),
                   color: AppColors.secondaryTeal,
                   tooltip: 'Scroll Right',
                 ),
@@ -336,6 +336,7 @@ class _TimelineItemState extends State<_TimelineItem> {
             AnimatedContainer(
               duration: const Duration(milliseconds: 200),
               width: 140,
+              height: 125,
               padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
                 color: widget.theme.colorScheme.surface,

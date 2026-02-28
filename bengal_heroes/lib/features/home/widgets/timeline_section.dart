@@ -8,6 +8,7 @@ import '../../../core/router/app_routes.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../data/models/models.dart';
 import '../../../data/repositories/timeline_repository.dart';
+import '../../../shared/widgets/widget_build_arrow.dart';
 
 /// Timeline Section showing Bengal's historical timeline
 class TimelineSection extends ConsumerWidget {
@@ -41,7 +42,7 @@ class TimelineSection extends ConsumerWidget {
                   // Decorative line
                   Container(
                     height: 3,
-                    width: 50,
+                    width: 280,
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         colors: [
@@ -122,7 +123,6 @@ class _TimelineVisualization extends StatefulWidget {
 
 class _TimelineVisualizationState extends State<_TimelineVisualization> {
   final ScrollController _scrollController = ScrollController();
-
   @override
   void dispose() {
     _scrollController.dispose();
@@ -163,7 +163,7 @@ class _TimelineVisualizationState extends State<_TimelineVisualization> {
                     children: [
                       // Timeline line
                       Positioned(
-                        top: 40,
+                        top: 20,
                         left: 0,
                         right: 0,
                         child: Container(
@@ -205,64 +205,26 @@ class _TimelineVisualizationState extends State<_TimelineVisualization> {
             ),
           ),
 
-          // Left Arrow
-          Positioned(
-            left: 0,
-            top: 0,
-            bottom: 0,
-            child: Center(
-              child: Container(
-                decoration: BoxDecoration(
-                  color: widget.theme.colorScheme.surface.withValues(alpha: 0.8),
-                  shape: BoxShape.circle,
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withValues(alpha: 0.1),
-                      blurRadius: 8,
-                    ),
-                  ],
-                ),
-                child: IconButton(
-                  onPressed: _scrollLeft,
-                  icon: const Icon(Icons.arrow_back_ios_new, size: 20),
-                  color: AppColors.primaryMaroon,
-                  tooltip: 'Scroll Left',
-                ),
-              ),
-            ),
-          ),
 
-          // Right Arrow
-          Positioned(
-            right: 0,
-            top: 0,
-            bottom: 0,
-            child: Center(
-              child: Container(
-                decoration: BoxDecoration(
-                  color: widget.theme.colorScheme.surface.withValues(alpha: 0.8),
-                  shape: BoxShape.circle,
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withValues(alpha: 0.1),
-                      blurRadius: 8,
-                    ),
-                  ],
-                ),
-                child: IconButton(
-                  onPressed: _scrollRight,
-                  icon: const Icon(Icons.arrow_forward_ios, size: 20),
-                  color: AppColors.primaryMaroon,
-                  tooltip: 'Scroll Right',
-                ),
-              ),
-            ),
-          ),
-        ],
+      // Left Arrow
+        BuildArrow(
+        onPressed: _scrollLeft,
+        icon: Icons.arrow_back_ios_new,
+        isLeft: true,
+        theme: widget.theme,
       ),
-    );
-  }
-}
+
+      BuildArrow(
+        onPressed: _scrollRight,
+        icon: Icons.arrow_forward_ios,
+        isLeft: false,
+        theme: widget.theme,
+      ),
+                    ],
+                  ),
+                );
+              }
+            }             
 
 /// Individual timeline item
 class _TimelineItem extends StatefulWidget {
@@ -335,7 +297,8 @@ class _TimelineItemState extends State<_TimelineItem> {
             // Event card
             AnimatedContainer(
               duration: const Duration(milliseconds: 200),
-              width: 140,
+              width: 160,
+              height: 130,
               padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
                 color: widget.theme.colorScheme.surface,
@@ -439,79 +402,123 @@ class _TimelineItemState extends State<_TimelineItem> {
         );
   }
 
-  Color _getCategoryColor(String category) {
-    switch (category) {
-      case 'empire':
-        return const Color(0xFF8B5A00); // Brown for empires
-      case 'war':
-        return AppColors.primaryMaroon; // Red for wars
-      case 'revolution':
-        return const Color(0xFFD4AF37); // Gold for revolutions
-      case 'suffering':
-        return const Color(0xFF424242); // Dark gray for suffering
-      case 'event':
-        return AppColors.secondaryOlive; // Olive for events
-      case 'independence':
-        return const Color(0xFF2E7D32); // Green for independence
-      default:
-        return AppColors.secondaryTeal;
-    }
-  }
+    Color _getCategoryColor(String category) {
+      switch (category) {
+        case 'empire':
+          return const Color(0xFF8B5A00);
+        case 'war':
+          return AppColors.primaryMaroon;
+        case 'revolution':
+          return const Color(0xFFD4AF37);
+        case 'suffering':
+          return const Color(0xFF424242);
+        case 'event':
+          return AppColors.secondaryOlive;
+        case 'independence':
+          return const Color(0xFF2E7D32);
 
-  String _getCategoryIcon(String category) {
-    switch (category) {
-      case 'empire':
-        return 'crown';
-      case 'war':
-        return 'local_fire_department';
-      case 'revolution':
-        return 'groups';
-      case 'suffering':
-        return 'sentiment_very_dissatisfied';
-      case 'event':
-        return 'trending_down';
-      case 'independence':
-        return 'flag';
-      default:
-        return 'history';
-    }
-  }
+        // NEW
+        case 'state_violence':
+          return const Color(0xFFB71C1C); // Deep Blood Red
+        case 'state_conspiracy':
+          return const Color(0xFF4A148C); // Dark Purple
+        case 'border_clash':
+          return const Color(0xFFBF360C); // Burnt Orange
+        case 'protect':
+          return const Color(0xFF1565C0); // Strong Blue
 
-  String _getCategoryLabel(String category) {
-    switch (category) {
-      case 'empire':
-        return 'timeline.empire'.tr();
-      case 'war':
-        return 'timeline.war'.tr();
-      case 'revolution':
-        return 'timeline.revolution'.tr();
-      case 'suffering':
-        return 'timeline.crisis'.tr();
-      case 'event':
-        return 'timeline.event'.tr();
-      case 'independence':
-        return 'timeline.freedom'.tr();
-      default:
-        return 'timeline.history'.tr();
+        default:
+          return AppColors.secondaryTeal;
+      }
     }
+
+      String _getCategoryIcon(String category) {
+      switch (category) {
+        case 'empire':
+          return 'crown';
+        case 'war':
+          return 'local_fire_department';
+        case 'revolution':
+          return 'groups';
+        case 'suffering':
+          return 'sentiment_very_dissatisfied';
+        case 'event':
+          return 'trending_down';
+        case 'independence':
+          return 'flag';
+
+        // NEW
+        case 'state_violence':
+          return 'gavel';
+        case 'state_conspiracy':
+          return 'visibility_off';
+        case 'border_clash':
+          return 'security';
+        case 'protect':
+          return 'shield';
+
+        default:
+          return 'history';
+      }
+    }
+
+ String _getCategoryLabel(String category) {
+  switch (category) {
+    case 'empire':
+      return 'timeline.empire'.tr();
+    case 'war':
+      return 'timeline.war'.tr();
+    case 'revolution':
+      return 'timeline.revolution'.tr();
+    case 'suffering':
+      return 'timeline.crisis'.tr();
+    case 'event':
+      return 'timeline.event'.tr();
+    case 'independence':
+      return 'timeline.freedom'.tr();
+
+    // NEW
+    case 'violence':
+      return 'timeline.state_violence'.tr();
+    case 'conspiracy':
+      return 'timeline.state_conspiracy'.tr();
+    case 'clash':
+      return 'timeline.border_clash'.tr();
+    case 'protect':
+      return 'timeline.protect'.tr();
+
+    default:
+      return 'timeline.history'.tr();
   }
+}
 
   IconData _getIconData(String iconName) {
-    switch (iconName) {
-      case 'crown':
-        return Icons.dashboard_customize;
-      case 'local_fire_department':
-        return Icons.local_fire_department;
-      case 'groups':
-        return Icons.groups;
-      case 'sentiment_very_dissatisfied':
-        return Icons.sentiment_very_dissatisfied;
-      case 'trending_down':
-        return Icons.trending_down;
-      case 'flag':
-        return Icons.flag;
-      default:
-        return Icons.history;
-    }
+  switch (iconName) {
+    case 'crown':
+      return Icons.dashboard_customize;
+    case 'local_fire_department':
+      return Icons.local_fire_department;
+    case 'groups':
+      return Icons.groups;
+    case 'sentiment_very_dissatisfied':
+      return Icons.sentiment_very_dissatisfied;
+    case 'trending_down':
+      return Icons.trending_down;
+    case 'flag':
+      return Icons.flag;
+
+    // NEW
+    case 'gavel':
+      return Icons.gavel;
+    case 'visibility_off':
+      return Icons.visibility_off;
+    case 'security':
+      return Icons.security;
+    case 'shield':
+      return Icons.shield;
+
+    default:
+      return Icons.history;
   }
+}
 }
