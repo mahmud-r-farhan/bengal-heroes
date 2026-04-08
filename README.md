@@ -37,7 +37,7 @@ After joining, download the app from Google Play:
 - https://play.google.com/store/apps/details?id=com.bengalbytes.bengalheroes
 
 ### Important Note
-If you are unable to find the app on the Play Store, please check your Gmail inbox (and spam folder) for the invitation or access confirmation.
+If you are unable to find the app on the Play Store, please verify whether the email address you used to log in to your Play Store is the same as the one used to join the Google Group.
 
 ---
 
