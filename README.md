@@ -30,7 +30,7 @@ To participate in our closed testing program, please follow the steps below:
 
 ### 1. Join the Google Group
 First, join our testing group to get access:
-- Email: **playconsole-closed-testing@googlegroups.com**
+- Group: https://groups.google.com/g/playconsole-closed-testing
 
 ### 2. Download the App
 After joining, download the app from Google Play:
