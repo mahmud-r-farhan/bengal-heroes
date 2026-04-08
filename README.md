@@ -24,6 +24,25 @@ A production-grade, offline-first Flutter mobile application dedicated to the le
 - **Navigation**: GoRouter for declarative routing
 - **Theming**: Light/Dark/System theme modes
 
+## Want to Test the App?
+
+To participate in our closed testing program, please follow the steps below:
+
+### 1. Join the Google Group
+First, join our testing group to get access:
+- Email: **playconsole-closed-testing@googlegroups.com**
+
+### 2. Download the App
+After joining, download the app from Google Play:
+- https://play.google.com/store/apps/details?id=com.bengalbytes.bengalheroes
+
+### Important Note
+If you are unable to find the app on the Play Store, please check your Gmail inbox (and spam folder) for the invitation or access confirmation.
+
+---
+
+Thank you for helping us improve the app!
+
 ## 🏛️ Architecture
 
 The app follows a **feature-first architecture** with clean separation of concerns:
@@ -185,3 +204,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with ❤️ for Bengal**
 
 *This app is a tribute to the legends, freedom fighters, and intellectuals who shaped the history of Bengal.*
+
+> **Note:** The original app signing key has been lost.
