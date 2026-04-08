@@ -1,6 +1,6 @@
 # Bengal Heroes
 
-A production-grade, offline-first Flutter mobile application dedicated to the legends, freedom fighters, and intellectuals of Bengal (from the Sultanate era to the 1971 Liberation War).
+A production-grade, offline-first Flutter mobile application dedicated to the legends, freedom fighters, and intellectuals of Bengal
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.10+-02569B?logo=flutter)
 ![Dart](https://img.shields.io/badge/Dart-3.0+-0175C2?logo=dart)
